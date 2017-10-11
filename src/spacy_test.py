@@ -10,18 +10,4 @@ print(en_doc)
 
 import pandas as pd
 df = pd.read_csv('../data/swg2g.CSV', delimiter=';')
-
-
-unique_sentences_id = set()
-for id in df['TASK_ID']:
-    unique_sentences_id.add(id)
-
-df = df[['TASK_ID','INFO']].groupby(['TASK_ID'])
-
-texts_grouped_by_id = []
-for id in unique_sentences_id:
-    texts_grouped_by_id.append(df.get_group(id))
-
-
-for texts in texts_grouped_by_id:
-    print(texts)
+print(df['INFO'][0])
