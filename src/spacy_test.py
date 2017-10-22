@@ -1,5 +1,4 @@
-import itertools
-
+import numpy as np
 import nltk
 import util
 
@@ -10,18 +9,7 @@ def filterTasksLesserOrEqualThan(n, tasks):
     return list(filter(lambda x: len(tasks[x][0]) > n, tasks))
 
 
-def pairing1(texts):
-    scores = []
-    for (t1, index) in zip(texts, itertools.count()):
-        scores.append(0)
-        for t2 in texts:
-            scores[index] += nltk.translate.bleu_score.sentence_bleu([t1], t2)
-        scores[index] /= len(texts)
-
-    return scores
-
-
-def pairing2(texts):
+def bleu_ratings(texts):
     scores = []
     for t in texts:
         result = nltk.translate.bleu_score.sentence_bleu(list(filter(lambda x: x != t, texts)), t)
@@ -34,14 +22,18 @@ def reject_outliers(data, values, m = 2.):
     d = np.abs(values - np.median(values))
     mdev = np.median(d)
     s = d/(mdev if mdev else 1.)
-    return np.array(data)[s < m].tolist()
+    return np.array(data)[s < m].tolist(), values[s < m]
 
 
 def getGoodTransscriptions(texts):
-    r = pairing2(texts)
+    r = bleu_ratings(texts)
     return reject_outliers(texts, r)
 
 
-print(getGoodTransscriptions(allTaskByID[2048][0]))
+texts, ratings = getGoodTransscriptions(allTaskByID[2048][0])
+print(texts)
 
 
+#for taskID in filterTasksLesserOrEqualThan(2, allTaskByID):
+#    texts, ratings = getGoodTransscriptions(allTaskByID[taskID][0])
+#    print(ratings)
