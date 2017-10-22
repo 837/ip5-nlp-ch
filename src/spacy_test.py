@@ -1,34 +1,13 @@
 import itertools
-import spacy
-
-en_nlp = spacy.load('en')
-de_nlp = spacy.load('de')
-
-import pandas as pd
-
-df = pd.read_csv('../data/transcribe-2017-07-08.CSV', delimiter=';')
-print(df['INFO'][0])
-
-unique_sentences_id = set()
-for id in df['TASK_ID']:
-    unique_sentences_id.add(id)
-
-allTextByTaskID = {}
-for id in unique_sentences_id:
-    allTextByTaskID[id] = []
-
-for i in range(len(df)):
-    allTextByTaskID[df['TASK_ID'][i]].append(df['INFO'][i])
-
-# print(allTextByTaskID)  # mit allTextByTaskID[TASK_ID] bekommt man ein array mit allen INFO Saetzen
-
-
 
 import nltk
+import util
+
+allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 
 
 def filterTasksLesserOrEqualThan(n, tasks):
-    return list(filter(lambda x: len(tasks[x]) > n, tasks))
+    return list(filter(lambda x: len(tasks[x][0]) > n, tasks))
 
 
 def pairing1(texts):
@@ -50,6 +29,9 @@ def pairing2(texts):
     return scores
 
 
-for taskID in filterTasksLesserOrEqualThan(2, allTextByTaskID):
-    print(pairing1(allTextByTaskID[taskID]))
-    print(pairing2(allTextByTaskID[taskID]))
+print(pairing1(allTaskByID[2048][0]))
+print(pairing2(allTaskByID[2048][0]))
+
+for taskID in filterTasksLesserOrEqualThan(2, allTaskByID):
+    print(pairing1(allTaskByID[taskID][0]))
+    print(pairing2(allTaskByID[taskID][0]))
