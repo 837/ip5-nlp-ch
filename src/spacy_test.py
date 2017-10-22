@@ -17,11 +17,11 @@ def bleu_ratings(texts):
     return scores
 
 
-def reject_outliers(data, values, m = 2.):
+def reject_outliers(data, values, m=2.):
     values = np.array(values)
     d = np.abs(values - np.median(values))
     mdev = np.median(d)
-    s = d/(mdev if mdev else 1.)
+    s = d / (mdev if mdev else 1.)
     return np.array(data)[s < m].tolist(), values[s < m]
 
 
@@ -31,9 +31,9 @@ def getGoodTransscriptions(texts):
 
 
 texts, ratings = getGoodTransscriptions(allTaskByID[2048][0])
-print(texts)
+print(texts, ratings)
 
 
-#for taskID in filterTasksLesserOrEqualThan(2, allTaskByID):
+# for taskID in filterTasksLesserOrEqualThan(2, allTaskByID):
 #    texts, ratings = getGoodTransscriptions(allTaskByID[taskID][0])
 #    print(ratings)
