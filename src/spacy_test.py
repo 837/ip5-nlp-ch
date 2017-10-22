@@ -29,9 +29,19 @@ def pairing2(texts):
     return scores
 
 
-print(pairing1(allTaskByID[2048][0]))
-print(pairing2(allTaskByID[2048][0]))
+def reject_outliers(data, values, m = 2.):
+    values = np.array(values)
+    d = np.abs(values - np.median(values))
+    mdev = np.median(d)
+    s = d/(mdev if mdev else 1.)
+    return np.array(data)[s < m].tolist()
 
-for taskID in filterTasksLesserOrEqualThan(2, allTaskByID):
-    print(pairing1(allTaskByID[taskID][0]))
-    print(pairing2(allTaskByID[taskID][0]))
+
+def getGoodTransscriptions(texts):
+    r = pairing2(texts)
+    return reject_outliers(texts, r)
+
+
+print(getGoodTransscriptions(allTaskByID[2048][0]))
+
+
