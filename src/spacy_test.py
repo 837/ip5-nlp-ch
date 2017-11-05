@@ -25,7 +25,7 @@ def reject_outliers(data, values, m=2.):
     # mdev = np.median(d)
     # s = d/(mdev if mdev else 1.)
     # return np.array(data)[s < m].tolist(), values[s < m].tolist()
-    return np.array(data)[values < 0.3].tolist(), values[values < 0.3].tolist()
+    return np.array(data)[values > 0.5].tolist(), values[values > 0.5].tolist()
 
 
 def getGoodTransscriptions(texts):
