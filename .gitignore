@@ -103,3 +103,5 @@ ENV/
 .idea/misc.xml
 .idea/workspace.xml
 /.idea/checkstyle-idea.xml
+src/align_every_sentence_to_the_others.json
+src/align_one_sentence_to_the_others.json
