@@ -3,10 +3,10 @@ import numpy as np
 import nltk
 import util
 
-allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 
 
-def filterTasksLesserOrEqualThan(n, tasks):
+
+def filter_tasks_lesser_or_equal_than(n, tasks):
     return list(filter(lambda x: len(tasks[x][0]) > n, tasks))
 
 
@@ -44,17 +44,17 @@ def getGoodTransscriptions(texts):
 # print(ratings)
 # print(bleu_ratings(allTaskByID[2096][0]))
 
-def cancer():
-    all = []
-    for taskID in filterTasksLesserOrEqualThan(2, allTaskByID):
-        # texts, ratings = getGoodTransscriptions(allTaskByID[taskID][0])
-        ratings = bleu_ratings(allTaskByID[taskID][0])
-        # if len(texts) > 0:
-        #     print(taskID)
-        #     print(texts)
-        for r in ratings:
-            all.append(r)
-
-    plt.hist(all, 200)
-    plt.show()
-    # print(np.sort(mins))
+# def histoStuff():
+#     all = []
+#     for taskID in filter_tasks_lesser_or_equal_than(2, allTaskByID):
+#         # texts, ratings = getGoodTransscriptions(allTaskByID[taskID][0])
+#         ratings = bleu_ratings(allTaskByID[taskID][0])
+#         # if len(texts) > 0:
+#         #     print(taskID)
+#         #     print(texts)
+#         for r in ratings:
+#             all.append(r)
+#
+#     plt.hist(all, 200)
+#     plt.show()
+#     # print(np.sort(mins))
