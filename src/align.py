@@ -19,7 +19,8 @@ def align(sentences, dict_to_use):
 
         create_aligned_word_dict(
             subprocess.Popen("Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.txt swg2.txt",
-                             stdout=subprocess.PIPE).communicate()[0].decode("utf8").split("\n"), dict_to_use)
+                             stdout=subprocess.PIPE, stderr=subprocess.DEVNULL).communicate()[0].decode("utf8").split(
+                "\n"), dict_to_use)
     return dict_to_use
 
 

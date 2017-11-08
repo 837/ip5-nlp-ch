@@ -281,167 +281,7 @@
         "nu",
         "sorge",
         "sött",
-        "klagt",
-        "umPächli",
-        "Grund",
-        "p",
-        "Gloggä",
-        "ge",
-        "(an",
-        "mir)",
-        "polterte",
-        "(grosses)",
-        "Stück",
-        "Als",
-        "habe",
-        "im",
-        "grägnat",
-        "müese",
-        "Gebsu",
-        "hets",
-        "letscht",
-        "nachte,",
-        "ab",
-        "her",
-        "häts",
-        "gnachtet",
-        "miesse",
-        "obenä",
-        "blibe.",
-        "Richtig",
-        "Gebsu,",
-        "süüfi",
-        "gnachted",
-        "richtig",
-        "schi",
-        "jetz",
-        "hetts",
-        "gnachtut",
-        "miësse",
-        "era",
-        "Süüfi",
-        "us",
-        "(***)",
-        "sau",
-        "mitte",
-        "wider",
-        "widr",
-        "wieder",
-        "meini",
-        "iez",
-        "Meini",
-        "grad",
-        "sim",
-        "grosse",
-        "doch",
-        "ids",
-        "Hüsli",
-        "händ",
-        "mini",
-        "aber",
-        "he",
-        "hmm",
-        "dasmerää",
-        "anenand",
-        "De",
-        "näbenand",
-        "ou",
-        "Wos",
-        "paar",
-        "o",
-        "dass",
-        "ein",
-        "bisschen",
-        "auf",
-        "war",
-        "marcel",
-        "ääh",
-        "garnöd.",
-        "hani",
-        "mol",
-        "usprobiert",
-        "womer",
-        "gsi",
-        "funcurvers,",
-        "jo",
-        "nuno",
-        "selte,",
-        "Funcarvers,",
-        "jetzt",
-        "äää",
-        "sinz",
-        "Bigfuuts",
-        "weiss",
-        "emol",
-        "sälte,",
-        "mal",
-        "si's",
-        "Wo",
-        "mir's",
-        "m-u-ää",
-        "ää",
-        "-ich",
-        "nöd",
-        "ema-l",
-        "uusprobiert",
-        "-ää",
-        "sch-",
-        "än-",
-        "gsi,han",
-        "ha.",
-        "gsepme",
-        "hier",
-        "ihr",
-        "Gschäfft,",
-        "Gschäft,",
-        "...t",
-        "Gschäft",
-        "zo",
-        "döt",
-        "mi",
-        "Jahr",
-        "det",
-        "ma,",
-        "drüü,",
-        "sicher,",
-        "ab..",
-        "all",
-        "sicher",
-        "?",
-        "ganz",
-        "natürli",
-        "sch",
-        "Us..e..u",
-        "sipperartig",
-        "Ussl...",
-        "Ich",
-        "-e",
-        "e,",
-        "für,",
-        "johr",
-        "-te,",
-        "für..",
-        "jahr",
-        "Johr",
-        "Joor",
-        "te,",
-        "nög",
-        "y",
-        "imer",
-        "Ine",
-        "nüüt,",
-        "Si",
-        "mached,",
-        "immer",
-        "*******",
-        "wohrschiinli",
-        "gschtürmt,",
-        "soisiwo",
-        "cha",
-        "warschinli",
-        "gschtürmt",
-        "machä",
-        "wahrschindli"
+        "klagt"
     ],
     "  ***": [
         "Tuubechnöpfli",
@@ -462,12 +302,6 @@
         "\"Und",
         "Und",
         "und"
-    ],
-    "'ch": [
-        "'ch",
-        "ich",
-        "",
-        "Ich"
     ],
     "(?)": [
         "(?)",
@@ -507,9 +341,7 @@
         "jede",
         "gsund",
         "schtumpf",
-        "stumpf",
-        "itz",
-        "sind"
+        "stumpf"
     ],
     "***": [
         "***",
@@ -591,14 +423,7 @@
         "wiè",
         "sött",
         "nid",
-        "sett",
-        "ghänselet",
-        "am",
-        "he",
-        "hett",
-        "sinds",
-        "wider",
-        "das"
+        "sett"
     ],
     "*** ***": [
         "*******",
@@ -614,9 +439,6 @@
         "Marrebrooter",
         "Marrebróóter",
         "marrebrooter"
-    ],
-    "*** gha,": [
-        "liecht"
     ],
     "*** ne": [
         "töörtne"
@@ -656,15 +478,6 @@
         "moos,",
         "Moos,"
     ],
-    "***de": [
-        "***de",
-        "glaube de",
-        "aber",
-        "Fäll dä",
-        "de",
-        "aber dä",
-        "dä"
-    ],
     "***di": [
         "***di",
         "die",
@@ -688,8 +501,7 @@
     ],
     ",": [
         ",",
-        "d",
-        ""
+        "d"
     ],
     ", dHase": [
         "dHaase"
@@ -702,23 +514,9 @@
         "-",
         ""
     ],
-    "-ja,": [
-        "-ja,",
-        "ich ha",
-        "",
-        "ja,"
-    ],
-    "-n": [
-        "-n",
-        ""
-    ],
     ".": [
         ".",
         "gfunde.",
-        ""
-    ],
-    "...": [
-        "...",
         ""
     ],
     "....": [
@@ -740,13 +538,6 @@
         "Lache",
         "lachä"
     ],
-    "..dobe": [
-        "..dobe",
-        "und dobe",
-        "und tobe",
-        "dobe",
-        "dötobä"
-    ],
     "50,": [
         "50,",
         "füfzg,",
@@ -764,30 +555,6 @@
     ";-) hei": [
         "häinem",
         "heinem"
-    ],
-    "?": [
-        "?",
-        "und",
-        "Süüfi",
-        "Poppel",
-        "",
-        "un",
-        "uns",
-        "boppel",
-        "Chüe",
-        "zu",
-        "süüfi",
-        "pobbel",
-        "mu",
-        "Poppul"
-    ],
-    "? herein,": [
-        "chüerine",
-        "Chüerine,",
-        "Chiëjerine,"
-    ],
-    "? ihm": [
-        "hinena"
     ],
     "???": [
         "???",
@@ -807,11 +574,6 @@
     "??? a": [
         "Fahr...",
         "fas e"
-    ],
-    "A": [
-        "A",
-        "a",
-        ""
     ],
     "Aadenke": [
         "Aadenke",
@@ -841,13 +603,6 @@
         "Aber",
         "aber",
         "***Aber"
-    ],
-    "Abä": [
-        "Abä",
-        "",
-        "Zabe",
-        "albe",
-        "Abend"
     ],
     "Acht,": [
         "Acht,",
@@ -887,12 +642,6 @@
         "alpa",
         "....Alpe"
     ],
-    "Alpe": [
-        "Alpe",
-        "Àlpe,",
-        "n'Alpe",
-        "Alpe,"
-    ],
     "Alpechilbi": [
         "Alpechilbi"
     ],
@@ -901,17 +650,6 @@
         "Alpique",
         "halltig",
         "alpig"
-    ],
-    "Alpä": [
-        "Alpä",
-        "Alpen",
-        "Alpe"
-    ],
-    "Also": [
-        "Also",
-        "aso",
-        "also",
-        "Aslo"
     ],
     "Alte": [
         "Alte"
@@ -931,29 +669,13 @@
         "Annne",
         "Anne."
     ],
-    "Arbeiter": [
-        "Arbeiter",
-        "arbeiter"
-    ],
     "Arbet": [
         "Arbet",
         "Aarbed",
         "Aarbet",
         "aarbet",
         "Aarbet.",
-        "arbet",
-        "Arbeit"
-    ],
-    "As": [
-        "As",
-        "as",
-        "es"
-    ],
-    "Aschtatt": [
-        "Aschtatt",
-        "statt",
-        "Anschtatt",
-        "aschtatt"
+        "arbet"
     ],
     "Astang": [
         "Astang",
@@ -972,31 +694,10 @@
         "Augsch",
         "Augschtä"
     ],
-    "Auto": [
-        "Auto"
-    ],
     "Baas": [
         "Baas",
         "Baas,",
         "baas"
-    ],
-    "Badhose-n-ie": [
-        "Badhose-n-ie",
-        "Badose iie",
-        "Badhosen ie",
-        "Badhose ie"
-    ],
-    "Badzimmer": [
-        "Badzimmer",
-        "badzemmer",
-        "baadzimmer",
-        "Baadzimmer"
-    ],
-    "Baim": [
-        "Baim",
-        "Bäim",
-        "Bäume",
-        "Bäum"
     ],
     "Batze": [
         "Batze",
@@ -1032,14 +733,6 @@
         "Beim",
         "Im"
     ],
-    "Beine": [
-        "Beine",
-        "Peye",
-        "Bei",
-        "",
-        "Beie",
-        "Beiju"
-    ],
     "Bekannti": [
         "Bekannti",
         "bi Kanti",
@@ -1055,14 +748,6 @@
         "",
         "Stand"
     ],
-    "Bett": [
-        "Bett",
-        "Gliger",
-        "lige",
-        "gliger",
-        "z'lige",
-        "d'Glider,"
-    ],
     "Bi": [
         "Bi",
         "bi",
@@ -1070,8 +755,7 @@
         "",
         "By",
         "Di",
-        "by",
-        "be"
+        "by"
     ],
     "Biim": [
         "Biim",
@@ -1109,13 +793,6 @@
         "Bisse,",
         "bisse,",
         "wisse,"
-    ],
-    "Bitz": [
-        "Bitz",
-        "bitz",
-        "Biz",
-        "hinunter",
-        "Witz"
     ],
     "Blatt": [
         "Blatt"
@@ -1177,16 +854,11 @@
     ],
     "Brot": [
         "Brot",
-        "Broot",
-        "brot"
+        "Broot"
     ],
     "Brugg": [
         "Brugg",
         "Brücke"
-    ],
-    "Brugge": [
-        "Brugge",
-        "Brücken"
     ],
     "Bscheid": [
         "Bscheid",
@@ -1211,17 +883,6 @@
     "Bueb nüme": [
         "nüümee"
     ],
-    "Buebe": [
-        "Buebe",
-        "buebe"
-    ],
-    "Buess": [
-        "Buess",
-        "Puess",
-        "Buäss",
-        "d'Buess",
-        "bbuess"
-    ],
     "Bum": [
         "Bum",
         "bomm",
@@ -1242,28 +903,8 @@
         "Buurdi",
         "Burdi"
     ],
-    "Buurehof": [
-        "Buurehof",
-        "Purehof",
-        "Burehof"
-    ],
-    "Buèbè": [
-        "Buèbè",
-        "Buebe",
-        "buebä",
-        "Knaben",
-        "buäbä",
-        "buebe",
-        "Buëbe"
-    ],
     "Bäch": [
         "Bäch"
-    ],
-    "Bächli": [
-        "Bächli",
-        "bächli",
-        "",
-        "Bäche"
     ],
     "Bäi": [
         "Bäi",
@@ -1288,30 +929,10 @@
     "Bäumler gsi": [
         "***gsii"
     ],
-    "Bäärg": [
-        "Bäärg",
-        "Bärg",
-        "bärg",
-        "Berg"
-    ],
-    "Bìn": [
-        "Bìn",
-        "Bin",
-        "binä",
-        "binem",
-        "Ich",
-        "bin"
-    ],
     "Börter": [
         "Börter",
         "Pörter",
         "Börder"
-    ],
-    "Böölimaa": [
-        "Böölimaa",
-        "böllimaa",
-        "Böhlimaa",
-        "Bölimaa..."
     ],
     "Büchel": [
         "Büchel"
@@ -1335,56 +956,17 @@
     "Bürdeli ei": [
         "Büürdäli"
     ],
-    "Bürgschaft": [
-        "Bürgschaft"
-    ],
-    "Büöch": [
-        "Büöch",
-        "Büech",
-        "Buch",
-        "buceh",
-        "büech"
-    ],
     "Büürdeli": [
         "Büürdeli",
         "bürdeli",
         "Büürdäli",
         "Bürdeli"
     ],
-    "Carvers": [
-        "Carvers",
-        "funcurver",
-        "",
-        "Funcarver",
-        "Fannkaarwr",
-        "fancarver"
-    ],
-    "Cha*": [
-        "Cha*",
-        "charrer",
-        "Chaarer",
-        "Chaar",
-        "***"
-    ],
-    "Cheerum": [
-        "Cheerum",
-        "Cherum",
-        "Chehrum",
-        "cheerum",
-        "cherum"
-    ],
     "Chefer": [
         "Chefer",
         "Chäfer",
         "Chéfer",
         "chäfer"
-    ],
-    "Chendheit.": [
-        "Chendheit.",
-        "chindheit",
-        "Chindheit",
-        "Chindhait",
-        "chindhait"
     ],
     "Cherchetoam,": [
         "Cherchetoam,",
@@ -1409,11 +991,7 @@
     "Chind": [
         "Chind",
         "chind",
-        "Ching",
-        "Kinder",
-        "Cind",
-        "Chend",
-        "chend"
+        "Ching"
     ],
     "Chischte.": [
         "Chischte.",
@@ -1429,14 +1007,6 @@
         "Chleider",
         "Kleider",
         "Chleyder"
-    ],
-    "Chliipurebetrib": [
-        "Chliipurebetrib",
-        "Chliipuurebetriib",
-        "chlipurebetrib",
-        "Chliibuurebetrieb",
-        "Chlypuurebetrieb",
-        "Chliibuurebetriib"
     ],
     "Chliises": [
         "Chliises",
@@ -1462,10 +1032,6 @@
         "Chnüü",
         "Chnü"
     ],
-    "Chochi": [
-        "Chochi",
-        "Chuchi"
-    ],
     "Choge-Chellti": [
         "Choge-Chellti",
         "choge chelti",
@@ -1478,31 +1044,10 @@
         "chopf",
         "Chopf"
     ],
-    "Chraft": [
-        "Chraft",
-        "chraft",
-        "Kraft"
-    ],
     "Chrieg": [
         "Chrieg",
         "Chrièg",
         "Chriëg"
-    ],
-    "Chrischtof": [
-        "Chrischtof",
-        "Christof",
-        "Christoph"
-    ],
-    "Chrotte": [
-        "Chrotte",
-        "chrotte"
-    ],
-    "Chrotte und": [
-        "Chrottenund"
-    ],
-    "Chuchi": [
-        "Chuchi",
-        "chuchi"
     ],
     "Chäb": [
         "Chäb",
@@ -1552,9 +1097,7 @@
     ],
     "Chüe": [
         "Chüe",
-        "chue",
-        "Chüä",
-        "Chüeh"
+        "chue"
     ],
     "Chüene,": [
         "Chüene,",
@@ -1609,38 +1152,17 @@
         "do",
         "das",
         "",
-        "daa",
-        "dä"
-    ],
-    "Dag": [
-        "Dag",
-        "Daag",
-        "Tag"
+        "daa"
     ],
     "Dampf": [
         "Dampf",
         "dampf",
         "Tampf"
     ],
-    "Dann": [
-        "Dann",
-        "nai",
-        "dänn",
-        "und"
-    ],
     "Das": [
         "Das",
         "das",
-        "",
-        "da",
-        "dascha",
-        "da-",
-        "dass"
-    ],
-    "Das,": [
-        "Das,",
-        "Das",
-        "***"
+        ""
     ],
     "Dass": [
         "Dass",
@@ -1667,21 +1189,13 @@
         "",
         "Dä",
         "si",
-        "Si",
-        "und",
-        "dè"
+        "Si"
     ],
     "Debii": [
         "Debii",
         "Debi",
         "derbi",
         "derbii"
-    ],
-    "Deet": [
-        "Deet",
-        "***det",
-        "déét",
-        "det"
     ],
     "Denki": [
         "Denki",
@@ -1739,21 +1253,11 @@
         "DSunn",
         "Di"
     ],
-    "Ding": [
-        "Ding",
-        "ding",
-        "Ding."
-    ],
-    "Diräkter": [
-        "Diräkter",
-        "Tiräkter"
-    ],
     "Do": [
         "Do",
         "do",
         "Da",
-        "Doo",
-        "doo"
+        "Doo"
     ],
     "Dodruf": [
         "Dodruf",
@@ -1766,31 +1270,16 @@
         "Dokter",
         "Tokter"
     ],
-    "Dozmal": [
-        "Dozmal",
-        "doozmal",
-        "dozmol"
-    ],
     "Drnàà": [
         "Drnàà",
         "Denah",
         "dernoo",
         "Danach"
     ],
-    "Drucke": [
-        "Drucke",
-        "drucke",
-        "trucke",
-        "trukke"
-    ],
     "Drummle": [
         "Drummle",
         "Trummle",
         "Trommle"
-    ],
-    "Dräck": [
-        "Dräck",
-        "Dreck"
     ],
     "Du": [
         "Du",
@@ -1867,10 +1356,6 @@
         "git",
         "Es"
     ],
-    "Ech": [
-        "Ech",
-        "ich"
-    ],
     "Eeir": [
         "Eeir",
         "Ehr",
@@ -1900,17 +1385,6 @@
         "Eigääl",
         "Äigeel"
     ],
-    "Eine": [
-        "Eine",
-        "die",
-        ""
-    ],
-    "Einisch": [
-        "Einisch",
-        "Äinisch",
-        "einisch",
-        "äinisch"
-    ],
     "Eis": [
         "Eis",
         "eis",
@@ -1930,11 +1404,6 @@
         "Elowius,",
         "Elovius,",
         "Eloogius."
-    ],
-    "Emale": [
-        "Emale",
-        "Emaale",
-        "emale"
     ],
     "En": [
         "En",
@@ -1958,34 +1427,15 @@
         "Erhitzig",
         "tAerhizig"
     ],
-    "Erläbnìs": [
-        "Erläbnìs",
-        "Erläbnis",
-        "erläbnis",
-        "ärläbnis",
-        "Erlebnis",
-        "Ärläbnis"
-    ],
     "Es": [
         "Es",
         "es",
         "sin",
         "s",
-        "S",
-        "Äs"
+        "S"
     ],
     "Es wird": [
         "s'wird"
-    ],
-    "Esch": [
-        "Esch",
-        "Isch",
-        "doch",
-        "sisch",
-        "isch"
-    ],
-    "Eselbank": [
-        "Eselbank"
     ],
     "Ewigkäit": [
         "Ewigkäit",
@@ -1993,17 +1443,6 @@
         "Ewigkeit",
         "Eewikäit",
         "Eewigkeit"
-    ],
-    "Fabrik": [
-        "Fabrik",
-        "Fabrigg",
-        "Fabrigg,",
-        "Fabrig"
-    ],
-    "Familie": [
-        "Familie",
-        "Familiè",
-        "Familie,"
     ],
     "Fenschtere": [
         "Fenschtere",
@@ -2036,30 +1475,15 @@
         "Fragt",
         "fragt"
     ],
-    "Frankä": [
-        "Frankä",
-        "franke",
-        "Franke"
-    ],
     "Frau": [
         "Frau",
         "frou"
-    ],
-    "Fremde": [
-        "Fremde",
-        "Fremde,",
-        "fremde",
-        "Fremde."
     ],
     "Freud": [
         "Freud",
         "Freud***",
         "freud",
         "Fröid"
-    ],
-    "Friehofrächnig": [
-        "Friehofrächnig",
-        "Fridhofrächnig"
     ],
     "Friitig": [
         "Friitig",
@@ -2085,22 +1509,12 @@
         "Frau",
         "frau"
     ],
-    "Frouegschaar": [
-        "Frouegschaar",
-        "Fraouegschar",
-        "Frauwegschaar"
-    ],
     "Froueli": [
         "Froueli",
         "prolen",
         "i",
         "Frööleni",
         "Frowleni"
-    ],
-    "Fräid": [
-        "Fräid",
-        "freud",
-        "Fraid"
     ],
     "Fräuli": [
         "Fräuli",
@@ -2126,18 +1540,10 @@
         "Früehlig.",
         "Früelig"
     ],
-    "Fründin": [
-        "Fründin"
-    ],
     "Fueter": [
         "Fueter",
         "fueter",
         "Fuetter"
-    ],
-    "Fun": [
-        "Fun",
-        "sini",
-        ""
     ],
     "Fyrabed": [
         "Fyrabed",
@@ -2242,12 +1648,6 @@
         "Gféért",
         "Gefährten"
     ],
-    "Gfüül": [
-        "Gfüül",
-        "Gfühl",
-        "gfüehl",
-        "Gfüeu"
-    ],
     "Gha": [
         "Gha",
         "ga",
@@ -2297,11 +1697,6 @@
         "glii",
         "gli"
     ],
-    "Gluscht": [
-        "Gluscht",
-        "Ggluscht",
-        "Glust"
-    ],
     "Glych": [
         "Glych",
         "glich",
@@ -2314,17 +1709,6 @@
         "blöd",
         "Glöck",
         "***"
-    ],
-    "Gmües": [
-        "Gmües",
-        "z'gmües"
-    ],
-    "Gmüeschörbe": [
-        "Gmüeschörbe",
-        "Pmüeschöörbe",
-        "Gmüeskörbe",
-        "Gmüeschöörbe",
-        "Gmüëschöörbe"
     ],
     "Gnägi": [
         "Gnägi",
@@ -2359,17 +1743,6 @@
         "goht",
         "Gghunnt",
         "Kunnt"
-    ],
-    "Got": [
-        "Got",
-        "got-",
-        "gott,",
-        "",
-        "Go'"
-    ],
-    "Gott": [
-        "Gott",
-        "...gott"
     ],
     "Gottes": [
         "Gottes",
@@ -2411,10 +1784,6 @@
         "Grund",
         "Grund,"
     ],
-    "Grundwasser": [
-        "Grundwasser",
-        "grundwasser"
-    ],
     "Gräbe": [
         "Gräbe",
         "Gräbä"
@@ -2432,14 +1801,6 @@
         "gräss",
         "gras",
         "Gääs"
-    ],
-    "Grönd": [
-        "Grönd",
-        "gründ",
-        "Gründ",
-        "Gründe",
-        "Grönd.",
-        "Gründ."
     ],
     "Grötze": [
         "Grötze",
@@ -2483,12 +1844,6 @@
         "Güggel",
         "Gulli"
     ],
-    "Gwalte": [
-        "Gwalte",
-        "Gwàlte.",
-        "Gwallte",
-        "Gwalte."
-    ],
     "Gweenlich": [
         "Gweenlich",
         "Gwehnlich",
@@ -2517,11 +1872,6 @@
         "güggel",
         "güggl"
     ],
-    "Gümpe": [
-        "Gümpe",
-        "Gümppe",
-        "gümpe"
-    ],
     "Güntli,": [
         "Güntli,",
         "Günntli"
@@ -2535,10 +1885,6 @@
         "Haag",
         "hock",
         "Halt"
-    ],
-    "Halbschwöschter": [
-        "Halbschwöschter",
-        "Halbschwester."
     ],
     "Hand": [
         "Hand",
@@ -2557,26 +1903,12 @@
     "Hanse Chäb": [
         "schätzerhansechäpp"
     ],
-    "Hat": [
-        "Hat",
-        "obenabliibe",
-        "richtig",
-        "t",
-        "müesse",
-        "obena"
-    ],
     "Hauptort": [
         "Hauptort",
         "ort",
         "Haupttoor",
         "Hauport",
         "hauptoort"
-    ],
-    "Heechene": [
-        "Heechene",
-        "Heechena",
-        "heechene",
-        "Hechene"
     ],
     "Hei": [
         "Hei",
@@ -2633,12 +1965,6 @@
     "Heuä äsa": [
         "Höenäsen"
     ],
-    "Hiesige": [
-        "Hiesige",
-        "Hiasige",
-        "hiesige",
-        "Hieisge"
-    ],
     "Himmel": [
         "Himmel",
         "Himel",
@@ -2670,10 +1996,6 @@
         "johr zöpfle",
         "Holzepfle"
     ],
-    "Hose": [
-        "Hose",
-        "hose"
-    ],
     "Huat": [
         "Huat",
         "Huet",
@@ -2690,12 +2012,6 @@
     ],
     "Hunger": [
         "Hunger"
-    ],
-    "Huus": [
-        "Huus",
-        "huus",
-        "Hus",
-        "Huus,"
     ],
     "Huuse,": [
         "Huuse,",
@@ -2779,15 +2095,6 @@
         "Heuw",
         "Häiw"
     ],
-    "Högerli": [
-        "Högerli",
-        "högerli",
-        "Höggerli",
-        "Hügelchen"
-    ],
-    "Högerli e": [
-        "högerli,"
-    ],
     "Höi": [
         "Höi",
         "Höj",
@@ -2819,9 +2126,7 @@
         "Si",
         "ich",
         "I",
-        "cha",
-        "",
-        "hè"
+        "cha"
     ],
     "Imare": [
         "Imare",
@@ -2837,22 +2142,6 @@
         "gis",
         "in",
         "..gsi"
-    ],
-    "Inklusive": [
-        "Inklusive",
-        "inklusive",
-        "Incklusive"
-    ],
-    "Isch": [
-        "Isch",
-        "isch",
-        "",
-        "war"
-    ],
-    "Italiäner": [
-        "Italiäner",
-        "Italiener",
-        "italiänner"
     ],
     "Item.": [
         "Item.",
@@ -2871,29 +2160,7 @@
     ],
     "Ja,": [
         "Ja,",
-        "ja",
-        "Ja",
-        "ja,"
-    ],
-    "Jaar": [
-        "Jaar",
-        "jahr",
-        "Jahr",
-        "Johr.",
-        "Johr",
-        "Jahr,"
-    ],
-    "Jahr": [
-        "Jahr",
-        "jahr",
-        "Jaar"
-    ],
-    "Jahren": [
-        "Jahren",
-        "Jahre",
-        "Jooren",
-        "johre",
-        "johren"
+        "ja"
     ],
     "Jahri": [
         "Jahri",
@@ -2933,8 +2200,7 @@
         "jez",
         "Ez",
         "jetzt",
-        "jetz",
-        "iez"
+        "jetz"
     ],
     "Jietzt": [
         "Jietzt",
@@ -2947,18 +2213,10 @@
     ],
     "Jo": [
         "Jo",
-        "jo",
-        "Ja",
-        "ja",
-        "jawä",
-        "sy",
-        "i"
+        "jo"
     ],
     "Jo nu": [
         "Jonu,"
-    ],
-    "Jo s'": [
-        "Jowa"
     ],
     "Johr": [
         "Johr"
@@ -2969,23 +2227,10 @@
         "d'Joorrechnig",
         "Joorrechnig"
     ],
-    "Joor": [
-        "Joor",
-        "johr",
-        "jahr",
-        "Jaar",
-        "Johr",
-        "Johr,"
-    ],
     "Josef": [
         "Josef",
         "Joseph",
         "öber"
-    ],
-    "Jugend": [
-        "Jugend",
-        "Jugänd",
-        "Juged"
     ],
     "Junge": [
         "Junge",
@@ -3043,14 +2288,6 @@
         "Kanysi",
         "Kamisi"
     ],
-    "Kantonsschuel": [
-        "Kantonsschuel",
-        "kantonsschuel",
-        "kantonschuel",
-        "Kantoonsschuel",
-        "Ckantonschuäl,",
-        "Kantonsschuel."
-    ],
     "Kantonsschüeler": [
         "Kantonsschüeler",
         "kantonsschüeler",
@@ -3102,30 +2339,10 @@
         "Chraft.",
         "Chraft"
     ],
-    "Krisäziit": [
-        "Krisäziit",
-        "kriseziit",
-        "krisezit",
-        "Kriiseziit",
-        "Chriiseziit",
-        "Kriisezit",
-        "Krisezyt"
-    ],
-    "Kunscht": [
-        "Kunscht",
-        "Punscht"
-    ],
     "Kunstmaler": [
         "Kunstmaler",
         "Kunschtmoler.",
         "kunschtmoler"
-    ],
-    "Kuntinänt": [
-        "Kuntinänt",
-        "Gchuntinän"
-    ],
-    "Kuntinänt isch": [
-        "****isch"
     ],
     "Kurort": [
         "Kurort",
@@ -3144,20 +2361,6 @@
         "Lade",
         "Laade",
         "e"
-    ],
-    "Lai": [
-        "Lai",
-        "Läiib",
-        "Lääi",
-        "elei",
-        "Läi"
-    ],
-    "Lai.": [
-        "Lai.",
-        "Laii.",
-        "Lääi.",
-        "näi",
-        "Läi."
     ],
     "Land": [
         "Land",
@@ -3215,19 +2418,6 @@
         "Bley",
         "Blei"
     ],
-    "Lehrer": [
-        "Lehrer",
-        "lehrer"
-    ],
-    "Lehrer nur": [
-        "Lehrernur"
-    ],
-    "Leigruebe": [
-        "Leigruebe",
-        "Leigrueben",
-        "Lääigruebenune",
-        "leigrube"
-    ],
     "Liebgott": [
         "Liebgott",
         "liebgott",
@@ -3243,20 +2433,6 @@
         "linde",
         "Lindä,",
         ""
-    ],
-    "Lohn": [
-        "Lohn",
-        "Loon"
-    ],
-    "Lokomotivefüehrer": [
-        "Lokomotivefüehrer",
-        "lokomotivfüerer",
-        "Lokomotiv füerer",
-        "Lokomotivfüerer",
-        "Lokifüerer",
-        "Lokomotiivfüerer",
-        "Lokomotivfüehrer",
-        "Lokomotiivfüërer"
     ],
     "Louis": [
         "Louis"
@@ -3368,12 +2544,6 @@
         "mach",
         "macht"
     ],
-    "Mah": [
-        "Mah",
-        "maa",
-        "Mann",
-        "Maa"
-    ],
     "Maitli": [
         "Maitli",
         "Meitli",
@@ -3396,29 +2566,10 @@
         "Moolziit",
         "Mahlziit"
     ],
-    "Mame": [
-        "Mame",
-        "Màme",
-        "Mama",
-        "Mamma",
-        "Mamme"
-    ],
     "Mamma": [
         "Mamma",
         "Mamaa.",
         "mamma"
-    ],
-    "Mamè": [
-        "Mamè",
-        "Mamme",
-        "mama",
-        "Mame",
-        "Mamma",
-        "Knieen",
-        "Mama",
-        "mamä",
-        "mamme",
-        "mammen"
     ],
     "Mani": [
         "Mani",
@@ -3436,13 +2587,6 @@
     "Mantel": [
         "Mantel",
         "mantel"
-    ],
-    "Marcel's": [
-        "Marcel's",
-        "hani em",
-        "am Marcel",
-        "em Marcel",
-        "Marssell"
     ],
     "March": [
         "March"
@@ -3465,12 +2609,6 @@
         "abe",
         "d'Maschine",
         "maschine"
-    ],
-    "Matura": [
-        "Matura",
-        "Ma-",
-        "ma-",
-        "Durä"
     ],
     "Mau": [
         "Mau",
@@ -3510,10 +2648,7 @@
         "me",
         "Me",
         "mr",
-        "mer",
-        "mi",
-        "Me -",
-        "Mi"
+        "mer"
     ],
     "Messer": [
         "Messer",
@@ -3527,12 +2662,6 @@
         "Metzg,",
         "metzg",
         "Mezg"
-    ],
-    "Mi": [
-        "Mi",
-        "Mii",
-        "mii",
-        "Mini"
     ],
     "Mie": [
         "Mie",
@@ -3548,12 +2677,6 @@
     "Milch": [
         "Milch"
     ],
-    "Mini": [
-        "Mini",
-        "Meine",
-        "Nei,mimi",
-        "mini"
-    ],
     "Mir": [
         "Mir",
         "mier",
@@ -3562,24 +2685,10 @@
         "Mehr",
         "Mer"
     ],
-    "Mit": [
-        "Mit",
-        "mit"
-    ],
     "Mittag": [
         "Mittag",
         "hend mier",
         "Zmittag"
-    ],
-    "Mocke": [
-        "Mocke"
-    ],
-    "Modegekommen": [
-        "Modegekommen",
-        "mode cho",
-        "Mode cho",
-        "Moode",
-        "Mode ko"
     ],
     "Morgeschtraich": [
         "Morgeschtraich",
@@ -3606,46 +2715,12 @@
         "d'Mueter",
         "Muëtter"
     ],
-    "Muess": [
-        "Muess",
-        "mues",
-        "",
-        "muess"
-    ],
-    "Mueter": [
-        "Mueter",
-        "Mutter",
-        "Muetter",
-        "Muäter",
-        "Mueter-",
-        "",
-        "***"
-    ],
-    "Mueter titti": [
-        "Muettertiti"
-    ],
     "Mueterseel,": [
         "Mueterseel,",
         "mueter selig",
         "Muetterseel",
         "Mueter seelig",
         "Mueter si,"
-    ],
-    "Mueti": [
-        "Mueti",
-        "Muetti",
-        "s'Müeti"
-    ],
-    "Muetter": [
-        "Muetter",
-        "Muëter",
-        "Mueter"
-    ],
-    "Muire": [
-        "Muire",
-        "muire",
-        "dMuire",
-        "muiren"
     ],
     "Mull": [
         "Mull",
@@ -3654,51 +2729,10 @@
         "Muu",
         "Mund"
     ],
-    "Muskelfrog": [
-        "Muskelfrog",
-        "frog",
-        "muskelfrog",
-        "Muskelfrage,",
-        "muskelfrag,"
-    ],
-    "Muskelfrog da": [
-        "Musggelfroog"
-    ],
-    "Muskulatur": [
-        "Muskulatur",
-        "muskulatur"
-    ],
-    "Muskulatur da": [
-        "muskulatur,"
-    ],
     "Mutter": [
         "Mutter",
         "Muetter",
         "Mueter"
-    ],
-    "Muèdder": [
-        "Muèdder",
-        "mueter",
-        "Muäter",
-        "stark auf"
-    ],
-    "Muèdder Tìddì": [
-        "Muettertetti",
-        "Muetter-Titti",
-        "muätertitti",
-        "muetertitti",
-        "Müëttertitti"
-    ],
-    "Muèddèr": [
-        "Muèddèr",
-        "Mueter",
-        "mueter",
-        "miniMueter",
-        "Muetter",
-        "Mutter,",
-        "muäter",
-        "muetter",
-        "Muëter"
     ],
     "Mä": [
         "Mä",
@@ -3707,11 +2741,6 @@
         "den",
         "Me"
     ],
-    "Mänsch": [
-        "Mänsch",
-        "mänsch",
-        "Mäntsch"
-    ],
     "Määndig": [
         "Määndig",
         "Mäntig",
@@ -3719,10 +2748,6 @@
     ],
     "Määndig morge": [
         "Mäntigmoorge"
-    ],
-    "Mölche": [
-        "Mölche",
-        "mölche"
     ],
     "Möstli": [
         "Möstli",
@@ -3752,11 +2777,6 @@
         "tabora",
         "Nacht."
     ],
-    "Natiirli": [
-        "Natiirli",
-        "nutürli",
-        "natiirli"
-    ],
     "Nei,": [
         "Nei,",
         "nai,",
@@ -3782,13 +2802,6 @@
         "numme",
         "nummen"
     ],
-    "Nun,": [
-        "Nun,",
-        "jetzt",
-        "ha,",
-        "jetz",
-        "Jetz"
-    ],
     "Nur": [
         "Nur",
         "",
@@ -3813,21 +2826,10 @@
     "Obed vorher": [
         "obepfohää"
     ],
-    "Oberwald": [
-        "Oberwald",
-        "oberwald",
-        "z'Oberwalt"
-    ],
     "Ofe.": [
         "Ofe.",
         "Ofe",
         "Ofe i"
-    ],
-    "Omfäld": [
-        "Omfäld",
-        "umfäld",
-        "Umfäld",
-        "Umfeld"
     ],
     "Ond": [
         "Ond",
@@ -3875,12 +2877,6 @@
         "Phater",
         "pater"
     ],
-    "Paris,": [
-        "Paris,",
-        "Paris",
-        "Pariis",
-        "Paris -"
-    ],
     "Patru": [
         "Patru",
         "patron",
@@ -3916,11 +2912,6 @@
     "Politisiarschtübli gä": [
         "Politisierstübchen,"
     ],
-    "Poschte": [
-        "Poschte",
-        "Poste",
-        "poste"
-    ],
     "Puirä": [
         "Puirä",
         "Buire",
@@ -3943,12 +2934,6 @@
         "Pörtere uss",
         "Pöörtere",
         "Pöörtere uss"
-    ],
-    "Püntteli": [
-        "Püntteli",
-        "bündeli",
-        "bünteli",
-        "Bünteli"
     ],
     "Raubvogel": [
         "Raubvogel",
@@ -3994,11 +2979,7 @@
     ],
     "Ross": [
         "Ross",
-        "Ròss",
-        "ross"
-    ],
-    "Ross hend": [
-        "Pferde"
+        "Ròss"
     ],
     "Ruck-": [
         "Ruck-",
@@ -4016,19 +2997,6 @@
     "Ruedi": [
         "Ruedi",
         "Ludi"
-    ],
-    "Rägetäg": [
-        "Rägetäg",
-        "Räägatäg",
-        "rägetäg",
-        "Räägetäg",
-        "Rägetääg"
-    ],
-    "Rägätäg": [
-        "Rägätäg",
-        "Räägetääg",
-        "Regentage",
-        "Rägetäg"
     ],
     "Rängg": [
         "Rängg"
@@ -4049,8 +3017,7 @@
         "Muure",
         "s'git",
         "mure",
-        "I",
-        "z"
+        "I"
     ],
     "S Ross": [
         "S'Ross"
@@ -4126,12 +3093,6 @@
         "Schatte",
         "Schatte."
     ],
-    "Schatten": [
-        "Schatten",
-        "Schatte",
-        "schatte",
-        "schatten"
-    ],
     "Scheite": [
         "Scheite",
         "ghäiter",
@@ -4141,12 +3102,6 @@
     "Schiitli": [
         "Schiitli",
         "schittli"
-    ],
-    "Schinbei": [
-        "Schinbei",
-        "schienbei",
-        "Schienbei",
-        "Schienbein"
     ],
     "Schirm": [
         "Schirm",
@@ -4159,10 +3114,6 @@
         "schlegel",
         "Schleegel",
         "Schleegl"
-    ],
-    "Schlitte": [
-        "Schlitte",
-        "Schlitt"
     ],
     "Schluezi": [
         "Schluezi",
@@ -4201,8 +3152,7 @@
         "Schnee",
         "Mir",
         "Miir",
-        "Wir",
-        "schnee"
+        "Wir"
     ],
     "Schnee,": [
         "Schnee,",
@@ -4221,39 +3171,10 @@
         "scho",
         "vorgrechnet"
     ],
-    "Schoosszipfèl": [
-        "Schoosszipfèl",
-        "Schosszepfel",
-        "schooszipfel",
-        "Schoosszipfel",
-        "Schosszipfel",
-        "immer",
-        "schosszipfel",
-        "schosszipefel",
-        "Schossszipfel"
-    ],
-    "Schopf": [
-        "Schopf"
-    ],
-    "Schosszipfel": [
-        "Schosszipfel",
-        "Schòòszipfel",
-        "Schosszipfäl",
-        "Schosssitz",
-        "Schooszipfel"
-    ],
     "Schoufe,": [
         "Schoufe,",
         "schof,",
         "Schoofe"
-    ],
-    "Schpittel": [
-        "Schpittel",
-        "Spitel",
-        "Spittel",
-        "Leiden",
-        "schpittel",
-        "spittel"
     ],
     "Schprach,": [
         "Schprach,",
@@ -4264,47 +3185,15 @@
         "",
         "Schpraach."
     ],
-    "Schriibe": [
-        "Schriibe",
-        "schribe"
-    ],
-    "Schtaine": [
-        "Schtaine",
-        "Stäine",
-        "Staine",
-        "steine"
-    ],
     "Schtall": [
         "Schtall",
         "Stall"
-    ],
-    "Schtei,": [
-        "Schtei,",
-        "Schtei",
-        "Schtäi",
-        "stäi",
-        "Stein,",
-        "Stäi,"
     ],
     "Schtiel": [
         "Schtiel",
         "Schtiil",
         "stil",
         "Stiel"
-    ],
-    "Schtolzt": [
-        "Schtolzt",
-        "Stoost",
-        "stosst",
-        "stoosst",
-        "stoost"
-    ],
-    "Schtrohmatte": [
-        "Schtrohmatte",
-        "Strohmatte",
-        "Schtroohmatte",
-        "strohmatte",
-        "Schtroomatte"
     ],
     "Schtrosse": [
         "Schtrosse",
@@ -4316,21 +3205,10 @@
         "Stumpe",
         "Schtumppe"
     ],
-    "Schtäcke": [
-        "Schtäcke",
-        "Stäcke",
-        "Schtäke",
-        "schtäcke",
-        "Schtecke"
-    ],
     "Schtärne": [
         "Schtärne",
         "Schtäärne",
         "Schtärnen"
-    ],
-    "Schuel": [
-        "Schuel",
-        "schuel"
     ],
     "Schuel,": [
         "Schuel,",
@@ -4338,14 +3216,7 @@
         "idSchuel",
         "iTschuel",
         "d Schuel",
-        "Schuel",
-        "schuel,",
-        "d'Schuel"
-    ],
-    "Schuss": [
-        "Schuss",
-        "schluss",
-        "Schluss"
+        "Schuel"
     ],
     "Schwan": [
         "Schwan",
@@ -4367,19 +3238,6 @@
         "***s'wär",
         "wäär"
     ],
-    "Schwögeri": [
-        "Schwögeri",
-        "Schwöger"
-    ],
-    "Schwöstere": [
-        "Schwöstere",
-        "Schwöschtere",
-        "schwöschtere",
-        "Schwöschtere-n-"
-    ],
-    "Schwöstere nau": [
-        "Schwöschterenau"
-    ],
     "Schätzer": [
         "Schätzer",
         "z"
@@ -4394,27 +3252,10 @@
     "Schöb ": [
         "Schüübel:"
     ],
-    "Schüöl": [
-        "Schüöl",
-        "Schüel",
-        "Fluh,",
-        "schüel"
-    ],
-    "Schüöl.": [
-        "Schüöl.",
-        "Schüel.",
-        "Schüel",
-        "Schule.",
-        "",
-        "schüel."
-    ],
     "Secher": [
         "Secher",
         "secher",
         "sicher"
-    ],
-    "See": [
-        "See"
     ],
     "Seel": [
         "Seel",
@@ -4423,10 +3264,6 @@
     "Sepp": [
         "Sepp",
         "Seppp"
-    ],
-    "Serviertochter": [
-        "Serviertochter",
-        "Särwiirtochter"
     ],
     "Si": [
         "Si",
@@ -4439,8 +3276,7 @@
         "Sie",
         "de z",
         "und",
-        "dem",
-        "Si"
+        "dem"
     ],
     "Siintaal": [
         "Siintaal",
@@ -4476,11 +3312,6 @@
         "Sümpfluet",
         "Süntfluet"
     ],
-    "Sippehaft": [
-        "Sippehaft",
-        "sippehaft",
-        ""
-    ],
     "Sit": [
         "Sit",
         "sig",
@@ -4496,8 +3327,7 @@
     "So": [
         "So",
         "so",
-        "ze",
-        "Da"
+        "ze"
     ],
     "Sobald": [
         "Sobald",
@@ -4518,27 +3348,12 @@
         "",
         "d'Sunn"
     ],
-    "Spickfood": [
-        "Spickfood",
-        "sinds",
-        "sind's",
-        "gsii ich",
-        "Bigfoods",
-        "Stickfuds"
-    ],
     "Spinnefade": [
         "Spinnefade",
         "Spinnende",
         "Schpennefade",
         "Schpinnefade",
         "spinnäfadä"
-    ],
-    "Spitau": [
-        "Spitau",
-        "Spital",
-        "spital",
-        "Schpitaal",
-        "Spital,"
     ],
     "St.": [
         "St.",
@@ -4562,22 +3377,10 @@
         "Sandtanne",
         "santanne"
     ],
-    "Stei": [
-        "Stei",
-        "Schtäi",
-        ""
-    ],
     "Stiere": [
         "Stiere",
         "Schtiere",
         "Stierä"
-    ],
-    "Stimmt": [
-        "Stimmt",
-        "gfunde",
-        "",
-        "gfunde.",
-        "has"
     ],
     "Stond": [
         "Stond",
@@ -4693,12 +3496,6 @@
         "Suntig",
         "Sunndig",
         "Sunndig."
-    ],
-    "Säb": [
-        "Säb",
-        "So",
-        "da",
-        "***"
     ],
     "Sächzächejährige": [
         "Sächzächejährige",
@@ -4883,11 +3680,6 @@
         "tintefass",
         "Tintenfass"
     ],
-    "Tisch": [
-        "Tisch",
-        "tisch",
-        "Tisch*"
-    ],
     "Tja,": [
         "Tja,",
         "häjo",
@@ -5011,18 +3803,6 @@
         "teile",
         "Teile"
     ],
-    "Tääg": [
-        "Tääg",
-        "Täg",
-        "täg"
-    ],
-    "Tìddì": [
-        "Tìddì",
-        "titti",
-        "",
-        "Titti",
-        "meine"
-    ],
     "Töff\"": [
         "Töff\"",
         "Töff.\"",
@@ -5043,8 +3823,7 @@
     "U": [
         "U",
         "und",
-        "u",
-        "Und"
+        "u"
     ],
     "UMKEHRT": [
         "UMKEHRT",
@@ -5072,24 +3851,6 @@
         "Uf",
         "uf"
     ],
-    "Ufgabä": [
-        "Ufgabä",
-        "Ufgabe",
-        "Uufgabe"
-    ],
-    "Ufghobe": [
-        "Ufghobe",
-        "ufghobe",
-        "uufghobe"
-    ],
-    "Uflaat,": [
-        "Uflaat,",
-        "Unflat",
-        "Uflat,"
-    ],
-    "Uflaat, sonen": [
-        "Uflaat,sonen"
-    ],
     "Uglück": [
         "Uglück",
         "Uglück,",
@@ -5113,10 +3874,7 @@
         "und",
         "unz",
         "U",
-        "***und",
-        "",
-        "ee",
-        "è"
+        "***und"
     ],
     "Untanze??": [
         "Untanze??",
@@ -5126,9 +3884,6 @@
         "Unverständlich!",
         "häige si",
         "heige"
-    ],
-    "Us": [
-        "Us"
     ],
     "Usserordentlichs": [
         "Usserordentlichs",
@@ -5145,19 +3900,10 @@
         "Vater",
         "Vatter",
         "Fater",
-        "vater",
-        "Papi"
-    ],
-    "Vatter": [
-        "Vatter",
-        "vater",
-        "Vater",
-        "Vattr"
+        "vater"
     ],
     "Veh": [
-        "Veh",
-        "***",
-        ""
+        "Veh"
     ],
     "Veh de": [
         "Veili",
@@ -5202,12 +3948,6 @@
         "Versuechige",
         "versuechige"
     ],
-    "Versüech": [
-        "Versüech",
-        "",
-        "versüech",
-        "Versuche"
-    ],
     "Vieh": [
         "Vieh",
         "Vehli",
@@ -5222,10 +3962,7 @@
     "Vo": [
         "Vo",
         "vo",
-        "",
-        "Vu",
-        "uf",
-        "Im"
+        ""
     ],
     "Vokale": [
         "Vokale",
@@ -5265,18 +4002,6 @@
         "Wachse",
         "wachse"
     ],
-    "Wage": [
-        "Wage",
-        "wage,",
-        "Wagen",
-        "Wage,",
-        "Wage."
-    ],
-    "Wald": [
-        "Wald",
-        "Wàld",
-        "wald"
-    ],
     "Waldtüüfel": [
         "Waldtüüfel",
         "waldtüfel"
@@ -5287,20 +4012,7 @@
         "Wallhulz",
         "Walholz,"
     ],
-    "Wase": [
-        "Wase",
-        "Rase"
-    ],
     "Wasser": [
-        "Wasser",
-        "Wassär",
-        "Wàsser",
-        "wasser",
-        "sWasser"
-    ],
-    "Wasser,": [
-        "Wasser,",
-        "wasser",
         "Wasser"
     ],
     "We": [
@@ -5319,12 +4031,6 @@
         "Weder",
         "weder"
     ],
-    "Weich": [
-        "Weich",
-        "wäich",
-        "weich",
-        "weich,"
-    ],
     "Weid": [
         "Weid",
         "Waid.",
@@ -5338,22 +4044,6 @@
         "Weiherwägli",
         "Wäierwäägli",
         "Weierweegli"
-    ],
-    "Weiri": [
-        "Weiri",
-        "Wehri",
-        "dweri",
-        "Weeri",
-        "weehri"
-    ],
-    "Weis": [
-        "Weis"
-    ],
-    "Weis h": [
-        "weisch,",
-        "waisch",
-        "Weisch,",
-        "weisch"
     ],
     "Welt": [
         "Welt",
@@ -5463,10 +4153,6 @@
         "Wenter",
         "Wéénter"
     ],
-    "Winter,": [
-        "Winter,",
-        "winter"
-    ],
     "Wirts-": [
         "Wirts-",
         "Wirts",
@@ -5476,14 +4162,9 @@
     "Wirts- hiiser": [
         "Wiirtshiiser"
     ],
-    "Wittwer": [
-        "Wittwer",
-        "Witwer"
-    ],
     "Wo": [
         "Wo",
-        "wo",
-        ""
+        "wo"
     ],
     "Wohlfahrte": [
         "Wohlfahrte",
@@ -5491,21 +4172,6 @@
         "Wohlfahrter",
         "Woolfaarte",
         "wohlfahrte"
-    ],
-    "Wohnig": [
-        "Wohnig",
-        "wohnig",
-        "wonig",
-        "Wonig"
-    ],
-    "Wohnig,": [
-        "Wohnig,",
-        "wohnig.",
-        "wonig,",
-        "Wohnig -",
-        "Wohnig",
-        "Wonig,",
-        "wohnig"
     ],
     "Wolkenungeheuers": [
         "Wolkenungeheuers",
@@ -5526,18 +4192,6 @@
         "wonè",
         "wo",
         "won"
-    ],
-    "Woni": [
-        "Woni",
-        "ich",
-        "woni",
-        "won i",
-        "Wo ni"
-    ],
-    "Wuche.": [
-        "Wuche.",
-        "Wuche",
-        "Woche."
     ],
     "Wunder": [
         "Wunder",
@@ -5574,10 +4228,7 @@
         "welt",
         "d'Welt",
         "Welt,",
-        "Wélt",
-        "wält",
-        "tWält",
-        "d'Wält"
+        "Wélt"
     ],
     "Wänn": [
         "Wänn",
@@ -5589,22 +4240,6 @@
         "Wännume",
         "nume",
         "ume"
-    ],
-    "Wässerli": [
-        "Wässerli",
-        "wässerli",
-        ""
-    ],
-    "Wätter": [
-        "Wätter",
-        "Wetter",
-        "Wättr"
-    ],
-    "Wättär": [
-        "Wättär",
-        "Wätter",
-        "Unwetter",
-        "Wetter"
     ],
     "Wääg": [
         "Wääg",
@@ -5653,12 +4288,6 @@
         "Züügli",
         "Ziigli"
     ],
-    "Zeit": [
-        "Zeit",
-        "die",
-        "es",
-        "Fankaarwers"
-    ],
     "Zervele": [
         "Zervele",
         "Servelè",
@@ -5678,11 +4307,6 @@
         "z fievi",
         "Zfüüfi."
     ],
-    "Ziel": [
-        "Ziel",
-        "sihere",
-        "zeere"
-    ],
     "Ziig": [
         "Ziig",
         "ziift",
@@ -5690,10 +4314,7 @@
     ],
     "Ziit": [
         "Ziit",
-        "Zit",
-        "zit",
-        "ziit",
-        "Zyt"
+        "Zit"
     ],
     "Ziite": [
         "Ziite",
@@ -5705,14 +4326,6 @@
         "zite",
         "Ziite***",
         "Ziita"
-    ],
-    "Zimmerherrä": [
-        "Zimmerherrä",
-        "Zimmerherre",
-        "zimmerherre",
-        "Zimmerhere",
-        "Zemmerherre",
-        "Zimmerhäre"
     ],
     "Zirktag": [
         "Zirktag",
@@ -5828,20 +4441,6 @@
         "Zübuè",
         "****"
     ],
-    "Zündrout": [
-        "Zündrout",
-        "***",
-        "zündrot",
-        "Zöndrot",
-        "zündroot",
-        "Zündrot"
-    ],
-    "Züüg": [
-        "Züüg",
-        "",
-        "Zügle",
-        "Züg"
-    ],
     "a": [
         "a",
         "",
@@ -5855,9 +4454,7 @@
         "e",
         "patent",
         "en",
-        "Ä",
-        "an",
-        "s'A"
+        "Ä"
     ],
     "a ???": [
         "nietwärtere",
@@ -5866,9 +4463,6 @@
     ],
     "a Wägele": [
         "Wäägeli"
-    ],
-    "a chli": [
-        "echli d"
     ],
     "a de": [
         "ade"
@@ -5905,9 +4499,7 @@
     "aabe": [
         "aabe",
         "ab,",
-        "aab",
-        "appä",
-        "appe"
+        "aab"
     ],
     "aafod.": [
         "aafod.",
@@ -5961,8 +4553,7 @@
         "ab",
         "",
         "ap",
-        "abder",
-        "àp."
+        "abder"
     ],
     "abe": [
         "abe",
@@ -5970,23 +4561,6 @@
         "SCHO",
         "er",
         "afe"
-    ],
-    "abe i": [
-        "aabe",
-        "vorneabe,"
-    ],
-    "abe i da": [
-        "hinunter,"
-    ],
-    "abefahre": [
-        "abefahre",
-        "abefaare",
-        "abefaahre"
-    ],
-    "abeghöcklet": [
-        "abeghöcklet",
-        "abe ghö",
-        "abe"
     ],
     "abem": [
         "abem",
@@ -6014,12 +4588,7 @@
         "Abr",
         "au",
         "esch",
-        "aifach",
-        "àber",
-        "jedoch",
-        "Aaber",
-        "es",
-        ""
+        "aifach"
     ],
     "abetribe,": [
         "abetribe,",
@@ -6028,13 +4597,6 @@
     ],
     "abetribe, tues": [
         "abetribe,tues"
-    ],
-    "abgeh": [
-        "abgeh",
-        "abge,",
-        "abgää",
-        "abgee,",
-        "abgä"
     ],
     "abghaue": [
         "abghaue",
@@ -6070,13 +4632,6 @@
         "abr",
         "aber"
     ],
-    "abzverdiene.": [
-        "abzverdiene.",
-        "z verdiene.",
-        "abzverdiène",
-        "abzvrdiäne.",
-        "abverdiene."
-    ],
     "ach": [
         "ach",
         "acht",
@@ -6092,14 +4647,6 @@
     ],
     "ad Wohlfahrte": [
         "gwoolfahrtet,"
-    ],
-    "ade": [
-        "ade",
-        "???",
-        "hät"
-    ],
-    "ade s": [
-        "wo's"
     ],
     "advikat": [
         "advikat",
@@ -6119,10 +4666,7 @@
         "afe",
         "AFA",
         "afen",
-        "afä",
-        "a",
-        "afig",
-        "afigs"
+        "afä"
     ],
     "afe aui": [
         "afe-n-aui"
@@ -6195,12 +4739,7 @@
     ],
     "ai": [
         "ai",
-        "all",
-        "oi",
-        "eu",
-        "öi",
-        "äu",
-        "ali"
+        "all"
     ],
     "aine": [
         "aine",
@@ -6240,8 +4779,7 @@
         "alle",
         "",
         "alli",
-        "ali",
-        "al"
+        "ali"
     ],
     "all ebig": [
         "alléébig"
@@ -6264,9 +4802,6 @@
         "allewil",
         "alewil"
     ],
-    "aller": [
-        "aller"
-    ],
     "allerhang": [
         "allerhang",
         "allerhand"
@@ -6286,28 +4821,18 @@
         "alli",
         "alewil"
     ],
-    "alli": [
-        "alli",
-        "alläg",
-        "mol",
-        "moll"
-    ],
     "allig": [
         "allig",
         "amel",
         "alläg",
         "alwig",
-        "alig",
-        "alwigs",
-        "albe"
+        "alig"
     ],
     "allne": [
         "allne",
         "allnä",
         "allä",
-        "alle",
-        "alne",
-        "Faal"
+        "alle"
     ],
     "alls": [
         "alls",
@@ -6333,22 +4858,12 @@
         "wod",
         "as",
         "wie",
-        "",
-        "alls",
-        "alles",
-        "das",
-        "gsi,",
-        "gsi",
-        "hani",
-        "weiss"
+        ""
     ],
     "also": [
         "also",
         "aso",
-        "",
-        "lässig",
-        "gsi,",
-        "aso e"
+        ""
     ],
     "also wiä": [
         "aswie"
@@ -6365,9 +4880,7 @@
         "Alte,",
         "Allte",
         "aute",
-        "aulte",
-        "alti",
-        "aalti"
+        "aulte"
     ],
     "alte Linde": [
         "Alpelinde"
@@ -6399,15 +4912,7 @@
         "amne",
         "eppe-n-am",
         "om",
-        "ab",
-        "e",
-        "a",
-        "war",
-        "än"
-    ],
-    "am Muèdder": [
-        "Muettertiti",
-        "emuetertitti"
+        "ab"
     ],
     "am Wenli": [
         "aabändlet"
@@ -6454,13 +4959,7 @@
     "amigs": [
         "amigs",
         "allig",
-        "amig",
-        "ammigs",
-        "alligs"
-    ],
-    "amigs,": [
-        "amigs,",
-        "amigs"
+        "amig"
     ],
     "amme": [
         "amme",
@@ -6490,12 +4989,7 @@
         "aan",
         "ann",
         "aa",
-        "en",
-        "anhane",
-        "Han",
-        "un",
-        "und",
-        "han"
+        "en"
     ],
     "an de": [
         "****",
@@ -6528,13 +5022,6 @@
         "anderes",
         "anders"
     ],
-    "anderi": [
-        "anderi",
-        "Anderi",
-        "ànderi",
-        "andere",
-        "ander"
-    ],
     "anderm": [
         "anderm",
         "andere"
@@ -6544,10 +5031,6 @@
         "anders",
         "anderisch",
         "andrisch"
-    ],
-    "andru": [
-        "andru",
-        "andere"
     ],
     "ane": [
         "ane",
@@ -6561,18 +5044,6 @@
     ],
     "ane gschickt": [
         "omegschickt"
-    ],
-    "anezeichnet": [
-        "anezeichnet",
-        "ane zeichnet",
-        "ane zäichnet",
-        "anäzeichnet"
-    ],
-    "angeboten.": [
-        "angeboten.",
-        "angebotte",
-        "angebote.",
-        "angibottu"
     ],
     "angere": [
         "angere",
@@ -6592,33 +5063,16 @@
         "agwihsa",
         "agwiese"
     ],
-    "angschpitz": [
-        "angschpitz",
-        "angst",
-        "Angscht"
-    ],
     "angst": [
         "angst",
         "Angscht",
         "Angscht,",
         "Angsch"
     ],
-    "ankä": [
-        "ankä",
-        "Ancke.",
-        "Angke",
-        "Anke.",
-        "anke",
-        "Anke"
-    ],
     "anne": [
         "anne",
         "anä",
         "an"
-    ],
-    "ans": [
-        "ans",
-        "und"
     ],
     "anstatt": [
         "anstatt",
@@ -6633,13 +5087,6 @@
         "antwort.",
         "Antwoort,",
         "Antwort?"
-    ],
-    "ape": [
-        "ape",
-        "àppe.",
-        "abe",
-        "appe",
-        "ape."
     ],
     "architekt": [
         "architekt",
@@ -6662,10 +5109,7 @@
         "",
         "als",
         "asme",
-        "gar",
-        "es",
-        "äs",
-        "paar,"
+        "gar"
     ],
     "ase": [
         "ase",
@@ -6676,21 +5120,6 @@
         "as me",
         "as mer",
         "asme"
-    ],
-    "aso": [
-        "aso",
-        "Aso",
-        "äso",
-        "gewesen,",
-        "also",
-        "auso",
-        "",
-        "ase"
-    ],
-    "ass": [
-        "ass",
-        "as",
-        "ases"
     ],
     "atroffe,": [
         "atroffe,",
@@ -6718,11 +5147,7 @@
         "aus",
         "a",
         "all",
-        "nu",
-        "mi",
-        "jo",
-        "aue",
-        "äuwä,"
+        "nu"
     ],
     "au Tag": [
         "autag",
@@ -6783,27 +5208,11 @@
         "ALI",
         "alli"
     ],
-    "aus": [
-        "aus",
-        "us",
-        "use",
-        "uss",
-        "alls",
-        "Alls"
-    ],
     "ausgerechnet": [
         "ausgerechnet",
         "vorgrächnet",
         "het, miar",
         "vorgrechnet"
-    ],
-    "ausprobiert": [
-        "ausprobiert",
-        "bigfoots",
-        "Bigfuuts",
-        "gar niid,",
-        "gsi i",
-        "weiss gar"
     ],
     "aut": [
         "aut"
@@ -6842,40 +5251,12 @@
         "Bachmèèl",
         "Bachmehl"
     ],
-    "badet.": [
-        "badet.",
-        "padet",
-        "badet"
-    ],
-    "be": [
-        "be",
-        "bi"
-    ],
-    "beasprucht": [
-        "beasprucht",
-        "beaschprucht",
-        "beasprucht.",
-        ""
-    ],
-    "beasprucht de": [
-        "beansprucht"
-    ],
-    "beck": [
-        "beck",
-        "Beck",
-        "Bekk,",
-        "Beck,"
-    ],
     "beed": [
         "beed",
         "bed",
         "beiden",
         "beide",
         "bééd"
-    ],
-    "begriffe.": [
-        "begriffe.",
-        "begriffe"
     ],
     "begägnet": [
         "begägnet"
@@ -6888,14 +5269,6 @@
         "Bei",
         "Päi.",
         "d'Bai."
-    ],
-    "beidi": [
-        "beidi",
-        "bäidi",
-        "beedi",
-        "baidi",
-        "beide",
-        "beydi"
     ],
     "beim": [
         "beim",
@@ -6957,10 +5330,6 @@
         "bessere",
         "béssere"
     ],
-    "besseri": [
-        "besseri",
-        "bessèri"
-    ],
     "beträffende": [
         "beträffende",
         "beträffendi"
@@ -6975,15 +5344,6 @@
         "ziise",
         "Ziise"
     ],
-    "bhaltä": [
-        "bhaltä",
-        "phalte",
-        "bhal-.",
-        "bhaute",
-        "bhalte",
-        "phallte",
-        "bhal-"
-    ],
     "bhange.": [
         "bhange.",
         "pange",
@@ -6993,18 +5353,11 @@
         "de......"
     ],
     "bi": [
-        "bi",
-        "glitt",
-        "***bi",
-        "Bi",
-        "bider",
-        "be"
+        "bi"
     ],
     "bi de": [
         "bider",
-        "bidèr",
-        "bide",
-        "wider"
+        "bidèr"
     ],
     "bideridum": [
         "bideridum",
@@ -7025,13 +5378,7 @@
         "am"
     ],
     "bin": [
-        "bin",
-        "bini",
-        "",
-        "und",
-        "bi",
-        "binä",
-        "Bin"
+        "bin"
     ],
     "bin enand": [
         "binenand"
@@ -7042,14 +5389,6 @@
     ],
     "binere Überschwämmig,": [
         "binèrenUeberschwämmig."
-    ],
-    "bini": [
-        "bini",
-        "bin i"
-    ],
-    "binich": [
-        "binich",
-        "bin ich"
     ],
     "birrewegge": [
         "birrewegge",
@@ -7121,20 +5460,10 @@
         "bliibt",
         "blibt"
     ],
-    "bliibe": [
-        "bliibe",
-        "blibe",
-        "blibä"
-    ],
     "blöder": [
         "blöder",
         "Früener",
         "früener"
-    ],
-    "bout": [
-        "bout",
-        "paut",
-        "baut"
     ],
     "brandschwaz": [
         "brandschwaz",
@@ -7151,12 +5480,7 @@
         "breitter"
     ],
     "bringe": [
-        "bringe",
-        "rinnet",
-        "rinnid",
-        "ringed",
-        "bringed",
-        "brine"
+        "bringe"
     ],
     "broot": [
         "broot",
@@ -7183,11 +5507,6 @@
         "bruuchsch",
         "bruuch"
     ],
-    "bruicht": [
-        "bruicht",
-        "brüicht",
-        "brücht"
-    ],
     "brummle": [
         "brummle",
         "drummle"
@@ -7199,16 +5518,6 @@
         "brääfscht",
         "brevscht",
         "Brävscht,"
-    ],
-    "brücht": [
-        "brücht",
-        "brüicht",
-        ""
-    ],
-    "brüeder": [
-        "brüeder",
-        "Brüeder",
-        "Brueder"
     ],
     "bschaue": [
         "bschaue",
@@ -7240,12 +5549,6 @@
         "psinn",
         "bbsinn"
     ],
-    "bsinnä": [
-        "bsinnä",
-        "bsenne",
-        "bsinne",
-        "psinne"
-    ],
     "bsorge": [
         "bsorge",
         "bsorge.",
@@ -7256,13 +5559,6 @@
         "bschtood",
         "bstoht",
         "bestaht"
-    ],
-    "bstellt,": [
-        "bstellt,",
-        "gschtelt.",
-        "bschtellt.",
-        "",
-        "gschtellt."
     ],
     "bsuech": [
         "bsuech",
@@ -7336,13 +5632,6 @@
         "Buch",
         "Buuch"
     ],
-    "buurehus": [
-        "buurehus",
-        "Buurehuus",
-        "buurehuus",
-        "Puurehus",
-        "Burehus"
-    ],
     "buäbel": [
         "buäbel",
         "büeb",
@@ -7367,11 +5656,6 @@
         "gebastelt",
         "päschtelet"
     ],
-    "bättle": [
-        "bättle",
-        "Bätte",
-        "bätte"
-    ],
     "bätä": [
         "bätä",
         "bätte"
@@ -7379,13 +5663,6 @@
     "bèm": [
         "bèm",
         "bim"
-    ],
-    "bìn": [
-        "bìn",
-        "ben",
-        "bin",
-        "Und",
-        "Bin"
     ],
     "böm": [
         "böm",
@@ -7414,13 +5691,6 @@
         "bösers,",
         "Böösers!"
     ],
-    "böösè": [
-        "böösè",
-        "böse",
-        "bösä",
-        "bösen",
-        "bööse"
-    ],
     "büecher": [
         "büecher",
         "Büecher"
@@ -7437,9 +5707,7 @@
     "cha": [
         "cha",
         "chann",
-        "Chabis",
-        "chà",
-        "chan"
+        "Chabis"
     ],
     "cha me": [
         "chame",
@@ -7453,10 +5721,6 @@
         "chame",
         "wämer",
         ""
-    ],
-    "chamer": [
-        "chamer",
-        "chame"
     ],
     "chami": [
         "chami",
@@ -7490,14 +5754,6 @@
         "chapeziner,",
         "Kapeziner,"
     ],
-    "char": [
-        "char",
-        "bi",
-        "",
-        "aber",
-        "cha",
-        "abr"
-    ],
     "chei": [
         "chei",
         "euter",
@@ -7515,21 +5771,12 @@
         "chämmed",
         "chämmed,"
     ],
-    "chen": [
-        "chen",
-        "chenn",
-        "chenn,",
-        "chönni",
-        "chän",
-        "chönn"
-    ],
     "chenne": [
         "chenne",
         "chene",
         "chänne",
         "kenne",
-        "",
-        "chénnen"
+        ""
     ],
     "chere": [
         "chere",
@@ -7558,15 +5805,6 @@
         "chitzig.",
         "chetzigs"
     ],
-    "chlepfe": [
-        "chlepfe",
-        "Chlepfä,",
-        "klepfe",
-        "Cchlepfe",
-        "Chlepfe,",
-        "Chlepfe",
-        "chlepfä"
-    ],
     "chlepfe,": [
         "chlepfe,",
         "chönd",
@@ -7587,10 +5825,7 @@
         "",
         "chlis",
         "afe-n-echli",
-        "ECHLI",
-        "bisschen",
-        "wenig",
-        "eviel"
+        "ECHLI"
     ],
     "chlibi": [
         "chlibi",
@@ -7617,8 +5852,7 @@
         "chlises",
         "chliises",
         "Chliises",
-        "Chlises,",
-        "chlines"
+        "Chlises,"
     ],
     "chlises,": [
         "chlises,",
@@ -7627,27 +5861,6 @@
     ],
     "chlöpft": [
         "chlöpft"
-    ],
-    "chlüttere": [
-        "chlüttere",
-        "chlöttere"
-    ],
-    "chnebelhag,": [
-        "chnebelhag,",
-        "Chnebelhaag,",
-        "chnebelhag.",
-        "Chnebelhààg,",
-        "Preggelhag,"
-    ],
-    "chnette": [
-        "chnette",
-        "chnäte",
-        "chnätte"
-    ],
-    "chnätte": [
-        "chnätte",
-        "chnäte",
-        "schnetze"
     ],
     "cho": [
         "cho",
@@ -7658,26 +5871,16 @@
         "chò",
         "Schprüzli",
         "geh",
-        "cho.",
-        "koo",
-        "cho,",
-        "cho...",
-        "go"
+        "cho."
     ],
     "cho go": [
         "chogo"
-    ],
-    "cho,": [
-        "cho,",
-        "cho",
-        "choo"
     ],
     "cho.": [
         "cho.",
         "choo,",
         "choo.",
-        "cho",
-        "choo"
+        "cho"
     ],
     "chofe": [
         "chofe",
@@ -7685,11 +5888,6 @@
     ],
     "chofe und": [
         "choufe,"
-    ],
-    "cholderits": [
-        "cholderits",
-        "cholderids",
-        "tosen"
     ],
     "chond": [
         "chond",
@@ -7730,9 +5928,7 @@
     ],
     "chrank": [
         "chrank",
-        "chrangg",
-        "chrànk",
-        "hatten"
+        "chrangg"
     ],
     "chreesänteli": [
         "chreesänteli",
@@ -7768,11 +5964,6 @@
         "chum",
         "chuum"
     ],
-    "chume": [
-        "chume",
-        "chumme",
-        "komme"
-    ],
     "chun": [
         "chun",
         "chuma"
@@ -7782,15 +5973,6 @@
         "chummer",
         "chu'mr"
     ],
-    "chund": [
-        "chund",
-        "chun",
-        "chundere"
-    ],
-    "chund ene": [
-        "chundere",
-        "chunndene"
-    ],
     "chunnt": [
         "chunnt",
         "chunt",
@@ -7798,10 +5980,7 @@
         "hont",
         "hout",
         "chont",
-        "chonnt",
-        "chunt p",
-        "chunt d",
-        "chon"
+        "chonnt"
     ],
     "chunt": [
         "chunt",
@@ -7819,10 +5998,6 @@
         "s'chum",
         "chum",
         "hung"
-    ],
-    "chämd.": [
-        "chämd.",
-        "chäm."
     ],
     "chäme": [
         "chäme",
@@ -7843,15 +6018,6 @@
         "allerletscht",
         "z allerletscht",
         "Chäpp"
-    ],
-    "chääs-": [
-        "chääs-",
-        "chäes",
-        "Chääs",
-        "chees..."
-    ],
-    "chääs- gääle": [
-        "chääsgääle"
     ],
     "chêne": [
         "chêne",
@@ -7878,16 +6044,7 @@
         "chömed",
         "chöme",
         "chömesi",
-        "chömme",
-        "chömid",
-        "chemmit",
-        "chämid",
-        "chämed"
-    ],
-    "chömme,": [
-        "chömme,",
-        "chömid,",
-        "chömid"
+        "chömme"
     ],
     "chön'r": [
         "chön'r",
@@ -7898,11 +6055,6 @@
         "chüne",
         "köne",
         "chönne.",
-        "chönne",
-        "chönnä"
-    ],
-    "chönna": [
-        "chönna",
         "chönne"
     ],
     "chönne": [
@@ -7910,29 +6062,17 @@
         "chänne",
         "chöne"
     ],
-    "chönne,": [
-        "chönne,",
-        "chönne.",
-        "nit",
-        "chönne"
-    ],
     "chönned": [
         "chönned",
         "chönne",
         "chönnesi",
         "chönnme",
-        "chönnäni",
-        "chöi",
-        "choi"
+        "chönnäni"
     ],
     "chönnedi": [
         "chönnedi",
         "chöne de",
         "chöne di"
-    ],
-    "chönni": [
-        "chönni",
-        "chänni"
     ],
     "chönnt": [
         "chönnt",
@@ -7972,10 +6112,6 @@
         "chönt",
         "chönnt"
     ],
-    "chüele,": [
-        "chüele,",
-        "chüele"
-    ],
     "chüngel": [
         "chüngel",
         "Chüngel"
@@ -7985,16 +6121,6 @@
         "chrischtigs",
         "chöschtigs",
         "***"
-    ],
-    "cke": [
-        "cke",
-        "",
-        "ke"
-    ],
-    "cke,": [
-        "cke,",
-        "rucke,",
-        "...cke,"
     ],
     "d": [
         "d",
@@ -8019,16 +6145,7 @@
     ],
     "d Lüt": [
         "dlüüt",
-        "dLüüt",
-        "lüteri",
-        "lüüteri"
-    ],
-    "d Mamè": [
-        "Mamme",
-        "ompMamen",
-        "d'Mame",
-        "der",
-        "d'Mamme"
+        "dLüüt"
     ],
     "d Ouge": [
         "d'Ouge",
@@ -8036,10 +6153,6 @@
     ],
     "d Schmitte": [
         "Schmitten"
-    ],
-    "d Schwögeri": [
-        "d'schwögeri",
-        "dSchwöögeri"
     ],
     "d Stube.": [
         "itSchtube",
@@ -8056,20 +6169,9 @@
         "d'Auge",
         "d'auge"
     ],
-    "d mueter": [
-        "dMueter",
-        "pMueter",
-        "d'Mueter",
-        "d'Muëter"
-    ],
     "d muusig": [
         "pMuusig",
         "d'Musig"
-    ],
-    "d schii": [
-        "d'Schii",
-        "Tschii",
-        "dSki"
     ],
     "d sihl": [
         "dSiil"
@@ -8085,10 +6187,6 @@
         "dur",
         "goond"
     ],
-    "d' Friehofrächnig": [
-        "Pfridhoofrächnig",
-        "d'Friedhofrechnig"
-    ],
     "d' Froi": [
         "d'Frau",
         "d'Fröüe"
@@ -8099,12 +6197,6 @@
     "d' Metzg": [
         "d'Metzg"
     ],
-    "d' Muire": [
-        "d'Muiren",
-        "d'Muire",
-        "d'muire",
-        "dMuiire"
-    ],
     "d' Sage": [
         "d'sage"
     ],
@@ -8112,19 +6204,9 @@
         "dSchtäärne",
         "Stärnegwapp"
     ],
-    "d' Weiri": [
-        "d'Weeri",
-        "d'wehri"
-    ],
     "d' Übergwicht": [
         "zübergwicht",
         "sÜbergwicht"
-    ],
-    "d'Arbeitslosaschuel": [
-        "d'Arbeitslosaschuel",
-        "Arbeitsloseschuel",
-        "itArbeitsloseschuel",
-        "d'Arbeitsloseschuel"
     ],
     "d'Auge": [
         "d'Auge",
@@ -8155,15 +6237,6 @@
         "d'Ermiedig",
         "Ermüedig",
         "tAermièdig"
-    ],
-    "d'Fabrek": [
-        "d'Fabrek",
-        "fabrik",
-        "ipFabrik",
-        "d Fabrik",
-        "d'Fabrick",
-        "d'Fabrik",
-        "Fabrick"
     ],
     "d'Fasnacht": [
         "d'Fasnacht",
@@ -8200,12 +6273,6 @@
         "d'Laddärne",
         "d Ladäärne"
     ],
-    "d'Loosig": [
-        "d'Loosig",
-        "Losig",
-        "Loosig",
-        "d'losig"
-    ],
     "d'Lyt": [
         "d'Lyt",
         "",
@@ -8216,14 +6283,6 @@
         "d'Lüt",
         "d Lüt",
         "Lüt"
-    ],
-    "d'Maischteri": [
-        "d'Maischteri",
-        "d Meischteri",
-        "hät",
-        "d'Meischteri",
-        "d'meischteri",
-        "Meischteri"
     ],
     "d'Meinig,": [
         "d'Meinig,",
@@ -8289,20 +6348,11 @@
         "d'Schwänz",
         "wänze"
     ],
-    "d'Schüel": [
-        "d'Schüel",
-        "d schule"
-    ],
     "d'Seil": [
         "d'Seil",
         "zäh u",
         "zääu",
         "das Seil"
-    ],
-    "d'Stadt": [
-        "d'Stadt",
-        "dStatt",
-        "dSchtatt"
     ],
     "d'Väärs": [
         "d'Väärs",
@@ -8322,34 +6372,11 @@
         "händPeck",
         "Beck"
     ],
-    "d'firwehr": [
-        "d'firwehr",
-        "d Fiirweer",
-        "Fiirweer.",
-        "d führwer",
-        "Pfürwehr",
-        "Pfiirwehr",
-        "d'Firwehr.",
-        "Pfiirweer",
-        "d'firweer"
-    ],
     "d'geissle": [
         "d'geissle",
         "d Geisle",
         "Ggeisle",
         "Geisle"
-    ],
-    "d'glocke": [
-        "d'glocke",
-        "d Glogge",
-        "g Gloggä",
-        "glogg e",
-        "i Glogg",
-        "d Glog-",
-        "Glog ge",
-        "d'Glogge",
-        "Glogge",
-        "d'gloggä"
     ],
     "d'hends": [
         "d'hends",
@@ -8398,13 +6425,6 @@
         "dSchuel",
         "d'Schuel"
     ],
-    "d'tafele": [
-        "d'tafele",
-        "d tafele",
-        "d'Tafele",
-        "tafele",
-        "Tafele"
-    ],
     "d'wiiber": [
         "d'wiiber",
         "",
@@ -8443,15 +6463,7 @@
         "",
         "es",
         "de",
-        "du",
-        "Da",
-        "Do",
-        "dra",
-        "draa",
-        "so",
-        "am",
-        "von",
-        "war"
+        "du"
     ],
     "da gse": [
         "dagsii"
@@ -8470,24 +6482,9 @@
         "deheem",
         "dehem"
     ],
-    "damals": [
-        "damals"
-    ],
     "damit": [
         "damit",
         "Damit"
-    ],
-    "damit's": [
-        "damit's",
-        "damit 's",
-        "damits",
-        "damit",
-        "Damits"
-    ],
-    "damolige": [
-        "damolige",
-        "damalige",
-        "zdamaalige"
     ],
     "darf": [
         "darf",
@@ -8530,19 +6527,10 @@
     "das er": [
         "dasèr"
     ],
-    "das ìsch": [
-        "dasch"
-    ],
     "das?": [
         "das?",
         "daas",
         "daas?"
-    ],
-    "dasich": [
-        "dasich",
-        "Das ich",
-        "dass ich",
-        "das ich"
     ],
     "dass": [
         "dass",
@@ -8553,22 +6541,7 @@
         "dasme",
         "as",
         "da",
-        "dos",
-        "dàs",
-        ""
-    ],
-    "dass ech": [
-        "dasich"
-    ],
-    "dass i": [
-        "dassi",
-        "ich"
-    ],
-    "dassmer": [
-        "dassmer",
-        "das me",
-        "dasmer",
-        "dass me"
+        "dos"
     ],
     "dazue": [
         "dazue",
@@ -8615,38 +6588,10 @@
         "'r",
         "Héder",
         "Heder",
-        "Hedder",
-        "Dann",
-        "dann",
-        "Da",
-        "wider",
-        "am",
-        "drum",
-        "Dr",
-        "Uflääs",
-        "de-n",
-        "me",
-        "er",
-        "I"
+        "Hedder"
     ],
     "de ***": [
         "Aeilene"
-    ],
-    "de Alpe": [
-        "denAlpe"
-    ],
-    "de Cha*": [
-        "Karl",
-        "dr'Chaar"
-    ],
-    "de Schinbei": [
-        "schienbei",
-        "Schiinbao",
-        "schiinbei"
-    ],
-    "de Schuss": [
-        "Schluss",
-        "beasprucht"
     ],
     "de abr": [
         "Wenn'j'aber"
@@ -8668,15 +6613,6 @@
     ],
     "de viert": [
         "d'Viert"
-    ],
-    "de...": [
-        "de...",
-        "",
-        "de -",
-        "dä.."
-    ],
-    "de... isch": [
-        "de...isch"
     ],
     "debii": [
         "debii",
@@ -8707,10 +6643,7 @@
     ],
     "deheime": [
         "deheime",
-        "diheime",
-        "deheim",
-        "dèhaime",
-        "dehäim"
+        "diheime"
     ],
     "deheime gsi": [
         "deheimegsi"
@@ -8728,8 +6661,7 @@
         "däm,",
         "em",
         "dém",
-        "demm",
-        "diesem"
+        "demm"
     ],
     "den": [
         "den",
@@ -8749,10 +6681,7 @@
     ],
     "dene": [
         "dene",
-        "däne",
-        "denä",
-        "nodäne",
-        "déne"
+        "däne"
     ],
     "denk": [
         "denk",
@@ -8778,21 +6707,7 @@
         "hänn",
         "dem",
         "dènn",
-        "Dän",
-        "itze",
-        "paar",
-        "jetz",
-        "no äs",
-        "mer",
-        "dann",
-        "ein",
-        "ez so",
-        "dä i"
-    ],
-    "denne": [
-        "denne",
-        "dennä",
-        ""
+        "Dän"
     ],
     "denneweg": [
         "denneweg",
@@ -8840,10 +6755,7 @@
         "där",
         "nu",
         "er",
-        "ide",
-        "dér",
-        "wo",
-        "***"
+        "ide"
     ],
     "der ???": [
         "Davaas",
@@ -8851,18 +6763,6 @@
     ],
     "der dörfer": [
         "döörfere"
-    ],
-    "derbi,": [
-        "derbi,",
-        "derbii,",
-        "derbijä:",
-        "däbi",
-        "debie,",
-        "derbie,",
-        "der bie,",
-        "drbïe,",
-        "derbiiè",
-        "derbiä,"
     ],
     "derbie,": [
         "derbie,",
@@ -8923,14 +6823,6 @@
         "derzue",
         "*** dezue"
     ],
-    "deräwääg": [
-        "deräwääg",
-        "derewäg",
-        "därewääg",
-        "dere Wäg",
-        "derewääg",
-        "dereweg"
-    ],
     "des": [
         "des",
         "das",
@@ -8947,19 +6839,7 @@
     ],
     "det": [
         "det",
-        "deet",
-        "dett",
-        "dert",
-        "",
-        "dört"
-    ],
-    "dete": [
-        "dete",
-        "detän",
-        "deete"
-    ],
-    "dete -n": [
-        "deete,"
+        "deet"
     ],
     "dete.": [
         "dete.",
@@ -8979,13 +6859,6 @@
         "deutlich",
         "",
         "dä nid"
-    ],
-    "devoo": [
-        "devoo",
-        "defoo"
-    ],
-    "devoo zoge": [
-        "devoozoge"
     ],
     "devor": [
         "devor",
@@ -9017,11 +6890,7 @@
         "die",
         "öi",
         "de",
-        "dii",
-        "ich",
-        "binid",
-        "***",
-        "Die"
+        "dii"
     ],
     "di ***": [
         "Bihäärdig"
@@ -9057,20 +6926,7 @@
         "ihr",
         "diä",
         "dië",
-        "Udi",
-        "dén",
-        "dann",
-        "",
-        "e",
-        "beiu",
-        "ufe",
-        "schi",
-        "diese",
-        "i",
-        "gsi",
-        "gsii",
-        "***",
-        "nie"
+        "Udi"
     ],
     "die na": [
         "déna è",
@@ -9095,24 +6951,9 @@
         "dieneti",
         "giengti"
     ],
-    "dienscht": [
-        "dienscht",
-        "dienst",
-        "Diänscht",
-        "Dienscht",
-        "Diènscht",
-        "Dienscht,"
-    ],
     "dihei": [
         "dihei",
         "dehei,"
-    ],
-    "diheim": [
-        "diheim",
-        "dihäim,",
-        "daheim",
-        "diheim,",
-        "dihaim"
     ],
     "diises": [
         "diises",
@@ -9123,22 +6964,9 @@
         "dire",
         "dere"
     ],
-    "diräkt": [
-        "diräkt",
-        "Diräkt",
-        "direkt"
-    ],
     "dis": [
         "dis",
         "diis"
-    ],
-    "dischpänsiert": [
-        "dischpänsiert",
-        "dispensiert",
-        "dispänsiert",
-        "tispänsièrt",
-        "dischpensiert",
-        "dischpensiërt"
     ],
     "disers": [
         "disers",
@@ -9186,10 +7014,7 @@
         "So",
         "drno",
         "derno",
-        "dä",
-        "do,",
-        "scho",
-        "drum"
+        "dä"
     ],
     "do muss": [
         "moni"
@@ -9197,23 +7022,10 @@
     "do nid": [
         "drnòò"
     ],
-    "do obe": [
-        "doobä"
-    ],
     "doch": [
         "doch",
         "Doch",
-        "",
-        "hättoch",
-        "So",
-        "***doch",
-        "docht"
-    ],
-    "doktor": [
-        "doktor",
-        "Tokter",
-        "tockter",
-        "Doktor"
+        ""
     ],
     "doo": [
         "doo",
@@ -9245,12 +7057,6 @@
         "schtoht",
         "dostoht"
     ],
-    "dosse": [
-        "dosse",
-        "usserd",
-        "ussert",
-        "ussr"
-    ],
     "dr": [
         "dr",
         "de",
@@ -9262,9 +7068,7 @@
         "dèr",
         "dè",
         "Dr",
-        "den",
-        "dure",
-        "dur"
+        "den"
     ],
     "dr ***": [
         "jeder"
@@ -9275,9 +7079,6 @@
     "dr aine": [
         "einere",
         "bidereine"
-    ],
-    "dr gmäind": [
-        "vergmäint"
     ],
     "dr'": [
         "dr'",
@@ -9296,17 +7097,6 @@
         "draa cho",
         "dra cho"
     ],
-    "drei": [
-        "drei",
-        "dri",
-        "drii",
-        "Dri"
-    ],
-    "dreit": [
-        "dreit",
-        "treid",
-        "trait"
-    ],
     "dri": [
         "dri",
         "drii",
@@ -9317,21 +7107,9 @@
     "dri inne": [
         "driniè"
     ],
-    "drii": [
-        "drii",
-        "drüü",
-        "drei,",
-        "drii,"
-    ],
     "drii,": [
         "drii,",
         "drü,"
-    ],
-    "driisgi": [
-        "driisgi",
-        "30",
-        "drissgi",
-        "30i"
     ],
     "drin.": [
         "drin.",
@@ -9357,13 +7135,6 @@
     ],
     "dritte Mau": [
         "drittemol"
-    ],
-    "dritti": [
-        "dritti"
-    ],
-    "dritti,": [
-        "dritti,",
-        "dritti"
     ],
     "drna": [
         "drna",
@@ -9446,25 +7217,6 @@
         "drüü",
         ""
     ],
-    "drü,": [
-        "drü,",
-        "drü",
-        "3 ..4",
-        "drüü,"
-    ],
-    "drüff": [
-        "drüff",
-        "drüf"
-    ],
-    "drüjährig": [
-        "drüjährig",
-        "drü jährig",
-        "drüjärig",
-        "dört drü",
-        "drüü järig",
-        "drüüjärig",
-        "de"
-    ],
     "drüü": [
         "drüü",
         "drü"
@@ -9481,9 +7233,6 @@
     "ds Land": [
         "z'Land"
     ],
-    "ds Mueti": [
-        "s'Muetti"
-    ],
     "ds Tintafàss": [
         "s'Tintefass"
     ],
@@ -9497,21 +7246,12 @@
         "u",
         "so"
     ],
-    "dua": [
-        "dua",
-        "do d",
-        "d",
-        "do",
-        "tue"
-    ],
     "ducke": [
         "ducke",
         "dunklet"
     ],
     "due": [
-        "due",
-        "",
-        "duè"
+        "due"
     ],
     "due *": [
         "zeerscht",
@@ -9534,39 +7274,16 @@
     ],
     "durab": [
         "durab",
-        "dorab",
-        "durapp",
-        "durap-",
-        "(bachab).",
-        "durab."
+        "dorab"
     ],
     "durab cho": [
         "durabcho"
-    ],
-    "durabb.": [
-        "durabb.",
-        "durapp",
-        "hinab.",
-        "durab"
-    ],
-    "durabbe": [
-        "durabbe",
-        "derabbe",
-        "derappe",
-        "dürappe"
-    ],
-    "durch": [
-        "durch",
-        "dr dur",
-        "dur",
-        "den dur"
     ],
     "dure": [
         "dure",
         "duure",
         "ohre",
-        "doore",
-        "durä"
+        "doore"
     ],
     "dure bringe": [
         "duurebringe",
@@ -9574,13 +7291,6 @@
     ],
     "dure z'drugge": [
         "duurezdrugge"
-    ],
-    "dure.": [
-        "dure.",
-        "dure!",
-        "dure,",
-        "",
-        "dure"
     ],
     "durenander": [
         "durenander",
@@ -9603,16 +7313,6 @@
         "duure",
         "dure"
     ],
-    "dwält": [
-        "dwält",
-        "d Wält",
-        "wält",
-        "d'Wäut",
-        "Wält",
-        "tWäl",
-        "d'Wält",
-        "welt"
-    ],
     "dä": [
         "dä",
         "dr",
@@ -9629,9 +7329,7 @@
         "dää",
         "Der",
         "Ude",
-        "Jägu,",
-        "där",
-        "das"
+        "Jägu,"
     ],
     "dä seb": [
         "desäb"
@@ -9666,10 +7364,6 @@
         "tängg",
         "dänn"
     ],
-    "dänkt,": [
-        "dänkt,",
-        "tänkt"
-    ],
     "dänktm": [
         "dänktm",
         "dänkt",
@@ -9686,11 +7380,7 @@
         "Dänn",
         "de",
         "dè",
-        "",
-        "dann",
-        "Untänn",
-        "den",
-        "dèn"
+        ""
     ],
     "därbi": [
         "därbi",
@@ -9716,14 +7406,6 @@
     "dää": [
         "dää",
         "de",
-        "dä"
-    ],
-    "dè": [
-        "dè",
-        "de",
-        "dr",
-        "där",
-        "den",
         "dä"
     ],
     "döre": [
@@ -9757,15 +7439,6 @@
         "düregsetzt,",
         "düregsetzt"
     ],
-    "düö": [
-        "düö",
-        "tüe",
-        "düè",
-        "dann",
-        "",
-        "düe",
-        "düä"
-    ],
     "e": [
         "e",
         "",
@@ -9795,17 +7468,10 @@
         "einen",
         "gut",
         "schütz",
-        "o",
-        "ein",
-        "muskel",
-        "Ch",
-        "si"
+        "o"
     ],
     "e ***": [
         "eschschüsslechs"
-    ],
-    "e Muskelfrog": [
-        "emuskelfrog"
     ],
     "e Tag": [
         "Tààg"
@@ -9820,21 +7486,10 @@
         "chli"
     ],
     "e chli": [
-        "echli",
-        "echli ä",
-        "(Höckerchen),"
-    ],
-    "e hose?": [
-        "Hosehaften"
+        "echli"
     ],
     "e jede": [
         "äjedä"
-    ],
-    "e kä": [
-        "akai"
-    ],
-    "e schene": [
-        "schééne"
     ],
     "e so": [
         "eso",
@@ -9845,9 +7500,6 @@
         "",
         "-e"
     ],
-    "eb": [
-        "eb"
-    ],
     "ebbe": [
         "ebbe",
         "s ebe",
@@ -9856,9 +7508,6 @@
     "ebe": [
         "ebe",
         "äbe"
-    ],
-    "ebe lohnmässig": [
-        "äbelohnmässig"
     ],
     "ebig": [
         "ebig",
@@ -9869,23 +7518,11 @@
     "ech": [
         "ech",
         "euch",
-        "nech",
-        "Ich",
-        "s'isch",
-        "ich",
-        "ééch"
+        "nech"
     ],
     "echli": [
         "echli",
-        "chli",
-        "echly",
-        "gmacht",
-        "",
-        "ein",
-        "uf",
-        "e chli",
-        "chly",
-        "e chly"
+        "chli"
     ],
     "eeni": [
         "eeni",
@@ -9964,39 +7601,16 @@
         "..",
         "aifach",
         "äifach",
-        "einfach",
-        "éifach",
-        "eifach...",
-        "",
-        "eîfach"
-    ],
-    "eifach ...": [
-        "uufgwachse"
+        "einfach"
     ],
     "eifach ir": [
         "eifacher",
         "äifacher"
     ],
-    "eifachi": [
-        "eifachi",
-        "eyfachi",
-        "ejfachi"
-    ],
     "eigene": [
         "eigene",
         "eigne",
         "aigene"
-    ],
-    "eigenlech": [
-        "eigenlech",
-        "eigentlich",
-        "aigentlich"
-    ],
-    "eigentlich": [
-        "eigentlich",
-        "éigentlich",
-        "eigetli",
-        "endlich"
     ],
     "eigete": [
         "eigete",
@@ -10037,8 +7651,7 @@
         "en",
         "eine",
         "au ä",
-        "au e",
-        "soeine"
+        "au e"
     ],
     "einer": [
         "einer",
@@ -10069,21 +7682,6 @@
         "Elias",
         "Eliias",
         "Diaz"
-    ],
-    "ellei": [
-        "ellei",
-        "allei",
-        "elei",
-        "eley"
-    ],
-    "eltere": [
-        "eltere",
-        "Eltere",
-        "Ältere",
-        "ältere",
-        "éltere",
-        "Eltere.",
-        "eltere."
     ],
     "em": [
         "em",
@@ -10117,11 +7715,6 @@
         "emene",
         ""
     ],
-    "emmer": [
-        "emmer",
-        "immer",
-        "denn"
-    ],
     "emne": [
         "emne",
         "e",
@@ -10135,11 +7728,6 @@
         "aumal",
         "èmol",
         "e Mol"
-    ],
-    "emu": [
-        "emu",
-        "aml",
-        "ame"
     ],
     "en": [
         "en",
@@ -10164,13 +7752,6 @@
         "imene",
         "dän"
     ],
-    "ena": [
-        "ena",
-        "ehe",
-        "éne",
-        "mer",
-        "enä"
-    ],
     "enand": [
         "enand"
     ],
@@ -10180,16 +7761,9 @@
         "End",
         "Aend"
     ],
-    "endi": [
-        "endi",
-        "Ände",
-        "Ändi"
-    ],
     "ene": [
         "ene",
-        "ééna",
-        "dere",
-        "z"
+        "ééna"
     ],
     "enewäg": [
         "enewäg",
@@ -10271,15 +7845,7 @@
         "bi",
         "Er",
         "ER",
-        "ner",
-        "erisch",
-        "richtig",
-        "di",
-        "obena",
-        "bliibu,",
-        "dir",
-        "du",
-        "n'er"
+        "ner"
     ],
     "er si": [
         "sich"
@@ -10309,41 +7875,16 @@
         "irgend",
         "eerger"
     ],
-    "erinere,": [
-        "erinere,",
-        "erinnere,",
-        "erinnere"
-    ],
     "erinnere": [
         "erinnere",
         "erinnere,",
-        "erninnere",
-        "erinnere."
-    ],
-    "erinnere,": [
-        "erinnere,",
-        "erinnere",
-        "erinnere.",
-        "erinnere?"
-    ],
-    "ermöglicht": [
-        "ermöglicht",
-        "ermüglich...",
-        "rmöglicht"
+        "erninnere"
     ],
     "ernste": [
         "ernste",
         "ärnschtä",
         "ärnschte",
         "äänrschte"
-    ],
-    "ersch": [
-        "ersch",
-        "erscht"
-    ],
-    "ersch ti": [
-        "éérschti",
-        "erschti"
     ],
     "erscht": [
         "erscht",
@@ -10353,19 +7894,7 @@
     ],
     "erschte": [
         "erschte",
-        "eerschte",
-        "erschti",
-        "eerschti",
-        "ersti"
-    ],
-    "erschti": [
-        "erschti",
-        "di ersti",
-        "d'eerschti"
-    ],
-    "erschtu": [
-        "erschtu",
-        "erst u"
+        "eerschte"
     ],
     "erste": [
         "erste",
@@ -10386,11 +7915,6 @@
         "erwartet",
         "erwarte",
         "èrwaarte"
-    ],
-    "erwünscht": [
-        "erwünscht",
-        "erwönscht",
-        "ärwünscht"
     ],
     "erzellä": [
         "erzellä",
@@ -10428,13 +7952,7 @@
         "gsets.",
         "fets",
         "häts",
-        "hets",
-        "albenes",
-        "ein",
-        "s",
-        "di",
-        "'s",
-        "ufe"
+        "hets"
     ],
     "es guet": [
         "Gwüssgott"
@@ -10442,25 +7960,13 @@
     "es met": [
         "ässen"
     ],
-    "es tue": [
-        "*****"
-    ],
     "esch": [
         "esch",
-        "isch",
-        "",
-        "isch,"
+        "isch"
     ],
     "esch der": [
         "ischt'r",
         "ischter"
-    ],
-    "esch...": [
-        "esch...",
-        "isch se",
-        "",
-        "isch",
-        "isch se..,"
     ],
     "escht,": [
         "escht,",
@@ -10474,10 +7980,7 @@
         "äsoo",
         "e so",
         "ä so",
-        "nidèso",
-        "so",
-        "i",
-        "äso"
+        "nidèso"
     ],
     "espaneuropa": [
         "espaneuropa",
@@ -10489,10 +7992,6 @@
     "esse": [
         "esse",
         "z'Ässe"
-    ],
-    "etlismal": [
-        "etlismal",
-        "ettlis Mal"
     ],
     "etz": [
         "etz",
@@ -10553,23 +8052,9 @@
         "gfange,",
         "fange."
     ],
-    "fangi": [
-        "fangi",
-        "fang i",
-        "Fang i"
-    ],
-    "fantastischi": [
-        "fantastischi",
-        "fantasteschi"
-    ],
     "faschd": [
         "faschd",
         "fascht",
-        "fasch"
-    ],
-    "fascht": [
-        "fascht",
-        "fasch e",
         "fasch"
     ],
     "faschttag": [
@@ -10598,10 +8083,6 @@
         "füürige",
         "fürige"
     ],
-    "fiin": [
-        "fiin",
-        "fin"
-    ],
     "fiin,": [
         "fiin,",
         "fii",
@@ -10613,28 +8094,12 @@
         "Fiir",
         "Tier"
     ],
-    "finde,": [
-        "finde,",
-        "finge,"
-    ],
     "finschter,": [
         "finschter,",
         "finschter"
     ],
     "flache": [
         "flache"
-    ],
-    "fleuebutz": [
-        "fleuebutz",
-        "Fleijebutz",
-        "Chläüäputz",
-        "chleuepuz",
-        "..",
-        "Chläüebutz,",
-        "Kloieputz",
-        "Chlöieputz",
-        "Flöierbutz",
-        "???"
     ],
     "fliegen": [
         "fliegen",
@@ -10645,25 +8110,11 @@
         "flügel",
         "Flügel"
     ],
-    "fmiliemitglieder": [
-        "fmiliemitglieder",
-        "Familiemitglieder",
-        "Familiemitglider"
-    ],
-    "foifti": [
-        "foifti",
-        "feufti",
-        "föifti"
-    ],
     "forme": [
         "forme",
         "foorme",
         "forme***",
         "foäme"
-    ],
-    "foti": [
-        "foti",
-        "Foti"
     ],
     "fraaged": [
         "fraaged",
@@ -10671,12 +8122,6 @@
         "froogetne",
         "frooget",
         "fraget"
-    ],
-    "frage,": [
-        "frage,",
-        "frage",
-        "frache",
-        "fraage"
     ],
     "frau": [
         "frau",
@@ -10733,17 +8178,6 @@
         "mich",
         "friilig"
     ],
-    "frine": [
-        "frine",
-        "friine",
-        "chliine"
-    ],
-    "frinä": [
-        "frinä",
-        "chliine",
-        "kleinen",
-        "chline"
-    ],
     "frisch": [
         "frisch",
         "früsch",
@@ -10751,9 +8185,7 @@
     ],
     "froh": [
         "froh",
-        "frou",
-        "",
-        "froh,"
+        "frou"
     ],
     "froogt": [
         "froogt",
@@ -10793,17 +8225,13 @@
     "früecher": [
         "früecher",
         "früècher",
-        "friächer",
-        "früehcher",
-        "Früehner"
+        "friächer"
     ],
     "früehner": [
         "früehner",
         "frier",
         "früeher",
-        "frièrer",
-        "jo, früner",
-        "früener"
+        "frièrer"
     ],
     "früehnere": [
         "früehnere",
@@ -10814,12 +8242,7 @@
         "früener",
         "früe",
         "früender",
-        "früner",
-        "früenr,"
-    ],
-    "früener ,": [
-        "frühener,",
-        "früener,"
+        "früner"
     ],
     "früenere": [
         "früenere",
@@ -10838,21 +8261,6 @@
         "fuchtelt",
         "fuchtled",
         "fuchtlet"
-    ],
-    "fure": [
-        "fure",
-        "Pure",
-        "Puurä",
-        "bure",
-        "i use",
-        "Puure",
-        "Puire",
-        "d'Buire",
-        "buurä"
-    ],
-    "furt": [
-        "furt",
-        "fort"
     ],
     "fuul": [
         "fuul"
@@ -10913,25 +8321,11 @@
     "föri schriesse": [
         "fürischriisse"
     ],
-    "föteli": [
-        "föteli",
-        "Föteli"
-    ],
-    "füechte": [
-        "füechte"
-    ],
     "füfliber": [
         "füfliber",
         "Füüfliiber",
         "Füfliiber,",
         "Füfliiber"
-    ],
-    "füfsäni": [
-        "füfsäni",
-        "füfzäh"
-    ],
-    "füfsäni ähä": [
-        "füfzääne***??"
     ],
     "füft": [
         "füft",
@@ -10945,16 +8339,6 @@
     "füler usgseh": [
         "***usgséé"
     ],
-    "fünfäzwänzgtuusig": [
-        "fünfäzwänzgtuusig",
-        "Fünfezwänzgtuusig",
-        "fünfezwänzgtuusig",
-        "fönfezwänzgtuusig",
-        "fümfezwänzgtuusig",
-        "fümfezwanzgtuusig",
-        "fümfezwänzg tuusig",
-        "fümfezwänzgduusig"
-    ],
     "für": [
         "für",
         "füre",
@@ -10963,8 +8347,7 @@
         "zun",
         "vèr",
         "al",
-        "füt",
-        "für...für"
+        "füt"
     ],
     "für e": [
         "fürne"
@@ -11006,10 +8389,7 @@
     ],
     "ga": [
         "ga",
-        "go",
-        "gaa",
-        "gaah",
-        "gah"
+        "go"
     ],
     "gaa,": [
         "gaa,",
@@ -11026,11 +8406,6 @@
         "gaat",
         "gaad",
         "gaht"
-    ],
-    "gachaffet": [
-        "gachaffet",
-        "gschaffet",
-        "Gschaffet"
     ],
     "gad": [
         "gad",
@@ -11054,32 +8429,18 @@
         "goht",
         "goat"
     ],
-    "gang": [
-        "gang",
-        "gand",
-        "gant"
-    ],
-    "gang fure": [
-        "ganPuuire"
-    ],
     "gange": [
         "gange",
         "ggangen",
         "ggange",
         "gangen",
-        "gangän",
-        "gongä",
-        "gangä"
+        "gangän"
     ],
     "gange esch": [
         "ggangenisch"
     ],
     "ganz": [
-        "ganz",
-        "glaube",
-        "",
-        "a",
-        "ganze"
+        "ganz"
     ],
     "ganz,": [
         "ganz,",
@@ -11126,10 +8487,6 @@
     "gege de": [
         "gägete"
     ],
-    "geh": [
-        "geh",
-        "gä"
-    ],
     "gehabt": [
         "gehabt",
         "gha",
@@ -11159,14 +8516,6 @@
     ],
     "geits": [
         "geits"
-    ],
-    "gelegt,": [
-        "gelegt,",
-        "gleyt",
-        "uf ***",
-        "gleit",
-        "gleijd",
-        "gleit,"
     ],
     "gemmer": [
         "gemmer",
@@ -11202,23 +8551,9 @@
         "geschter",
         "geschtert"
     ],
-    "geseit": [
-        "geseit",
-        "gseit:",
-        "gseid,",
-        "gseit"
-    ],
     "getàn": [
         "getàn",
         "to"
-    ],
-    "gewesen": [
-        "gewesen",
-        "gsi"
-    ],
-    "gfahre": [
-        "gfahre",
-        ""
     ],
     "gfalle": [
         "gfalle",
@@ -11256,16 +8591,6 @@
     "gfäärtige": [
         "gfäärtige"
     ],
-    "gfürt": [
-        "gfürt",
-        "gfüehrt...mhmm",
-        "gfüert",
-        "gefüehrt"
-    ],
-    "gfürt s": [
-        "gfüehrt.",
-        "gfüert"
-    ],
     "ggee": [
         "ggee",
         "geh",
@@ -11282,16 +8607,7 @@
         "gah",
         "ghaa",
         "Gha,,",
-        "***gha",
-        "ghàà",
-        "***",
-        "ggha"
-    ],
-    "gha,": [
-        "gha,",
-        "gha",
-        "ghaa",
-        "kha,"
+        "***gha"
     ],
     "gha.": [
         "gha.",
@@ -11305,11 +8621,6 @@
         "gchaa",
         "denn",
         "gha."
-    ],
-    "ghaa,": [
-        "ghaa,",
-        "gah",
-        "gha"
     ],
     "ghaa.": [
         "ghaa.",
@@ -11341,16 +8652,6 @@
         "gheissned",
         "gheinznet"
     ],
-    "ghert": [
-        "ghert",
-        "khert",
-        "ghört",
-        "geheert",
-        "ersch"
-    ],
-    "ghert me": [
-        "ghörtme"
-    ],
     "gheuet,": [
         "gheuet,",
         "ghöyet",
@@ -11361,17 +8662,6 @@
         "gho",
         "gha",
         "gah"
-    ],
-    "ghockt": [
-        "ghockt",
-        "ghocket."
-    ],
-    "ghockt,": [
-        "ghockt,",
-        "ghockt.",
-        "ghokt",
-        "gesessen",
-        "ghockt"
     ],
     "ghoolt": [
         "ghoolt",
@@ -11385,24 +8675,11 @@
         "ghaa,",
         "ghää"
     ],
-    "ghäisse": [
-        "ghäisse",
-        "gheisse",
-        "ghaisse",
-        "geheissen",
-        "ghäissa",
-        "ghäisse,"
-    ],
     "ghääbe": [
         "ghääbe",
         "gheebä",
         "ghäbe",
         "gha"
-    ],
-    "ghöcklet": [
-        "ghöcklet",
-        "",
-        "cklet,"
     ],
     "ghöre": [
         "ghöre",
@@ -11411,30 +8688,6 @@
     "ghört": [
         "ghört",
         "ghöört"
-    ],
-    "ghört,": [
-        "ghört,",
-        "ghöört,",
-        "ghört"
-    ],
-    "ghüratet": [
-        "ghüratet",
-        "geheiratet",
-        "ghüratet,"
-    ],
-    "ghüratet und": [
-        "ghürotet,und"
-    ],
-    "gi": [
-        "gi",
-        "gsi",
-        "gsy",
-        "gsii"
-    ],
-    "gigu": [
-        "gigu",
-        "giiger",
-        "Giiger"
     ],
     "gigäh.": [
         "gigäh.",
@@ -11486,9 +8739,7 @@
         "gits",
         "git",
         "giz",
-        "gitts",
-        "Guts",
-        "gitt's"
+        "gitts"
     ],
     "gits..": [
         "gits..",
@@ -11513,37 +8764,12 @@
         "gglachet",
         "glachet"
     ],
-    "glaub": [
-        "glaub",
-        "gloub",
-        "gläb",
-        "",
-        "fürglaub",
-        "glaub,"
-    ],
     "glaube": [
         "glaube"
-    ],
-    "glaube,": [
-        "glaube,",
-        "glaube"
-    ],
-    "glaubs...": [
-        "glaubs...",
-        "glaub",
-        "",
-        "glaubs"
     ],
     "glaubt": [
         "glaubt",
         "glaubt,"
-    ],
-    "glehrt": [
-        "glehrt",
-        "gleert",
-        "glehrt,",
-        "glehrt.",
-        "glert,"
     ],
     "gleitig": [
         "gleitig",
@@ -11571,12 +8797,6 @@
     "glich gwooget": [
         "trotzdem."
     ],
-    "glichä": [
-        "glichä",
-        "gliche",
-        "gliiche",
-        "glyche"
-    ],
     "glii": [
         "glii",
         "Gligli",
@@ -11589,25 +8809,10 @@
         "gli",
         ""
     ],
-    "gliiche": [
-        "gliiche",
-        "gliche",
-        "gliichä"
-    ],
     "glitzerig": [
         "glitzerig",
         "Glizerig",
         "glizerig"
-    ],
-    "gloffe": [
-        "gloffe",
-        "ggloffe.",
-        "gloffe."
-    ],
-    "gloset": [
-        "gloset",
-        "ggloset",
-        "gloset."
     ],
     "gluckst": [
         "gluckst",
@@ -11627,30 +8832,15 @@
     "glänzt": [
         "glänzt"
     ],
-    "gläse": [
-        "gläse",
-        "las"
-    ],
     "glääge,": [
         "glääge,",
         "gläge,",
         "gläge",
         "gsii,"
     ],
-    "glöklech": [
-        "glöklech",
-        "gkücklich",
-        "glücklich"
-    ],
     "glöst": [
         "glöst",
         "glööst"
-    ],
-    "glück": [
-        "glück",
-        "Glöck",
-        "glöck",
-        "Glück"
     ],
     "glücklich.": [
         "glücklich.",
@@ -11660,10 +8850,7 @@
     "gmacht": [
         "gmacht",
         "ggmacht",
-        "gmacht.",
-        "",
-        "g'macht,",
-        "gmacht,"
+        "gmacht."
     ],
     "gmacht,": [
         "gmacht,",
@@ -11697,15 +8884,6 @@
         "gmächli",
         "gächlich"
     ],
-    "gmäind": [
-        "gmäind",
-        "gmeint",
-        "gmaint",
-        "gmäint"
-    ],
-    "gmäind gha": [
-        "geglaubt"
-    ],
     "gmües": [
         "gmües",
         "flaisch",
@@ -11728,9 +8906,6 @@
         "gnoo",
         "gnoo,"
     ],
-    "gno will": [
-        "gnowil"
-    ],
     "gno,": [
         "gno,",
         "gno",
@@ -11746,10 +8921,6 @@
         "genug",
         "gnuè",
         "gnuë"
-    ],
-    "gnueg,": [
-        "gnueg,",
-        "rüef nue."
     ],
     "gnug.": [
         "gnug.",
@@ -11781,10 +8952,6 @@
         "gnueg",
         "tnueg"
     ],
-    "gnützt": [
-        "gnützt",
-        "g'nützt."
-    ],
     "go": [
         "go",
         "ga",
@@ -11794,25 +8961,10 @@
         "äs",
         "es"
     ],
-    "go go": [
-        "goge",
-        "Goge"
-    ],
-    "go luege": [
-        "golurge"
-    ],
     "goge": [
         "goge",
         "gaht",
         ""
-    ],
-    "goh": [
-        "goh",
-        "goh,",
-        "gehen",
-        "goo",
-        "gooh",
-        "go,"
     ],
     "goht": [
         "goht",
@@ -11824,18 +8976,11 @@
         "do",
         "gaand"
     ],
-    "gohts": [
-        "gohts",
-        "gahts"
-    ],
     "goldi,": [
         "goldi,",
         "Goldig,",
         "goldi",
         "Goldig"
-    ],
-    "goldigi": [
-        "goldigi"
     ],
     "gonz": [
         "gonz",
@@ -11855,38 +9000,13 @@
         "goht,",
         "gaht"
     ],
-    "gottfried": [
-        "gottfried",
-        "****jo",
-        "ja gopfried",
-        "jez"
-    ],
-    "gottfried stutz": [
-        "Gpfridstutz,"
-    ],
     "grad": [
         "grad",
         "gaad",
         "gerade",
         "graad",
         "**",
-        "",
-        "Grad",
-        "gad"
-    ],
-    "gratet": [
-        "gratet",
-        "Grates",
-        "gradet",
-        "graatet",
-        "graated"
-    ],
-    "gratet mr": [
-        "graatetmer"
-    ],
-    "greescht": [
-        "greescht",
-        "grescht"
+        ""
     ],
     "greschdi": [
         "greschdi",
@@ -11903,15 +9023,7 @@
     ],
     "grosse": [
         "grosse",
-        "groose",
-        "grossen",
-        "grousse"
-    ],
-    "grosses": [
-        "grosses"
-    ],
-    "grossi": [
-        "grossi"
+        "groose"
     ],
     "grossvatter": [
         "grossvatter",
@@ -11924,17 +9036,8 @@
         "gruuschet",
         "ggruuschet"
     ],
-    "grutscht,": [
-        "grutscht,",
-        "rutschte,"
-    ],
     "grächnet": [
         "grächnet"
-    ],
-    "gröschte": [
-        "gröschte",
-        "tröschtäd",
-        "grüschtet"
     ],
     "grössere": [
         "grössere",
@@ -11944,15 +9047,6 @@
         "gröuschte",
         "grööschte",
         "gröschte"
-    ],
-    "grööschddy": [
-        "grööschddy",
-        "gröschti",
-        "grööscht",
-        "früeschte",
-        "grösstes",
-        "grössti",
-        "grööschte"
     ],
     "gröössere": [
         "gröössere",
@@ -11970,17 +9064,6 @@
     ],
     "grüüseli": [
         "grüüseli"
-    ],
-    "grüüsligen": [
-        "grüüsligen",
-        "grüslige"
-    ],
-    "gsa": [
-        "gsa",
-        "gsi",
-        "gsi,",
-        "",
-        "dass"
     ],
     "gsaat": [
         "gsaat",
@@ -12001,11 +9084,6 @@
     "gsatzligschte": [
         "gsatzligschte",
         "gsazligschta"
-    ],
-    "gschaffet": [
-        "gschaffet",
-        "gschaffed",
-        "g'schaffed"
     ],
     "gschickt": [
         "gschickt"
@@ -12033,14 +9111,6 @@
         "gschlarget",
         "gschlaarpet"
     ],
-    "gschlängg": [
-        "gschlängg",
-        "***",
-        "gschlämmt",
-        "schlämpt",
-        "schlänt",
-        "Gschlämp"
-    ],
     "gschmiert": [
         "gschmiert",
         "gschmiert.",
@@ -12062,11 +9132,6 @@
         "gschosse",
         "gschossä,"
     ],
-    "gschpilt": [
-        "gschpilt",
-        "gspillt",
-        "gschpillt"
-    ],
     "gschränzt": [
         "gschränzt",
         "gschränz"
@@ -12075,11 +9140,6 @@
         "gschtauet",
         "gstaued",
         "gschtaued"
-    ],
-    "gschtollnige": [
-        "gschtollnige",
-        "gschtolnige",
-        "gstollnige"
     ],
     "gschtorbe": [
         "gschtorbe",
@@ -12098,28 +9158,6 @@
         "gschwungeni",
         "gschwungne",
         "gwschungne"
-    ],
-    "gschäft": [
-        "gschäft",
-        "Gschäfft",
-        "Gschäft"
-    ],
-    "gschäftli": [
-        "gschäftli",
-        "Gschäfftli",
-        "Gschäftli"
-    ],
-    "gschänzt.": [
-        "gschänzt.",
-        "gschränzt",
-        "gschrämt",
-        "(lärmte).",
-        "gschränzt,"
-    ],
-    "gschützt": [
-        "gschützt",
-        "gschötzt",
-        ""
     ],
     "gse": [
         "gse",
@@ -12141,16 +9179,7 @@
     ],
     "gseh": [
         "gseh",
-        "gsee",
-        "gséé"
-    ],
-    "gseh,": [
-        "gseh,",
-        "gsee,",
-        "gséé",
-        "realisiert",
-        "gesh",
-        "i gse,"
+        "gsee"
     ],
     "gseht": [
         "gseht",
@@ -12174,32 +9203,11 @@
         "g'sait.",
         "g'seit.",
         "gseit.",
-        "gsäit.",
-        "gstürmt,",
-        "gsäit,",
-        "gschtöönt",
-        "si immer",
-        "gsait,",
-        "gsäit"
-    ],
-    "gseit,": [
-        "gseit,",
-        "gseit",
-        "gseît,",
-        "gseyt",
-        "gseijt"
+        "gsäit."
     ],
     "gseit.": [
         "gseit.",
         "gsäid"
-    ],
-    "gseit:": [
-        "gseit:",
-        "gseit",
-        "gseît,",
-        "gseyt",
-        "gseit,",
-        "gseijt,"
     ],
     "gset,": [
         "gset,",
@@ -12225,18 +9233,7 @@
         "gsi,",
         "gsi.",
         "gse",
-        "gseh",
-        "wie",
-        "gewesen",
-        "hier",
-        "bereits",
-        "gsè",
-        "gsii,",
-        "gsé",
-        "gso"
-    ],
-    "gsi aso": [
-        "gsi,aso"
+        "gseh"
     ],
     "gsi,": [
         "gsi,",
@@ -12246,13 +9243,7 @@
         "fing",
         "gewesen",
         "gsi",
-        "gsii.",
-        "gsy",
-        "gsy,",
-        "xii,",
-        "drüerei",
-        "sind.",
-        "gsi."
+        "gsii."
     ],
     "gsi.": [
         "gsi.",
@@ -12265,9 +9256,7 @@
         "gsy.",
         "gse.",
         "gsy",
-        "gsii",
-        "Aber",
-        ""
+        "gsii"
     ],
     "gsii": [
         "gsii",
@@ -12275,16 +9264,13 @@
         "gse",
         "gsii,",
         "gsy,",
-        "xi,",
-        "gsi,"
+        "xi,"
     ],
     "gsii,": [
         "gsii,",
         "gsééj",
         "gis",
-        "gsi,",
-        "gsy",
-        "gsii"
+        "gsi,"
     ],
     "gsii.": [
         "gsii.",
@@ -12293,13 +9279,6 @@
         "gsii",
         "gis",
         "gsy"
-    ],
-    "gsondhäitleche": [
-        "gsondhäitleche",
-        "gsundheitliche",
-        "gsundheidliche",
-        "gsundhaitliche",
-        "gsundhaitlche"
     ],
     "gsotte": [
         "gsotte"
@@ -12328,11 +9307,6 @@
         "gschtange",
         "gstange,"
     ],
-    "gstellt.": [
-        "gstellt.",
-        "es....",
-        "pschtellt."
-    ],
     "gstorbe": [
         "gstorbe",
         "gschtorben",
@@ -12345,33 +9319,6 @@
         "gsund",
         "gsunnt",
         "gsund,"
-    ],
-    "gsy": [
-        "gsy",
-        "gsi,",
-        "gsii",
-        "gsi",
-        "Es",
-        "war,"
-    ],
-    "gsyy": [
-        "gsyy",
-        "gsi",
-        "gsi.",
-        "gsii",
-        "gsy",
-        "gewesen"
-    ],
-    "gsyy,": [
-        "gsyy,",
-        "gsi.",
-        "gsi",
-        "gsii,",
-        "gsi,",
-        "gsy,",
-        "Mutter",
-        "gsy",
-        "gis"
     ],
     "gsässe": [
         "gsässe",
@@ -12432,12 +9379,6 @@
         "gle,",
         "gne"
     ],
-    "gwaltä": [
-        "gwaltä",
-        "Gwallte",
-        "Gewalten.",
-        "Gwalter"
-    ],
     "gwartet": [
         "gwartet",
         "gwaartet"
@@ -12457,12 +9398,6 @@
         "gwohnet",
         "Gwanet",
         "Gwohnet"
-    ],
-    "gwonnt": [
-        "gwonnt",
-        "gwohnt",
-        "gwohnt.",
-        "***"
     ],
     "gwooget": [
         "gwooget",
@@ -12484,10 +9419,6 @@
         "gwiibet",
         "glüütet",
         "gsuecht"
-    ],
-    "gwäschä": [
-        "gwäschä",
-        "gwäsche"
     ],
     "gwöhnleche": [
         "gwöhnleche",
@@ -12528,34 +9459,17 @@
         "gwüssd",
         "gwüst"
     ],
-    "gwüsst,": [
-        "gwüsst,",
-        "gwüsst.",
-        "gwüsst"
-    ],
     "gä": [
         "gä",
         "gäh",
         "ggää",
         "geh.",
         "ggä",
-        "gè",
-        "geh",
-        "ge"
-    ],
-    "gä und": [
-        "ggää"
+        "gè"
     ],
     "gäb": [
         "gäb",
         "gebe"
-    ],
-    "gäbärä": [
-        "gäbärä",
-        "gebere",
-        "gäbere",
-        "gäber e",
-        "gäb er"
     ],
     "gäch": [
         "gäch",
@@ -12584,29 +9498,10 @@
         "gäh.",
         "gää."
     ],
-    "gähh,": [
-        "gähh,",
-        "gä,",
-        "gäh,",
-        "gä"
-    ],
     "gärn": [
         "gärn",
         "gern",
         "gäärn"
-    ],
-    "gää,": [
-        "gää,",
-        "gäh,",
-        "gä,",
-        "ggä,",
-        ""
-    ],
-    "gääle": [
-        "gääle",
-        "gäle",
-        "gäl",
-        "...gääle"
     ],
     "gäär": [
         "gäär",
@@ -12646,9 +9541,6 @@
         "günnt",
         ""
     ],
-    "h": [
-        "h"
-    ],
     "ha": [
         "ha",
         "",
@@ -12657,8 +9549,7 @@
         "hää",
         "haa",
         "ha,",
-        "han",
-        "hà"
+        "han"
     ],
     "ha.": [
         "ha.",
@@ -12670,12 +9561,6 @@
         "haa",
         "ha",
         "ha."
-    ],
-    "habe": [
-        "habe",
-        "und",
-        "hani",
-        "den ha"
     ],
     "haben": [
         "haben",
@@ -12689,24 +9574,11 @@
         "meh",
         "hät,",
         "waas",
-        "was hen",
-        "eine",
-        "ha.",
-        "ha,"
+        "was hen"
     ],
     "habs": [
         "habs",
         "has"
-    ],
-    "hackbrättlär": [
-        "hackbrättlär",
-        "hackbrettler",
-        "Hackbrettler"
-    ],
-    "halbbrüeder": [
-        "halbbrüeder",
-        "Halbbruder",
-        "Halbbrüeder"
     ],
     "halbe": [
         "halbe",
@@ -12724,12 +9596,6 @@
         "halb Ziit",
         "halbziit",
         "halb"
-    ],
-    "hald": [
-        "hald",
-        "Halt",
-        "halt",
-        ""
     ],
     "halt": [
         "halt",
@@ -12769,22 +9635,10 @@
     ],
     "han": [
         "han",
-        "hani",
-        "ha n",
-        "schaffte",
-        "habe",
-        "hane",
-        "hann",
-        "halt"
-    ],
-    "han e": [
-        "ganz"
+        "hani"
     ],
     "han i": [
         "hani"
-    ],
-    "han ich": [
-        "hanich"
     ],
     "han.": [
         "han.",
@@ -12800,13 +9654,6 @@
         "hend",
         "hatten"
     ],
-    "hanem": [
-        "hanem",
-        "hanen",
-        "han",
-        "gehane",
-        "hanä"
-    ],
     "hanget": [
         "hanget",
         "hanget."
@@ -12817,24 +9664,12 @@
         "han`i",
         "han i",
         "ha i",
-        "han y",
-        "hàni",
-        "ich"
-    ],
-    "hanich": [
-        "hanich",
-        "hani",
-        "han i"
+        "han y"
     ],
     "hanie": [
         "hanie",
         "hani",
         "han i"
-    ],
-    "hans": [
-        "hans",
-        "han s",
-        "han's"
     ],
     "har": [
         "har",
@@ -12844,8 +9679,7 @@
         "hat",
         "hät",
         "het",
-        "hét",
-        "die"
+        "hét"
     ],
     "hauptsächli": [
         "hauptsächli",
@@ -12895,9 +9729,7 @@
         "hätter",
         "hët",
         "hät,",
-        "hat",
-        "due",
-        "hett"
+        "hat"
     ],
     "hed er": [
         "häder"
@@ -12946,9 +9778,7 @@
         "",
         "haben",
         "hey",
-        "heysi",
-        "händ",
-        "hend"
+        "heysi"
     ],
     "hei er": [
         "héyèr"
@@ -13000,8 +9830,7 @@
     ],
     "heim": [
         "heim",
-        "hei",
-        "hai"
+        "hei"
     ],
     "heim mir": [
         "heymer"
@@ -13043,13 +9872,6 @@
         "haid si",
         "häindsi"
     ],
-    "heiwäg": [
-        "heiwäg",
-        "Häiwäg",
-        "Heiwäg",
-        "Heiwääg",
-        "Heiweg"
-    ],
     "helle": [
         "helle"
     ],
@@ -13089,23 +9911,10 @@
         "hen.",
         "hänn",
         "hän.",
-        "häd",
-        "händ,",
-        "hends,",
-        "haben",
-        "nin",
-        "hends",
-        "ejint",
-        "ganz",
-        "hei",
-        "***,",
-        "hani"
+        "häd"
     ],
     "hend au": [
         "händau"
-    ],
-    "hend jo": [
-        "i ha"
     ],
     "hend,": [
         "hend,",
@@ -13125,16 +9934,7 @@
         "hän sich",
         "hend",
         "sich",
-        "bereit",
-        "hend s",
-        "händsi",
-        "het"
-    ],
-    "hendsi": [
-        "hendsi",
-        "hend si",
-        "het",
-        "hend's"
+        "bereit"
     ],
     "henkt": [
         "henkt",
@@ -13144,11 +9944,6 @@
         "heno",
         "Psuech:",
         "henno"
-    ],
-    "henses": [
-        "henses",
-        "hets",
-        "hätses"
     ],
     "hent": [
         "hent",
@@ -13172,11 +9967,6 @@
         "herä",
         "häre",
         "hère"
-    ],
-    "herein,": [
-        "herein,",
-        "Chüjine",
-        "inne,"
     ],
     "herr": [
         "herr",
@@ -13230,12 +10020,7 @@
         "HÄT",
         "hatte",
         "hèd",
-        "hetem",
-        "die",
-        "vil",
-        "sehr",
-        "***",
-        "isch"
+        "hetem"
     ],
     "het em": [
         "hättem"
@@ -13243,8 +10028,7 @@
     "het er": [
         "heters",
         "häter",
-        "häders",
-        "hätter"
+        "häders"
     ],
     "het me": [
         "häpme",
@@ -13263,17 +10047,6 @@
         "hetne",
         "hätne"
     ],
-    "het sa": [
-        "isch"
-    ],
-    "het's": [
-        "het's",
-        "hetts",
-        "héts",
-        "hets",
-        "drehte es",
-        "het s"
-    ],
     "het,": [
         "het,",
         "hed",
@@ -13281,19 +10054,12 @@
         "hät",
         "heig",
         "hett",
-        "hät,",
-        "",
-        "hed,"
-    ],
-    "het, s": [
-        "hätts"
+        "hät,"
     ],
     "het.": [
         "het.",
         "het",
-        "hät",
-        "hät.",
-        "hett"
+        "hät"
     ],
     "heted": [
         "heted",
@@ -13358,15 +10124,7 @@
         "het's",
         "hätz",
         "hez",
-        "het s",
-        "héts",
-        "hat es",
-        "het",
-        "hetzes"
-    ],
-    "hett": [
-        "hett",
-        "het"
+        "het s"
     ],
     "hetted": [
         "hetted",
@@ -13381,12 +10139,6 @@
     "hettet er": [
         "hätteder",
         "hätteter"
-    ],
-    "hetti": [
-        "hetti",
-        "hätti",
-        "häti",
-        "hätty"
     ],
     "hi": [
         "hi",
@@ -13417,20 +10169,12 @@
         "hindedure",
         "HINDERDURE"
     ],
-    "hinder": [
-        "hinder",
-        "hindr"
-    ],
     "hinderem": [
         "hinderem",
         "hinder em"
     ],
     "hinderi": [
         "hinderi"
-    ],
-    "hinders": [
-        "hinders",
-        "hinder"
     ],
     "hinderschi": [
         "hinderschi"
@@ -13461,13 +10205,6 @@
         "hoche",
         "hoochen",
         ""
-    ],
-    "hose?": [
-        "hose?",
-        "hosehafte",
-        "Hosehafte",
-        "hose***",
-        "***"
     ],
     "houen": [
         "houen",
@@ -13502,10 +10239,6 @@
         "huut",
         "Huut"
     ],
-    "huufe": [
-        "huufe",
-        "Huufe"
-    ],
     "huus": [
         "huus",
         "Huus"
@@ -13514,13 +10247,6 @@
         "hä,",
         "he,",
         "hä -"
-    ],
-    "häb": [
-        "häb",
-        "halte"
-    ],
-    "häb mi": [
-        "häbmi"
     ],
     "häd": [
         "häd",
@@ -13568,11 +10294,7 @@
     "hämmer": [
         "hämmer",
         "hemmer",
-        "hämer",
-        "hä mer",
-        "mer ez",
-        "mer",
-        "wir jetzt"
+        "hämer"
     ],
     "hämr": [
         "hämr",
@@ -13595,17 +10317,6 @@
         "haben",
         "hän"
     ],
-    "händler": [
-        "händler",
-        "Händler",
-        "Händlr"
-    ],
-    "händs": [
-        "händs",
-        "dänn",
-        "dän",
-        "händ"
-    ],
     "hänn": [
         "hänn",
         "händ",
@@ -13614,12 +10325,6 @@
     "här": [
         "här",
         "häär"
-    ],
-    "härsch": [
-        "härsch",
-        "herrsch",
-        ".??",
-        "Härbscht"
     ],
     "härz": [
         "härz",
@@ -13637,27 +10342,13 @@
         "hèt",
         "he",
         "hei",
-        "",
-        "händ",
-        "***",
-        "händmi",
-        "het.",
-        "häzi",
-        "hät,",
-        "häd,",
-        "hett,",
-        "hat",
-        "hen",
-        "Het"
+        ""
     ],
     "hät er": [
         "Hetter"
     ],
     "hät me": [
         "häpme"
-    ],
-    "hät mer": [
-        "häpmer"
     ],
     "hät mr": [
         "häpmer"
@@ -13696,9 +10387,7 @@
         "het's",
         "héts",
         "heät's",
-        "hetts",
-        "hets",
-        "hät"
+        "hetts"
     ],
     "hätt": [
         "hätt",
@@ -13707,19 +10396,13 @@
         "hät",
         "häd",
         "hät.",
-        "héd è",
-        "hat"
+        "héd è"
     ],
     "hätte,": [
         "hätte,",
         "hätte",
         "hette",
         "hätte."
-    ],
-    "hätted": [
-        "hätted",
-        "häted",
-        "hättet"
     ],
     "hätter": [
         "hätter",
@@ -13747,20 +10430,10 @@
         "hät",
         "hett"
     ],
-    "höch": [
-        "höch",
-        "hööch"
-    ],
     "höche": [
         "höche",
         "hööche",
         "hoche"
-    ],
-    "höheluft": [
-        "höheluft",
-        "Hööeluft",
-        "Hööèluft",
-        "Hohäluft"
     ],
     "hölzig": [
         "hölzig",
@@ -13822,10 +10495,6 @@
         "hütt zu",
         "hüttzutag"
     ],
-    "hützutags": [
-        "hützutags",
-        "Hützutags"
-    ],
     "i": [
         "i",
         "je",
@@ -13851,12 +10520,7 @@
         "ire",
         "iz",
         "er",
-        "ere",
-        "im",
-        "ich",
-        "di",
-        "e",
-        "Ed"
+        "ere"
     ],
     "i ***,": [
         "eberufe,"
@@ -13865,9 +10529,7 @@
         "ind"
     ],
     "i de": [
-        "ide",
-        "dem",
-        "die"
+        "ide"
     ],
     "i di": [
         "idi"
@@ -13875,26 +10537,8 @@
     "i dr": [
         "jeder"
     ],
-    "i dä": [
-        "ide"
-    ],
-    "i jetzt": [
-        "jetzt, und"
-    ],
     "i scho": [
         "schon"
-    ],
-    "i z": [
-        "zobe",
-        "dänn",
-        "jetz",
-        "zoobe"
-    ],
-    "i's": [
-        "i's",
-        "is",
-        "ins",
-        "ys"
     ],
     "ich": [
         "ich",
@@ -13902,46 +10546,21 @@
         "diich",
         "",
         "i",
-        "Ich",
-        "nich",
-        "ich.",
-        "denn",
-        "amol",
-        "****",
-        "n i",
-        "o-"
+        "Ich"
     ],
     "ich s": [
         "ichs"
-    ],
-    "ich.": [
-        "ich.",
-        "ich,",
-        "nich."
     ],
     "id": [
         "id",
         "i",
         "d",
-        "it",
-        "i'd"
-    ],
-    "id schüel": [
-        "d'Schüel"
+        "it"
     ],
     "ide": [
         "ide",
         "de",
-        "ine",
-        "den",
-        "iden",
-        "mein",
-        "i",
-        "i de",
-        "ir"
-    ],
-    "ide Alpä": [
-        "idenAlpe"
+        "ine"
     ],
     "ider": [
         "ider",
@@ -13952,37 +10571,6 @@
     "ie.": [
         "ie.",
         "ië."
-    ],
-    "ier": [
-        "ier",
-        "er",
-        "iär",
-        "ihr"
-    ],
-    "ihglade": [
-        "ihglade",
-        "iglade",
-        "ylade",
-        "iiglade"
-    ],
-    "ihm": [
-        "ihm",
-        "heyem",
-        "hei",
-        "eigmu",
-        "heint"
-    ],
-    "ihn": [
-        "ihn",
-        "in",
-        "diin"
-    ],
-    "ihne": [
-        "ihne",
-        "Si,",
-        "ine",
-        "ere",
-        "Ihnä"
     ],
     "ihr": [
         "ihr",
@@ -14009,27 +10597,7 @@
         "ihri",
         "tiiri",
         "u di",
-        "***",
-        ""
-    ],
-    "ihru-": [
-        "ihru-",
-        "ii-",
-        "iro..."
-    ],
-    "ihru- cke,": [
-        "iirucke",
-        "einrucken",
-        "iirucka",
-        "irucke,"
-    ],
-    "ihrucke": [
-        "ihrucke",
-        "iirucke",
-        "einrücken",
-        "iirucka",
-        "irucke,",
-        "irocke"
+        "***"
     ],
     "ihrä": [
         "ihrä",
@@ -14044,11 +10612,6 @@
         "irer",
         "ihrer",
         "ehrer"
-    ],
-    "iich": [
-        "iich",
-        "ich",
-        "mich"
     ],
     "iichert.": [
         "iichert.",
@@ -14099,12 +10662,6 @@
     "iiträge und": [
         "iiträgenund"
     ],
-    "iiträtte": [
-        "iiträtte",
-        "iträtte",
-        "iträte",
-        "iiträte"
-    ],
     "im": [
         "im",
         "imm",
@@ -14113,11 +10670,7 @@
         "meint",
         "am",
         "Im",
-        "hueli",
-        "no",
-        "i...",
-        "in",
-        "i"
+        "hueli"
     ],
     "im Schtall": [
         "imSchtallnid"
@@ -14125,9 +10678,6 @@
     "im amt": [
         "noumant",
         "noèmant"
-    ],
-    "im glichä": [
-        "dasselbe"
     ],
     "ime": [
         "ime",
@@ -14139,28 +10689,8 @@
     "ime Ort": [
         "********"
     ],
-    "imene": [
-        "imene"
-    ],
-    "imer": [
-        "imer",
-        "immer",
-        "immr",
-        "irgendwie"
-    ],
-    "imer s": [
-        "immer"
-    ],
     "immer": [
-        "immer",
-        "imer",
-        "immmär",
-        "emmer"
-    ],
-    "imäne": [
-        "imäne",
-        "inere",
-        "in ere"
+        "immer"
     ],
     "in": [
         "in",
@@ -14171,12 +10701,7 @@
         "id",
         "it",
         "em",
-        "im",
-        "die",
-        "wo",
-        "z",
-        "nid",
-        "hani"
+        "im"
     ],
     "in de": [
         "sine"
@@ -14213,12 +10738,6 @@
         "is",
         "in"
     ],
-    "inä": [
-        "inä",
-        "i ne",
-        "ine",
-        "in e"
-    ],
     "inä,": [
         "inä,",
         "iine"
@@ -14228,24 +10747,6 @@
     ],
     "ir Läbtig": [
         "erläbtig u"
-    ],
-    "ires": [
-        "ires",
-        "ihres",
-        "eres"
-    ],
-    "irgendeinisch": [
-        "irgendeinisch",
-        "irgend",
-        "Irgend einisch",
-        "Irgendeinisch"
-    ],
-    "irgetwie": [
-        "irgetwie",
-        "irgendwie",
-        "igndwie",
-        "immer",
-        ""
     ],
     "iri": [
         "iri",
@@ -14292,20 +10793,7 @@
         "isch,",
         "isch's",
         "un",
-        "und",
-        "ische",
-        "schwamm",
-        "ist",
-        "es ist",
-        "Esch",
-        "sich",
-        "isch...ja",
-        "S'isch",
-        "sisch",
-        "e wie",
-        "däsch",
-        "'sch",
-        "het"
+        "und"
     ],
     "isch d": [
         "isch***"
@@ -14332,14 +10820,7 @@
         "ischt,",
         "sind",
         "isch.",
-        "isch!",
-        ""
-    ],
-    "isch.": [
-        "isch.",
-        "isch",
-        "sich,",
-        "es"
+        "isch!"
     ],
     "ischd": [
         "ischd",
@@ -14362,19 +10843,13 @@
         "ischme",
         "isch me"
     ],
-    "ischs": [
-        "ischs",
-        "isch"
-    ],
     "ischt": [
         "ischt",
         "ischt,",
         "ischd",
         "isch,",
         "isch",
-        "sich",
-        "esch",
-        "eschd"
+        "sich"
     ],
     "ischt er": [
         "ischter"
@@ -14390,15 +10865,6 @@
         "ist",
         "isch",
         "ischt"
-    ],
-    "isäbere": [
-        "isäbere",
-        "i säbere",
-        "dere",
-        "i säuere",
-        "i säbère",
-        "i säber",
-        "y säbere"
     ],
     "itz": [
         "itz",
@@ -14424,9 +10890,7 @@
         "de",
         "dä",
         "e",
-        "je",
-        "",
-        "da"
+        "je"
     ],
     "ja chöne": [
         "jochönne"
@@ -14451,10 +10915,7 @@
         "jahr",
         "johr",
         "Jahr",
-        "Joor",
-        "Jaar",
-        "jar",
-        "Johr"
+        "Joor"
     ],
     "jahre": [
         "jahre",
@@ -14468,12 +10929,6 @@
         "ja, ja.",
         ""
     ],
-    "je": [
-        "je",
-        "jedä",
-        "vo",
-        "die"
-    ],
     "jede": [
         "jede",
         "jedä",
@@ -14483,12 +10938,10 @@
         "äjedä",
         "jédè",
         "jéédè",
-        "jééde",
-        "jedi"
+        "jééde"
     ],
     "jedem": [
-        "jedem",
-        "jedm"
+        "jedem"
     ],
     "jeder": [
         "jeder",
@@ -14499,10 +10952,7 @@
         "Jäger",
         "Jeger",
         "jedr",
-        "jèèder",
-        "jedem",
-        "jede",
-        ""
+        "jèèder"
     ],
     "jetz": [
         "jetz",
@@ -14528,8 +10978,7 @@
         "",
         "jetz",
         "jéz",
-        "ietz",
-        "jez und"
+        "ietz"
     ],
     "jietz": [
         "jietz",
@@ -14547,11 +10996,7 @@
         "ja",
         "a",
         "o",
-        "de",
-        "",
-        "si",
-        "ou",
-        "Jaa"
+        "de"
     ],
     "jo 50,": [
         "füfzg,"
@@ -14589,23 +11034,12 @@
         "Jäger",
         "Jeger"
     ],
-    "jüngere": [
-        "jüngere",
-        "Jöngere",
-        "jöngere",
-        "Jüngere"
-    ],
     "jüschte": [
         "jüschte",
         "jüschtä",
         "jüschtere",
         "jüschted",
         "jüschter"
-    ],
-    "ka": [
-        "ka",
-        "gha",
-        "ghaa"
     ],
     "ka.": [
         "ka.",
@@ -14642,13 +11076,6 @@
         "ä käs",
         "keis"
     ],
-    "kamen": [
-        "kamen",
-        "chumund",
-        "chummun",
-        "chumunt",
-        "chumen"
-    ],
     "kaum": [
         "kaum",
         "chum",
@@ -14670,8 +11097,7 @@
         "Keh",
         "Cke",
         "Ke",
-        "Sie",
-        "kä"
+        "Sie"
     ],
     "kei": [
         "kei",
@@ -14707,13 +11133,6 @@
         "",
         "gchennt"
     ],
-    "kes": [
-        "kes",
-        "keis",
-        "khes",
-        "käs",
-        "kejs"
-    ],
     "kha": [
         "kha",
         "ghaa",
@@ -14728,28 +11147,9 @@
         "Bscheid",
         "bscheid"
     ],
-    "kirme": [
-        "kirme",
-        "ghirne",
-        "kirmä",
-        "",
-        "Girme",
-        "ghirme"
-    ],
     "klagte": [
         "klagte",
         "Schangli"
-    ],
-    "klass": [
-        "klass",
-        "Klass"
-    ],
-    "klavier": [
-        "klavier",
-        "sKlavier",
-        "sKlaviièr",
-        "Klavier",
-        "s'Klavier"
     ],
     "kleider": [
         "kleider",
@@ -14781,25 +11181,6 @@
         "bomberdiert",
         "gumbertiert"
     ],
-    "korrekt": [
-        "korrekt",
-        "chretä",
-        "chrätte"
-    ],
-    "kouft": [
-        "kouft",
-        "noo"
-    ],
-    "kouft un": [
-        "gcholfe"
-    ],
-    "krachet": [
-        "krachet",
-        "gchachet",
-        "gkrachet",
-        "krachte",
-        "gchrachet"
-    ],
     "kräht": [
         "kräht",
         "chräit",
@@ -14819,12 +11200,6 @@
         "kunnt",
         "chunt",
         "chunnt"
-    ],
-    "kunst": [
-        "kunst",
-        "Kunscht",
-        "puls",
-        "Kunscht,"
     ],
     "kunstmaler": [
         "kunstmaler",
@@ -14847,21 +11222,12 @@
         "kè",
         "ka",
         "kei",
-        "ke",
-        "kai"
+        "ke"
     ],
     "käine,": [
         "käine,",
         "Keine,",
         "keine."
-    ],
-    "käne": [
-        "käne",
-        "ckänne",
-        "känne"
-    ],
-    "käne glehrt": [
-        "kchänneglehrt"
     ],
     "la": [
         "la",
@@ -14921,14 +11287,7 @@
         "lang",
         "",
         "lkang",
-        "lang,",
-        "ziitlang",
-        "Fancarvers,"
-    ],
-    "lang hat": [
-        "glänged",
-        "ziitlang",
-        "Funcarvers"
+        "lang,"
     ],
     "lange": [
         "lange"
@@ -14943,8 +11302,7 @@
         "loot"
     ],
     "laufe": [
-        "laufe",
-        "lauffe."
+        "laufe"
     ],
     "laufet": [
         "laufet",
@@ -14974,18 +11332,6 @@
         "Legi",
         "***"
     ],
-    "lehrer": [
-        "lehrer",
-        "Lehrer",
-        "Leerer"
-    ],
-    "lei": [
-        "lei",
-        "chläi,",
-        "Läi",
-        "Lei,",
-        "***,"
-    ],
     "letscht": [
         "letscht",
         "Letscht",
@@ -15008,11 +11354,7 @@
     "lieb": [
         "lieb",
         "lièb",
-        "Lieb",
-        "Lieb..."
-    ],
-    "lieb Gott": [
-        "Liebgott"
+        "Lieb"
     ],
     "lieber": [
         "lieber",
@@ -15031,33 +11373,18 @@
         "lyde.",
         "liede"
     ],
-    "litit": [
-        "litit",
-        "liitid",
-        "lüti",
-        "lit",
-        "Leitidee",
-        "litid",
-        "lited"
-    ],
     "lo": [
         "lo",
         "la",
         "loh",
         "lò",
-        "hät",
-        "lah"
+        "hät"
     ],
     "loch": [
         "loch",
         "Loch",
         "Loch.",
         "s'Loch"
-    ],
-    "lohnmässig": [
-        "lohnmässig",
-        "loonmessig",
-        "lohnmeessig"
     ],
     "loo": [
         "loo",
@@ -15079,18 +11406,9 @@
         "luegen",
         "schauen"
     ],
-    "lueg": [
-        "lueg",
-        "lue"
-    ],
     "luege": [
         "luege",
-        "luège",
-        "luäge,",
-        "luege,",
-        "luäge",
-        "lueg",
-        "luegä"
+        "luège"
     ],
     "lueged": [
         "lueged",
@@ -15112,21 +11430,6 @@
         "luschtig",
         "loschtig"
     ],
-    "luschtig": [
-        "luschtig"
-    ],
-    "luschtig,": [
-        "luschtig,",
-        "luschtig...",
-        ""
-    ],
-    "läider": [
-        "läider",
-        "leider",
-        "",
-        "laidr",
-        "Leider"
-    ],
     "läng": [
         "läng",
         "leng"
@@ -15134,10 +11437,6 @@
     "läre": [
         "läre",
         "lääre"
-    ],
-    "lätt": [
-        "lätt",
-        "Lätt"
     ],
     "lätz": [
         "lätz"
@@ -15203,23 +11502,12 @@
         "ma",
         "Maa"
     ],
-    "mach": [
-        "mach",
-        "machi"
-    ],
-    "mach i": [
-        "machi"
-    ],
     "mache": [
         "mache",
         "Machen",
         "machen",
         "Mache",
-        "tuen",
-        "machu",
-        "mache,",
-        "mache.",
-        "machä"
+        "tuen"
     ],
     "mache,": [
         "mache,",
@@ -15231,14 +11519,6 @@
         "machd",
         "machts"
     ],
-    "machä": [
-        "machä",
-        "mache.",
-        "mache"
-    ],
-    "mag": [
-        "mag"
-    ],
     "maggeronne": [
         "maggeronne",
         "magaroone",
@@ -15246,41 +11526,10 @@
         "Maggarone",
         "s Magroone"
     ],
-    "magi": [
-        "magi",
-        "mani",
-        "mag"
-    ],
-    "magmi": [
-        "magmi",
-        "ma mi",
-        "mani",
-        "mani i",
-        "maani mi",
-        "magi"
-    ],
-    "magsch": [
-        "magsch"
-    ],
-    "magsch di": [
-        "magschdi"
-    ],
-    "mal": [
-        "mal",
-        "emal",
-        "",
-        "emol"
-    ],
     "man": [
         "man",
         "me",
-        "mer",
-        "aich",
-        "die",
-        "numme"
-    ],
-    "man die": [
-        "eigeltich"
+        "mer"
     ],
     "mann": [
         "mann",
@@ -15299,19 +11548,6 @@
         "Märt",
         "Mart",
         "Margt"
-    ],
-    "matura": [
-        "matura",
-        "Matuura",
-        "Matura",
-        "d'matura"
-    ],
-    "matura,": [
-        "matura,",
-        "tuura.",
-        "ane.",
-        "tura, und",
-        "hani"
     ],
     "me": [
         "me",
@@ -15336,11 +11572,7 @@
         "méé",
         "e",
         "meh",
-        "de",
-        "mu"
-    ],
-    "me allig": [
-        "gheerpme"
+        "de"
     ],
     "me färtig": [
         "feertig,"
@@ -15355,19 +11587,6 @@
         "méé",
         "me"
     ],
-    "meeh": [
-        "meeh",
-        "meh",
-        "no me",
-        "mee"
-    ],
-    "mega": [
-        "mega"
-    ],
-    "mege": [
-        "mege",
-        "mege."
-    ],
     "meh": [
         "meh",
         "Mehr",
@@ -15380,11 +11599,6 @@
         "me",
         "meh",
         "na"
-    ],
-    "mein": [
-        "mein",
-        "i",
-        ""
     ],
     "meine": [
         "meine",
@@ -15400,27 +11614,11 @@
         "meenet er",
         "meened der"
     ],
-    "meini": [
-        "meini",
-        "maini",
-        "mäini",
-        ""
-    ],
-    "meinig": [
-        "meinig",
-        "Mäinig",
-        "Meinig",
-        "Mainig"
-    ],
     "meischt": [
         "meischt",
         "mäischt",
         "maischt",
         "meist"
-    ],
-    "meischte": [
-        "meischte",
-        "meischt"
     ],
     "melche,": [
         "melche,",
@@ -15430,13 +11628,7 @@
     ],
     "men": [
         "men",
-        "me",
-        "",
-        "mer"
-    ],
-    "mene": [
-        "mene",
-        "änä"
+        "me"
     ],
     "mengisch": [
         "mengisch",
@@ -15471,8 +11663,7 @@
         "er",
         "ischmèr",
         "",
-        "Mär",
-        "weme"
+        "Mär"
     ],
     "mer no": [
         "nochane"
@@ -15495,21 +11686,12 @@
     "met em": [
         "esme"
     ],
-    "mhmm": [
-        "mhmm",
-        "ehmm",
-        ""
-    ],
     "mi": [
         "mi",
         "",
         "mehr",
         "meh",
-        "mii",
-        "mich",
-        "my",
-        "i",
-        "hähändmi"
+        "mii"
     ],
     "mi Welt": [
         "iiwingge"
@@ -15517,53 +11699,17 @@
     "mich": [
         "mich",
         "ich",
-        "dich",
-        "miich",
-        "mi"
-    ],
-    "miend": [
-        "miend",
-        "miänd",
-        "mönd",
-        "mit",
-        "müend",
-        "mïend"
+        "dich"
     ],
     "miends": [
         "miends",
         "müends"
     ],
-    "mier": [
-        "mier",
-        "mir"
-    ],
-    "miesse": [
-        "miesse",
-        "müesse"
-    ],
-    "mim": [
-        "mim"
-    ],
-    "min": [
-        "min",
-        "mein",
-        "meine",
-        "mini",
-        "mi...",
-        "myn",
-        "mine"
-    ],
     "mine": [
         "mine",
         "mina",
         "minè",
-        "miine",
-        "minne",
-        "meiner",
-        "myne"
-    ],
-    "minere": [
-        "minere"
+        "miine"
     ],
     "mini": [
         "mini",
@@ -15583,16 +11729,7 @@
         "au",
         "",
         "mi",
-        "nië",
-        "Mer",
-        "miir",
-        "mei",
-        "mr"
-    ],
-    "mis": [
-        "mis",
-        "mi's",
-        "mein"
+        "nië"
     ],
     "mische": [
         "mische"
@@ -15605,11 +11742,7 @@
         "mid",
         "mi",
         "",
-        "mitte",
-        "inera",
-        "minara",
-        "*minera*",
-        "mer"
+        "mitte"
     ],
     "mit de": [
         "mitte"
@@ -15636,29 +11769,14 @@
         "mippringe",
         "mitbringe,"
     ],
-    "miteme": [
-        "miteme",
-        "mit eme",
-        "mit einem",
-        "mit ama",
-        "mitteme",
-        "mit äme",
-        "met eme"
-    ],
     "mitenand": [
         "mitenand",
         ""
     ],
-    "mitendan": [
-        "mitendan",
-        "mitänand",
-        "mitenand"
-    ],
     "mitere": [
         "mitere",
         "mit",
-        "mittere",
-        "mit ere"
+        "mittere"
     ],
     "mithänäh": [
         "mithänäh",
@@ -15689,19 +11807,6 @@
         "",
         "müend"
     ],
-    "miässe": [
-        "miässe",
-        "miesse"
-    ],
-    "mo": [
-        "mo"
-    ],
-    "mo moll,": [
-        "momoll,",
-        "momol",
-        "momoll!",
-        "momool,"
-    ],
     "mol": [
         "mol",
         "mool",
@@ -15709,9 +11814,6 @@
         "omol",
         "mal",
         "Mol"
-    ],
-    "moll,": [
-        "moll,"
     ],
     "moore": [
         "moore",
@@ -15749,9 +11851,7 @@
         "Wir",
         "man",
         "Mer",
-        "",
-        "mir",
-        "mer"
+        ""
     ],
     "muasi": [
         "muasi",
@@ -15786,24 +11886,12 @@
         "Memues",
         "muos",
         "muäs",
-        "imues",
-        "und",
-        "muss"
-    ],
-    "mueter": [
-        "mueter"
+        "imues"
     ],
     "mueter,": [
         "mueter,",
         "Müetter",
         "Müeter"
-    ],
-    "muettr": [
-        "muettr",
-        "Mueter",
-        "Muetter",
-        "Muetr",
-        "mueter"
     ],
     "murmènde": [
         "murmènde",
@@ -15826,19 +11914,6 @@
         "muessä",
         "mues",
         "muss"
-    ],
-    "myny": [
-        "myny",
-        "mini",
-        "um",
-        "mimi",
-        "d"
-    ],
-    "mys": [
-        "mys",
-        "mis",
-        "miis",
-        "mein"
     ],
     "mä": [
         "mä",
@@ -15882,19 +11957,6 @@
     "mängs": [
         "mängs"
     ],
-    "mììch": [
-        "mììch",
-        "mech",
-        "mich",
-        "méch"
-    ],
-    "mììr": [
-        "mììr",
-        "mer",
-        "mir",
-        "miir",
-        "Mir"
-    ],
     "möchte": [
         "möchte",
         "will"
@@ -15910,12 +11972,6 @@
     "mögs": [
         "mögs"
     ],
-    "mögu": [
-        "mögu",
-        "mögä",
-        "möge",
-        "für"
-    ],
     "mögä": [
         "mögä",
         "wellä",
@@ -15927,55 +11983,16 @@
         "müessä",
         "möse"
     ],
-    "mööge": [
-        "mööge",
-        "mögid",
-        "möged"
-    ],
-    "müed": [
-        "müed",
-        "de Zauf",
-        "früe",
-        "saumüed"
-    ],
-    "müed gnueg,": [
-        "...gnueg,"
-    ],
     "müemer": [
         "müemer",
         "topme",
         "",
         "tuemer"
     ],
-    "mües": [
-        "mües",
-        "mues",
-        "müess",
-        "müesd",
-        "müuess",
-        "müss",
-        "müesst",
-        "müesi"
-    ],
-    "mües-": [
-        "mües-",
-        "müesse",
-        "müsse",
-        "müessen",
-        "müess..."
-    ],
-    "mües- se": [
-        "mussten"
-    ],
     "müese": [
         "müese",
         "müesse",
-        "möse",
-        "musste",
-        "mussten",
-        "müssen",
-        "müessen",
-        "mössen"
+        "möse"
     ],
     "müesed": [
         "müesed",
@@ -15984,11 +12001,6 @@
     "müess": [
         "müess",
         "mües"
-    ],
-    "müessa": [
-        "müessa",
-        "müese",
-        "müesse"
     ],
     "müesse": [
         "müesse",
@@ -16017,13 +12029,6 @@
         "müessti",
         "mües dä"
     ],
-    "müse": [
-        "müse",
-        "müsse",
-        "müesse",
-        "mösse",
-        "müese"
-    ],
     "müsse": [
         "müsse",
         "müese",
@@ -16040,20 +12045,6 @@
         "müessit",
         "müesset"
     ],
-    "müssen.": [
-        "müssen.",
-        "möse ha.",
-        "müese",
-        "",
-        "müesse"
-    ],
-    "müsä": [
-        "müsä",
-        "müse",
-        "möse",
-        "müesse",
-        "müsse"
-    ],
     "müäs": [
         "müäs",
         "mües"
@@ -16068,22 +12059,9 @@
     "n ie.": [
         "ine."
     ],
-    "n'uis": [
-        "n'uis",
-        "nüis",
-        "uis"
-    ],
     "na": [
         "na",
-        "gha",
-        "no",
-        "magmino",
-        "ue",
-        "na,",
-        "noh",
-        "aa",
-        "entlang,",
-        "nah,"
+        "gha"
     ],
     "nach": [
         "nach",
@@ -16094,11 +12072,6 @@
         "dem",
         "em",
         "Nodem"
-    ],
-    "nacher": [
-        "nacher",
-        "nocher",
-        "nochane"
     ],
     "nacht": [
         "nacht",
@@ -16130,20 +12103,6 @@
         "natüürli",
         "nadürli,"
     ],
-    "natürlich": [
-        "natürlich",
-        "natürlech",
-        "",
-        "natüürlech",
-        "natüürlech,",
-        "natüürlich"
-    ],
-    "nau": [
-        "nau",
-        "au",
-        "au,",
-        "-n-au."
-    ],
     "ne": [
         "ne",
         "sin",
@@ -16158,18 +12117,7 @@
         "sne",
         "na",
         "e",
-        "ä",
-        "n"
-    ],
-    "ne chli": [
-        "nächli"
-    ],
-    "ned": [
-        "ned",
-        "nid",
-        "de",
-        "need",
-        "nöd"
+        "ä"
     ],
     "neh": [
         "neh",
@@ -16180,23 +12128,11 @@
         "nei",
         "nei,"
     ],
-    "neime": [
-        "neime",
-        "näime",
-        "",
-        "neimed",
-        "naime"
-    ],
     "nem": [
         "nem",
         "am",
         "em",
         "dem"
-    ],
-    "nenei": [
-        "nenei",
-        "Nenei",
-        "nei,"
     ],
     "ner": [
         "ner",
@@ -16225,13 +12161,6 @@
         "nid",
         "sii"
     ],
-    "nicht,": [
-        "nicht,",
-        "nöd",
-        "nit,",
-        "Weisnid",
-        "nid"
-    ],
     "nichts": [
         "nichts",
         "e so",
@@ -16248,29 +12177,13 @@
         "nüd",
         "nicht",
         "niet",
-        "in",
-        "net",
-        "nöd",
-        "nipmöge",
-        "s'nid",
-        "nüm",
-        "nümm"
-    ],
-    "nid cho": [
-        "würkli"
+        "in"
     ],
     "nid\".": [
         "nid\".",
         "nid",
         "need.",
         "ned"
-    ],
-    "nid,": [
-        "nid,",
-        "nid",
-        "nüd,",
-        "nöd",
-        "nèd"
     ],
     "nidle": [
         "nidle",
@@ -16283,9 +12196,7 @@
         "nië",
         "niè",
         "nie.",
-        "nia",
-        "nä",
-        "niä"
+        "nia"
     ],
     "niemer": [
         "niemer",
@@ -16343,11 +12254,7 @@
         "nit",
         "nid",
         "nöd",
-        "ned",
-        "nich",
-        "ch",
-        "",
-        "ech"
+        "ned"
     ],
     "niä": [
         "niä",
@@ -16355,14 +12262,6 @@
         "nicht",
         "niè",
         "nië"
-    ],
-    "niämmer": [
-        "niämmer",
-        "Niemer",
-        "nièmer",
-        "niemand",
-        "niemmer",
-        "niemer"
     ],
     "no": [
         "no",
@@ -16414,14 +12313,7 @@
     "noch": [
         "noch",
         "no",
-        "noo",
-        "versüech",
-        "no e",
-        "no ä",
-        "nochli",
-        "",
-        "hasno",
-        "na"
+        "noo"
     ],
     "nochamol": [
         "nochamol",
@@ -16430,16 +12322,6 @@
         "nohemol",
         "no emol",
         "noch emal"
-    ],
-    "nochedhänä": [
-        "nochedhänä",
-        "ähh",
-        "nachetänne",
-        "nochether",
-        "nochet häre",
-        "",
-        "nachher gingen",
-        "nochethäne"
     ],
     "nochemal": [
         "nochemal",
@@ -16478,10 +12360,6 @@
         "nòòche",
         "nocheli",
         "nachhär"
-    ],
-    "nor": [
-        "nor",
-        "nur"
     ],
     "notfall": [
         "notfall",
@@ -16531,12 +12409,7 @@
     ],
     "nur": [
         "nur",
-        "nume",
-        "has",
-        "nuna",
-        "nuno",
-        "ha's",
-        "nu"
+        "nume"
     ],
     "nutze": [
         "nutze",
@@ -16553,11 +12426,6 @@
         "ne",
         "nen"
     ],
-    "nächer": [
-        "nächer",
-        "nächhär",
-        "nächär"
-    ],
     "näh": [
         "näh",
         "umnäh",
@@ -16570,15 +12438,6 @@
         "i",
         "ne",
         "Ene"
-    ],
-    "näuä": [
-        "näuä",
-        "näher",
-        "(?wahrscheinlich)",
-        "neime",
-        "näme",
-        "nähä",
-        "***"
     ],
     "nöd": [
         "nöd",
@@ -16599,14 +12458,6 @@
     "nöd für": [
         "fürne"
     ],
-    "nöd,": [
-        "nöd,",
-        "nöd"
-    ],
-    "nötig": [
-        "nötig",
-        "nöttig"
-    ],
     "nööd": [
         "nööd",
         "nö",
@@ -16624,18 +12475,12 @@
         "ned",
         "nit",
         "und",
-        "ni",
-        "d",
-        "nüt."
+        "ni"
     ],
     "nüdsigs": [
         "nüdsigs",
         "nützigs",
         "nütsigs"
-    ],
-    "nüm": [
-        "nüm",
-        "nümm"
     ],
     "nüme": [
         "nüme",
@@ -16677,13 +12522,6 @@
         "nüüd,",
         "nüüt"
     ],
-    "nützi": [
-        "nützi",
-        "nützti"
-    ],
-    "nützt": [
-        "nützt"
-    ],
     "nüüne": [
         "nüüne",
         "neun"
@@ -16701,9 +12539,7 @@
         "au",
         "do",
         "u",
-        "und",
-        "O",
-        "sO"
+        "und"
     ],
     "o d'Be": [
         "umPéé"
@@ -16730,24 +12566,14 @@
         "",
         "oder,",
         "nicht.",
-        "oder***",
-        "oderoder",
-        "sinds",
-        "odr?",
-        "o der"
-    ],
-    "odr": [
-        "odr",
-        "oder",
-        "odr**"
+        "oder***"
     ],
     "of": [
         "of",
         "uf",
         "auf",
         "usse",
-        "uff",
-        "Uf"
+        "uff"
     ],
     "of dem": [
         "ussertem"
@@ -16772,25 +12598,7 @@
     "ohni": [
         "ohni",
         "um i",
-        "ooni",
-        "oni",
-        "",
-        "oni z",
-        "ds",
-        "ohno"
-    ],
-    "ohni znini": [
-        "Zniini."
-    ],
-    "oi": [
-        "oi",
-        "Oh,",
-        "o",
-        "O",
-        "\"O"
-    ],
-    "oi wie": [
-        "o,wie"
+        "ooni"
     ],
     "ond": [
         "ond",
@@ -16800,11 +12608,7 @@
         "Und",
         "u",
         "un",
-        "",
-        "udn",
-        "können.",
-        "nd",
-        "und,"
+        ""
     ],
     "ond s": [
         "und's"
@@ -16838,28 +12642,10 @@
     "oue ischd": [
         "****ischt"
     ],
-    "paar": [
-        "paar",
-        "pàr",
-        "par",
-        "Paar",
-        "baar"
-    ],
-    "packe": [
-        "packe"
-    ],
-    "packi": [
-        "packi",
-        "pack i"
-    ],
     "papir": [
         "papir",
         "Papier",
         "Babiir"
-    ],
-    "parallel": [
-        "parallel",
-        "paraleell"
     ],
     "parat": [
         "parat",
@@ -16925,12 +12711,6 @@
         "pflanzt",
         "planzt"
     ],
-    "pflanzä": [
-        "pflanzä",
-        "pflanzed",
-        "pflanzet.***",
-        "pflanzet"
-    ],
     "pflotsch": [
         "pflotsch",
         "gpflotsch",
@@ -16951,18 +12731,6 @@
         "Philosoph",
         "filiosoof"
     ],
-    "plag": [
-        "plag",
-        "Plag",
-        "Ploog",
-        "Plog"
-    ],
-    "pommefritli": [
-        "pommefritli",
-        "d'pommes fritli",
-        "Pommfrittli",
-        "dPommesfrittli"
-    ],
     "post": [
         "post",
         "Poscht",
@@ -16981,12 +12749,6 @@
         "pressiere",
         "prässiere",
         "prässiere."
-    ],
-    "privileg": [
-        "privileg",
-        "Privileg",
-        "Prifileeg",
-        "pri vileg"
     ],
     "pruucht": [
         "pruucht",
@@ -17011,11 +12773,6 @@
         "pschlòò",
         "pschloh",
         "bschlaa"
-    ],
-    "psunderi": [
-        "psunderi",
-        "bsunderi",
-        "bsundri"
     ],
     "puffelt,": [
         "puffelt,",
@@ -17080,25 +12837,6 @@
         "Sprüzli",
         "schprützli"
     ],
-    "regnete": [
-        "regnete",
-        "het",
-        "grägnut"
-    ],
-    "regnete es": [
-        "gräggnet",
-        "g'rägnet"
-    ],
-    "regulär": [
-        "regulär",
-        "regulär,"
-    ],
-    "relativ": [
-        "relativ",
-        "rela tive",
-        "rela tiv",
-        "rela- tiv"
-    ],
     "reue": [
         "reue",
         "reue.",
@@ -17124,23 +12862,11 @@
         "trif",
         "rief"
     ],
-    "rollet's": [
-        "rollet's",
-        "rollets",
-        "rolleds",
-        "rollts"
-    ],
     "rondom": [
         "rondom",
         "rund um",
         "rondum",
         "rondomm"
-    ],
-    "rots": [
-        "rots",
-        "s'rots",
-        "roots",
-        "rotes"
     ],
     "rube": [
         "rube",
@@ -17157,33 +12883,10 @@
         "ruuche",
         "ruuchä"
     ],
-    "rumorits,": [
-        "rumorits,",
-        "rumoorids",
-        "rumpeln",
-        "rumorids,"
-    ],
-    "rumplits": [
-        "rumplits",
-        "rumplets",
-        "sie",
-        "rumplids"
-    ],
     "rumpuse": [
         "rumpuse",
         "rumpuuse",
         "umpuuse"
-    ],
-    "ruzits": [
-        "ruzits",
-        "rutzids",
-        "stossen",
-        "rotsits"
-    ],
-    "rächt": [
-        "rächt",
-        "recht",
-        "starch"
     ],
     "rächte": [
         "rächte",
@@ -17202,12 +12905,6 @@
         "hündle.",
         "röifle"
     ],
-    "rüebli": [
-        "rüebli",
-        "Üebig",
-        "Lièbi",
-        "***"
-    ],
     "rülpst": [
         "rülpst",
         "gor..."
@@ -17225,15 +12922,7 @@
         "Es",
         "halt",
         "ds",
-        "S",
-        "sA",
-        "sich",
-        "aso,",
-        "sicher",
-        "secher",
-        "hets",
-        "alles",
-        "Das"
+        "S"
     ],
     "s Blatt": [
         "s`Blatt",
@@ -17247,12 +12936,6 @@
     "s Dängge": [
         "s'Dänke",
         "zTängge"
-    ],
-    "s Gfüül": [
-        "s'Gfüel"
-    ],
-    "s Püntteli": [
-        "s'Bünteli"
     ],
     "s Taneholz,": [
         "s'tannholz"
@@ -17281,12 +12964,6 @@
     "s backmel": [
         "sBachmääl"
     ],
-    "s char": [
-        "cha.. bi"
-    ],
-    "s gröschte ätund –": [
-        ".....trööschtet...?"
-    ],
     "s härz": [
         "s'Härz",
         "z'Härz",
@@ -17296,9 +12973,6 @@
         "zHaas",
         "z'Hääs"
     ],
-    "s isch": [
-        "s'isch"
-    ],
     "s züri": [
         "zZüri ***",
         "zZüri",
@@ -17307,9 +12981,7 @@
     "s'": [
         "s'",
         "",
-        "s",
-        "as",
-        "es"
+        "s"
     ],
     "s' tambure": [
         "Tampuure"
@@ -17341,11 +13013,6 @@
         "ds Tanzä",
         "s tanze",
         "s Danze"
-    ],
-    "s'Wasser": [
-        "s'Wasser",
-        "s Wasser",
-        "Wasse"
     ],
     "s'chunnt": [
         "s'chunnt",
@@ -17379,19 +13046,6 @@
         "z'Tampuure",
         "tampuure"
     ],
-    "s'wasser": [
-        "s'wasser",
-        "Wasser",
-        "wasser",
-        "s'Wasser"
-    ],
-    "sa": [
-        "sa",
-        "***"
-    ],
-    "sa kouft": [
-        "nachgholfä"
-    ],
     "saat": [
         "saat",
         "seit",
@@ -17404,12 +13058,6 @@
         "saat",
         "saht",
         "saad"
-    ],
-    "sachtli": [
-        "sachtli",
-        "satt- Le",
-        "*** wider",
-        "sa- chtli"
     ],
     "saeit,": [
         "saeit,",
@@ -17451,19 +13099,10 @@
         "satt",
         "z'alt,"
     ],
-    "satz": [
-        "satz",
-        "Satz"
-    ],
     "schaffe": [
         "schaffe",
         "schaffä",
         "schaffe,"
-    ],
-    "schaffe,": [
-        "schaffe,",
-        "schaffe",
-        "schaffe."
     ],
     "schafft": [
         "schafft"
@@ -17485,19 +13124,6 @@
     "schauen,": [
         "schauen,",
         "luege"
-    ],
-    "scheen,": [
-        "scheen,",
-        "scheen!",
-        "scheen!\","
-    ],
-    "scheen, sägit": [
-        "schen,säged"
-    ],
-    "schene": [
-        "schene",
-        "scheene",
-        "schönes"
     ],
     "scher": [
         "scher",
@@ -17534,15 +13160,6 @@
         "schiesse.",
         "schiess"
     ],
-    "schifahre": [
-        "schifahre",
-        "Schiifare",
-        "Schiifahre",
-        "Skifahre"
-    ],
-    "schii": [
-        "schii"
-    ],
     "schillafiar": [
         "schillafiar",
         "Schillerfiir",
@@ -17569,14 +13186,6 @@
         "schièr",
         ""
     ],
-    "schlafen,": [
-        "schlafen,",
-        "schlaafe",
-        "er ****",
-        "schlaafu.",
-        "schlaafe.",
-        "schlaafu,"
-    ],
     "schlampi": [
         "schlampi",
         "Schlampi",
@@ -17590,30 +13199,9 @@
         "Architekt",
         "***-land"
     ],
-    "schlat": [
-        "schlat",
-        "schlaat",
-        "schlàt",
-        "schlaht"
-    ],
     "schleikt": [
         "schleikt",
         "schleickt"
-    ],
-    "schlief": [
-        "schlief",
-        "gnachtet",
-        "giesse n",
-        "ischt",
-        "isch"
-    ],
-    "schlittle,": [
-        "schlittle,",
-        "schlittle"
-    ],
-    "schlächt": [
-        "schlächt",
-        "schlecht"
     ],
     "schlänggeret": [
         "schlänggeret"
@@ -17644,13 +13232,6 @@
     "schnell go": [
         "dSchwinggel"
     ],
-    "schnider": [
-        "schnider",
-        "Schmiide",
-        "Schniider",
-        "Schnider",
-        "Schnidr"
-    ],
     "schnitlzi": [
         "schnitlzi",
         "schnitzli",
@@ -17666,25 +13247,12 @@
         "sch",
         "so",
         "",
-        "AFA",
-        "scho,",
-        "Es"
-    ],
-    "scho,": [
-        "scho,",
-        "scho",
-        "schon,"
+        "AFA"
     ],
     "schon": [
         "schon",
         "scho",
         ""
-    ],
-    "schonu": [
-        "schonu",
-        "scho no",
-        "scho",
-        "schono"
     ],
     "schotz": [
         "schotz",
@@ -17701,19 +13269,6 @@
         "schriesse",
         "schrisse"
     ],
-    "schriibiebige": [
-        "schriibiebige",
-        "Schriibüebige",
-        "schribiebige",
-        "Schriibiebige",
-        "Schribüebigä"
-    ],
-    "schräg": [
-        "schräg",
-        "schreeg",
-        "schréég",
-        "schreg"
-    ],
     "schtimmts": [
         "schtimmts",
         "stimmt das"
@@ -17723,11 +13278,6 @@
         "streng",
         "schtréng",
         "sträng"
-    ],
-    "schtudiere": [
-        "schtudiere",
-        "studiere",
-        "schtudière"
     ],
     "schtundelang": [
         "schtundelang",
@@ -17774,11 +13324,6 @@
         "schwär.",
         "schwäär,"
     ],
-    "schwäri": [
-        "schwäri",
-        "schwääri",
-        "schwere"
-    ],
     "schwääri": [
         "schwääri",
         "schwäri"
@@ -17797,14 +13342,6 @@
         "schwéére.",
         "schweere,",
         "schwerä -"
-    ],
-    "schwöschtere": [
-        "schwöschtere",
-        "schwöstere",
-        "Schwöstere",
-        "Schwöschtere",
-        "Schwöschtere...",
-        "Schöschtere"
     ],
     "schö": [
         "schö",
@@ -17827,41 +13364,17 @@
         "schönschte",
         "schünschte"
     ],
-    "schööner": [
-        "schööner",
-        "schöner"
-    ],
-    "schüel": [
-        "schüel",
-        "Schüel",
-        "Schuel",
-        "Schueu",
-        "dSchüel"
-    ],
     "schüsse,": [
         "schüsse,",
         "schüüsse",
         "schüsse",
         "schüssä"
     ],
-    "sdritti": [
-        "sdritti",
-        "s dretti",
-        "s dritti",
-        "s' dritti",
-        "'s dritti",
-        "s'dritti"
-    ],
     "se": [
         "se",
         "seg",
         "so",
-        "si",
-        "",
-        "...sse"
-    ],
-    "se goh": [
-        "usegoh"
+        "si"
     ],
     "seb": [
         "seb",
@@ -17877,17 +13390,9 @@
         "séchsmol",
         "sechsmol"
     ],
-    "see": [
-        "see",
-        "See"
-    ],
     "seel": [
         "seel",
         "Seel"
-    ],
-    "sehr": [
-        "sehr",
-        "seer"
     ],
     "sei": [
         "sei",
@@ -17935,9 +13440,7 @@
         "seue",
         "söuwe",
         "söue",
-        "seuä",
-        "sölle",
-        "sölla"
+        "seuä"
     ],
     "selte": [
         "selte",
@@ -17945,21 +13448,6 @@
         "sälte",
         "säute",
         "säutä"
-    ],
-    "seltzen.": [
-        "seltzen.",
-        "lustig",
-        "sälte",
-        "lässig",
-        "nid"
-    ],
-    "semmer": [
-        "semmer",
-        "inisch",
-        "simmer"
-    ],
-    "semmer doch": [
-        "simmerdoch"
     ],
     "send": [
         "send",
@@ -17998,10 +13486,7 @@
         "Wääge",
         "seh",
         "sini",
-        "sind",
-        "gsi",
-        "en",
-        "Sie"
+        "sind"
     ],
     "si ihrär": [
         "irerLäbe"
@@ -18015,13 +13500,7 @@
         "si",
         "sii.",
         "sy",
-        "sind",
-        "gsi"
-    ],
-    "sibete": [
-        "sibete",
-        "sibète",
-        "dr 7."
+        "sind"
     ],
     "sich": [
         "sich",
@@ -18032,8 +13511,7 @@
         "s'wildi",
         "gschwind",
         "häre",
-        "diä",
-        "sech"
+        "diä"
     ],
     "sicher": [
         "sicher"
@@ -18064,13 +13542,7 @@
         "Sie",
         "Si",
         "hämmiir",
-        "mir",
-        "hederschi",
-        "schi",
-        "bliibe,",
-        "richtig",
-        "s",
-        "Wes"
+        "mir"
     ],
     "sie am": [
         "......am"
@@ -18078,23 +13550,11 @@
     "sie schwöre": [
         "schwäären"
     ],
-    "sieht": [
-        "sieht",
-        "simmer",
-        "gseht",
-        "gsièpmer",
-        "Gseh",
-        "die"
-    ],
     "sig": [
         "sig",
         "sig,",
         "siig",
-        "syg,",
-        "sei",
-        "syg",
-        "seg",
-        "ich"
+        "syg,"
     ],
     "siget": [
         "siget",
@@ -18114,13 +13574,6 @@
         "siget",
         "sigi."
     ],
-    "sigi.": [
-        "sigi.",
-        "siigi",
-        "sygi",
-        "sigi",
-        "siggi."
-    ],
     "sihl": [
         "sihl",
         "Sihl",
@@ -18134,14 +13587,7 @@
     "sii,": [
         "sii,",
         "si",
-        "sii",
-        "sii.",
-        "sy,"
-    ],
-    "sii.": [
-        "sii.",
-        "si.",
-        "sy."
+        "sii"
     ],
     "siidä": [
         "siidä",
@@ -18163,35 +13609,12 @@
         "sis",
         "sys"
     ],
-    "siitäwiis": [
-        "siitäwiis",
-        "zytewiis",
-        "zitewiis",
-        "ziitewiis"
-    ],
-    "siitäwiis i": [
-        "ziitewiiis"
-    ],
-    "silbrigi": [
-        "silbrigi",
-        "silbrig"
-    ],
-    "sim": [
-        "sim"
-    ],
     "simmer": [
         "simmer",
         "waren wir",
         "bini",
         "bin i",
-        "bin y",
-        "es",
-        "sin",
-        "",
-        "wir",
-        "si mer",
-        "simer",
-        "sim er"
+        "bin y"
     ],
     "sin": [
         "sin",
@@ -18206,11 +13629,7 @@
         "simmir",
         "sinn",
         "riese",
-        "sind,",
-        "werden",
-        "si",
-        "sin",
-        "sy"
+        "sind,"
     ],
     "sind mängisch": [
         "sinpmängisch"
@@ -18220,27 +13639,11 @@
         "sind",
         "sin,"
     ],
-    "sind.": [
-        "sind.",
-        "sind",
-        "ich",
-        "send",
-        "sin",
-        "sind,",
-        "choosind",
-        "si,"
-    ],
-    "sindi": [
-        "sindi",
-        "sind",
-        "sind i"
-    ],
     "sinds": [
         "sinds",
         "hends",
         "das",
-        "das heds",
-        "sind's"
+        "das heds"
     ],
     "siner": [
         "siner"
@@ -18255,11 +13658,6 @@
         "singe,",
         "singä"
     ],
-    "singu": [
-        "singu",
-        "singer",
-        "Singe"
-    ],
     "sini": [
         "sini"
     ],
@@ -18271,9 +13669,7 @@
     ],
     "sis": [
         "sis",
-        "siis",
-        "sie",
-        "sys"
+        "siis"
     ],
     "sisi": [
         "sisi",
@@ -18288,13 +13684,6 @@
         "siit",
         "siidi"
     ],
-    "situiert": [
-        "situiert",
-        "erzoge"
-    ],
-    "sitze": [
-        "sitze"
-    ],
     "sitär": [
         "sitär",
         "siter",
@@ -18308,25 +13697,6 @@
         "syg",
         "sii"
     ],
-    "skilager...": [
-        "skilager...",
-        "schilager,",
-        "Skilaager",
-        "Schiilager"
-    ],
-    "skirenne": [
-        "skirenne",
-        "schirönne",
-        "Schirönnä",
-        "Schiirenne"
-    ],
-    "skischuel": [
-        "skischuel",
-        "schischuel,",
-        "Schischuel",
-        "d'Schiischuël",
-        "Schiichuël"
-    ],
     "so": [
         "so",
         "",
@@ -18339,10 +13709,7 @@
         "für",
         "sè",
         "da",
-        "scho",
-        "händsi",
-        "händs",
-        "sie"
+        "scho"
     ],
     "so chli": [
         "sochli"
@@ -18362,12 +13729,6 @@
         "sowie",
         "sowé"
     ],
-    "so..und": [
-        "so..und",
-        "so... und",
-        "soo und",
-        "so und"
-    ],
     "sochli": [
         "sochli",
         "e chli",
@@ -18381,11 +13742,6 @@
     "sogenannte": [
         "sogenannte",
         "sogennante"
-    ],
-    "solchen": [
-        "solchen",
-        "so",
-        "müesse"
     ],
     "solle": [
         "solle",
@@ -18419,13 +13775,6 @@
         "so ne",
         ""
     ],
-    "sonen": [
-        "sonen",
-        "so ne",
-        "so en",
-        "so nen",
-        "Sonne"
-    ],
     "sonigo": [
         "sonigo",
         "alig",
@@ -18449,10 +13798,6 @@
         "soowiesoo",
         "sowieso,",
         "wie so,"
-    ],
-    "speeter": [
-        "speeter",
-        "spääter"
     ],
     "spielplatz": [
         "spielplatz",
@@ -18488,12 +13833,6 @@
         "Schpääzi",
         "schpäät si"
     ],
-    "spöter": [
-        "spöter",
-        "schpöter",
-        "schpööter",
-        "spööter"
-    ],
     "stange": [
         "stange",
         "Schtanga",
@@ -18503,10 +13842,7 @@
     ],
     "starch": [
         "starch",
-        "schtarch",
-        "rächt",
-        "isch",
-        "stark"
+        "schtarch"
     ],
     "statt": [
         "statt"
@@ -18517,12 +13853,6 @@
         "gänd",
         "schteend",
         "stehn"
-    ],
-    "steiler": [
-        "steiler",
-        "stailer",
-        "schteil",
-        "steiler."
     ],
     "stiigt": [
         "stiigt",
@@ -18542,12 +13872,6 @@
     "stoht no": [
         "schtoht",
         "schtoot"
-    ],
-    "stossists": [
-        "stossists",
-        "schtoossids",
-        "Steine",
-        "stossids"
     ],
     "striich": [
         "striich",
@@ -18572,11 +13896,6 @@
         "Strütte",
         "Schtrütte,"
     ],
-    "sträich": [
-        "sträich",
-        "Schtreich",
-        "Straich"
-    ],
     "stube": [
         "stube",
         "Stubä",
@@ -18593,18 +13912,7 @@
     "sturm": [
         "sturm",
         "Schturm",
-        "sturms",
-        "Sturm",
-        "Schturm.",
-        "Sturm,",
-        "Storm,",
-        "sturm,"
-    ],
-    "stutz": [
-        "stutz",
-        "gopfridstutz",
-        "schtutz,",
-        "gopfrischtutz"
+        "sturms"
     ],
     "stutzig": [
         "stutzig",
@@ -18615,15 +13923,6 @@
         "stuucheblaach",
         "stuuche blaach",
         "schtucheblach"
-    ],
-    "stäcke": [
-        "stäcke",
-        "Stäcken",
-        "stä"
-    ],
-    "stäcke cke": [
-        "Schtäcken",
-        "Schtecke"
     ],
     "stämmig": [
         "stämmig",
@@ -18729,20 +14028,12 @@
         "säbe",
         "säbe,"
     ],
-    "säbene": [
-        "säbene"
-    ],
-    "sächs": [
-        "sächs"
-    ],
     "säg": [
         "säg"
     ],
     "säge": [
         "säge",
-        "",
-        "sägä",
-        "säge:"
+        ""
     ],
     "säged": [
         "säged",
@@ -18763,12 +14054,6 @@
         "säget",
         "säge",
         "sège."
-    ],
-    "sägit": [
-        "sägit",
-        "sägid",
-        "säget",
-        "säged"
     ],
     "sägässli": [
         "sägässli",
@@ -18803,11 +14088,6 @@
     "sälbr z'mol": [
         "sälbezmooll"
     ],
-    "säuber,": [
-        "säuber,",
-        "sälber",
-        "sälber,"
-    ],
     "sääge": [
         "sääge",
         "säge",
@@ -18820,8 +14100,7 @@
     ],
     "söll": [
         "söll",
-        "sollte",
-        "sell"
+        "sollte"
     ],
     "sölle": [
         "sölle"
@@ -18858,13 +14137,6 @@
         "süfzt",
         "süüfzt"
     ],
-    "sümfoni": [
-        "sümfoni",
-        "Sinfoni",
-        "simfonii",
-        "Sinfonie",
-        "Simfonie"
-    ],
     "sündenalte": [
         "sündenalte",
         "sündealte",
@@ -18877,19 +14149,9 @@
         "suscht",
         "sucht"
     ],
-    "süüferli": [
-        "süüferli",
-        "süferli"
-    ],
     "t": [
         "t",
         "d"
-    ],
-    "tafele": [
-        "tafele",
-        "d'Tafele",
-        "tafle",
-        "Tafelen"
     ],
     "tag": [
         "tag",
@@ -18899,12 +14161,6 @@
         "tambure",
         "Tampure",
         "Tampuure"
-    ],
-    "tantä": [
-        "tantä",
-        "dTante",
-        "Tante",
-        "d'Tante"
     ],
     "tanzbode": [
         "tanzbode",
@@ -18960,11 +14216,6 @@
         "thébääische",
         "tebeische"
     ],
-    "ti": [
-        "ti",
-        "",
-        "i"
-    ],
     "tierarzt": [
         "tierarzt",
         "Tierarzt",
@@ -18983,23 +14234,11 @@
         "Disch,",
         "esch"
     ],
-    "titti": [
-        "titti",
-        "Diti",
-        "ditti"
-    ],
     "tod": [
         "tod",
         "Tods",
         "Tood",
         "do z"
-    ],
-    "toll,": [
-        "toll,",
-        "läsi",
-        "",
-        "lääsig",
-        "lässig"
     ],
     "tolli": [
         "tolli"
@@ -19010,27 +14249,10 @@
         "",
         "do,"
     ],
-    "tosse": [
-        "tosse",
-        "toosse",
-        "Toossä",
-        "dose",
-        "Tose",
-        "Toossen",
-        "Tosse",
-        "Dosse",
-        "Toosse",
-        "tossä"
-    ],
     "traut": [
         "traut",
         "traut.",
         "recht,"
-    ],
-    "treit,": [
-        "treit,",
-        "treit",
-        "treid"
     ],
     "tribe": [
         "tribe",
@@ -19039,17 +14261,6 @@
     "tribt": [
         "tribt",
         "triibt"
-    ],
-    "trichu": [
-        "trichu",
-        "triichere",
-        "tricheru"
-    ],
-    "trilled": [
-        "trilled",
-        "drillet",
-        "trillet",
-        ""
     ],
     "tringge": [
         "tringge",
@@ -19063,10 +14274,6 @@
     ],
     "trooscht- li": [
         "trooschtli"
-    ],
-    "trotzdäm": [
-        "trotzdäm",
-        "trotzdem"
     ],
     "trugottes": [
         "trugottes",
@@ -19090,9 +14297,6 @@
         "treit",
         "träid"
     ],
-    "tröchnischt": [
-        "tröchnischt"
-    ],
     "tröpfle": [
         "tröpfle",
         "tröfple.",
@@ -19111,8 +14315,7 @@
         "tue",
         "Tue",
         "Tue,",
-        "due",
-        "duä"
+        "due"
     ],
     "tue,": [
         "tue,",
@@ -19169,9 +14372,7 @@
     "tuets": [
         "tuets",
         "tuet's",
-        "tuäts",
-        "duets",
-        "s"
+        "tuäts"
     ],
     "tun": [
         "tun",
@@ -19224,19 +14425,6 @@
         "dörfe",
         "dörffe"
     ],
-    "törggle,": [
-        "törggle,",
-        "törkle",
-        "törgle",
-        "törggle",
-        "törggle.",
-        "***"
-    ],
-    "törggle.": [
-        "törggle.",
-        "**** törgle",
-        "törggle"
-    ],
     "tüend": [
         "tüend"
     ],
@@ -19244,10 +14432,6 @@
         "tüet's",
         "",
         "sötts"
-    ],
-    "tüets": [
-        "tüets",
-        "tüet's"
     ],
     "tütschet": [
         "tütschet",
@@ -19279,32 +14463,11 @@
     "u de": [
         "untä"
     ],
-    "u ds": [
-        "und"
-    ],
-    "uber": [
-        "uber",
-        "über",
-        ""
-    ],
     "uberchömed": [
         "uberchömed"
     ],
     "uberchömed e": [
         "uberchömmed"
-    ],
-    "ue": [
-        "ue",
-        ""
-    ],
-    "ue gfahre": [
-        "uegfahre"
-    ],
-    "ues": [
-        "ues",
-        "Uus",
-        "uus",
-        "Us"
     ],
     "uf": [
         "uf",
@@ -19315,10 +14478,7 @@
         "dreb",
         "of",
         "ufd",
-        "",
-        "ufm",
-        "ofd",
-        "und"
+        ""
     ],
     "uf de": [
         "ufde"
@@ -19329,15 +14489,6 @@
     "uf e": [
         "ufe",
         "ufa"
-    ],
-    "uf em": [
-        "ufem"
-    ],
-    "ufd": [
-        "ufd",
-        "uf d",
-        "uf",
-        "of d"
     ],
     "ufe": [
         "ufe",
@@ -19377,24 +14528,6 @@
         "schtell,",
         "ogsch stellt"
     ],
-    "ufgwachsä": [
-        "ufgwachsä",
-        "ufgwachse",
-        "uufgwachse.",
-        "uufgwachse"
-    ],
-    "ufgwachsä,": [
-        "ufgwachsä,",
-        "ufgwachse,",
-        "eifach",
-        "uufgwachse:"
-    ],
-    "uflärsbuebe": [
-        "uflärsbuebe",
-        "uflauf bueb",
-        "Uulääsbuebe",
-        "Puebe"
-    ],
     "ufsääge": [
         "ufsääge",
         "ufsääge.",
@@ -19402,12 +14535,6 @@
         "uufsääge.",
         "ufsäge",
         "ufsäge."
-    ],
-    "uise,": [
-        "uise,",
-        "uuse",
-        "uise",
-        "hinaus,"
     ],
     "ulidige": [
         "ulidige",
@@ -19418,11 +14545,7 @@
         "léédiger"
     ],
     "um": [
-        "um",
-        "om",
-        "",
-        "in",
-        "Um"
+        "um"
     ],
     "ume": [
         "ume",
@@ -19505,8 +14628,7 @@
         "om",
         "ono",
         "onè",
-        "***",
-        "choo"
+        "***"
     ],
     "un a": [
         "ume"
@@ -19514,11 +14636,6 @@
     "un s": [
         "und",
         "unds"
-    ],
-    "unbedingt": [
-        "unbedingt",
-        "ombedengt",
-        "umbedingt"
     ],
     "und": [
         "und",
@@ -19552,32 +14669,15 @@
         "um d",
         "Er",
         "èr",
-        "Ond",
-        "unds",
-        "ung",
-        "znd",
-        "obe n",
-        "unpMaischteri",
-        "wie",
-        "früener",
-        "unde"
-    ],
-    "und ? angeboten.": [
-        "*****************"
+        "Ond"
     ],
     "und Buuholz": [
         "umPuuholz"
-    ],
-    "und Bächli": [
-        "umPächli"
     ],
     "und de": [
         "untän"
     ],
     "und denn": [
-        "untänn"
-    ],
-    "und dänn": [
         "untänn"
     ],
     "und er": [
@@ -19615,16 +14715,6 @@
     ],
     "und vo": [
         "umpfo"
-    ],
-    "unde": [
-        "unde",
-        "und"
-    ],
-    "unde....": [
-        "unde....",
-        "unde.",
-        "unde",
-        "unne?"
     ],
     "under???": [
         "under???",
@@ -19670,9 +14760,7 @@
         "und",
         "Un",
         "Und",
-        "unde",
-        "tuet",
-        "une,"
+        "unde"
     ],
     "unerchanti": [
         "unerchanti",
@@ -19685,21 +14773,6 @@
         "undèdesse",
         "unnedesse",
         "unedesse"
-    ],
-    "unglicklichs": [
-        "unglicklichs",
-        "unglücklich",
-        "unglücklichs",
-        "onglöcklich"
-    ],
-    "ungäre": [
-        "ungäre",
-        "ungärä"
-    ],
-    "unne": [
-        "unne",
-        "unnä",
-        "unde"
     ],
     "unneren": [
         "unneren",
@@ -19716,20 +14789,12 @@
         "under",
         "wo es"
     ],
-    "unterdessen": [
-        "unterdessen",
-        "underdesse",
-        "unterdesse"
-    ],
     "unterschnitt": [
         "unterschnitt",
         "underschnitt",
         "Underschnid",
         "underschnit",
         "Underschnitt"
-    ],
-    "urächt": [
-        "urächt"
     ],
     "us": [
         "us",
@@ -19740,10 +14805,7 @@
         "",
         "uss",
         "aus",
-        "of",
-        "uns",
-        "uus.",
-        "os"
+        "of"
     ],
     "us de": [
         "usdr"
@@ -19766,11 +14828,6 @@
     "usem": [
         "usem",
         "us em"
-    ],
-    "user": [
-        "user",
-        "der",
-        "us re"
     ],
     "usgseh": [
         "usgseh",
@@ -19844,19 +14901,10 @@
         "uuswéndig",
         "uuswendig"
     ],
-    "uszahlt": [
-        "uszahlt",
-        "uuszallt",
-        "uszaalt"
-    ],
     "usä": [
         "usä",
         "use",
         ""
-    ],
-    "uuf": [
-        "uuf",
-        "uf"
     ],
     "uuflaade.": [
         "uuflaade.",
@@ -19875,15 +14923,6 @@
         "uus",
         "Us",
         "us"
-    ],
-    "uus-": [
-        "uus-",
-        "us",
-        "us-",
-        "usgeh"
-    ],
-    "uus- gää,": [
-        "usggää"
     ],
     "uuse": [
         "uuse",
@@ -19938,12 +14977,6 @@
         "verbotte",
         "verbotte-n-"
     ],
-    "verbracht,": [
-        "verbracht,",
-        "verbraacht,",
-        "verbracht",
-        "verbracht."
-    ],
     "verbrät": [
         "verbrät",
         "verbräät,",
@@ -19953,13 +14986,6 @@
         "verby",
         "verbi",
         "vorbii"
-    ],
-    "verchaufä": [
-        "verchaufä",
-        "verchaufe",
-        "verchoufe",
-        "verchauffe",
-        "verchaufe,"
     ],
     "verchemed": [
         "verchemed",
@@ -19981,10 +15007,6 @@
         "verdiene",
         "Vediene",
         "verdiene."
-    ],
-    "verdiene.": [
-        "verdiene.",
-        "verdiene"
     ],
     "vergesse": [
         "vergesse",
@@ -20013,12 +15035,6 @@
         "verhitzt",
         "verhitzt,",
         "verhetzt,"
-    ],
-    "verliidit": [
-        "verliidit",
-        "verliidid",
-        "verlidid",
-        "verlidit"
     ],
     "verprüglet": [
         "verprüglet",
@@ -20078,12 +15094,6 @@
     "vertroui,": [
         "vertroui,"
     ],
-    "vertschlipft": [
-        "vertschlipft",
-        "vetschlipft",
-        "aus",
-        "übertschlipft"
-    ],
     "vertwütscht,": [
         "vertwütscht,",
         "vetwütscht",
@@ -20139,9 +15149,7 @@
     ],
     "vier": [
         "vier",
-        "viere",
-        "véér",
-        "Johr"
+        "viere"
     ],
     "viergecketi": [
         "viergecketi",
@@ -20149,10 +15157,6 @@
         "vierggecketi",
         "vie ticketi",
         "vierdecketi"
-    ],
-    "vierhändig": [
-        "vierhändig",
-        "vièrhändig"
     ],
     "vierick,": [
         "vierick,",
@@ -20164,16 +15168,6 @@
     "viert": [
         "viert"
     ],
-    "vierti,": [
-        "vierti,",
-        "vierti"
-    ],
-    "vierzäh": [
-        "vierzäh",
-        "vierzä",
-        "vierzä*",
-        "vierzä,"
-    ],
     "vil": [
         "vil",
         "vili",
@@ -20181,10 +15175,7 @@
         "villi",
         "villy",
         "vill",
-        "viu",
-        "vel",
-        "vöu",
-        "viel"
+        "viu"
     ],
     "villecht": [
         "villecht",
@@ -20205,30 +15196,18 @@
         "fo",
         "Vo",
         "",
-        "va",
-        "auf"
+        "va"
     ],
     "vo de": [
         "vude",
         "vode"
     ],
-    "vo dem": [
-        "vodem"
-    ],
-    "vo der": [
-        "voder",
-        "vòder"
-    ],
     "vo dr": [
         "voder"
     ],
-    "vo dè": [
-        "vode"
-    ],
     "vode": [
         "vode",
-        "vo de",
-        "vo dr"
+        "vo de"
     ],
     "vogel": [
         "vogel",
@@ -20267,13 +15246,6 @@
     "von de": [
         "vode"
     ],
-    "vonenand": [
-        "vonenand",
-        "vonand."
-    ],
-    "vonenand und": [
-        "vonand.*******Aber"
-    ],
     "vor": [
         "vor",
         "vo",
@@ -20288,12 +15260,6 @@
         "verbii.",
         "vorbii.",
         "vorbii,"
-    ],
-    "vore": [
-        "vore",
-        "vorne",
-        "voren",
-        "so"
     ],
     "vorher": [
         "vorher",
@@ -20339,12 +15305,6 @@
         "vorane",
         "voranne"
     ],
-    "vote": [
-        "vote",
-        "vode",
-        "vo der",
-        "vo"
-    ],
     "vrby": [
         "vrby",
         "verbii",
@@ -20375,24 +15335,10 @@
         "Väärsli",
         "Väärsi"
     ],
-    "vöu,": [
-        "vöu,",
-        "vil.",
-        "viu,",
-        "vööu,"
-    ],
     "wa": [
         "wa",
         "was",
         "«Was"
-    ],
-    "wahrschinlich": [
-        "wahrschinlich",
-        "warschinlich",
-        "wahrschinli",
-        "wahrschiinlich",
-        "waarschiinlech",
-        "wahrschinnlich"
     ],
     "wamo": [
         "wamo",
@@ -20412,29 +15358,11 @@
         "warme",
         "warem"
     ],
-    "warte.": [
-        "warte.",
-        "warte",
-        "wàrte,",
-        "warte,",
-        "waarte,"
-    ],
-    "warum": [
-        "warum",
-        "worum",
-        "wieso",
-        "werum"
-    ],
     "was": [
         "was",
         "wa",
         "Was",
-        "Waas",
-        "wo"
-    ],
-    "wasi": [
-        "wasi",
-        "was i"
+        "Waas"
     ],
     "we": [
         "we",
@@ -20447,15 +15375,9 @@
     "we d": [
         "wetsch"
     ],
-    "we me": [
-        "Wämmer"
-    ],
     "weder": [
         "weder",
-        "***jede",
-        "wieder",
-        "",
-        "widr"
+        "***jede"
     ],
     "weg": [
         "weg",
@@ -20473,10 +15395,6 @@
     "weich": [
         "weich"
     ],
-    "weils": [
-        "weils",
-        "wail's"
-    ],
     "weischt": [
         "weischt",
         "Wäischt",
@@ -20484,10 +15402,7 @@
     ],
     "weiss": [
         "weiss",
-        "wäiss,",
-        "aso die",
-        "Weiss",
-        "-weiss"
+        "wäiss,"
     ],
     "weisse": [
         "weisse",
@@ -20498,14 +15413,6 @@
         "weissi",
         "weiss i",
         "waiss i"
-    ],
-    "wele.": [
-        "wele.",
-        "Welle",
-        "welle.A",
-        "wellä.",
-        "wele,",
-        "welle,"
     ],
     "well": [
         "well",
@@ -20521,10 +15428,7 @@
         "wollte",
         "wéle",
         "welä",
-        "welen",
-        "wellä",
-        "wella",
-        "wähle"
+        "welen"
     ],
     "welled": [
         "welled",
@@ -20532,15 +15436,6 @@
         "wollten",
         "wellid",
         "weled"
-    ],
-    "wellere": [
-        "wellere",
-        "wellerä",
-        "welera"
-    ],
-    "welli": [
-        "welli",
-        "welle"
     ],
     "wellä": [
         "wellä",
@@ -20599,10 +15494,6 @@
     "weng": [
         "weng",
         "läng"
-    ],
-    "wenig": [
-        "wenig",
-        "wénig"
     ],
     "weniger": [
         "weniger"
@@ -20665,24 +15556,12 @@
     ],
     "wenns": [
         "wenns",
-        "wäns",
-        "wenn s",
-        "wens",
-        "wenn",
-        "wenn's"
+        "wäns"
     ],
     "werds": [
         "werds",
         "wirds",
         "wird"
-    ],
-    "werk": [
-        "werk",
-        "Werk-",
-        "Werk"
-    ],
-    "werk statt": [
-        "Wärkschtatt"
     ],
     "werom": [
         "werom",
@@ -20746,8 +15625,7 @@
         "weder",
         "wieder",
         "widèr",
-        "widr",
-        "go"
+        "widr"
     ],
     "wie": [
         "wie",
@@ -20757,9 +15635,7 @@
         "we",
         "wé",
         "",
-        "wiä",
-        "wIè",
-        "Wi"
+        "wiä"
     ],
     "wie da": [
         "wéda"
@@ -20775,8 +15651,7 @@
         "wieder",
         "wider",
         "wide",
-        "weder",
-        "widder"
+        "weder"
     ],
     "wiemer": [
         "wiemer",
@@ -20788,22 +15663,13 @@
         "wien",
         "****",
         "wi",
-        "",
-        "wie",
-        "wen",
-        "win"
+        ""
     ],
     "wien er": [
         "wiener"
     ],
     "wien es": [
         "wienes"
-    ],
-    "wien ich": [
-        "wiènich"
-    ],
-    "wien über": [
-        "wiènüber"
     ],
     "wiene": [
         "wiene",
@@ -20825,18 +15691,7 @@
         "wie",
         "",
         "wés",
-        "wien",
-        "wis",
-        "wes e",
-        "wells"
-    ],
-    "wigseit": [
-        "wigseit",
-        "wie gseit",
-        "wi",
-        "wegseuit",
-        "wie gseid",
-        "gseit"
+        "wien"
     ],
     "wiider": [
         "wiider",
@@ -20857,13 +15712,6 @@
         "wiitem",
         "witem"
     ],
-    "wil": [
-        "wil",
-        "wel",
-        "wöu",
-        "will",
-        "well"
-    ],
     "wild": [
         "wild"
     ],
@@ -20875,11 +15723,6 @@
     ],
     "wildi": [
         "wildi"
-    ],
-    "wildig": [
-        "wildig",
-        "wildi",
-        "wilde"
     ],
     "will": [
         "will",
@@ -20909,12 +15752,7 @@
         "ja",
         "jo",
         "mer",
-        "",
-        "weiss",
-        "wo",
-        "wowomer",
-        "gar",
-        "die"
+        ""
     ],
     "wird": [
         "wird",
@@ -20924,10 +15762,7 @@
         "wiirt...",
         "wird,",
         "wéért",
-        "wiit",
-        "wirt,",
-        "werd",
-        ""
+        "wiit"
     ],
     "wirklich": [
         "wirklich",
@@ -20952,13 +15787,6 @@
         "wissa",
         "wisse",
         "wissä"
-    ],
-    "wissid,": [
-        "wissid,",
-        "wissid"
-    ],
-    "wissid, ass": [
-        "wissid,dass"
     ],
     "wit": [
         "wit",
@@ -20993,30 +15821,19 @@
         "go",
         "wa",
         "und",
-        "wi",
-        "so",
-        "Und",
-        "u"
-    ],
-    "wo dä": [
-        "woner"
+        "wi"
     ],
     "wo em": [
         "wo***"
     ],
     "wo me": [
-        "wome",
-        "womer"
+        "wome"
     ],
     "wo mer": [
         "Womer"
     ],
     "wo ner": [
         "woner"
-    ],
-    "wo s": [
-        "wo's",
-        "wos"
     ],
     "wo si": [
         "wosi"
@@ -21025,14 +15842,7 @@
         "wo's",
         "wos",
         "wo",
-        "go is",
-        "Wos",
-        "Wo's"
-    ],
-    "wobi": [
-        "wobi",
-        "wobii",
-        "wobie"
+        "go is"
     ],
     "wofür": [
         "wofür",
@@ -21045,22 +15855,10 @@
         "wohär",
         "wohaar"
     ],
-    "wohl": [
-        "wohl",
-        "wool"
-    ],
     "woll": [
         "woll",
         "wohl",
         "wol"
-    ],
-    "wollte": [
-        "wollte",
-        "hät welu",
-        "her",
-        "het welu",
-        "welle",
-        "wellu"
     ],
     "wome": [
         "wome",
@@ -21069,30 +15867,6 @@
         "wo mur",
         "womè",
         "wo me"
-    ],
-    "womer": [
-        "womer",
-        "wo mer",
-        "woner",
-        "womèr",
-        "won er"
-    ],
-    "wommer": [
-        "wommer",
-        "wo mer",
-        "simmer"
-    ],
-    "won": [
-        "won",
-        "wo",
-        "wüeu"
-    ],
-    "won er": [
-        "wonär",
-        "woner"
-    ],
-    "won är": [
-        "**er"
     ],
     "wone": [
         "wone",
@@ -21108,21 +15882,11 @@
         "wo-n-er",
         "won er"
     ],
-    "wonich": [
-        "wonich",
-        "wo ich",
-        "won ich"
-    ],
     "wonim": [
         "wonim",
         "ihm",
         "wo ihm",
         "Wonem"
-    ],
-    "woorde": [
-        "woorde",
-        "worde",
-        "worde,"
     ],
     "woordä": [
         "woordä",
@@ -21197,12 +15961,7 @@
     "wott": [
         "wott",
         "Und",
-        "wotte",
-        "wott."
-    ],
-    "wuche": [
-        "wuche",
-        "Wuche"
+        "wotte"
     ],
     "wuescht": [
         "wuescht",
@@ -21215,22 +15974,10 @@
         "um",
         "wo mä"
     ],
-    "wunderä": [
-        "wunderä",
-        "Wunder nä",
-        "Wundernä",
-        "Wunder",
-        "wundernäh"
-    ],
     "wyder": [
         "wyder",
         "wider",
         "wieder"
-    ],
-    "wäg": [
-        "wäg",
-        "wegen",
-        ""
     ],
     "wägem": [
         "wägem"
@@ -21270,11 +16017,6 @@
         "wäme",
         "wenn ma"
     ],
-    "wänd": [
-        "wänd",
-        "wän",
-        "wänn"
-    ],
     "wänigschte": [
         "wänigschte"
     ],
@@ -21309,11 +16051,6 @@
     "wär.": [
         "wär.",
         "wär"
-    ],
-    "wärda": [
-        "wärda",
-        "werde",
-        "wäärde"
     ],
     "wärde": [
         "wärde"
@@ -21429,9 +16166,6 @@
         "wörklich",
         "wökli"
     ],
-    "wüss": [
-        "wüss"
-    ],
     "xeh": [
         "xeh",
         "gsii",
@@ -21451,18 +16185,10 @@
         "zmittsg",
         "I",
         "d'",
-        "d",
-        "",
-        "z'",
-        "ds",
-        "s",
-        "am"
+        "d"
     ],
     "z ***": [
         "zOortne"
-    ],
-    "z Abä": [
-        "zobe"
     ],
     "z Mittag": [
         "Z'Mittag hemir"
@@ -21482,13 +16208,6 @@
         "Zesse",
         "Zässe"
     ],
-    "z kirme": [
-        "ghiirne",
-        "zghirne"
-    ],
-    "z laufe": [
-        "z'lauffe S"
-    ],
     "z'": [
         "z'",
         "z"
@@ -21496,12 +16215,6 @@
     "z' guten": [
         "zgueten",
         "z'gueten"
-    ],
-    "z'Bodä,": [
-        "z'Bodä,",
-        "zBode",
-        "Boden,",
-        "z Bode,"
     ],
     "z'Glögg": [
         "z'Glögg",
@@ -21556,24 +16269,12 @@
         "zgoh",
         "z go."
     ],
-    "z'lauffe": [
-        "z'lauffe",
-        "z laufe.",
-        "z'laufe.",
-        "zlauffe"
-    ],
     "z'letscht": [
         "z'letscht",
         "z'litscht",
         "zletscht",
         "zlescht",
-        "z letscht",
-        "es zuletzt"
-    ],
-    "z'mache": [
-        "z'mache",
-        "z mache",
-        "zmache"
+        "z letscht"
     ],
     "z'mol": [
         "z'mol",
@@ -21596,19 +16297,6 @@
         "z'schlo,",
         "z schloh,"
     ],
-    "z'schpile": [
-        "z'schpile",
-        "zspile",
-        "z'spiele",
-        "zschpile"
-    ],
-    "z'sinn.": [
-        "z'sinn.",
-        "z Seen,",
-        "zsin.",
-        "zsinn.",
-        "Siin?"
-    ],
     "z'trummle": [
         "z'trummle",
         "trummle.",
@@ -21616,23 +16304,10 @@
         "z'drummle.",
         "zdrommle"
     ],
-    "z'träge": [
-        "z'träge",
-        "z träge",
-        "zträääge",
-        "s'träge",
-        "z'trääge",
-        "z'träge,"
-    ],
     "z'tue": [
         "z'tue",
         "tue.",
         "z'tuë,"
-    ],
-    "z'tüe": [
-        "z'tüe",
-        "ztu",
-        "ztüe"
     ],
     "z'zanggen": [
         "z'zanggen",
@@ -21676,33 +16351,10 @@
         "domm",
         "zoom"
     ],
-    "zcho": [
-        "zcho",
-        "z cho",
-        "zchoo",
-        "zcho,",
-        "z'cho"
-    ],
     "zeenena": [
         "zeenena",
         "zenenaa",
         "zehn Uhr"
-    ],
-    "zeert": [
-        "zeert",
-        "zeht",
-        "zehrt"
-    ],
-    "zehred": [
-        "zehred",
-        "zeerid",
-        "sierit",
-        "zéérid"
-    ],
-    "zeige": [
-        "zeige",
-        "zeigä",
-        "zäige"
     ],
     "zeiget": [
         "zeiget",
@@ -21715,40 +16367,9 @@
         "zer",
         "zur"
     ],
-    "zerrt,": [
-        "zerrt,",
-        "zeert",
-        "zéért",
-        "zerrt",
-        "zehrt",
-        "zerrte",
-        "***"
-    ],
-    "zerscht": [
-        "zerscht",
-        "zerrscht",
-        "Zeerscht",
-        "Zerscht",
-        "z",
-        "zersch"
-    ],
-    "zfifi": [
-        "zfifi",
-        "Zfiifi",
-        "zwiifi",
-        "nzifi",
-        "..",
-        "z'Fiifi",
-        "Zffiifi",
-        "z'fivi"
-    ],
     "zie": [
         "zie",
         ""
-    ],
-    "ziehn": [
-        "ziehn",
-        "ziend"
     ],
     "ziibeleweihe": [
         "ziibeleweihe",
@@ -21771,8 +16392,7 @@
         "ziit",
         "Ziit",
         "zit",
-        "Zit",
-        "Zyt"
+        "Zit"
     ],
     "zingge": [
         "zingge",
@@ -21787,13 +16407,6 @@
         "Zéérk",
         "Zirk nä"
     ],
-    "zite": [
-        "zite",
-        "Ziite",
-        "Zyte",
-        "ziite",
-        "Ziitte"
-    ],
     "zletscht": [
         "zletscht",
         "Z'letscht",
@@ -21801,15 +16414,6 @@
         "Zletscht",
         "letscht",
         "letsch"
-    ],
-    "zlo": [
-        "zlo",
-        "z lah",
-        "z lah.",
-        "zlaa",
-        "z laa",
-        "loh",
-        "z la"
     ],
     "zmart.": [
         "zmart.",
@@ -21845,23 +16449,11 @@
         "z Nacht",
         "dsnacht"
     ],
-    "znini": [
-        "znini",
-        "Znini",
-        "Zniini.§",
-        "nini",
-        "Zniini",
-        "z'Niini.",
-        "z'nini"
-    ],
     "zobed": [
         "zobed",
         "zObed",
         "",
         "Obet"
-    ],
-    "zoge": [
-        "zoge"
     ],
     "zom": [
         "zom",
@@ -21871,14 +16463,6 @@
         "zoobed",
         "z'abig",
         "zObed"
-    ],
-    "zrügg": [
-        "zrügg",
-        "zrüg",
-        "z'rügg"
-    ],
-    "zrügg cho,": [
-        "zrüggchoo"
     ],
     "zspäät": [
         "zspäät",
@@ -21895,15 +16479,11 @@
         "zu",
         "zo",
         "z",
-        "Zu",
-        "zum"
+        "Zu"
     ],
     "zu ***": [
         "chroose",
         "chrose"
-    ],
-    "zu mene": [
-        "zumene"
     ],
     "zu schauen,": [
         "zluege"
@@ -21978,8 +16558,7 @@
         "zum ne,"
     ],
     "zur": [
-        "zur",
-        "zum"
+        "zur"
     ],
     "zuschletzt.": [
         "zuschletzt.",
@@ -22004,10 +16583,6 @@
         "zwaa",
         "zwai"
     ],
-    "zwait": [
-        "zwait",
-        "zweit"
-    ],
     "zwaiti": [
         "zwaiti",
         "zwäiti",
@@ -22031,10 +16606,7 @@
     "zwei": [
         "zwei",
         "zwäi",
-        "zwai,",
-        "zwöi",
-        "zwo",
-        "zwoo"
+        "zwai,"
     ],
     "zweit": [
         "zweit",
@@ -22058,31 +16630,10 @@
         "zwar",
         "zwa"
     ],
-    "zwäi": [
-        "zwäi",
-        "zwei",
-        "zwai"
-    ],
-    "zwängids": [
-        "zwängids",
-        "zwängid",
-        "zwängen"
-    ],
-    "zwängt": [
-        "zwängt",
-        "schwängt",
-        "zwäng"
-    ],
     "zwölfi": [
         "zwölfi",
         "zwelfi",
         "zwélfi"
-    ],
-    "zwüschezit": [
-        "zwüschezit",
-        "Zwüscheziit",
-        "Zwüschezit",
-        "zwöscheziit"
     ],
     "zyt": [
         "zyt",
@@ -22093,18 +16644,10 @@
     ],
     "zäh": [
         "zäh",
-        "zääch",
-        "zääh",
-        "zää"
-    ],
-    "zähni": [
-        "zähni",
-        "däii",
-        "zääni"
+        "zääch"
     ],
     "zäme": [
-        "zäme",
-        "zämä"
+        "zäme"
     ],
     "zäme choo": [
         "zäämecho"
@@ -22113,11 +16656,6 @@
         "zämegwachse",
         "zäämegwachsen",
         "zäämegwachse n"
-    ],
-    "zäme.": [
-        "zäme.",
-        "zäme,",
-        "zäme"
     ],
     "zämechömet": [
         "zämechömet",
@@ -22135,17 +16673,6 @@
         "zämetrülä",
         "s zämedrüle"
     ],
-    "zämelaufe.": [
-        "zämelaufe.",
-        "zämelaufe",
-        " zämelauffe"
-    ],
-    "zämmabruch": [
-        "zämmabruch",
-        "Zämebruch",
-        "Zamebruch",
-        "zämebruch"
-    ],
     "zügle,": [
         "zügle,",
         "zügle"
@@ -22158,11 +16685,6 @@
     "züri": [
         "züri",
         "Züri"
-    ],
-    "Ä": [
-        "Ä",
-        "e",
-        "E"
     ],
     "Ächs,": [
         "Ächs,",
@@ -22239,72 +16761,30 @@
         "me-n-ä",
         "eu",
         "è",
-        "nä",
-        "hän",
-        "hänn",
-        "machten",
-        "äs",
-        "gsäit",
-        "es",
-        "oder",
-        "Oder"
+        "nä"
     ],
     "ä därbi": [
         "derbie",
         "derbiä"
     ],
-    "ä füfsäni": [
-        "füfzääni."
-    ],
     "äbe": [
         "äbe"
-    ],
-    "ächt": [
-        "ächt",
-        ""
     ],
     "äh": [
         "äh",
         "äh,",
         "ä",
-        "ä,",
-        "eh,",
-        "ää",
-        ""
+        "ä,"
     ],
     "äh,": [
         "äh,",
         "ääh",
-        "",
-        "ä",
-        "ää,",
-        "äh",
-        "Äh."
-    ],
-    "ähä": [
-        "ähä",
-        "hän",
-        "unds"
-    ],
-    "äifach,": [
-        "äifach,",
-        "eifach",
-        "aifch,",
-        "eifach,"
+        ""
     ],
     "äin!": [
         "äin!",
         "äin.",
         "ein!"
-    ],
-    "äis": [
-        "äis",
-        "***",
-        "fest"
-    ],
-    "äis dr": [
-        "äister",
-        "äisbr"
     ],
     "älfi": [
         "älfi"
@@ -22326,12 +16806,6 @@
         "ämu",
         "amel"
     ],
-    "än": [
-        "än",
-        "en",
-        "èn",
-        "e"
-    ],
     "änds": [
         "änds",
         "ends",
@@ -22346,16 +16820,7 @@
         "er",
         "äär",
         "De",
-        "Er",
-        "när"
-    ],
-    "ärnscht": [
-        "ärnscht",
-        "Ärnscht",
-        "ernscht",
-        "Aernscht",
-        "Äärnscht",
-        "äärnscht"
+        "Er"
     ],
     "ärnte?": [
         "ärnte?",
@@ -22366,12 +16831,7 @@
         "äs",
         "es",
         "en",
-        "ein",
-        "ès",
-        "bräuchte"
-    ],
-    "äs paar": [
-        "einpaar"
+        "ein"
     ],
     "äsa": [
         "äsa",
@@ -22409,73 +16869,6 @@
         "äpis",
         "etwas..."
     ],
-    "ätund": [
-        "ätund",
-        "und"
-    ],
-    "ätund –": [
-        "und..."
-    ],
-    "äu": [
-        "äu",
-        "ä",
-        "oe",
-        "öe",
-        "au"
-    ],
-    "ääh": [
-        "ääh",
-        "eh,",
-        "eh",
-        "ää",
-        "äää"
-    ],
-    "ääh..": [
-        "ääh..",
-        "äh",
-        "",
-        "eh",
-        "äääh"
-    ],
-    "äääh": [
-        "äääh",
-        "de",
-        "h öhhh",
-        "ähh..",
-        "",
-        "èèè",
-        "ää,",
-        "eeh,"
-    ],
-    "ès": [
-        "ès",
-        "es"
-    ],
-    "ìch": [
-        "ìch",
-        "Ech",
-        "ich",
-        "iich",
-        "",
-        "fixiert",
-        "Ich"
-    ],
-    "ìmmèr": [
-        "ìmmèr",
-        "emmer",
-        "immer",
-        "imer",
-        "ihr"
-    ],
-    "ìsch": [
-        "ìsch",
-        "esch",
-        "isch",
-        "ist"
-    ],
-    "ìsch ès": [
-        "isches"
-    ],
     "ö": [
         "ö",
         ""
@@ -22505,14 +16898,6 @@
         "öpis",
         "eppis"
     ],
-    "öbs": [
-        "öbs",
-        "für",
-        "so"
-    ],
-    "öbs ***": [
-        "wilss"
-    ],
     "öi": [
         "öi",
         "",
@@ -22520,21 +16905,6 @@
     ],
     "öi Bestand": [
         "widerstand"
-    ],
-    "öino": [
-        "öino",
-        "öu no",
-        "öina",
-        "noch",
-        "öi no"
-    ],
-    "öpe": [
-        "öpe",
-        "öppe",
-        "öppä"
-    ],
-    "öpe ne": [
-        "öppene"
     ],
     "öpis": [
         "öpis",
@@ -22565,61 +16935,21 @@
     "öppe ä": [
         "öppe-n-e"
     ],
-    "öppedie": [
-        "öppedie",
-        "i öpedie"
-    ],
     "öpper": [
         "öpper",
         "Epper",
         "ebber",
         "éppr",
-        "epper",
-        "öppe"
+        "epper"
     ],
     "öppis": [
         "öppis",
         "öpis",
-        "öbbis",
-        "Öppis"
+        "öbbis"
     ],
     "öppis.": [
         "öppis.",
         "öppis,"
-    ],
-    "öppä": [
-        "öppä",
-        "oppä",
-        "öppe",
-        "öpe"
-    ],
-    "ùm": [
-        "ùm",
-        "Om",
-        "um",
-        ","
-    ],
-    "ùm myny": [
-        "meiner"
-    ],
-    "ùme,": [
-        "ùme,",
-        "ome.",
-        "umä,",
-        "ume,",
-        "",
-        "umä.",
-        "ume."
-    ],
-    "ùmè,": [
-        "ùmè,",
-        "ome.",
-        "umä",
-        "ome",
-        "ume,",
-        "Nähe",
-        "umä,",
-        ""
     ],
     "ü": [
         "ü",
@@ -22630,14 +16960,7 @@
         "übere",
         "-über",
         "der",
-        "u de",
-        "uber",
-        "öber",
-        "uf",
-        "ufo",
-        "hät er",
-        "hett er",
-        "übers"
+        "u de"
     ],
     "überall": [
         "überall",
@@ -22653,27 +16976,9 @@
         "Überbokete",
         "Überbockete."
     ],
-    "übercho,": [
-        "übercho,",
-        "übercho e",
-        "überchoo",
-        "übercho"
-    ],
     "überchunnt": [
         "überchunnt",
         "überchunt"
-    ],
-    "überhaupt": [
-        "überhaupt",
-        "überhoupt"
-    ],
-    "übers": [
-        "übers",
-        "ufs",
-        " z",
-        "",
-        "uf",
-        "über's"
     ],
     "übr": [
         "übr",
@@ -22708,13 +17013,6 @@
     "üseri": [
         "üseri"
     ],
-    "üsgstande": [
-        "üsgstande",
-        "uusgschtande.",
-        "üsgschtandä",
-        "üsgschtande",
-        "üsgschtande."
-    ],
     "üsses": [
         "üsses",
         "user",
@@ -22737,9 +17035,5 @@
         "öösri",
         "üsi",
         "üseri"
-    ],
-    "–": [
-        "–",
-        ""
     ]
 }
