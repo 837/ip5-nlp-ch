@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import nltk
-import util
 
 
 
@@ -19,13 +18,9 @@ def bleu_ratings(texts):
     return scores
 
 
-def reject_outliers(data, values, m=2.):
+def reject_outliers(data, values, minscore=0.5):
     values = np.array(values)
-    # d = np.abs(values - np.median(values))
-    # mdev = np.median(d)
-    # s = d/(mdev if mdev else 1.)
-    # return np.array(data)[s < m].tolist(), values[s < m].tolist()
-    return np.array(data)[values > 0.5].tolist(), values[values > 0.5].tolist()
+    return np.array(data)[values > minscore].tolist(), values[values > minscore].tolist()
 
 
 def getGoodTransscriptions(texts):

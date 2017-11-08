@@ -17,9 +17,12 @@ def align(sentences, dict_to_use):
         f2.write(sentence2.encode("utf8"))
         f2.flush()
 
+        startupinfo = subprocess.STARTUPINFO()
+        startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+
         create_aligned_word_dict(
             subprocess.Popen("Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.txt swg2.txt",
-                             stdout=subprocess.PIPE, stderr=subprocess.DEVNULL).communicate()[0].decode("utf8").split(
+                             stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, startupinfo=startupinfo).communicate()[0].decode("utf8").split(
                 "\n"), dict_to_use)
     return dict_to_use
 
