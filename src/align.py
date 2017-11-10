@@ -1,3 +1,4 @@
+import string
 import subprocess
 from functools import reduce
 
@@ -7,7 +8,8 @@ import util
 def remove_punctuation(texts):
     sentences = []
     for sentence in texts:
-        sentences.append(reduce((lambda x, y: x + " " + y), list(sentence)).replace("   ", "\n"))
+        sentences.append(reduce((lambda x, y: x + " " + y), list(sentence.translate(
+            {ord(c): None for c in string.punctuation}))).replace("   ", "\n"))
     return sentences
 
 
@@ -22,7 +24,8 @@ def align(sentences, dict_to_use):
 
         create_aligned_word_dict(
             subprocess.Popen("Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.txt swg2.txt",
-                             stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, startupinfo=startupinfo).communicate()[0].decode("utf8").split(
+                             stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, startupinfo=startupinfo).communicate()[
+                0].decode("utf8").split(
                 "\n"), dict_to_use)
     return dict_to_use
 
