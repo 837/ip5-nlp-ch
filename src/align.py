@@ -8,12 +8,14 @@ import util
 def remove_punctuation(texts):
     sentences = []
     for sentence in texts:
-        sentences.append(reduce((lambda x, y: x + " " + y), list(sentence.translate(
-            {ord(c): None for c in string.punctuation}))).replace("   ", "\n"))
+        sentences.append(reduce((lambda x, y: x + " " + y), list(
+            sentence.replace(",", '').replace(".", '').replace(":", '').replace("!", ''))).replace("   ", "\n"))
     return sentences
 
 
 def align(sentences, dict_to_use):
+    temp_sentence_dict = dict()
+
     for sentence2 in sentences:
         f2 = open('swg2.txt', 'wb')
         f2.write(sentence2.encode("utf8"))
@@ -26,7 +28,26 @@ def align(sentences, dict_to_use):
             subprocess.Popen("Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.txt swg2.txt",
                              stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, startupinfo=startupinfo).communicate()[
                 0].decode("utf8").split(
-                "\n"), dict_to_use)
+                "\n"), temp_sentence_dict)
+
+    print(temp_sentence_dict)
+    for key in temp_sentence_dict:
+        if "***" == key:
+            if "***" != temp_sentence_dict[key][0] and not "" == temp_sentence_dict[key][0]:
+                newKey = temp_sentence_dict[key][0]
+                if newKey in temp_sentence_dict:
+                    temp_sentence_dict[newKey].extend(temp_sentence_dict.pop(key))
+                else:
+                    temp_sentence_dict[newKey] = temp_sentence_dict.pop(key)
+            elif len(temp_sentence_dict[key]) >= 2:
+                if "***" != temp_sentence_dict[key][1] and not "" == temp_sentence_dict[key][1]:
+                    newKey = temp_sentence_dict[key][1]
+                    if newKey in temp_sentence_dict:
+                        temp_sentence_dict[newKey].extend(temp_sentence_dict.pop(key))
+                    else:
+                        temp_sentence_dict[newKey] = temp_sentence_dict.pop(key)
+    print(temp_sentence_dict)
+
     return dict_to_use
 
 

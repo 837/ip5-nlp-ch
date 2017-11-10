@@ -1,3 +1,6 @@
+import string
+from functools import reduce
+
 import util
 import bleu_score
 import align
@@ -40,3 +43,4 @@ for taskID in bleu_score.filter_tasks_lesser_or_equal_than(2, allTaskByID):
     align.align_every_sentence_to_the_others(texts, util.load_dict_from_json("align_every_sentence_to_the_others.json"))
     align.align_one_sentence_to_the_others(texts, 0, util.load_dict_from_json("align_one_sentence_to_the_others.json"))
     iterationCount += 1
+
