@@ -27,9 +27,14 @@ def dump_dict_to_json(data, filename):
 
 
 def load_dict_from_json(filename):
-    with open(filename, 'r') as fp:
-        data = json.load(fp)
-    return data
+    try:
+        with open(filename, 'r') as fp:
+            data = json.load(fp)
+        return data
+    except FileNotFoundError:
+        # create empty dict in file, try again
+        dump_dict_to_json(dict(), filename)
+        return load_dict_from_json(filename)
 
 
 # Print iterations progress
