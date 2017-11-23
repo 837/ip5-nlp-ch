@@ -1,6 +1,7 @@
 import string
 from functools import reduce
 
+import fizzle
 import util
 import bleu_score
 import align
@@ -37,6 +38,8 @@ print("bleu1toN: " + str(levenshtein.score_alignment(bleu1toN)))
 print("bleuNtoN: " + str(levenshtein.score_alignment(bleuNtoN)))
 print(hun1toN)
 print(bleu1toN)
+
+
 #
 # texts, ratings = bleu_score.getGoodTransscriptions(allTaskByID[2046][0])
 # align.align_every_sentence_to_the_others(texts, util.load_dict_from_json("align_every_sentence_to_the_others.json"))

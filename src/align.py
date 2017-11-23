@@ -17,7 +17,6 @@ HUNALIGN = "Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.tx
 
 
 def align(sentences, dict_to_use, aligner):
-
     for sentence2 in sentences:
         f2 = open('swg2.txt', 'wb')
         f2.write(sentence2.encode("utf8"))
@@ -35,12 +34,18 @@ def align(sentences, dict_to_use, aligner):
     return dict_to_use
 
 
+from pyxdameraulevenshtein import damerau_levenshtein_distance, normalized_damerau_levenshtein_distance
+
+
 def create_aligned_word_dict(aligned_sentence, dict_to_use):
     for sentence in aligned_sentence:
         words = sentence.replace("\r", "").split("\t")
         if len(words) >= 2:
             key = words[0].replace(" ", "").replace("~~~", " ")
             value = words[1].replace(" ", "").replace("~~~", " ")
+            if normalized_damerau_levenshtein_distance(key, value) > 0.8:
+                continue
+
             found = False
             for wordgroup in dict_to_use:
                 if key in wordgroup or value in wordgroup:
@@ -50,7 +55,7 @@ def create_aligned_word_dict(aligned_sentence, dict_to_use):
                         wordgroup.append(value)
                     found = True
             if not found:
-                if(key != value):
+                if (key != value):
                     dict_to_use.append([key, value])
                 else:
                     dict_to_use.append([key])
