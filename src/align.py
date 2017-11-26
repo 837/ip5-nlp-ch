@@ -34,16 +34,13 @@ def align(sentences, dict_to_use, aligner):
     return dict_to_use
 
 
-from pyxdameraulevenshtein import damerau_levenshtein_distance, normalized_damerau_levenshtein_distance
-
-
 def create_aligned_word_dict(aligned_sentence, dict_to_use):
     for sentence in aligned_sentence:
         words = sentence.replace("\r", "").split("\t")
         if len(words) >= 2:
             key = words[0].replace(" ", "").replace("~~~", " ")
             value = words[1].replace(" ", "").replace("~~~", " ")
-            if normalized_damerau_levenshtein_distance(key, value) > 0.8:
+            if util.nomalized_dl_distance(key, value) > 0.8:
                 continue
 
             found = False

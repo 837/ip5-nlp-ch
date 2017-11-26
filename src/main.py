@@ -31,13 +31,17 @@ hun1toN = align.align_one_sentence_to_the_others(texts, 0, [], align.HUNALIGN)
 hunNtoN = align.align_every_sentence_to_the_others(texts, [], align.HUNALIGN)
 bleu1toN = align.align_one_sentence_to_the_others(texts, 0, [], align.BLEUALIGN)
 bleuNtoN = align.align_every_sentence_to_the_others(texts, [], align.BLEUALIGN)
+import pprint
+
+pp = pprint.PrettyPrinter(indent=2)
 
 print("hun1toN: " + str(levenshtein.score_alignment(hun1toN)))
 print("hunNtoN: " + str(levenshtein.score_alignment(hunNtoN)))
 print("bleu1toN: " + str(levenshtein.score_alignment(bleu1toN)))
 print("bleuNtoN: " + str(levenshtein.score_alignment(bleuNtoN)))
-print(hun1toN)
-print(bleu1toN)
+pp.pprint(hun1toN)
+print("================================================")
+pp.pprint(bleu1toN)
 
 
 #
@@ -57,4 +61,3 @@ print(bleu1toN)
 #     align.align_every_sentence_to_the_others(texts, util.load_dict_from_json("align_every_sentence_to_the_others.json"))
 #     align.align_one_sentence_to_the_others(texts, 0, util.load_dict_from_json("align_one_sentence_to_the_others.json"))
 #     iterationCount += 1
-

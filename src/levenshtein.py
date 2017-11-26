@@ -1,5 +1,7 @@
 from pyxdameraulevenshtein import damerau_levenshtein_distance, normalized_damerau_levenshtein_distance
 
+import util
+
 
 def score_words(words):
     if len(words) <= 1:
@@ -8,7 +10,7 @@ def score_words(words):
     for word1 in words:
         for word2 in words:
             if word1 != word2:
-                score += normalized_damerau_levenshtein_distance(word1, word2)
+                score += util.nomalized_dl_distance(word1, word2)
     combinations = len(words) * (len(words) - 1)
     return score / combinations
 

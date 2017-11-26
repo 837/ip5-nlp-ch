@@ -60,3 +60,20 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
     if iteration == total:
         sys.stdout.write('\n')
     sys.stdout.flush()
+
+
+from fizzle import *
+
+editCosts = [('ä', 'e', 0.0),  # default edit costs are 1
+             ('e', 'ä', 0.2),
+             ('i', 'y', 0.5),
+             ('y', 'i', 0.5),
+             ('e', 'é', 0.5)
+             ]
+
+
+def nomalized_dl_distance(word1, word2):
+    try:
+        return dl_distance(word1, word2, substitutions=editCosts, symetric=False) / max(len(word1), len(word2))
+    except ZeroDivisionError:
+        return 1
