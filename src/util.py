@@ -1,8 +1,8 @@
 import pandas as pd
 import json
-
 import sys
-
+from fizzle import *
+from string import ascii_lowercase, ascii_uppercase
 
 def loadDataFromCSVFile(filePath):
     df = pd.read_csv(filePath, delimiter=';')
@@ -62,14 +62,23 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
     sys.stdout.flush()
 
 
-from fizzle import *
-
-editCosts = [('ä', 'e', 0.0),  # default edit costs are 1
+editCosts = [('ä', 'e', 0.2),  # default edit costs are 1
              ('e', 'ä', 0.2),
-             ('i', 'y', 0.5),
-             ('y', 'i', 0.5),
-             ('e', 'é', 0.5)
+             ('i', 'y', 0.1),
+             ('y', 'i', 0.1),
+             ('e', 'é', 0.3),
+             ('é', 'e', 0.3),
+             ('b', 'p', 0.8),
+             ('p', 'b', 0.8),
+             ('n', 'm', 0.8),
+             ('m', 'n', 0.8),
+             ('d', 't', 0.8),
+             ('t', 'd', 0.8),
              ]
+
+for (l, u) in zip(ascii_lowercase, ascii_uppercase):
+    editCosts.append((l, u, 0.1))
+    editCosts.append((u, l, 0.1))
 
 
 def nomalized_dl_distance(word1, word2):

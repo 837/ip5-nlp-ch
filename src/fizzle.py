@@ -1,4 +1,7 @@
 # -*- encoding: utf8 -*-
+# LICENSE: MIT License
+# AUTHOR: Jiri Nadvornik: nadvornik.jiri@gmail.com
+# https://github.com/nadvornix/python-fizzle
 from numpy import unicode
 
 
