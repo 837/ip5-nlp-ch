@@ -40,7 +40,7 @@ def create_aligned_word_dict(aligned_sentence, dict_to_use):
         if len(words) >= 2:
             key = words[0].replace(" ", "").replace("~~~", " ")
             value = words[1].replace(" ", "").replace("~~~", " ")
-            if util.nomalized_dl_distance(key, value) > 0.8:
+            if util.normalized_dl_distance(key, value) > 0.333:  # should be between 0.333 and 0.55
                 continue
 
             found = False
@@ -51,8 +51,9 @@ def create_aligned_word_dict(aligned_sentence, dict_to_use):
                     if value not in wordgroup:
                         wordgroup.append(value)
                     found = True
+                    break
             if not found:
-                if (key != value):
+                if key != value:
                     dict_to_use.append([key, value])
                 else:
                     dict_to_use.append([key])

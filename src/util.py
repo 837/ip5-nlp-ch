@@ -62,26 +62,34 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
     sys.stdout.flush()
 
 
-editCosts = [('ä', 'e', 0.2),  # default edit costs are 1
-             ('e', 'ä', 0.2),
-             ('i', 'y', 0.1),
-             ('y', 'i', 0.1),
-             ('e', 'é', 0.3),
-             ('é', 'e', 0.3),
-             ('b', 'p', 0.8),
-             ('p', 'b', 0.8),
-             ('n', 'm', 0.8),
-             ('m', 'n', 0.8),
-             ('d', 't', 0.8),
-             ('t', 'd', 0.8),
-             ]
+editCosts = []  # default edit costs are 1
+
+
+def cost(a, b, score):
+    editCosts.append((a, b, score))
+    editCosts.append((b, a, score))
+
+
+cost('i', 'y', 0.1)
+cost('e', 'ä', 0.2)
+cost('e', 'é', 0.2)
+cost('e', 'è', 0.2)
+cost('ä', 'é', 0.2)
+cost('ä', 'é', 0.2)
+cost('b', 'p', 0.8)
+cost('n', 'm', 0.8)
+cost('d', 't', 0.8)
+cost('g', 'k', 0.8)
+cost('Ä', 'ä', 0.1)
+cost('Ü', 'ü', 0.1)
+cost('Ö', 'ö', 0.1)
 
 for (l, u) in zip(ascii_lowercase, ascii_uppercase):
     editCosts.append((l, u, 0.1))
     editCosts.append((u, l, 0.1))
 
 
-def nomalized_dl_distance(word1, word2):
+def normalized_dl_distance(word1, word2):
     try:
         return dl_distance(word1, word2, substitutions=editCosts, symetric=False) / max(len(word1), len(word2))
     except ZeroDivisionError:

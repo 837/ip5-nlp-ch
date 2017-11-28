@@ -1,6 +1,6 @@
 import string
 from functools import reduce
-
+import matplotlib.pyplot as plt
 import fizzle
 import util
 import bleu_score
@@ -9,7 +9,7 @@ import levenshtein
 import pprint
 
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
-allTaskByID = {k: allTaskByID[k] for k in list(allTaskByID)[:10]}
+# allTaskByID = {k: allTaskByID[k] for k in list(allTaskByID)[:100]}
 #
 # texts, ratings = bleu_score.getGoodTransscriptions(allTaskByID[2048][0])
 #
@@ -55,22 +55,27 @@ allTaskByID = {k: allTaskByID[k] for k in list(allTaskByID)[:10]}
 # align.align_every_sentence_to_the_others(texts, util.load_dict_from_json("align_every_sentence_to_the_others.json"))
 # align.align_one_sentence_to_the_others(texts, 0, util.load_dict_from_json("align_one_sentence_to_the_others.json"))
 
-iterationCount = 0
-hun1toN = []
-bleu1toN = []
-util.print_progress(iterationCount, len(allTaskByID), prefix='Progress:', suffix='Complete')
-for taskID in bleu_score.filter_tasks_lesser_or_equal_than(2, allTaskByID):
-    util.print_progress(iterationCount, len(allTaskByID), prefix='Progress:', suffix='Complete')
+iterationCount = 1
+hunNtoN = []
+bleuNtoN = []
+filtered = bleu_score.filter_tasks_lesser_or_equal_than(2, allTaskByID)
+for taskID in filtered:
+    util.print_progress(iterationCount, len(filtered), prefix='Progress:', suffix='Complete')
     texts, ratings = bleu_score.getGoodTransscriptions(allTaskByID[taskID][0])
-    align.align_one_sentence_to_the_others(texts, 0, hun1toN, align.HUNALIGN)
-    align.align_one_sentence_to_the_others(texts, 0, bleu1toN, align.BLEUALIGN)
+    align.align_every_sentence_to_the_others(texts, hunNtoN, align.HUNALIGN)
+    align.align_every_sentence_to_the_others(texts, bleuNtoN, align.BLEUALIGN)
     iterationCount += 1
 
 
-pp = pprint.PrettyPrinter(indent=2)
+util.dump_dict_to_json(hunNtoN, "hunNtoN.json")
+util.dump_dict_to_json(bleuNtoN, "bleuNtoN.json")
+# pp = pprint.PrettyPrinter(indent=2)
 
-print("hun1toN: " + str(levenshtein.score_alignment(hun1toN)))
-print("bleu1toN: " + str(levenshtein.score_alignment(bleu1toN)))
-pp.pprint(hun1toN)
-print("================================================")
-pp.pprint(bleu1toN)
+# print("\nhun1toN: " + str(levenshtein.score_alignment(hun1toN)))
+# pp.pprint(hun1toN)
+# print("================================================\n")
+# print("bleu1toN: " + str(levenshtein.score_alignment(bleu1toN)))
+# pp.pprint(bleu1toN)
+
+# plt.hist(align.distances, 100)
+# plt.show()
