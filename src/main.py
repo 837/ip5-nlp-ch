@@ -55,20 +55,20 @@ allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 # align.align_every_sentence_to_the_others(texts, util.load_dict_from_json("align_every_sentence_to_the_others.json"))
 # align.align_one_sentence_to_the_others(texts, 0, util.load_dict_from_json("align_one_sentence_to_the_others.json"))
 
-iterationCount = 1
-hunNtoN = []
-bleuNtoN = []
-filtered = bleu_score.filter_tasks_lesser_or_equal_than(2, allTaskByID)
-for taskID in filtered:
-    util.print_progress(iterationCount, len(filtered), prefix='Progress:', suffix='Complete')
-    texts, ratings = bleu_score.getGoodTransscriptions(allTaskByID[taskID][0])
-    align.align_every_sentence_to_the_others(texts, hunNtoN, align.HUNALIGN)
-    align.align_every_sentence_to_the_others(texts, bleuNtoN, align.BLEUALIGN)
-    iterationCount += 1
-
-
-util.dump_dict_to_json(hunNtoN, "hunNtoN.json")
-util.dump_dict_to_json(bleuNtoN, "bleuNtoN.json")
+# iterationCount = 1
+# hunNtoN = []
+# bleuNtoN = []
+# filtered = bleu_score.filter_tasks_lesser_or_equal_than(2, allTaskByID)
+# for taskID in filtered:
+#     util.print_progress(iterationCount, len(filtered), prefix='Progress:', suffix='Complete')
+#     texts, ratings = bleu_score.getGoodTransscriptions(allTaskByID[taskID][0])
+#     align.align_every_sentence_to_the_others(texts, hunNtoN, align.HUNALIGN)
+#     align.align_every_sentence_to_the_others(texts, bleuNtoN, align.BLEUALIGN)
+#     iterationCount += 1
+#
+#
+# util.dump_dict_to_json(hunNtoN, "hunNtoN.json")
+# util.dump_dict_to_json(bleuNtoN, "bleuNtoN.json")
 # pp = pprint.PrettyPrinter(indent=2)
 
 # print("\nhun1toN: " + str(levenshtein.score_alignment(hun1toN)))
@@ -79,3 +79,15 @@ util.dump_dict_to_json(bleuNtoN, "bleuNtoN.json")
 
 # plt.hist(align.distances, 100)
 # plt.show()
+
+group = allTaskByID[1919][0]
+
+best_index = bleu_score.max_index(group)
+print("good sentence:")
+print(group[best_index])
+print("\nbad sentence:")
+improve_index = 1
+print(group[improve_index])
+improved = align.improve(group, improve_index, align.HUNALIGN)
+print("\nimproved sentence:")
+print(improved)

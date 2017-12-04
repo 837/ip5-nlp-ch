@@ -28,28 +28,5 @@ def getGoodTransscriptions(texts):
     return reject_outliers(texts, r)
 
 
-# texts, ratings = getGoodTransscriptions(allTaskByID[2048][0])
-# print(texts, ratings)
-
-
-# for taskID in filterTasksLesserOrEqualThan(2, allTaskByID):
-#    texts, ratings = getGoodTransscriptions(allTaskByID[taskID][0])
-#    print(ratings)
-
-# print(ratings)
-# print(bleu_ratings(allTaskByID[2096][0]))
-
-# def histoStuff():
-#     all = []
-#     for taskID in filter_tasks_lesser_or_equal_than(2, allTaskByID):
-#         # texts, ratings = getGoodTransscriptions(allTaskByID[taskID][0])
-#         ratings = bleu_ratings(allTaskByID[taskID][0])
-#         # if len(texts) > 0:
-#         #     print(taskID)
-#         #     print(texts)
-#         for r in ratings:
-#             all.append(r)
-#
-#     plt.hist(all, 200)
-#     plt.show()
-#     # print(np.sort(mins))
+def max_index(values):
+    return values.index(max(values))

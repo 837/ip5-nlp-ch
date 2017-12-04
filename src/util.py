@@ -94,3 +94,7 @@ def normalized_dl_distance(word1, word2):
         return dl_distance(word1, word2, substitutions=editCosts, symetric=False) / max(len(word1), len(word2))
     except ZeroDivisionError:
         return 1
+
+
+def flatten(li):
+    return [item for sublist in li for item in sublist]
