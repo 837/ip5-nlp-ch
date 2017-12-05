@@ -65,8 +65,8 @@ def create_aligned_word_dict(aligned_sentence, dict_to_use, filter_value=0.333):
     return dict_to_use
 
 
-def align_one_sentence_to_the_others(texts, id_of_sentence_to_be_aligned_to, dict_to_use, aligner, filter_value=0.333, ignore_punctuation=False):
-
+def align_one_sentence_to_the_others(texts, id_of_sentence_to_be_aligned_to, dict_to_use, aligner, filter_value=0.333,
+                                     ignore_punctuation=False):
     sentences = prepare(texts)
     if ignore_punctuation:
         sentences = remove_punctuation(sentences)
@@ -89,17 +89,27 @@ def align_every_sentence_to_the_others(texts, dict_to_use, aligner, filter_value
     return dict_to_use
 
 
-def improve(texts, base_sentence_id, aligner):
+def improve(texts, base_sentence_id, aligner, use_bad_word_detection=False, group_score_for_filter=0.8):
     complete_alignment = []
     align_one_sentence_to_the_others(texts, base_sentence_id, complete_alignment, aligner, 1, False)
 
     words = texts[base_sentence_id].split(" ")
-    bad_words = ["**", "***", "****"]
+    bad_words = ["**", "***", "****", "??", "???"]
+
+    if use_bad_word_detection:
+        for group in complete_alignment:
+            if levenshtein.score_alignment(group) > group_score_for_filter:
+                print(levenshtein.score_alignment(group), group)
+                bad_words.append(levenshtein.worst_word(group))
+
+        print(bad_words)
 
     for i, word in enumerate(words):
         if word in bad_words:
             for group in complete_alignment:
-                if word in group:
-                    words[i] = levenshtein.best_word(group)
-                    break
+                if levenshtein.score_alignment(group) > group_score_for_filter:
+                    if word in group:
+                        print(group)
+                        words[i] = levenshtein.best_word(group)
+                        break
     return reduce((lambda x, y: x + " " + y), words)

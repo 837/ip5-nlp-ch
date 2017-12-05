@@ -80,8 +80,11 @@ allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 # plt.hist(align.distances, 100)
 # plt.show()
 
-group = allTaskByID[1919][0]
 
+# for id in [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000]:
+id = 1994
+group = allTaskByID[id][0]
+print("Group Nr.: " + str(id))
 best_index = bleu_score.max_index(group)
 print("good sentence:")
 print(group[best_index])
@@ -91,3 +94,8 @@ print(group[improve_index])
 improved = align.improve(group, improve_index, align.HUNALIGN)
 print("\nimproved sentence:")
 print(improved)
+improved = align.improve(group, improve_index, align.HUNALIGN,use_bad_word_detection=True)
+print("\nimproved sentence(with additional word filter):")
+print(improved)
+print()
+print()

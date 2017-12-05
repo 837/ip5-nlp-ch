@@ -35,3 +35,16 @@ def best_word(words):
                 scores[i] += util.normalized_dl_distance(word1, word2)
         scores[i] /= len(words) - 1
     return words[scores.index(min(scores))]
+
+
+def worst_word(words):
+    if len(words) < 2:
+        return words[0]
+    scores = []
+    for i, word1 in enumerate(words):
+        scores.append(0)
+        for word2 in words:
+            if word1 != word2:
+                scores[i] += util.normalized_dl_distance(word1, word2)
+        scores[i] /= len(words) - 1
+    return words[scores.index(max(scores))]
