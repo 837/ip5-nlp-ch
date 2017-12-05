@@ -89,7 +89,8 @@ def align_every_sentence_to_the_others(texts, dict_to_use, aligner, filter_value
     return dict_to_use
 
 
-def improve(texts, base_sentence_id, aligner, use_bad_word_detection=False, group_score_for_filter=0.8):
+def improve(texts, base_sentence_id, aligner, use_bad_word_detection=False, group_score_for_filter_lower=0.8,
+            group_score_for_filter_upper=0.9):
     complete_alignment = []
     align_one_sentence_to_the_others(texts, base_sentence_id, complete_alignment, aligner, 1, False)
 
@@ -98,8 +99,8 @@ def improve(texts, base_sentence_id, aligner, use_bad_word_detection=False, grou
 
     if use_bad_word_detection:
         for group in complete_alignment:
-            if levenshtein.score_alignment(group) > group_score_for_filter:
-                print(levenshtein.score_alignment(group), group)
+            if group_score_for_filter_lower < levenshtein.score_alignment(group) < group_score_for_filter_upper:
+                # print(levenshtein.score_alignment(group), group)
                 bad_words.append(levenshtein.worst_word(group))
 
         print(bad_words)
@@ -107,9 +108,9 @@ def improve(texts, base_sentence_id, aligner, use_bad_word_detection=False, grou
     for i, word in enumerate(words):
         if word in bad_words:
             for group in complete_alignment:
-                if levenshtein.score_alignment(group) > group_score_for_filter:
-                    if word in group:
-                        print(group)
-                        words[i] = levenshtein.best_word(group)
-                        break
+                # if group_score_for_filter_lower < levenshtein.score_alignment(group) < group_score_for_filter_upper:
+                if word in group:
+                    print(group)
+                    words[i] = levenshtein.best_word(group)
+                    break
     return reduce((lambda x, y: x + " " + y), words)
