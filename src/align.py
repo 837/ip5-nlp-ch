@@ -103,14 +103,13 @@ def improve(texts, base_sentence_id, aligner, use_bad_word_detection=False, grou
                 # print(levenshtein.score_alignment(group), group)
                 bad_words.append(levenshtein.worst_word(group))
 
-        print(bad_words)
+        # print(bad_words)
 
     for i, word in enumerate(words):
         if word in bad_words:
             for group in complete_alignment:
-                # if group_score_for_filter_lower < levenshtein.score_alignment(group) < group_score_for_filter_upper:
                 if word in group:
-                    print(group)
+                    # print(group)
                     words[i] = levenshtein.best_word(group)
                     break
     return reduce((lambda x, y: x + " " + y), words)

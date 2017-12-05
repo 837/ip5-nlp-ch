@@ -66,7 +66,6 @@ allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 #     align.align_every_sentence_to_the_others(texts, bleuNtoN, align.BLEUALIGN)
 #     iterationCount += 1
 #
-#
 # util.dump_dict_to_json(hunNtoN, "hunNtoN.json")
 # util.dump_dict_to_json(bleuNtoN, "bleuNtoN.json")
 # pp = pprint.PrettyPrinter(indent=2)
@@ -81,22 +80,43 @@ allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 # plt.show()
 
 
-# for id in [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000]:
-id = 2048
-group = allTaskByID[id][0]
-print("Group Nr.: " + str(id))
-best_index = bleu_score.max_index(group)
-print("good sentence:")
-print(group[best_index])
-print("\nbad sentence:")
-improve_index = 1
-print(group[improve_index])
-improved = align.improve(group, improve_index, align.HUNALIGN)
-print("\nimproved sentence:")
-print(improved)
-improved = align.improve(group, improve_index, align.HUNALIGN, use_bad_word_detection=True,
-                         group_score_for_filter_lower=0.6, group_score_for_filter_upper=0.91)
-print("\nimproved sentence(with additional word filter):")
-print(improved)
-print()
-print()
+alldata = []
+iterationCount = 1
+for id in [2048, 2094, 2095, 2358, 2374, 1842, 1851, 1930, 1934, 1967]:
+    # id = 2048
+    # for id in allTaskByID:
+    util.print_progress(iterationCount, 10, prefix='Progress:', suffix='Complete')
+    currentData = []
+    group = allTaskByID[id][0]
+    if len(group) < 2:
+        iterationCount += 1
+        continue
+    # print("Group Nr.: " + str(id))
+    currentData.append("Group Nr.: " + str(id))
+
+    # print("good sentence:")
+    best_index = bleu_score.max_index(group)
+    # print(group[best_index])
+    currentData.append(("good sentence:", group[best_index]))
+
+    # print("\nbad sentence:")
+    improve_index = 1
+    # print(group[improve_index])
+    currentData.append(("bad sentence:", group[improve_index]))
+
+    # print("\nimproved sentence:")
+    improved = align.improve(group, improve_index, align.HUNALIGN)
+    # print(improved)
+    currentData.append(("improved sentence:", improved))
+
+    # print("\nimproved sentence(with additional word filter):")
+    improved = align.improve(group, improve_index, align.HUNALIGN, use_bad_word_detection=True,
+                             group_score_for_filter_lower=0.6, group_score_for_filter_upper=0.91)
+    # print(improved)
+    currentData.append(("improved sentence(with additional word filter):", improved))
+    alldata.append(currentData)
+    iterationCount += 1
+    # print()
+    # print()
+
+util.dump_dict_to_json(alldata, "All data.json")
