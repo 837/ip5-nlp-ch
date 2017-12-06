@@ -9,6 +9,10 @@ import levenshtein
 import pprint
 
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
+
+GOLD_STANDARD_SET = [2048, 2095, 2080, 2358, 2374]  # , 1842, 1851, 1930, 1934, 1967]
+
+
 # allTaskByID = {k: allTaskByID[k] for k in list(allTaskByID)[:100]}
 #
 # texts, ratings = bleu_score.getGoodTransscriptions(allTaskByID[2048][0])
@@ -80,43 +84,69 @@ allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 # plt.show()
 
 
+# CREATE ALIGNMENTS AND DUMP TO JSON FILE
+# iterationCount = 1
+# allAlignments = []
+# for taskID in GOLD_STANDARD_SET:
+#     util.print_progress(iterationCount, len(GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
+#     allAlignments.append(taskID)
+#     hun1toN = []
+#     bleu1toN = []
+#     hunNtoN = []
+#     bleuNtoN = []
+#     group = allTaskByID[taskID][0]
+#     best_index = bleu_score.max_index(bleu_score.bleu_ratings(group))
+#     # print(group)
+#     # print(group[best_index])
+#     # print(best_index)
+#     align.align_one_sentence_to_the_others(group, best_index, hun1toN, align.HUNALIGN, 1)
+#     align.align_one_sentence_to_the_others(group, best_index, bleu1toN, align.BLEUALIGN, 1)
+#     align.align_every_sentence_to_the_others(group, hunNtoN, align.HUNALIGN, 1)
+#     align.align_every_sentence_to_the_others(group, bleuNtoN, align.BLEUALIGN, 1)
+#     allAlignments.append(hun1toN)
+#     allAlignments.append(bleu1toN)
+#     allAlignments.append(hunNtoN)
+#     allAlignments.append(bleuNtoN)
+#     iterationCount += 1
+#
+# util.dump_dict_to_json(allAlignments, "allAlignments.json")
+
 alldata = []
 iterationCount = 1
-for id in [2048, 2094, 2095, 2358, 2374, 1842, 1851, 1930, 1934, 1967]:
-    # id = 2048
-    # for id in allTaskByID:
-    util.print_progress(iterationCount, 10, prefix='Progress:', suffix='Complete')
+for id in GOLD_STANDARD_SET:
+    util.print_progress(iterationCount, len(GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
     currentData = []
     group = allTaskByID[id][0]
     if len(group) < 2:
         iterationCount += 1
         continue
-    # print("Group Nr.: " + str(id))
+
+    print("Group Nr.: " + str(id))
     currentData.append("Group Nr.: " + str(id))
 
-    # print("good sentence:")
-    best_index = bleu_score.max_index(group)
-    # print(group[best_index])
+    print("good sentence:")
+    best_index = bleu_score.max_index(bleu_score.bleu_ratings(group))
+    print(group[best_index])
     currentData.append(("good sentence:", group[best_index]))
 
-    # print("\nbad sentence:")
+    print("\nbad sentence:")
     improve_index = 1
-    # print(group[improve_index])
+    print(group[improve_index])
     currentData.append(("bad sentence:", group[improve_index]))
 
-    # print("\nimproved sentence:")
+    print("\nimproved sentence:")
     improved = align.improve(group, improve_index, align.HUNALIGN)
-    # print(improved)
+    print(improved)
     currentData.append(("improved sentence:", improved))
 
-    # print("\nimproved sentence(with additional word filter):")
+    print("\nimproved sentence(with additional word filter):")
     improved = align.improve(group, improve_index, align.HUNALIGN, use_bad_word_detection=True,
                              group_score_for_filter_lower=0.6, group_score_for_filter_upper=0.91)
-    # print(improved)
+    print(improved)
     currentData.append(("improved sentence(with additional word filter):", improved))
     alldata.append(currentData)
     iterationCount += 1
-    # print()
-    # print()
+    print()
+    print()
 
-util.dump_dict_to_json(alldata, "All data.json")
+util.dump_dict_to_json(alldata, "BadSentenceCorrectionTest.json")
