@@ -4,6 +4,7 @@ import sys
 from fizzle import *
 from string import ascii_lowercase, ascii_uppercase
 
+
 def loadDataFromCSVFile(filePath):
     df = pd.read_csv(filePath, delimiter=';')
     unique_sentences_id = set()

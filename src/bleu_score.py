@@ -3,8 +3,6 @@ import numpy as np
 import nltk
 
 
-
-
 def filter_tasks_lesser_or_equal_than(n, tasks):
     return list(filter(lambda x: len(tasks[x][0]) > n, tasks))
 

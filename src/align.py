@@ -96,7 +96,7 @@ def improve(texts, base_sentence_id, aligner, use_bad_word_detection=False, grou
 
     words = texts[base_sentence_id].split(" ")
     bad_words = ["**", "***", "****", "??", "???"]
-
+    # print(complete_alignment)
     if use_bad_word_detection:
         for group in complete_alignment:
             if group_score_for_filter_lower < levenshtein.score_alignment(group) < group_score_for_filter_upper:

@@ -1,7 +1,4 @@
-from pyxdameraulevenshtein import damerau_levenshtein_distance, normalized_damerau_levenshtein_distance
-
 import util
-
 
 def score_words(words):
     if len(words) <= 1:
