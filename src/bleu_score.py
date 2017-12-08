@@ -21,10 +21,13 @@ def reject_outliers(data, values, minscore=0.5):
     return np.array(data)[values > minscore].tolist(), values[values > minscore].tolist()
 
 
-def getGoodTransscriptions(texts):
+def getGoodTranscriptions(texts):
     r = bleu_ratings(texts)
     return reject_outliers(texts, r)
 
 
 def max_index(values):
     return values.index(max(values))
+
+def min_index(values):
+    return values.index(min(values))

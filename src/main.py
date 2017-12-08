@@ -10,8 +10,7 @@ import pprint
 
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 
-GOLD_STANDARD_SET = [2048, 2095, 2080, 2358, 2374]  # , 1842, 1851, 1930, 1934, 1967]
-
+GOLD_STANDARD_SET = [2358]  # [2048, 2095, 2080, 2358, 2374]  # , 1842, 1851, 1930, 1934, 1967]
 
 # allTaskByID = {k: allTaskByID[k] for k in list(allTaskByID)[:100]}
 #
@@ -120,17 +119,20 @@ for id in GOLD_STANDARD_SET:
     if len(group) < 2:
         iterationCount += 1
         continue
-
+    print(group)
     print("Group Nr.: " + str(id))
     currentData.append("Group Nr.: " + str(id))
 
     print("good sentence:")
-    best_index = bleu_score.max_index(bleu_score.bleu_ratings(group))
+    goodTranscriptions = bleu_score.getGoodTranscriptions(group)
+    group = goodTranscriptions[0]
+    scores = goodTranscriptions[1]
+    best_index = bleu_score.max_index(scores)
     print(group[best_index])
     currentData.append(("good sentence:", group[best_index]))
 
     print("\nbad sentence:")
-    improve_index = 1
+    improve_index = bleu_score.min_index(scores)
     print(group[improve_index])
     currentData.append(("bad sentence:", group[improve_index]))
 

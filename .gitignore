@@ -109,3 +109,4 @@ src/swg1.txt
 src/swg2.txt
 ~$*.docx
 ~$*.xlsx
+src/BadSentenceCorrectionTest.json
