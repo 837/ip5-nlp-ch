@@ -1,5 +1,6 @@
 import util
 
+
 def score_words(words):
     if len(words) <= 1:
         return 0

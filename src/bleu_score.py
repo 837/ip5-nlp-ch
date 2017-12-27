@@ -7,11 +7,15 @@ def filter_tasks_lesser_or_equal_than(n, tasks):
     return list(filter(lambda x: len(tasks[x][0]) > n, tasks))
 
 
+smoothFunction = nltk.translate.bleu_score.SmoothingFunction()
+
+
 def bleu_ratings(texts):
     texts = list(map(lambda x: x.lower(), texts))
     scores = []
     for t in texts:
-        result = nltk.translate.bleu(list(filter(lambda x: x != t, texts)), t)
+        result = nltk.translate.bleu(list(filter(lambda x: x != t, texts)), t,
+                                     smoothing_function=smoothFunction.method7)
         scores.append(result)
     return scores
 
@@ -28,6 +32,7 @@ def getGoodTranscriptions(texts):
 
 def max_index(values):
     return values.index(max(values))
+
 
 def min_index(values):
     return values.index(min(values))

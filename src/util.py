@@ -99,3 +99,12 @@ def normalized_dl_distance(word1, word2):
 
 def flatten(li):
     return [item for sublist in li for item in sublist]
+
+
+def convert_to_lower(texts):
+    return map(str.lower, texts)
+
+
+def remove_punctuation(texts):
+    return map((lambda t: t.replace(",", ' ').replace(".", ' ').replace(":", ' ').replace("!", ' ').replace("-", ' ')),
+               texts)
