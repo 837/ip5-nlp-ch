@@ -173,6 +173,26 @@
       "weight": 0.0
     },
     {
+      "source": "un",
+      "target": "u",
+      "weight": 0.0
+    },
+    {
+      "source": "u",
+      "target": "un",
+      "weight": 0.0
+    },
+    {
+      "source": "un",
+      "target": "ùn",
+      "weight": 0.0
+    },
+    {
+      "source": "ùn",
+      "target": "un",
+      "weight": 0.0
+    },
+    {
       "source": "dass",
       "target": "das",
       "weight": 0.25
@@ -200,6 +220,16 @@
     {
       "source": "denn",
       "target": "denn",
+      "weight": 0.0
+    },
+    {
+      "source": "en",
+      "target": "än",
+      "weight": 0.33
+    },
+    {
+      "source": "än",
+      "target": "en",
       "weight": 0.0
     },
     {
@@ -233,9 +263,29 @@
       "weight": 0.2
     },
     {
+      "source": "fuggs",
+      "target": "fux",
+      "weight": 0.2
+    },
+    {
+      "source": "fux",
+      "target": "fuggs",
+      "weight": 0.2
+    },
+    {
       "source": "moore",
       "target": "moorä",
       "weight": 0.04
+    },
+    {
+      "source": "giz",
+      "target": "gits",
+      "weight": 0.2
+    },
+    {
+      "source": "gits",
+      "target": "giz",
+      "weight": 0.2
     },
     {
       "source": "dess",

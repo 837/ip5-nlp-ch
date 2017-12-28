@@ -1,36 +1,81 @@
 from util import options, util
 
+
+def print_graph_with_edges(G):
+    import pylab
+
+    pos = nx.spring_layout(G)
+    nx.draw(G, with_labels=True, font_weight='bold', pos=pos)
+    edge_labels = dict([((u, v,), d['weight'])
+                        for u, v, d in G.edges(data=True)])
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
+
+    pylab.show()
+
+
 import alignGraph
 
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 
 import networkx as nx
 
-# G = nx.Graph()
-# iterationCount = 1
-# for taskID in options.GOLD_STANDARD_SET:
-#     util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
-#     group = allTaskByID[taskID][0]
-#
-#     graph = alignGraph.align_every_sentence_to_the_others(group, G, alignGraph.ALIGNER_HUNALIGN,
-#                                                           alignment_filter_value=0.49)
-#
-#     iterationCount += 1
-#
-# # util.dump_dict_to_json(nx.node_link_data(G), "nodeLinkData.json")
-# # util.dump_dict_to_json(nx.adjacency_data(G), "adjacencyData.json")
+G = nx.Graph()
+iterationCount = 1
+for taskID in options.GOLD_STANDARD_SET:
+    util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
+    group = allTaskByID[taskID][0]
+
+    graph = alignGraph.align_every_sentence_to_the_others(group, G, alignGraph.ALIGNER_HUNALIGN,
+                                                          alignment_filter_value=0.49)
+
+    iterationCount += 1
+
+# util.dump_dict_to_json(nx.node_link_data(G), "nodeLinkData.json")
+# util.dump_dict_to_json(nx.adjacency_data(G), "adjacencyData.json")
 # util.dump_dict_to_json(list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(G))),
 #                        "connectedComponents.json")
-G = nx.json_graph.node_link_graph(util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 
-import pylab
+GS = nx.json_graph.node_link_graph(util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 
-pos = nx.spring_layout(G)
-nx.draw(G, with_labels=True, font_weight='bold', pos=pos)
-edge_labels = dict([((u, v,), d['weight'])
-                    for u, v, d in G.edges(data=True)])
-nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
-pylab.show()
+util.dump_dict_to_json(list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(GS))),
+                       "connectedComponentsGS.json")
+# print_graph_with_edges(G)
+
+goldstandardList = list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(GS)))
+createdAlignmentList = list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(G)))
+
+goldstandardWordCount = 0
+missingWords = 0
+foundWords = 0
+numberOfAlignedGroupes = len(createdAlignmentList)
+numberOfGSGroupes = len(goldstandardList)
+for alignments in createdAlignmentList:
+    missingWords += len(alignments)
+
+for alignments in goldstandardList:
+    goldstandardWordCount += len(alignments)
+    for word in alignments:
+        if G.has_node(word):
+            missingWords -= 1
+            foundWords += 1
+
+print("goldstandardWordCount: " + str(goldstandardWordCount))
+print("missingWords: " + str(missingWords))
+print("foundWords: " + str(foundWords))
+print("numberOfAlignedGroupes: " + str(numberOfAlignedGroupes))
+print("numberOfGSGroupes: " + str(numberOfGSGroupes))
+print("difference(abs(numberOfGSGroupes-numberOfAlignedGroupes)): " + str(
+    abs(numberOfGSGroupes - numberOfAlignedGroupes)))
+
+scoreWords = (foundWords / goldstandardWordCount) * 100
+print("scoreWords: " + str(scoreWords))
+
+scoreGroups = (abs(numberOfGSGroupes - numberOfAlignedGroupes) / (numberOfGSGroupes + numberOfAlignedGroupes)) * 100
+print("scoreGroups: " + str(scoreGroups))
+
+totalScore = scoreWords - scoreGroups
+print("totalScore(higher is better): " + str(totalScore))
+
 
 # CREATE ALIGNMENTS AND DUMP TO JSON FILE
 # iterationCount = 1
