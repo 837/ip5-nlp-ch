@@ -1,0 +1,5830 @@
+{
+    "adjacency": [
+        [
+            {
+                "id": "d",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.0
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.25
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.25
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.28
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.03
+            }
+        ],
+        [
+            {
+                "id": "diä",
+                "weight": 0.0
+            },
+            {
+                "id": "die",
+                "weight": 0.07
+            },
+            {
+                "id": "de",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "wärdid",
+                "weight": 0.0
+            },
+            {
+                "id": "wered",
+                "weight": 0.37
+            },
+            {
+                "id": "wäred",
+                "weight": 0.33
+            },
+            {
+                "id": "wäärded",
+                "weight": 0.29
+            }
+        ],
+        [
+            {
+                "id": "am",
+                "weight": 0.0
+            },
+            {
+                "id": "em",
+                "weight": 0.25
+            },
+            {
+                "id": "ëm",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "oobet",
+                "weight": 0.0
+            },
+            {
+                "id": "obed",
+                "weight": 0.36
+            },
+            {
+                "id": "oobed",
+                "weight": 0.16
+            }
+        ],
+        [
+            {
+                "id": "voräne",
+                "weight": 0.0
+            },
+            {
+                "id": "vorane",
+                "weight": 0.17
+            },
+            {
+                "id": "forhanä",
+                "weight": 0.46
+            },
+            {
+                "id": "voranne",
+                "weight": 0.29
+            }
+        ],
+        [
+            {
+                "id": "schon",
+                "weight": 0.0
+            },
+            {
+                "id": "scho",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.0
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.26
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.25
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.15
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.23
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.12
+            }
+        ],
+        [
+            {
+                "id": "ins",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "grüschtet",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dass",
+                "weight": 0.0
+            },
+            {
+                "id": "dasme",
+                "weight": 0.4
+            },
+            {
+                "id": "das",
+                "weight": 0.25
+            },
+            {
+                "id": "dassme",
+                "weight": 0.33
+            },
+            {
+                "id": "dasr",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "me",
+                "weight": 0.0
+            },
+            {
+                "id": "mä",
+                "weight": 0.1
+            },
+            {
+                "id": "mer",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "denn",
+                "weight": 0.0
+            },
+            {
+                "id": "dänn",
+                "weight": 0.05
+            },
+            {
+                "id": "dän",
+                "weight": 0.3
+            },
+            {
+                "id": "dennè",
+                "weight": 0.2
+            },
+            {
+                "id": "den",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "moore",
+                "weight": 0.0
+            },
+            {
+                "id": "more",
+                "weight": 0.2
+            },
+            {
+                "id": "moorä",
+                "weight": 0.04
+            }
+        ],
+        [
+            {
+                "id": "dess",
+                "weight": 0.0
+            },
+            {
+                "id": "des",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "a",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "morgete",
+                "weight": 0.0
+            },
+            {
+                "id": "murgete",
+                "weight": 0.14
+            },
+            {
+                "id": "morgëd dä",
+                "weight": 0.36
+            },
+            {
+                "id": "morge de",
+                "weight": 0.23
+            }
+        ],
+        [
+            {
+                "id": "cho",
+                "weight": 0.0
+            },
+            {
+                "id": "cha",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.0
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.32
+            },
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.25
+            },
+            {
+                "id": "druflos",
+                "weight": 0.46
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.15
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.25
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.0
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.29
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.46
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.28
+            }
+        ],
+        [
+            {
+                "id": "oobet",
+                "weight": 0.36
+            },
+            {
+                "id": "obed",
+                "weight": 0.0
+            },
+            {
+                "id": "oobed",
+                "weight": 0.2
+            },
+            {
+                "id": "aabëd",
+                "weight": 0.44
+            }
+        ],
+        [
+            {
+                "id": "schon",
+                "weight": 0.2
+            },
+            {
+                "id": "scho",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.26
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.0
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.23
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.35
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.25
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.35
+            }
+        ],
+        [
+            {
+                "id": "dass",
+                "weight": 0.4
+            },
+            {
+                "id": "dasme",
+                "weight": 0.0
+            },
+            {
+                "id": "dassme",
+                "weight": 0.17
+            },
+            {
+                "id": "das mä",
+                "weight": 0.2
+            },
+            {
+                "id": "das",
+                "weight": 0.4
+            },
+            {
+                "id": "das me",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "moore",
+                "weight": 0.2
+            },
+            {
+                "id": "more",
+                "weight": 0.0
+            },
+            {
+                "id": "moorä",
+                "weight": 0.24
+            }
+        ],
+        [
+            {
+                "id": "desse",
+                "weight": 0.25
+            },
+            {
+                "id": "disse",
+                "weight": 0.42
+            }
+        ],
+        [
+            {
+                "id": "dess a",
+                "weight": 0.25
+            },
+            {
+                "id": "desse",
+                "weight": 0.0
+            },
+            {
+                "id": "disse",
+                "weight": 0.2
+            },
+            {
+                "id": "des",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.32
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.0
+            },
+            {
+                "id": "druf los ch",
+                "weight": 0.45
+            },
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.33
+            },
+            {
+                "id": "druflos",
+                "weight": 0.36
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "wärdid",
+                "weight": 0.37
+            },
+            {
+                "id": "wered",
+                "weight": 0.0
+            },
+            {
+                "id": "wäred",
+                "weight": 0.04
+            },
+            {
+                "id": "wèrdët dä",
+                "weight": 0.49
+            },
+            {
+                "id": "werded",
+                "weight": 0.17
+            },
+            {
+                "id": "wäärded",
+                "weight": 0.31
+            },
+            {
+                "id": "wèrdët",
+                "weight": 0.37
+            }
+        ],
+        [
+            {
+                "id": "am",
+                "weight": 0.25
+            },
+            {
+                "id": "em",
+                "weight": 0.0
+            },
+            {
+                "id": "ëm",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "morgete",
+                "weight": 0.14
+            },
+            {
+                "id": "murgete",
+                "weight": 0.0
+            },
+            {
+                "id": "morge de",
+                "weight": 0.35
+            },
+            {
+                "id": "morgëd dä",
+                "weight": 0.47
+            }
+        ],
+        [
+            {
+                "id": "diä",
+                "weight": 0.07
+            },
+            {
+                "id": "die",
+                "weight": 0.0
+            },
+            {
+                "id": "de",
+                "weight": 0.33
+            },
+            {
+                "id": "di",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "wärdid",
+                "weight": 0.33
+            },
+            {
+                "id": "wered",
+                "weight": 0.04
+            },
+            {
+                "id": "wäred",
+                "weight": 0.0
+            },
+            {
+                "id": "werded",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "oobet",
+                "weight": 0.16
+            },
+            {
+                "id": "obed",
+                "weight": 0.2
+            },
+            {
+                "id": "oobed",
+                "weight": 0.0
+            },
+            {
+                "id": "aabëd",
+                "weight": 0.44
+            }
+        ],
+        [
+            {
+                "id": "voräne",
+                "weight": 0.17
+            },
+            {
+                "id": "vor alle",
+                "weight": 0.38
+            },
+            {
+                "id": "vorane",
+                "weight": 0.0
+            },
+            {
+                "id": "forhanä",
+                "weight": 0.31
+            },
+            {
+                "id": "voranne",
+                "weight": 0.14
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.25
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.23
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.0
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.15
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.05
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.15
+            }
+        ],
+        [
+            {
+                "id": "dassme",
+                "weight": 0.14
+            }
+        ],
+        [
+            {
+                "id": "dass me",
+                "weight": 0.14
+            },
+            {
+                "id": "dasme",
+                "weight": 0.17
+            },
+            {
+                "id": "dass",
+                "weight": 0.33
+            },
+            {
+                "id": "dassme",
+                "weight": 0.0
+            },
+            {
+                "id": "das mä",
+                "weight": 0.2
+            },
+            {
+                "id": "das me",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "denn",
+                "weight": 0.05
+            },
+            {
+                "id": "dänn",
+                "weight": 0.0
+            },
+            {
+                "id": "dän",
+                "weight": 0.25
+            },
+            {
+                "id": "dennè",
+                "weight": 0.24
+            }
+        ],
+        [
+            {
+                "id": "dess a",
+                "weight": 0.42
+            },
+            {
+                "id": "desse",
+                "weight": 0.2
+            },
+            {
+                "id": "disse",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "cho",
+                "weight": 0.33
+            },
+            {
+                "id": "chan",
+                "weight": 0.25
+            },
+            {
+                "id": "ch",
+                "weight": 0.33
+            },
+            {
+                "id": "cha",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.25
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.29
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.0
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.31
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.28
+            }
+        ],
+        [
+            {
+                "id": "diä",
+                "weight": 0.4
+            },
+            {
+                "id": "de",
+                "weight": 0.0
+            },
+            {
+                "id": "dän",
+                "weight": 0.4
+            },
+            {
+                "id": "die",
+                "weight": 0.33
+            },
+            {
+                "id": "dä",
+                "weight": 0.1
+            },
+            {
+                "id": "der",
+                "weight": 0.33
+            },
+            {
+                "id": "da",
+                "weight": 0.25
+            },
+            {
+                "id": "dè",
+                "weight": 0.1
+            },
+            {
+                "id": "där",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "am",
+                "weight": 0.1
+            },
+            {
+                "id": "em",
+                "weight": 0.1
+            },
+            {
+                "id": "ëm",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "voräne",
+                "weight": 0.46
+            },
+            {
+                "id": "vorane",
+                "weight": 0.31
+            },
+            {
+                "id": "forhanä",
+                "weight": 0.0
+            },
+            {
+                "id": "voranne",
+                "weight": 0.46
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.15
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.35
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.15
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.0
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.15
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.05
+            }
+        ],
+        [
+            {
+                "id": "dass",
+                "weight": 0.25
+            },
+            {
+                "id": "dasme",
+                "weight": 0.4
+            },
+            {
+                "id": "das",
+                "weight": 0.0
+            },
+            {
+                "id": "dasr",
+                "weight": 0.25
+            },
+            {
+                "id": "da",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "me",
+                "weight": 0.1
+            },
+            {
+                "id": "mä",
+                "weight": 0.0
+            },
+            {
+                "id": "mer",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "denn",
+                "weight": 0.3
+            },
+            {
+                "id": "de",
+                "weight": 0.4
+            },
+            {
+                "id": "dänn",
+                "weight": 0.25
+            },
+            {
+                "id": "dän",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "moore",
+                "weight": 0.04
+            },
+            {
+                "id": "more",
+                "weight": 0.24
+            },
+            {
+                "id": "moorä",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "morgete",
+                "weight": 0.36
+            },
+            {
+                "id": "murgete",
+                "weight": 0.47
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.25
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.33
+            },
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.0
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.18
+            },
+            {
+                "id": "druflos mäje",
+                "weight": 0.27
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.28
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.46
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.31
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.0
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "voräne",
+                "weight": 0.29
+            },
+            {
+                "id": "vor alle",
+                "weight": 0.38
+            },
+            {
+                "id": "vorane",
+                "weight": 0.14
+            },
+            {
+                "id": "forhanä",
+                "weight": 0.46
+            },
+            {
+                "id": "voranne",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.23
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.25
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.05
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.15
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.0
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "me",
+                "weight": 0.33
+            },
+            {
+                "id": "mä",
+                "weight": 0.4
+            },
+            {
+                "id": "mer",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dess",
+                "weight": 0.25
+            },
+            {
+                "id": "desse",
+                "weight": 0.4
+            },
+            {
+                "id": "det",
+                "weight": 0.33
+            },
+            {
+                "id": "des",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "morgete",
+                "weight": 0.23
+            },
+            {
+                "id": "murgete",
+                "weight": 0.35
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.46
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.36
+            },
+            {
+                "id": "druf los",
+                "weight": 0.12
+            },
+            {
+                "id": "druff los",
+                "weight": 0.22
+            },
+            {
+                "id": "druflos",
+                "weight": 0.0
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.36
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.03
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.28
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.28
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.25
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wärdid",
+                "weight": 0.29
+            },
+            {
+                "id": "wered",
+                "weight": 0.31
+            },
+            {
+                "id": "wäärded",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.12
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.35
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.0
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.15
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.05
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "denn",
+                "weight": 0.2
+            },
+            {
+                "id": "dänn",
+                "weight": 0.24
+            },
+            {
+                "id": "dennè",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.42
+            }
+        ],
+        [
+            {
+                "id": "a morgete",
+                "weight": 0.42
+            },
+            {
+                "id": "desse morgete",
+                "weight": 0.15
+            },
+            {
+                "id": "desse murgete",
+                "weight": 0.23
+            },
+            {
+                "id": "disse murgete",
+                "weight": 0.15
+            },
+            {
+                "id": "des morge de",
+                "weight": 0.4
+            },
+            {
+                "id": "dissemorgete",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.15
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.2
+            },
+            {
+                "id": "druf los ch",
+                "weight": 0.45
+            },
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.18
+            },
+            {
+                "id": "druflos",
+                "weight": 0.36
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "***",
+                "weight": 0.0
+            },
+            {
+                "id": "****",
+                "weight": 0.25
+            },
+            {
+                "id": "*****",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "ds",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "vor",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "alle",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "u",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "chan",
+                "weight": 0.0
+            },
+            {
+                "id": "cha",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "druflosmaiä",
+                "weight": 0.45
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.45
+            }
+        ],
+        [
+            {
+                "id": "vorane",
+                "weight": 0.38
+            },
+            {
+                "id": "voranne",
+                "weight": 0.38
+            }
+        ],
+        [
+            {
+                "id": "obed",
+                "weight": 0.44
+            },
+            {
+                "id": "oobed",
+                "weight": 0.44
+            },
+            {
+                "id": "aabëd",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dasme",
+                "weight": 0.2
+            },
+            {
+                "id": "dassme",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "dasme",
+                "weight": 0.17
+            },
+            {
+                "id": "dassme",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.15
+            }
+        ],
+        [
+            {
+                "id": "sage",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "und",
+                "weight": 0.0
+            },
+            {
+                "id": "uund",
+                "weight": 0.25
+            },
+            {
+                "id": "un",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "druf",
+                "weight": 0.0
+            },
+            {
+                "id": "druff",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "los",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ch",
+                "weight": 0.0
+            },
+            {
+                "id": "cha",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "main",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "druf",
+                "weight": 0.2
+            },
+            {
+                "id": "druff",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wered",
+                "weight": 0.49
+            }
+        ],
+        [
+            {
+                "id": "wered",
+                "weight": 0.17
+            },
+            {
+                "id": "wäred",
+                "weight": 0.2
+            },
+            {
+                "id": "wèrdët",
+                "weight": 0.2
+            },
+            {
+                "id": "werded",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "druflos",
+                "weight": 0.12
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.23
+            }
+        ],
+        [
+            {
+                "id": "mäie",
+                "weight": 0.0
+            },
+            {
+                "id": "mäje",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "druflos",
+                "weight": 0.22
+            }
+        ],
+        [
+            {
+                "id": "mäie",
+                "weight": 0.25
+            },
+            {
+                "id": "mäje",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.15
+            }
+        ],
+        [
+            {
+                "id": "wered",
+                "weight": 0.37
+            },
+            {
+                "id": "wèrdët",
+                "weight": 0.0
+            },
+            {
+                "id": "werded",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "t",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dä",
+                "weight": 0.0
+            },
+            {
+                "id": "de",
+                "weight": 0.1
+            },
+            {
+                "id": "der",
+                "weight": 0.4
+            },
+            {
+                "id": "där",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "?ù",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ùn",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ggry?tët",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "det",
+                "weight": 0.0
+            },
+            {
+                "id": "des",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "morgëd",
+                "weight": 0.0
+            },
+            {
+                "id": "morge",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "morgëd",
+                "weight": 0.2
+            },
+            {
+                "id": "morge",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.27
+            }
+        ],
+        [
+            {
+                "id": "se",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "öppenenn",
+                "weight": 0.0
+            },
+            {
+                "id": "öppen en",
+                "weight": 0.25
+            },
+            {
+                "id": "öppe ein",
+                "weight": 0.25
+            },
+            {
+                "id": "öppen énn",
+                "weight": 0.13
+            }
+        ],
+        [
+            {
+                "id": "henkt",
+                "weight": 0.0
+            },
+            {
+                "id": "hänkt",
+                "weight": 0.04
+            }
+        ],
+        [
+            {
+                "id": "ym",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "e",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wäldli",
+                "weight": 0.0
+            },
+            {
+                "id": "wääldli",
+                "weight": 0.14
+            }
+        ],
+        [
+            {
+                "id": "syn",
+                "weight": 0.0
+            },
+            {
+                "id": "sin",
+                "weight": 0.03
+            },
+            {
+                "id": "sinn",
+                "weight": 0.28
+            }
+        ],
+        [
+            {
+                "id": "tege",
+                "weight": 0.0
+            },
+            {
+                "id": "dägen",
+                "weight": 0.4
+            },
+            {
+                "id": "dege",
+                "weight": 0.2
+            },
+            {
+                "id": "tägen",
+                "weight": 0.24
+            }
+        ],
+        [
+            {
+                "id": "an",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "en",
+                "weight": 0.0
+            },
+            {
+                "id": "ein",
+                "weight": 0.33
+            },
+            {
+                "id": "énn",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "tanenascht",
+                "weight": 0.0
+            },
+            {
+                "id": "tanenast",
+                "weight": 0.2
+            },
+            {
+                "id": "tanneascht",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "ane",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "holt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "den",
+                "weight": 0.0
+            },
+            {
+                "id": "denn",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "zoobed",
+                "weight": 0.0
+            },
+            {
+                "id": "zobed",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "ufem",
+                "weight": 0.0
+            },
+            {
+                "id": "uf em",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "ruck",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "weg",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wyder",
+                "weight": 0.0
+            },
+            {
+                "id": "wider",
+                "weight": 0.02
+            },
+            {
+                "id": "wieder",
+                "weight": 0.18
+            }
+        ],
+        [
+            {
+                "id": "aab",
+                "weight": 0.0
+            },
+            {
+                "id": "ab",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "wenn",
+                "weight": 0.0
+            },
+            {
+                "id": "wener",
+                "weight": 0.4
+            },
+            {
+                "id": "wen",
+                "weight": 0.25
+            },
+            {
+                "id": "wän",
+                "weight": 0.3
+            },
+            {
+                "id": "wäner",
+                "weight": 0.44
+            }
+        ],
+        [
+            {
+                "id": "er",
+                "weight": 0.0
+            },
+            {
+                "id": "èr",
+                "weight": 0.1
+            },
+            {
+                "id": "är",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "no",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dey",
+                "weight": 0.0
+            },
+            {
+                "id": "dei",
+                "weight": 0.03
+            },
+            {
+                "id": "däi",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "hanget",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "öppenenn",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "henkt",
+                "weight": 0.04
+            },
+            {
+                "id": "hänkt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ime",
+                "weight": 0.28
+            },
+            {
+                "id": "imene",
+                "weight": 0.42
+            }
+        ],
+        [
+            {
+                "id": "ym e",
+                "weight": 0.28
+            },
+            {
+                "id": "ime",
+                "weight": 0.0
+            },
+            {
+                "id": "imene",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "syn",
+                "weight": 0.03
+            },
+            {
+                "id": "sin",
+                "weight": 0.0
+            },
+            {
+                "id": "sinn",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "tege",
+                "weight": 0.4
+            },
+            {
+                "id": "dägen",
+                "weight": 0.0
+            },
+            {
+                "id": "dege",
+                "weight": 0.24
+            },
+            {
+                "id": "tägen",
+                "weight": 0.16
+            }
+        ],
+        [
+            {
+                "id": "anen",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "an en",
+                "weight": 0.2
+            },
+            {
+                "id": "anen",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tanenascht",
+                "weight": 0.2
+            },
+            {
+                "id": "tanenast",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wyder",
+                "weight": 0.02
+            },
+            {
+                "id": "wider",
+                "weight": 0.0
+            },
+            {
+                "id": "wieder",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "dey",
+                "weight": 0.03
+            },
+            {
+                "id": "dei",
+                "weight": 0.0
+            },
+            {
+                "id": "däi",
+                "weight": 0.07
+            }
+        ],
+        [
+            {
+                "id": "öppenenn",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "ym e",
+                "weight": 0.42
+            },
+            {
+                "id": "ime",
+                "weight": 0.4
+            },
+            {
+                "id": "imene",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tege",
+                "weight": 0.2
+            },
+            {
+                "id": "dägen",
+                "weight": 0.24
+            },
+            {
+                "id": "dege",
+                "weight": 0.0
+            },
+            {
+                "id": "tägen",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "tanenascht",
+                "weight": 0.1
+            },
+            {
+                "id": "tanneascht",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "rückwäg",
+                "weight": 0.28
+            },
+            {
+                "id": "ruckwäg",
+                "weight": 0.15
+            }
+        ],
+        [
+            {
+                "id": "ruck weg",
+                "weight": 0.28
+            },
+            {
+                "id": "ruggwäg",
+                "weight": 0.4
+            },
+            {
+                "id": "rückwäg",
+                "weight": 0.0
+            },
+            {
+                "id": "ruckwäg",
+                "weight": 0.14
+            }
+        ],
+        [
+            {
+                "id": "wyder",
+                "weight": 0.18
+            },
+            {
+                "id": "wider",
+                "weight": 0.17
+            },
+            {
+                "id": "wieder",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "aab",
+                "weight": 0.33
+            },
+            {
+                "id": "ab",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "öppenenn",
+                "weight": 0.13
+            }
+        ],
+        [
+            {
+                "id": "wäldli",
+                "weight": 0.14
+            },
+            {
+                "id": "wääldli",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "syn",
+                "weight": 0.28
+            },
+            {
+                "id": "sin",
+                "weight": 0.25
+            },
+            {
+                "id": "sinn",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tege",
+                "weight": 0.24
+            },
+            {
+                "id": "dägen",
+                "weight": 0.16
+            },
+            {
+                "id": "dege",
+                "weight": 0.4
+            },
+            {
+                "id": "tägen",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "zoobed",
+                "weight": 0.17
+            },
+            {
+                "id": "zobed",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ruck weg",
+                "weight": 0.15
+            },
+            {
+                "id": "ruggwäg",
+                "weight": 0.26
+            },
+            {
+                "id": "rückwäg",
+                "weight": 0.14
+            },
+            {
+                "id": "ruckwäg",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wänner",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "wenn er",
+                "weight": 0.17
+            },
+            {
+                "id": "wänner",
+                "weight": 0.0
+            },
+            {
+                "id": "wener",
+                "weight": 0.2
+            },
+            {
+                "id": "wenn är",
+                "weight": 0.2
+            },
+            {
+                "id": "wäner",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "dey",
+                "weight": 0.1
+            },
+            {
+                "id": "dei",
+                "weight": 0.07
+            },
+            {
+                "id": "däi",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "öppen",
+                "weight": 0.0
+            },
+            {
+                "id": "öppe",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "uf",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ruggwäg",
+                "weight": 0.0
+            },
+            {
+                "id": "rückwäg",
+                "weight": 0.4
+            },
+            {
+                "id": "ruckwäg",
+                "weight": 0.26
+            }
+        ],
+        [
+            {
+                "id": "öppen",
+                "weight": 0.2
+            },
+            {
+                "id": "öppe",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "en",
+                "weight": 0.33
+            },
+            {
+                "id": "ein",
+                "weight": 0.0
+            },
+            {
+                "id": "énn",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "ufem",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "en",
+                "weight": 0.4
+            },
+            {
+                "id": "ein",
+                "weight": 0.4
+            },
+            {
+                "id": "énn",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "än",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "z'abig",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "döt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "aber",
+                "weight": 0.0
+            },
+            {
+                "id": "abr",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "jäger",
+                "weight": 0.0
+            },
+            {
+                "id": "jeeger",
+                "weight": 0.2
+            },
+            {
+                "id": "jäher",
+                "weight": 0.2
+            },
+            {
+                "id": "jeger",
+                "weight": 0.04
+            },
+            {
+                "id": "jääger",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "isch",
+                "weight": 0.0
+            },
+            {
+                "id": "ischt",
+                "weight": 0.2
+            },
+            {
+                "id": "sich",
+                "weight": 0.25
+            },
+            {
+                "id": "esch",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "so",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "konzentriert",
+                "weight": 0.0
+            },
+            {
+                "id": "konzentriart",
+                "weight": 0.04
+            },
+            {
+                "id": "konzäntrièrt",
+                "weight": 0.03
+            }
+        ],
+        [
+            {
+                "id": "fuchs",
+                "weight": 0.0
+            },
+            {
+                "id": "fuggs",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "laschwage",
+                "weight": 0.0
+            },
+            {
+                "id": "laschtwage",
+                "weight": 0.1
+            },
+            {
+                "id": "laschtwagä",
+                "weight": 0.12
+            },
+            {
+                "id": "laschtwaga",
+                "weight": 0.15
+            }
+        ],
+        [
+            {
+                "id": "ned",
+                "weight": 0.0
+            },
+            {
+                "id": "nid",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "geseh",
+                "weight": 0.0
+            },
+            {
+                "id": "gseet",
+                "weight": 0.4
+            },
+            {
+                "id": "gseht",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "au",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "rennt",
+                "weight": 0.0
+            },
+            {
+                "id": "rännt",
+                "weight": 0.04
+            }
+        ],
+        [
+            {
+                "id": "über",
+                "weight": 0.0
+            },
+            {
+                "id": "übr",
+                "weight": 0.25
+            },
+            {
+                "id": "überd",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "d'stross",
+                "weight": 0.0
+            },
+            {
+                "id": "d strooss",
+                "weight": 0.22
+            },
+            {
+                "id": "d'schtross",
+                "weight": 0.2
+            },
+            {
+                "id": "schtrooss",
+                "weight": 0.44
+            },
+            {
+                "id": "strass",
+                "weight": 0.38
+            }
+        ],
+        [
+            {
+                "id": "der",
+                "weight": 0.0
+            },
+            {
+                "id": "de",
+                "weight": 0.33
+            },
+            {
+                "id": "dr",
+                "weight": 0.33
+            },
+            {
+                "id": "dè",
+                "weight": 0.4
+            },
+            {
+                "id": "dä",
+                "weight": 0.4
+            },
+            {
+                "id": "där",
+                "weight": 0.07
+            }
+        ],
+        [
+            {
+                "id": "laschtwagefahrer",
+                "weight": 0.0
+            },
+            {
+                "id": "laschtwagefarer",
+                "weight": 0.06
+            },
+            {
+                "id": "laschtwagafahrer",
+                "weight": 0.03
+            },
+            {
+                "id": "laschwagefahrer",
+                "weight": 0.06
+            },
+            {
+                "id": "laschtwaagefahrer",
+                "weight": 0.06
+            },
+            {
+                "id": "lastwagefahrer",
+                "weight": 0.12
+            },
+            {
+                "id": "laschtwaagefaarer",
+                "weight": 0.12
+            }
+        ],
+        [
+            {
+                "id": "mues",
+                "weight": 0.0
+            },
+            {
+                "id": "muass",
+                "weight": 0.3
+            },
+            {
+                "id": "muess",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "vollbrems",
+                "weight": 0.0
+            },
+            {
+                "id": "vollbremsung",
+                "weight": 0.25
+            },
+            {
+                "id": "vollbräms",
+                "weight": 0.02
+            }
+        ],
+        [
+            {
+                "id": "mache",
+                "weight": 0.0
+            },
+            {
+                "id": "macha",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "jäger",
+                "weight": 0.2
+            },
+            {
+                "id": "jeeger",
+                "weight": 0.0
+            },
+            {
+                "id": "jäher",
+                "weight": 0.37
+            },
+            {
+                "id": "jeger",
+                "weight": 0.17
+            },
+            {
+                "id": "jääger",
+                "weight": 0.07
+            }
+        ],
+        [
+            {
+                "id": "isch",
+                "weight": 0.2
+            },
+            {
+                "id": "ischt",
+                "weight": 0.0
+            },
+            {
+                "id": "sich",
+                "weight": 0.4
+            },
+            {
+                "id": "ischtä",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "laschwage",
+                "weight": 0.1
+            },
+            {
+                "id": "laschtwage",
+                "weight": 0.0
+            },
+            {
+                "id": "laschtwagä",
+                "weight": 0.02
+            },
+            {
+                "id": "laschtwaga",
+                "weight": 0.05
+            }
+        ],
+        [
+            {
+                "id": "ned",
+                "weight": 0.33
+            },
+            {
+                "id": "nid",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "geseh",
+                "weight": 0.4
+            },
+            {
+                "id": "gseet",
+                "weight": 0.0
+            },
+            {
+                "id": "gseht",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "und",
+                "weight": 0.25
+            },
+            {
+                "id": "uund",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "d'stross",
+                "weight": 0.22
+            },
+            {
+                "id": "d'schtross",
+                "weight": 0.4
+            },
+            {
+                "id": "schtrooss",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "laschtwagefahrer",
+                "weight": 0.06
+            },
+            {
+                "id": "laschtwagefarer",
+                "weight": 0.0
+            },
+            {
+                "id": "laschtwagafahrer",
+                "weight": 0.09
+            },
+            {
+                "id": "laschwagefahrer",
+                "weight": 0.13
+            },
+            {
+                "id": "laschtwaagefahrer",
+                "weight": 0.12
+            },
+            {
+                "id": "lastwagefahrer",
+                "weight": 0.2
+            },
+            {
+                "id": "laschtwaagefaarer",
+                "weight": 0.12
+            }
+        ],
+        [
+            {
+                "id": "aber",
+                "weight": 0.25
+            },
+            {
+                "id": "abr",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "konzentriert",
+                "weight": 0.04
+            },
+            {
+                "id": "konzentriart",
+                "weight": 0.0
+            },
+            {
+                "id": "konzäntrièrt",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "das",
+                "weight": 0.25
+            },
+            {
+                "id": "dass",
+                "weight": 0.25
+            },
+            {
+                "id": "dasr",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "laschwage",
+                "weight": 0.12
+            },
+            {
+                "id": "laschtwage",
+                "weight": 0.02
+            },
+            {
+                "id": "laschtwagä",
+                "weight": 0.0
+            },
+            {
+                "id": "laschtwaga",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "geseh",
+                "weight": 0.4
+            },
+            {
+                "id": "gseet",
+                "weight": 0.2
+            },
+            {
+                "id": "gseht",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "über",
+                "weight": 0.25
+            },
+            {
+                "id": "übr",
+                "weight": 0.0
+            },
+            {
+                "id": "überd",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "der",
+                "weight": 0.33
+            },
+            {
+                "id": "dr",
+                "weight": 0.0
+            },
+            {
+                "id": "dr'",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "laschtwagefahrer",
+                "weight": 0.03
+            },
+            {
+                "id": "laschtwagefarer",
+                "weight": 0.09
+            },
+            {
+                "id": "laschtwagafahrer",
+                "weight": 0.0
+            },
+            {
+                "id": "laschwagefahrer",
+                "weight": 0.09
+            },
+            {
+                "id": "laschtwaagefahrer",
+                "weight": 0.09
+            },
+            {
+                "id": "lastwagefahrer",
+                "weight": 0.16
+            },
+            {
+                "id": "laschtwaagefaarer",
+                "weight": 0.15
+            }
+        ],
+        [
+            {
+                "id": "mues",
+                "weight": 0.3
+            },
+            {
+                "id": "muass",
+                "weight": 0.0
+            },
+            {
+                "id": "muess",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "mache",
+                "weight": 0.1
+            },
+            {
+                "id": "macha",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "laschwage",
+                "weight": 0.15
+            },
+            {
+                "id": "laschtwage",
+                "weight": 0.05
+            },
+            {
+                "id": "laschtwagä",
+                "weight": 0.1
+            },
+            {
+                "id": "laschtwaga",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "und",
+                "weight": 0.33
+            },
+            {
+                "id": "un",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "jäger",
+                "weight": 0.2
+            },
+            {
+                "id": "jeeger",
+                "weight": 0.37
+            },
+            {
+                "id": "jäher",
+                "weight": 0.0
+            },
+            {
+                "id": "jeger",
+                "weight": 0.24
+            },
+            {
+                "id": "jääger",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "isch",
+                "weight": 0.25
+            },
+            {
+                "id": "ischt",
+                "weight": 0.4
+            },
+            {
+                "id": "sich",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "laschtwagefahrer",
+                "weight": 0.06
+            },
+            {
+                "id": "laschtwagefarer",
+                "weight": 0.13
+            },
+            {
+                "id": "laschtwagafahrer",
+                "weight": 0.09
+            },
+            {
+                "id": "laschwagefahrer",
+                "weight": 0.0
+            },
+            {
+                "id": "dr laschtwaagefahrer",
+                "weight": 0.25
+            },
+            {
+                "id": "der lastwagefahrer",
+                "weight": 0.33
+            },
+            {
+                "id": "dè laschtwaagefaarer",
+                "weight": 0.3
+            },
+            {
+                "id": "de lastwagefahrer",
+                "weight": 0.29
+            }
+        ],
+        [
+            {
+                "id": "vollbrems",
+                "weight": 0.25
+            },
+            {
+                "id": "vollbremsung",
+                "weight": 0.0
+            },
+            {
+                "id": "vollbräms",
+                "weight": 0.27
+            }
+        ],
+        [
+            {
+                "id": "jäger",
+                "weight": 0.04
+            },
+            {
+                "id": "jeeger",
+                "weight": 0.17
+            },
+            {
+                "id": "jäher",
+                "weight": 0.24
+            },
+            {
+                "id": "jeger",
+                "weight": 0.0
+            },
+            {
+                "id": "jääger",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "laschtwagefahrer",
+                "weight": 0.06
+            },
+            {
+                "id": "laschtwagefarer",
+                "weight": 0.12
+            },
+            {
+                "id": "laschtwagafahrer",
+                "weight": 0.09
+            },
+            {
+                "id": "laschtwaagefahrer",
+                "weight": 0.0
+            },
+            {
+                "id": "lastwagefahrer",
+                "weight": 0.18
+            },
+            {
+                "id": "laschtwaagefaarer",
+                "weight": 0.06
+            }
+        ],
+        [
+            {
+                "id": "mues",
+                "weight": 0.2
+            },
+            {
+                "id": "muass",
+                "weight": 0.1
+            },
+            {
+                "id": "muess",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "d'stross",
+                "weight": 0.2
+            },
+            {
+                "id": "d strooss",
+                "weight": 0.4
+            },
+            {
+                "id": "d' schtroos",
+                "weight": 0.18
+            },
+            {
+                "id": "d'schtross",
+                "weight": 0.0
+            },
+            {
+                "id": "schtrooss",
+                "weight": 0.3
+            }
+        ],
+        [
+            {
+                "id": "laschtwagefahrer",
+                "weight": 0.12
+            },
+            {
+                "id": "laschtwagefarer",
+                "weight": 0.2
+            },
+            {
+                "id": "laschtwagafahrer",
+                "weight": 0.16
+            },
+            {
+                "id": "laschtwaagefahrer",
+                "weight": 0.18
+            },
+            {
+                "id": "lastwagefahrer",
+                "weight": 0.0
+            },
+            {
+                "id": "laschtwaagefaarer",
+                "weight": 0.24
+            }
+        ],
+        [
+            {
+                "id": "jäger",
+                "weight": 0.17
+            },
+            {
+                "id": "jeeger",
+                "weight": 0.07
+            },
+            {
+                "id": "jäher",
+                "weight": 0.33
+            },
+            {
+                "id": "jeger",
+                "weight": 0.2
+            },
+            {
+                "id": "jääger",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "konzentriert",
+                "weight": 0.03
+            },
+            {
+                "id": "konzentriart",
+                "weight": 0.1
+            },
+            {
+                "id": "konzäntrièrt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "fuchs",
+                "weight": 0.4
+            },
+            {
+                "id": "fuggs",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "er",
+                "weight": 0.1
+            },
+            {
+                "id": "èr",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "rennt",
+                "weight": 0.04
+            },
+            {
+                "id": "rännt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "über",
+                "weight": 0.2
+            },
+            {
+                "id": "übr",
+                "weight": 0.4
+            },
+            {
+                "id": "überd",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "d'stross",
+                "weight": 0.44
+            },
+            {
+                "id": "d strooss",
+                "weight": 0.33
+            },
+            {
+                "id": "d' schtroos",
+                "weight": 0.36
+            },
+            {
+                "id": "d'schtross",
+                "weight": 0.3
+            },
+            {
+                "id": "schtrooss",
+                "weight": 0.0
+            },
+            {
+                "id": "strass",
+                "weight": 0.44
+            }
+        ],
+        [
+            {
+                "id": "der",
+                "weight": 0.4
+            },
+            {
+                "id": "dè",
+                "weight": 0.0
+            },
+            {
+                "id": "de",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "laschtwagefahrer",
+                "weight": 0.12
+            },
+            {
+                "id": "laschtwagefarer",
+                "weight": 0.12
+            },
+            {
+                "id": "laschtwagafahrer",
+                "weight": 0.15
+            },
+            {
+                "id": "laschtwaagefahrer",
+                "weight": 0.06
+            },
+            {
+                "id": "lastwagefahrer",
+                "weight": 0.24
+            },
+            {
+                "id": "laschtwaagefaarer",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "vollbrems",
+                "weight": 0.02
+            },
+            {
+                "id": "vollbremsung",
+                "weight": 0.27
+            },
+            {
+                "id": "vollbräms",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "d'stross",
+                "weight": 0.38
+            },
+            {
+                "id": "strooss",
+                "weight": 0.29
+            },
+            {
+                "id": "schtrooss",
+                "weight": 0.44
+            },
+            {
+                "id": "strass",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "fux",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "strooss",
+                "weight": 0.0
+            },
+            {
+                "id": "schtroos",
+                "weight": 0.38
+            },
+            {
+                "id": "strass",
+                "weight": 0.29
+            }
+        ],
+        [
+            {
+                "id": "de",
+                "weight": 0.25
+            },
+            {
+                "id": "da",
+                "weight": 0.0
+            },
+            {
+                "id": "das",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "strooss",
+                "weight": 0.38
+            },
+            {
+                "id": "schtroos",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "niggséét",
+                "weight": 0.27
+            }
+        ],
+        [
+            {
+                "id": "nid gseet",
+                "weight": 0.27
+            },
+            {
+                "id": "nid gseht",
+                "weight": 0.36
+            },
+            {
+                "id": "und gseht",
+                "weight": 0.47
+            },
+            {
+                "id": "niggséét",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dr",
+                "weight": 0.33
+            },
+            {
+                "id": "dr'",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "niggséét",
+                "weight": 0.36
+            }
+        ],
+        [
+            {
+                "id": "d'",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "d'schtross",
+                "weight": 0.18
+            },
+            {
+                "id": "schtrooss",
+                "weight": 0.36
+            }
+        ],
+        [
+            {
+                "id": "um",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "laschwagefahrer",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "laschwagefahrer",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "niggséét",
+                "weight": 0.47
+            }
+        ],
+        [
+            {
+                "id": "laschwagefahrer",
+                "weight": 0.3
+            }
+        ],
+        [
+            {
+                "id": "laschwagefahrer",
+                "weight": 0.29
+            }
+        ],
+        [
+            {
+                "id": "geissziger",
+                "weight": 0.0
+            },
+            {
+                "id": "gäissziger",
+                "weight": 0.02
+            },
+            {
+                "id": "gaisziger",
+                "weight": 0.15
+            },
+            {
+                "id": "gäisziger",
+                "weight": 0.12
+            }
+        ],
+        [
+            {
+                "id": "wener",
+                "weight": 0.0
+            },
+            {
+                "id": "wen",
+                "weight": 0.4
+            },
+            {
+                "id": "wenn",
+                "weight": 0.4
+            },
+            {
+                "id": "wänner",
+                "weight": 0.2
+            },
+            {
+                "id": "wän",
+                "weight": 0.44
+            },
+            {
+                "id": "wäner",
+                "weight": 0.04
+            }
+        ],
+        [
+            {
+                "id": "**",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "rächt",
+                "weight": 0.0
+            },
+            {
+                "id": "recht",
+                "weight": 0.04
+            }
+        ],
+        [
+            {
+                "id": "uusgezeichnet",
+                "weight": 0.0
+            },
+            {
+                "id": "uusgizäichnet",
+                "weight": 0.09
+            },
+            {
+                "id": "usgezeichnet",
+                "weight": 0.08
+            },
+            {
+                "id": "uusgezäichnet",
+                "weight": 0.02
+            }
+        ],
+        [
+            {
+                "id": "zu",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gsottnä",
+                "weight": 0.0
+            },
+            {
+                "id": "gsottne",
+                "weight": 0.03
+            }
+        ],
+        [
+            {
+                "id": "härdöpful",
+                "weight": 0.0
+            },
+            {
+                "id": "hèrdöpfel",
+                "weight": 0.22
+            },
+            {
+                "id": "härdöpfel",
+                "weight": 0.11
+            }
+        ],
+        [
+            {
+                "id": "geissziger",
+                "weight": 0.02
+            },
+            {
+                "id": "gäissziger",
+                "weight": 0.0
+            },
+            {
+                "id": "gaisziger",
+                "weight": 0.2
+            },
+            {
+                "id": "gäisziger",
+                "weight": 0.1
+            },
+            {
+                "id": "geiss ziger",
+                "weight": 0.11
+            },
+            {
+                "id": "geiss** ziger",
+                "weight": 0.25
+            },
+            {
+                "id": "gäis ziger",
+                "weight": 0.1
+            },
+            {
+                "id": "gäiss ziger",
+                "weight": 0.09
+            }
+        ],
+        [
+            {
+                "id": "wener",
+                "weight": 0.4
+            },
+            {
+                "id": "wen",
+                "weight": 0.0
+            },
+            {
+                "id": "wenn",
+                "weight": 0.25
+            },
+            {
+                "id": "wän",
+                "weight": 0.07
+            },
+            {
+                "id": "wäner",
+                "weight": 0.44
+            }
+        ],
+        [
+            {
+                "id": "uusgezeichnet",
+                "weight": 0.09
+            },
+            {
+                "id": "uusgizäichnet",
+                "weight": 0.0
+            },
+            {
+                "id": "usgezeichnet",
+                "weight": 0.17
+            },
+            {
+                "id": "uusgezäichnet",
+                "weight": 0.08
+            }
+        ],
+        [
+            {
+                "id": "gsottnä",
+                "weight": 0.03
+            },
+            {
+                "id": "gsottne",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "härdöpful",
+                "weight": 0.22
+            },
+            {
+                "id": "hèrdöpfel",
+                "weight": 0.0
+            },
+            {
+                "id": "härdöpfel",
+                "weight": 0.11
+            }
+        ],
+        [
+            {
+                "id": "uusgezeichnet",
+                "weight": 0.08
+            },
+            {
+                "id": "uusgizäichnet",
+                "weight": 0.17
+            },
+            {
+                "id": "usgezeichnet",
+                "weight": 0.0
+            },
+            {
+                "id": "uusgezäichnet",
+                "weight": 0.09
+            }
+        ],
+        [
+            {
+                "id": "härdöpful",
+                "weight": 0.11
+            },
+            {
+                "id": "hèrdöpfel",
+                "weight": 0.11
+            },
+            {
+                "id": "härdöpfel",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "uusgezeichnet",
+                "weight": 0.02
+            },
+            {
+                "id": "uusgizäichnet",
+                "weight": 0.08
+            },
+            {
+                "id": "usgezeichnet",
+                "weight": 0.09
+            },
+            {
+                "id": "uusgezäichnet",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "geissziger",
+                "weight": 0.15
+            },
+            {
+                "id": "gäissziger",
+                "weight": 0.2
+            },
+            {
+                "id": "gaisziger",
+                "weight": 0.0
+            },
+            {
+                "id": "gäisziger",
+                "weight": 0.11
+            }
+        ],
+        [
+            {
+                "id": "rächt",
+                "weight": 0.04
+            },
+            {
+                "id": "recht",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "geissziger",
+                "weight": 0.12
+            },
+            {
+                "id": "gäissziger",
+                "weight": 0.1
+            },
+            {
+                "id": "gaisziger",
+                "weight": 0.11
+            },
+            {
+                "id": "gäisziger",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ischtä",
+                "weight": 0.29
+            }
+        ],
+        [
+            {
+                "id": "isch de",
+                "weight": 0.29
+            },
+            {
+                "id": "ischt",
+                "weight": 0.17
+            },
+            {
+                "id": "isch dä",
+                "weight": 0.26
+            },
+            {
+                "id": "ischtä",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wener",
+                "weight": 0.44
+            },
+            {
+                "id": "wen",
+                "weight": 0.07
+            },
+            {
+                "id": "wenn",
+                "weight": 0.3
+            },
+            {
+                "id": "wän",
+                "weight": 0.0
+            },
+            {
+                "id": "wäner",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "***",
+                "weight": 0.25
+            },
+            {
+                "id": "****",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ischter",
+                "weight": 0.12
+            }
+        ],
+        [
+            {
+                "id": "ischt er",
+                "weight": 0.12
+            },
+            {
+                "id": "ischter",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wener",
+                "weight": 0.04
+            },
+            {
+                "id": "wen",
+                "weight": 0.44
+            },
+            {
+                "id": "wenn",
+                "weight": 0.44
+            },
+            {
+                "id": "wänner",
+                "weight": 0.17
+            },
+            {
+                "id": "wän",
+                "weight": 0.4
+            },
+            {
+                "id": "wäner",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "alt",
+                "weight": 0.0
+            },
+            {
+                "id": "olt",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "mussligen",
+                "weight": 0.0
+            },
+            {
+                "id": "mutzlige",
+                "weight": 0.33
+            },
+            {
+                "id": "musslige",
+                "weight": 0.11
+            },
+            {
+                "id": "musslige n",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "er",
+                "weight": 0.1
+            },
+            {
+                "id": "är",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "alt",
+                "weight": 0.33
+            },
+            {
+                "id": "olt",
+                "weight": 0.0
+            },
+            {
+                "id": "oolte",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "mussligen",
+                "weight": 0.33
+            },
+            {
+                "id": "mutzlige",
+                "weight": 0.0
+            },
+            {
+                "id": "musslige",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "mussligen",
+                "weight": 0.11
+            },
+            {
+                "id": "mutzlige",
+                "weight": 0.25
+            },
+            {
+                "id": "musslige",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "mussligen",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "*",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wänner",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "olt",
+                "weight": 0.4
+            },
+            {
+                "id": "oute",
+                "weight": 0.4
+            },
+            {
+                "id": "oolte",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "oute",
+                "weight": 0.0
+            },
+            {
+                "id": "oolte",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "ischtä",
+                "weight": 0.26
+            }
+        ],
+        [
+            {
+                "id": "root",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "n",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gits",
+                "weight": 0.0
+            },
+            {
+                "id": "git s",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "noch",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wer",
+                "weight": 0.0
+            },
+            {
+                "id": "wir",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "auch",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "andre",
+                "weight": 0.0
+            },
+            {
+                "id": "andere",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "ziger",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "geiss",
+                "weight": 0.0
+            },
+            {
+                "id": "geiss**",
+                "weight": 0.29
+            },
+            {
+                "id": "gäis",
+                "weight": 0.24
+            },
+            {
+                "id": "gäiss",
+                "weight": 0.04
+            }
+        ],
+        [
+            {
+                "id": "chunt",
+                "weight": 0.0
+            },
+            {
+                "id": "chund",
+                "weight": 0.16
+            },
+            {
+                "id": "chunnt",
+                "weight": 0.17
+            },
+            {
+                "id": "chunnder",
+                "weight": 0.47
+            }
+        ],
+        [
+            {
+                "id": "gliich",
+                "weight": 0.0
+            },
+            {
+                "id": "gliih",
+                "weight": 0.17
+            },
+            {
+                "id": "glich",
+                "weight": 0.17
+            },
+            {
+                "id": "glych",
+                "weight": 0.18
+            }
+        ],
+        [
+            {
+                "id": "art",
+                "weight": 0.0
+            },
+            {
+                "id": "årt",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "gmachet",
+                "weight": 0.0
+            },
+            {
+                "id": "gmacht***",
+                "weight": 0.44
+            },
+            {
+                "id": "gmachrt",
+                "weight": 0.14
+            },
+            {
+                "id": "mached",
+                "weight": 0.26
+            }
+        ],
+        [
+            {
+                "id": "nu",
+                "weight": 0.0
+            },
+            {
+                "id": "nur",
+                "weight": 0.33
+            },
+            {
+                "id": "nuu",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "anstatt",
+                "weight": 0.0
+            },
+            {
+                "id": "antatt",
+                "weight": 0.14
+            },
+            {
+                "id": "anschtatt",
+                "weight": 0.22
+            },
+            {
+                "id": "statt",
+                "weight": 0.29
+            }
+        ],
+        [
+            {
+                "id": "us",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "trochmilch",
+                "weight": 0.0
+            },
+            {
+                "id": "tropmilch",
+                "weight": 0.2
+            },
+            {
+                "id": "rohmilch",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "chund",
+                "weight": 0.0
+            },
+            {
+                "id": "chunt",
+                "weight": 0.16
+            },
+            {
+                "id": "chunnder",
+                "weight": 0.38
+            },
+            {
+                "id": "chunnt",
+                "weight": 0.3
+            }
+        ],
+        [
+            {
+                "id": "ganze",
+                "weight": 0.0
+            },
+            {
+                "id": "ganz",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "milch",
+                "weight": 0.0
+            },
+            {
+                "id": "amilch",
+                "weight": 0.17
+            }
+        ],
+        [
+            {
+                "id": "geissmilch",
+                "weight": 0.0
+            },
+            {
+                "id": "gäismilch",
+                "weight": 0.12
+            },
+            {
+                "id": "gäissmilch",
+                "weight": 0.02
+            }
+        ],
+        [
+            {
+                "id": "wer",
+                "weight": 0.33
+            },
+            {
+                "id": "wir",
+                "weight": 0.0
+            },
+            {
+                "id": "mir",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "andre",
+                "weight": 0.17
+            },
+            {
+                "id": "andere",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "isch",
+                "weight": 0.25
+            },
+            {
+                "id": "esch",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "die",
+                "weight": 0.33
+            },
+            {
+                "id": "di",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "geiss",
+                "weight": 0.29
+            },
+            {
+                "id": "geiss**",
+                "weight": 0.0
+            },
+            {
+                "id": "gäis",
+                "weight": 0.46
+            },
+            {
+                "id": "gäiss",
+                "weight": 0.31
+            }
+        ],
+        [
+            {
+                "id": "nu",
+                "weight": 0.33
+            },
+            {
+                "id": "nur",
+                "weight": 0.0
+            },
+            {
+                "id": "nuu",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "anstatt",
+                "weight": 0.14
+            },
+            {
+                "id": "antatt",
+                "weight": 0.0
+            },
+            {
+                "id": "anschtatt",
+                "weight": 0.33
+            },
+            {
+                "id": "statt",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "gmachet",
+                "weight": 0.44
+            },
+            {
+                "id": "gmacht***",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ufvde",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "uf die",
+                "weight": 0.33
+            },
+            {
+                "id": "uf di",
+                "weight": 0.4
+            },
+            {
+                "id": "ufvde",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gmachet",
+                "weight": 0.14
+            },
+            {
+                "id": "gmachrt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "trochmilch",
+                "weight": 0.2
+            },
+            {
+                "id": "tropmilch",
+                "weight": 0.0
+            },
+            {
+                "id": "rohmilch",
+                "weight": 0.22
+            },
+            {
+                "id": "***milch",
+                "weight": 0.44
+            }
+        ],
+        [
+            {
+                "id": "ganze",
+                "weight": 0.2
+            },
+            {
+                "id": "ganz",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "milch",
+                "weight": 0.17
+            },
+            {
+                "id": "amilch",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "geissmilch",
+                "weight": 0.12
+            },
+            {
+                "id": "gäismilch",
+                "weight": 0.0
+            },
+            {
+                "id": "gäissmilch",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "gmachet",
+                "weight": 0.26
+            },
+            {
+                "id": "mached",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gäissziger",
+                "weight": 0.11
+            }
+        ],
+        [
+            {
+                "id": "der",
+                "weight": 0.07
+            },
+            {
+                "id": "dä",
+                "weight": 0.33
+            },
+            {
+                "id": "de",
+                "weight": 0.4
+            },
+            {
+                "id": "där",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "chunt",
+                "weight": 0.17
+            },
+            {
+                "id": "chund",
+                "weight": 0.3
+            },
+            {
+                "id": "chunnt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gliich",
+                "weight": 0.17
+            },
+            {
+                "id": "gli",
+                "weight": 0.4
+            },
+            {
+                "id": "gliih",
+                "weight": 0.0
+            },
+            {
+                "id": "glich",
+                "weight": 0.2
+            },
+            {
+                "id": "glych",
+                "weight": 0.22
+            }
+        ],
+        [
+            {
+                "id": "nu",
+                "weight": 0.33
+            },
+            {
+                "id": "nur",
+                "weight": 0.33
+            },
+            {
+                "id": "nuu",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "anstatt",
+                "weight": 0.22
+            },
+            {
+                "id": "antatt",
+                "weight": 0.33
+            },
+            {
+                "id": "anschtatt",
+                "weight": 0.0
+            },
+            {
+                "id": "statt",
+                "weight": 0.44
+            }
+        ],
+        [
+            {
+                "id": "usde",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "us de",
+                "weight": 0.2
+            },
+            {
+                "id": "usde",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "***",
+                "weight": 0.4
+            },
+            {
+                "id": "*****",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "chund",
+                "weight": 0.38
+            },
+            {
+                "id": "chunt er",
+                "weight": 0.25
+            },
+            {
+                "id": "chund er",
+                "weight": 0.25
+            },
+            {
+                "id": "chunt",
+                "weight": 0.47
+            },
+            {
+                "id": "chunnder",
+                "weight": 0.0
+            },
+            {
+                "id": "chunnt er",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "geissmilch",
+                "weight": 0.02
+            },
+            {
+                "id": "gäismilch",
+                "weight": 0.1
+            },
+            {
+                "id": "gäissmilch",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "geiss",
+                "weight": 0.24
+            },
+            {
+                "id": "geiss**",
+                "weight": 0.46
+            },
+            {
+                "id": "gäis",
+                "weight": 0.0
+            },
+            {
+                "id": "gäiss",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "gliich",
+                "weight": 0.17
+            },
+            {
+                "id": "gli",
+                "weight": 0.4
+            },
+            {
+                "id": "gliih",
+                "weight": 0.2
+            },
+            {
+                "id": "glich",
+                "weight": 0.0
+            },
+            {
+                "id": "glych",
+                "weight": 0.02
+            }
+        ],
+        [
+            {
+                "id": "anstatt",
+                "weight": 0.29
+            },
+            {
+                "id": "antatt",
+                "weight": 0.33
+            },
+            {
+                "id": "anschtatt",
+                "weight": 0.44
+            },
+            {
+                "id": "statt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "trochmilch",
+                "weight": 0.2
+            },
+            {
+                "id": "tropmilch",
+                "weight": 0.22
+            },
+            {
+                "id": "rohmilch",
+                "weight": 0.0
+            },
+            {
+                "id": "***milch",
+                "weight": 0.38
+            }
+        ],
+        [
+            {
+                "id": "gits",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "geiss",
+                "weight": 0.04
+            },
+            {
+                "id": "geiss**",
+                "weight": 0.31
+            },
+            {
+                "id": "gäis",
+                "weight": 0.2
+            },
+            {
+                "id": "gäiss",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gliich",
+                "weight": 0.18
+            },
+            {
+                "id": "gli",
+                "weight": 0.42
+            },
+            {
+                "id": "gliih",
+                "weight": 0.22
+            },
+            {
+                "id": "glich",
+                "weight": 0.02
+            },
+            {
+                "id": "glych",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "art",
+                "weight": 0.33
+            },
+            {
+                "id": "årt",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "jo",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gli",
+                "weight": 0.0
+            },
+            {
+                "id": "gliih",
+                "weight": 0.4
+            },
+            {
+                "id": "glich",
+                "weight": 0.4
+            },
+            {
+                "id": "glych",
+                "weight": 0.42
+            }
+        ],
+        [
+            {
+                "id": "wir",
+                "weight": 0.33
+            },
+            {
+                "id": "mir",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ufvde",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "chunnder",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "art***",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gäissziger",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "chunnder",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "giz",
+                "weight": 0.0
+            },
+            {
+                "id": "git",
+                "weight": 0.33
+            }
+        ],
+        [
+            {
+                "id": "wenns",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "giz",
+                "weight": 0.33
+            },
+            {
+                "id": "git",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tropmilch",
+                "weight": 0.44
+            },
+            {
+                "id": "rohmilch",
+                "weight": 0.38
+            },
+            {
+                "id": "***milch",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "oort",
+                "weight": 0.0
+            },
+            {
+                "id": "ord",
+                "weight": 0.45
+            }
+        ],
+        [
+            {
+                "id": "gäissziger",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "oort",
+                "weight": 0.45
+            },
+            {
+                "id": "ord",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "gäissziger",
+                "weight": 0.09
+            }
+        ],
+        [
+            {
+                "id": "chunnder",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "zirmottund",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "s",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ou",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "nummen",
+                "weight": 0.0
+            }
+        ]
+    ],
+    "directed": false,
+    "graph": [],
+    "multigraph": false,
+    "nodes": [
+        {
+            "id": "d"
+        },
+        {
+            "id": "sägässli"
+        },
+        {
+            "id": "diä"
+        },
+        {
+            "id": "wärdid"
+        },
+        {
+            "id": "am"
+        },
+        {
+            "id": "oobet"
+        },
+        {
+            "id": "voräne"
+        },
+        {
+            "id": "schon"
+        },
+        {
+            "id": "tänglet"
+        },
+        {
+            "id": "ins"
+        },
+        {
+            "id": "grüschtet"
+        },
+        {
+            "id": "dass"
+        },
+        {
+            "id": "me"
+        },
+        {
+            "id": "denn"
+        },
+        {
+            "id": "moore"
+        },
+        {
+            "id": "dess"
+        },
+        {
+            "id": "a"
+        },
+        {
+            "id": "morgete"
+        },
+        {
+            "id": "cho"
+        },
+        {
+            "id": "druflousmääje"
+        },
+        {
+            "id": "zägäsli"
+        },
+        {
+            "id": "obed"
+        },
+        {
+            "id": "scho"
+        },
+        {
+            "id": "dängläd"
+        },
+        {
+            "id": "dasme"
+        },
+        {
+            "id": "more"
+        },
+        {
+            "id": "dess a"
+        },
+        {
+            "id": "desse"
+        },
+        {
+            "id": "druflosmaiä"
+        },
+        {
+            "id": "wered"
+        },
+        {
+            "id": "em"
+        },
+        {
+            "id": "murgete"
+        },
+        {
+            "id": "die"
+        },
+        {
+            "id": "wäred"
+        },
+        {
+            "id": "oobed"
+        },
+        {
+            "id": "vorane"
+        },
+        {
+            "id": "dängälät"
+        },
+        {
+            "id": "dass me"
+        },
+        {
+            "id": "dassme"
+        },
+        {
+            "id": "dänn"
+        },
+        {
+            "id": "disse"
+        },
+        {
+            "id": "cha"
+        },
+        {
+            "id": "sägäslì"
+        },
+        {
+            "id": "de"
+        },
+        {
+            "id": "ëm"
+        },
+        {
+            "id": "forhanä"
+        },
+        {
+            "id": "tängëlët"
+        },
+        {
+            "id": "das"
+        },
+        {
+            "id": "mä"
+        },
+        {
+            "id": "dän"
+        },
+        {
+            "id": "moorä"
+        },
+        {
+            "id": "morgëd dä"
+        },
+        {
+            "id": "drùfloosmäjä"
+        },
+        {
+            "id": "sägesse"
+        },
+        {
+            "id": "voranne"
+        },
+        {
+            "id": "dängelet"
+        },
+        {
+            "id": "mer"
+        },
+        {
+            "id": "des"
+        },
+        {
+            "id": "morge de"
+        },
+        {
+            "id": "druflos"
+        },
+        {
+            "id": "sägessli"
+        },
+        {
+            "id": "wäärded"
+        },
+        {
+            "id": "tängelet"
+        },
+        {
+            "id": "dennè"
+        },
+        {
+            "id": "a morgete"
+        },
+        {
+            "id": "dissemorgete"
+        },
+        {
+            "id": "druflosmäje"
+        },
+        {
+            "id": "***"
+        },
+        {
+            "id": "ds"
+        },
+        {
+            "id": "vor"
+        },
+        {
+            "id": "alle"
+        },
+        {
+            "id": "u"
+        },
+        {
+            "id": "chan"
+        },
+        {
+            "id": "druf los ch"
+        },
+        {
+            "id": "vor alle"
+        },
+        {
+            "id": "aabëd"
+        },
+        {
+            "id": "das mä"
+        },
+        {
+            "id": "das me"
+        },
+        {
+            "id": "desse morgete"
+        },
+        {
+            "id": "sage"
+        },
+        {
+            "id": "und"
+        },
+        {
+            "id": "druf"
+        },
+        {
+            "id": "los"
+        },
+        {
+            "id": "ch"
+        },
+        {
+            "id": "main"
+        },
+        {
+            "id": "druff"
+        },
+        {
+            "id": "wèrdët dä"
+        },
+        {
+            "id": "werded"
+        },
+        {
+            "id": "druf los"
+        },
+        {
+            "id": "desse murgete"
+        },
+        {
+            "id": "mäie"
+        },
+        {
+            "id": "druff los"
+        },
+        {
+            "id": "mäje"
+        },
+        {
+            "id": "disse murgete"
+        },
+        {
+            "id": "wèrdët"
+        },
+        {
+            "id": "t"
+        },
+        {
+            "id": "dä"
+        },
+        {
+            "id": "?ù"
+        },
+        {
+            "id": "ùn"
+        },
+        {
+            "id": "ggry?tët"
+        },
+        {
+            "id": "det"
+        },
+        {
+            "id": "morgëd"
+        },
+        {
+            "id": "morge"
+        },
+        {
+            "id": "druflos mäje"
+        },
+        {
+            "id": "se"
+        },
+        {
+            "id": "des morge de"
+        },
+        {
+            "id": "öppenenn"
+        },
+        {
+            "id": "henkt"
+        },
+        {
+            "id": "ym"
+        },
+        {
+            "id": "e"
+        },
+        {
+            "id": "wäldli"
+        },
+        {
+            "id": "syn"
+        },
+        {
+            "id": "tege"
+        },
+        {
+            "id": "an"
+        },
+        {
+            "id": "en"
+        },
+        {
+            "id": "tanenascht"
+        },
+        {
+            "id": "ane"
+        },
+        {
+            "id": "holt"
+        },
+        {
+            "id": "den"
+        },
+        {
+            "id": "zoobed"
+        },
+        {
+            "id": "ufem"
+        },
+        {
+            "id": "ruck"
+        },
+        {
+            "id": "weg"
+        },
+        {
+            "id": "wyder"
+        },
+        {
+            "id": "aab"
+        },
+        {
+            "id": "wenn"
+        },
+        {
+            "id": "er"
+        },
+        {
+            "id": "no"
+        },
+        {
+            "id": "dey"
+        },
+        {
+            "id": "hanget"
+        },
+        {
+            "id": "öppen en"
+        },
+        {
+            "id": "hänkt"
+        },
+        {
+            "id": "ym e"
+        },
+        {
+            "id": "ime"
+        },
+        {
+            "id": "sin"
+        },
+        {
+            "id": "dägen"
+        },
+        {
+            "id": "an en"
+        },
+        {
+            "id": "anen"
+        },
+        {
+            "id": "tanenast"
+        },
+        {
+            "id": "wider"
+        },
+        {
+            "id": "dei"
+        },
+        {
+            "id": "öppe ein"
+        },
+        {
+            "id": "imene"
+        },
+        {
+            "id": "dege"
+        },
+        {
+            "id": "tanneascht"
+        },
+        {
+            "id": "ruck weg"
+        },
+        {
+            "id": "rückwäg"
+        },
+        {
+            "id": "wieder"
+        },
+        {
+            "id": "ab"
+        },
+        {
+            "id": "öppen énn"
+        },
+        {
+            "id": "wääldli"
+        },
+        {
+            "id": "sinn"
+        },
+        {
+            "id": "tägen"
+        },
+        {
+            "id": "zobed"
+        },
+        {
+            "id": "ruckwäg"
+        },
+        {
+            "id": "wenn er"
+        },
+        {
+            "id": "wänner"
+        },
+        {
+            "id": "däi"
+        },
+        {
+            "id": "öppen"
+        },
+        {
+            "id": "uf"
+        },
+        {
+            "id": "ruggwäg"
+        },
+        {
+            "id": "öppe"
+        },
+        {
+            "id": "ein"
+        },
+        {
+            "id": "uf em"
+        },
+        {
+            "id": "énn"
+        },
+        {
+            "id": "än"
+        },
+        {
+            "id": "z'abig"
+        },
+        {
+            "id": "döt"
+        },
+        {
+            "id": "aber"
+        },
+        {
+            "id": "jäger"
+        },
+        {
+            "id": "isch"
+        },
+        {
+            "id": "so"
+        },
+        {
+            "id": "konzentriert"
+        },
+        {
+            "id": "fuchs"
+        },
+        {
+            "id": "laschwage"
+        },
+        {
+            "id": "ned"
+        },
+        {
+            "id": "geseh"
+        },
+        {
+            "id": "au"
+        },
+        {
+            "id": "rennt"
+        },
+        {
+            "id": "über"
+        },
+        {
+            "id": "d'stross"
+        },
+        {
+            "id": "der"
+        },
+        {
+            "id": "laschtwagefahrer"
+        },
+        {
+            "id": "mues"
+        },
+        {
+            "id": "vollbrems"
+        },
+        {
+            "id": "mache"
+        },
+        {
+            "id": "jeeger"
+        },
+        {
+            "id": "ischt"
+        },
+        {
+            "id": "laschtwage"
+        },
+        {
+            "id": "nid"
+        },
+        {
+            "id": "gseet"
+        },
+        {
+            "id": "uund"
+        },
+        {
+            "id": "d strooss"
+        },
+        {
+            "id": "laschtwagefarer"
+        },
+        {
+            "id": "abr"
+        },
+        {
+            "id": "konzentriart"
+        },
+        {
+            "id": "dasr"
+        },
+        {
+            "id": "laschtwagä"
+        },
+        {
+            "id": "gseht"
+        },
+        {
+            "id": "übr"
+        },
+        {
+            "id": "dr"
+        },
+        {
+            "id": "laschtwagafahrer"
+        },
+        {
+            "id": "muass"
+        },
+        {
+            "id": "macha"
+        },
+        {
+            "id": "laschtwaga"
+        },
+        {
+            "id": "un"
+        },
+        {
+            "id": "jäher"
+        },
+        {
+            "id": "sich"
+        },
+        {
+            "id": "laschwagefahrer"
+        },
+        {
+            "id": "vollbremsung"
+        },
+        {
+            "id": "jeger"
+        },
+        {
+            "id": "laschtwaagefahrer"
+        },
+        {
+            "id": "muess"
+        },
+        {
+            "id": "d'schtross"
+        },
+        {
+            "id": "lastwagefahrer"
+        },
+        {
+            "id": "jääger"
+        },
+        {
+            "id": "konzäntrièrt"
+        },
+        {
+            "id": "fuggs"
+        },
+        {
+            "id": "èr"
+        },
+        {
+            "id": "rännt"
+        },
+        {
+            "id": "überd"
+        },
+        {
+            "id": "schtrooss"
+        },
+        {
+            "id": "dè"
+        },
+        {
+            "id": "laschtwaagefaarer"
+        },
+        {
+            "id": "vollbräms"
+        },
+        {
+            "id": "strass"
+        },
+        {
+            "id": "fux"
+        },
+        {
+            "id": "strooss"
+        },
+        {
+            "id": "da"
+        },
+        {
+            "id": "schtroos"
+        },
+        {
+            "id": "nid gseet"
+        },
+        {
+            "id": "niggséét"
+        },
+        {
+            "id": "dr'"
+        },
+        {
+            "id": "nid gseht"
+        },
+        {
+            "id": "d'"
+        },
+        {
+            "id": "d' schtroos"
+        },
+        {
+            "id": "um"
+        },
+        {
+            "id": "dr laschtwaagefahrer"
+        },
+        {
+            "id": "der lastwagefahrer"
+        },
+        {
+            "id": "und gseht"
+        },
+        {
+            "id": "dè laschtwaagefaarer"
+        },
+        {
+            "id": "de lastwagefahrer"
+        },
+        {
+            "id": "geissziger"
+        },
+        {
+            "id": "wener"
+        },
+        {
+            "id": "**"
+        },
+        {
+            "id": "rächt"
+        },
+        {
+            "id": "uusgezeichnet"
+        },
+        {
+            "id": "zu"
+        },
+        {
+            "id": "gsottnä"
+        },
+        {
+            "id": "härdöpful"
+        },
+        {
+            "id": "gäissziger"
+        },
+        {
+            "id": "wen"
+        },
+        {
+            "id": "uusgizäichnet"
+        },
+        {
+            "id": "gsottne"
+        },
+        {
+            "id": "hèrdöpfel"
+        },
+        {
+            "id": "usgezeichnet"
+        },
+        {
+            "id": "härdöpfel"
+        },
+        {
+            "id": "uusgezäichnet"
+        },
+        {
+            "id": "gaisziger"
+        },
+        {
+            "id": "recht"
+        },
+        {
+            "id": "gäisziger"
+        },
+        {
+            "id": "isch de"
+        },
+        {
+            "id": "ischtä"
+        },
+        {
+            "id": "wän"
+        },
+        {
+            "id": "****"
+        },
+        {
+            "id": "ischt er"
+        },
+        {
+            "id": "ischter"
+        },
+        {
+            "id": "wäner"
+        },
+        {
+            "id": "alt"
+        },
+        {
+            "id": "mussligen"
+        },
+        {
+            "id": "är"
+        },
+        {
+            "id": "olt"
+        },
+        {
+            "id": "mutzlige"
+        },
+        {
+            "id": "musslige"
+        },
+        {
+            "id": "musslige n"
+        },
+        {
+            "id": "*"
+        },
+        {
+            "id": "wenn är"
+        },
+        {
+            "id": "oolte"
+        },
+        {
+            "id": "oute"
+        },
+        {
+            "id": "isch dä"
+        },
+        {
+            "id": "root"
+        },
+        {
+            "id": "n"
+        },
+        {
+            "id": "gits"
+        },
+        {
+            "id": "noch"
+        },
+        {
+            "id": "wer"
+        },
+        {
+            "id": "auch"
+        },
+        {
+            "id": "andre"
+        },
+        {
+            "id": "ziger"
+        },
+        {
+            "id": "geiss"
+        },
+        {
+            "id": "chunt"
+        },
+        {
+            "id": "gliich"
+        },
+        {
+            "id": "art"
+        },
+        {
+            "id": "gmachet"
+        },
+        {
+            "id": "nu"
+        },
+        {
+            "id": "anstatt"
+        },
+        {
+            "id": "us"
+        },
+        {
+            "id": "trochmilch"
+        },
+        {
+            "id": "chund"
+        },
+        {
+            "id": "ganze"
+        },
+        {
+            "id": "milch"
+        },
+        {
+            "id": "geissmilch"
+        },
+        {
+            "id": "wir"
+        },
+        {
+            "id": "andere"
+        },
+        {
+            "id": "esch"
+        },
+        {
+            "id": "di"
+        },
+        {
+            "id": "geiss**"
+        },
+        {
+            "id": "nur"
+        },
+        {
+            "id": "antatt"
+        },
+        {
+            "id": "gmacht***"
+        },
+        {
+            "id": "uf die"
+        },
+        {
+            "id": "ufvde"
+        },
+        {
+            "id": "gmachrt"
+        },
+        {
+            "id": "tropmilch"
+        },
+        {
+            "id": "ganz"
+        },
+        {
+            "id": "amilch"
+        },
+        {
+            "id": "gäismilch"
+        },
+        {
+            "id": "mached"
+        },
+        {
+            "id": "geiss ziger"
+        },
+        {
+            "id": "där"
+        },
+        {
+            "id": "chunnt"
+        },
+        {
+            "id": "gliih"
+        },
+        {
+            "id": "nuu"
+        },
+        {
+            "id": "anschtatt"
+        },
+        {
+            "id": "us de"
+        },
+        {
+            "id": "usde"
+        },
+        {
+            "id": "*****"
+        },
+        {
+            "id": "chunnder"
+        },
+        {
+            "id": "gäissmilch"
+        },
+        {
+            "id": "gäis"
+        },
+        {
+            "id": "glich"
+        },
+        {
+            "id": "statt"
+        },
+        {
+            "id": "rohmilch"
+        },
+        {
+            "id": "git s"
+        },
+        {
+            "id": "gäiss"
+        },
+        {
+            "id": "glych"
+        },
+        {
+            "id": "årt"
+        },
+        {
+            "id": "jo"
+        },
+        {
+            "id": "gli"
+        },
+        {
+            "id": "mir"
+        },
+        {
+            "id": "uf di"
+        },
+        {
+            "id": "chunt er"
+        },
+        {
+            "id": "art***"
+        },
+        {
+            "id": "geiss** ziger"
+        },
+        {
+            "id": "chund er"
+        },
+        {
+            "id": "giz"
+        },
+        {
+            "id": "wenns"
+        },
+        {
+            "id": "git"
+        },
+        {
+            "id": "***milch"
+        },
+        {
+            "id": "oort"
+        },
+        {
+            "id": "gäis ziger"
+        },
+        {
+            "id": "ord"
+        },
+        {
+            "id": "gäiss ziger"
+        },
+        {
+            "id": "chunnt er"
+        },
+        {
+            "id": "zirmottund"
+        },
+        {
+            "id": "s"
+        },
+        {
+            "id": "ou"
+        },
+        {
+            "id": "nummen"
+        }
+    ]
+}

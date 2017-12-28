@@ -1,0 +1,1807 @@
+{
+    "adjacency": [
+        [
+            {
+                "id": "d",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.0
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.25
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.25
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.275
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.025
+            }
+        ],
+        [
+            {
+                "id": "diä",
+                "weight": 0.0
+            },
+            {
+                "id": "die",
+                "weight": 0.06666666666666667
+            },
+            {
+                "id": "de",
+                "weight": 0.39999999999999997
+            }
+        ],
+        [
+            {
+                "id": "wärdid",
+                "weight": 0.0
+            },
+            {
+                "id": "wered",
+                "weight": 0.3666666666666667
+            },
+            {
+                "id": "wäred",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "wäärded",
+                "weight": 0.2857142857142857
+            }
+        ],
+        [
+            {
+                "id": "am",
+                "weight": 0.0
+            },
+            {
+                "id": "em",
+                "weight": 0.25
+            },
+            {
+                "id": "ëm",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "oobet",
+                "weight": 0.0
+            },
+            {
+                "id": "obed",
+                "weight": 0.36
+            },
+            {
+                "id": "oobed",
+                "weight": 0.16
+            }
+        ],
+        [
+            {
+                "id": "voräne",
+                "weight": 0.0
+            },
+            {
+                "id": "vorane",
+                "weight": 0.16666666666666666
+            },
+            {
+                "id": "forhanä",
+                "weight": 0.4571428571428572
+            },
+            {
+                "id": "voranne",
+                "weight": 0.2857142857142857
+            }
+        ],
+        [
+            {
+                "id": "schon",
+                "weight": 0.0
+            },
+            {
+                "id": "scho",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.0
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.2571428571428572
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.25
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.15
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.225
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.125
+            }
+        ],
+        [
+            {
+                "id": "ins",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "grüschtet",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dass",
+                "weight": 0.0
+            },
+            {
+                "id": "dasme",
+                "weight": 0.4
+            },
+            {
+                "id": "das",
+                "weight": 0.25
+            },
+            {
+                "id": "dassme",
+                "weight": 0.3333333333333333
+            }
+        ],
+        [
+            {
+                "id": "me",
+                "weight": 0.0
+            },
+            {
+                "id": "mä",
+                "weight": 0.1
+            },
+            {
+                "id": "mer",
+                "weight": 0.3333333333333333
+            }
+        ],
+        [
+            {
+                "id": "denn",
+                "weight": 0.0
+            },
+            {
+                "id": "dänn",
+                "weight": 0.05
+            },
+            {
+                "id": "dän",
+                "weight": 0.3
+            },
+            {
+                "id": "dennè",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "moore",
+                "weight": 0.0
+            },
+            {
+                "id": "more",
+                "weight": 0.2
+            },
+            {
+                "id": "moorä",
+                "weight": 0.04
+            }
+        ],
+        [
+            {
+                "id": "dess",
+                "weight": 0.0
+            },
+            {
+                "id": "des",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "a",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "morgete",
+                "weight": 0.0
+            },
+            {
+                "id": "murgete",
+                "weight": 0.14285714285714285
+            },
+            {
+                "id": "morgëd dä",
+                "weight": 0.35555555555555557
+            },
+            {
+                "id": "morge de",
+                "weight": 0.225
+            }
+        ],
+        [
+            {
+                "id": "cho",
+                "weight": 0.0
+            },
+            {
+                "id": "cha",
+                "weight": 0.3333333333333333
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.0
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.3230769230769231
+            },
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.24615384615384617
+            },
+            {
+                "id": "druflos",
+                "weight": 0.46153846153846156
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.15384615384615385
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.25
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.0
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.2857142857142857
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.4571428571428572
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.275
+            }
+        ],
+        [
+            {
+                "id": "oobet",
+                "weight": 0.36
+            },
+            {
+                "id": "obed",
+                "weight": 0.0
+            },
+            {
+                "id": "oobed",
+                "weight": 0.2
+            },
+            {
+                "id": "aabëd",
+                "weight": 0.44000000000000006
+            }
+        ],
+        [
+            {
+                "id": "schon",
+                "weight": 0.2
+            },
+            {
+                "id": "scho",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.2571428571428572
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.0
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.225
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.35
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.25
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.35
+            }
+        ],
+        [
+            {
+                "id": "dass",
+                "weight": 0.4
+            },
+            {
+                "id": "dasme",
+                "weight": 0.0
+            },
+            {
+                "id": "dassme",
+                "weight": 0.16666666666666666
+            },
+            {
+                "id": "das mä",
+                "weight": 0.19999999999999998
+            },
+            {
+                "id": "das",
+                "weight": 0.4
+            },
+            {
+                "id": "das me",
+                "weight": 0.16666666666666666
+            }
+        ],
+        [
+            {
+                "id": "moore",
+                "weight": 0.2
+            },
+            {
+                "id": "more",
+                "weight": 0.0
+            },
+            {
+                "id": "moorä",
+                "weight": 0.24
+            }
+        ],
+        [
+            {
+                "id": "desse",
+                "weight": 0.25
+            },
+            {
+                "id": "disse",
+                "weight": 0.4166666666666667
+            }
+        ],
+        [
+            {
+                "id": "dess a",
+                "weight": 0.25
+            },
+            {
+                "id": "desse",
+                "weight": 0.0
+            },
+            {
+                "id": "disse",
+                "weight": 0.2
+            },
+            {
+                "id": "des",
+                "weight": 0.4
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.3230769230769231
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.0
+            },
+            {
+                "id": "druf los ch",
+                "weight": 0.45454545454545453
+            },
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "druflos",
+                "weight": 0.36363636363636365
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "wärdid",
+                "weight": 0.3666666666666667
+            },
+            {
+                "id": "wered",
+                "weight": 0.0
+            },
+            {
+                "id": "wäred",
+                "weight": 0.04
+            },
+            {
+                "id": "wèrdët dä",
+                "weight": 0.48888888888888893
+            },
+            {
+                "id": "werded",
+                "weight": 0.16666666666666666
+            },
+            {
+                "id": "wäärded",
+                "weight": 0.31428571428571433
+            },
+            {
+                "id": "wèrdët",
+                "weight": 0.3666666666666667
+            }
+        ],
+        [
+            {
+                "id": "am",
+                "weight": 0.25
+            },
+            {
+                "id": "em",
+                "weight": 0.0
+            },
+            {
+                "id": "ëm",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "morgete",
+                "weight": 0.14285714285714285
+            },
+            {
+                "id": "murgete",
+                "weight": 0.0
+            },
+            {
+                "id": "morge de",
+                "weight": 0.35
+            },
+            {
+                "id": "morgëd dä",
+                "weight": 0.4666666666666667
+            }
+        ],
+        [
+            {
+                "id": "diä",
+                "weight": 0.06666666666666667
+            },
+            {
+                "id": "die",
+                "weight": 0.0
+            },
+            {
+                "id": "de",
+                "weight": 0.3333333333333333
+            }
+        ],
+        [
+            {
+                "id": "wärdid",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "wered",
+                "weight": 0.04
+            },
+            {
+                "id": "wäred",
+                "weight": 0.0
+            },
+            {
+                "id": "werded",
+                "weight": 0.19999999999999998
+            }
+        ],
+        [
+            {
+                "id": "oobet",
+                "weight": 0.16
+            },
+            {
+                "id": "obed",
+                "weight": 0.2
+            },
+            {
+                "id": "oobed",
+                "weight": 0.0
+            },
+            {
+                "id": "aabëd",
+                "weight": 0.44000000000000006
+            }
+        ],
+        [
+            {
+                "id": "voräne",
+                "weight": 0.16666666666666666
+            },
+            {
+                "id": "vor alle",
+                "weight": 0.375
+            },
+            {
+                "id": "vorane",
+                "weight": 0.0
+            },
+            {
+                "id": "forhanä",
+                "weight": 0.31428571428571433
+            },
+            {
+                "id": "voranne",
+                "weight": 0.14285714285714285
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.25
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.225
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.0
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.15
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.05
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.15
+            }
+        ],
+        [
+            {
+                "id": "dassme",
+                "weight": 0.14285714285714285
+            }
+        ],
+        [
+            {
+                "id": "dass me",
+                "weight": 0.14285714285714285
+            },
+            {
+                "id": "dasme",
+                "weight": 0.16666666666666666
+            },
+            {
+                "id": "dass",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "dassme",
+                "weight": 0.0
+            },
+            {
+                "id": "das mä",
+                "weight": 0.19999999999999998
+            },
+            {
+                "id": "das me",
+                "weight": 0.16666666666666666
+            }
+        ],
+        [
+            {
+                "id": "denn",
+                "weight": 0.05
+            },
+            {
+                "id": "dänn",
+                "weight": 0.0
+            },
+            {
+                "id": "dän",
+                "weight": 0.25
+            },
+            {
+                "id": "dennè",
+                "weight": 0.24
+            }
+        ],
+        [
+            {
+                "id": "dess a",
+                "weight": 0.4166666666666667
+            },
+            {
+                "id": "desse",
+                "weight": 0.2
+            },
+            {
+                "id": "disse",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "cho",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "chan",
+                "weight": 0.25
+            },
+            {
+                "id": "ch",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "cha",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.25
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.2857142857142857
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.0
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.31428571428571433
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.275
+            }
+        ],
+        [
+            {
+                "id": "diä",
+                "weight": 0.39999999999999997
+            },
+            {
+                "id": "de",
+                "weight": 0.0
+            },
+            {
+                "id": "dän",
+                "weight": 0.39999999999999997
+            },
+            {
+                "id": "die",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "dä",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "am",
+                "weight": 0.1
+            },
+            {
+                "id": "em",
+                "weight": 0.1
+            },
+            {
+                "id": "ëm",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "voräne",
+                "weight": 0.4571428571428572
+            },
+            {
+                "id": "vorane",
+                "weight": 0.31428571428571433
+            },
+            {
+                "id": "forhanä",
+                "weight": 0.0
+            },
+            {
+                "id": "voranne",
+                "weight": 0.4571428571428572
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.15
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.35
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.15
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.0
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.15
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.05
+            }
+        ],
+        [
+            {
+                "id": "dass",
+                "weight": 0.25
+            },
+            {
+                "id": "dasme",
+                "weight": 0.4
+            },
+            {
+                "id": "das",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "me",
+                "weight": 0.1
+            },
+            {
+                "id": "mä",
+                "weight": 0.0
+            },
+            {
+                "id": "mer",
+                "weight": 0.39999999999999997
+            }
+        ],
+        [
+            {
+                "id": "denn",
+                "weight": 0.3
+            },
+            {
+                "id": "de",
+                "weight": 0.39999999999999997
+            },
+            {
+                "id": "dänn",
+                "weight": 0.25
+            },
+            {
+                "id": "dän",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "moore",
+                "weight": 0.04
+            },
+            {
+                "id": "more",
+                "weight": 0.24
+            },
+            {
+                "id": "moorä",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "morgete",
+                "weight": 0.35555555555555557
+            },
+            {
+                "id": "murgete",
+                "weight": 0.4666666666666667
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.24615384615384617
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.0
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.18333333333333335
+            },
+            {
+                "id": "druflos mäje",
+                "weight": 0.26666666666666666
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.275
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.4571428571428572
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.31428571428571433
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.0
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "voräne",
+                "weight": 0.2857142857142857
+            },
+            {
+                "id": "vor alle",
+                "weight": 0.375
+            },
+            {
+                "id": "vorane",
+                "weight": 0.14285714285714285
+            },
+            {
+                "id": "forhanä",
+                "weight": 0.4571428571428572
+            },
+            {
+                "id": "voranne",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.225
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.25
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.05
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.15
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.0
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "me",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "mä",
+                "weight": 0.39999999999999997
+            },
+            {
+                "id": "mer",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dess",
+                "weight": 0.25
+            },
+            {
+                "id": "desse",
+                "weight": 0.4
+            },
+            {
+                "id": "det",
+                "weight": 0.3333333333333333
+            },
+            {
+                "id": "des",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "morgete",
+                "weight": 0.225
+            },
+            {
+                "id": "murgete",
+                "weight": 0.35
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.46153846153846156
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.36363636363636365
+            },
+            {
+                "id": "druf los",
+                "weight": 0.125
+            },
+            {
+                "id": "druff los",
+                "weight": 0.2222222222222222
+            },
+            {
+                "id": "druflos",
+                "weight": 0.0
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.36363636363636365
+            }
+        ],
+        [
+            {
+                "id": "sägässli",
+                "weight": 0.025
+            },
+            {
+                "id": "zägäsli",
+                "weight": 0.275
+            },
+            {
+                "id": "sägäslì",
+                "weight": 0.275
+            },
+            {
+                "id": "sägesse",
+                "weight": 0.25
+            },
+            {
+                "id": "sägessli",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wärdid",
+                "weight": 0.2857142857142857
+            },
+            {
+                "id": "wered",
+                "weight": 0.31428571428571433
+            },
+            {
+                "id": "wäärded",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "tänglet",
+                "weight": 0.125
+            },
+            {
+                "id": "dängläd",
+                "weight": 0.35
+            },
+            {
+                "id": "tängelet",
+                "weight": 0.0
+            },
+            {
+                "id": "dängälät",
+                "weight": 0.15
+            },
+            {
+                "id": "tängëlët",
+                "weight": 0.05
+            },
+            {
+                "id": "dängelet",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "denn",
+                "weight": 0.2
+            },
+            {
+                "id": "dänn",
+                "weight": 0.24
+            },
+            {
+                "id": "dennè",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.4166666666666667
+            }
+        ],
+        [
+            {
+                "id": "a morgete",
+                "weight": 0.4166666666666667
+            },
+            {
+                "id": "desse morgete",
+                "weight": 0.15384615384615385
+            },
+            {
+                "id": "desse murgete",
+                "weight": 0.23076923076923078
+            },
+            {
+                "id": "disse murgete",
+                "weight": 0.15384615384615385
+            },
+            {
+                "id": "des morge de",
+                "weight": 0.39999999999999997
+            },
+            {
+                "id": "dissemorgete",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "druflousmääje",
+                "weight": 0.15384615384615385
+            },
+            {
+                "id": "druflosmaiä",
+                "weight": 0.2
+            },
+            {
+                "id": "druf los ch",
+                "weight": 0.45454545454545453
+            },
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.18333333333333335
+            },
+            {
+                "id": "druflos",
+                "weight": 0.36363636363636365
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "***",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ds",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "vor",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "alle",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "u",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "chan",
+                "weight": 0.0
+            },
+            {
+                "id": "cha",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "druflosmaiä",
+                "weight": 0.45454545454545453
+            },
+            {
+                "id": "druflosmäje",
+                "weight": 0.45454545454545453
+            }
+        ],
+        [
+            {
+                "id": "vorane",
+                "weight": 0.375
+            },
+            {
+                "id": "voranne",
+                "weight": 0.375
+            }
+        ],
+        [
+            {
+                "id": "obed",
+                "weight": 0.44000000000000006
+            },
+            {
+                "id": "oobed",
+                "weight": 0.44000000000000006
+            },
+            {
+                "id": "aabëd",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dasme",
+                "weight": 0.19999999999999998
+            },
+            {
+                "id": "dassme",
+                "weight": 0.19999999999999998
+            }
+        ],
+        [
+            {
+                "id": "dasme",
+                "weight": 0.16666666666666666
+            },
+            {
+                "id": "dassme",
+                "weight": 0.16666666666666666
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.15384615384615385
+            }
+        ],
+        [
+            {
+                "id": "sage",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "und",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "druf",
+                "weight": 0.0
+            },
+            {
+                "id": "druff",
+                "weight": 0.2
+            }
+        ],
+        [
+            {
+                "id": "los",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ch",
+                "weight": 0.0
+            },
+            {
+                "id": "cha",
+                "weight": 0.3333333333333333
+            }
+        ],
+        [
+            {
+                "id": "main",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "druf",
+                "weight": 0.2
+            },
+            {
+                "id": "druff",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "wered",
+                "weight": 0.48888888888888893
+            }
+        ],
+        [
+            {
+                "id": "wered",
+                "weight": 0.16666666666666666
+            },
+            {
+                "id": "wäred",
+                "weight": 0.19999999999999998
+            },
+            {
+                "id": "wèrdët",
+                "weight": 0.20000000000000004
+            },
+            {
+                "id": "werded",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "druflos",
+                "weight": 0.125
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.23076923076923078
+            }
+        ],
+        [
+            {
+                "id": "mäie",
+                "weight": 0.0
+            },
+            {
+                "id": "mäje",
+                "weight": 0.25
+            }
+        ],
+        [
+            {
+                "id": "druflos",
+                "weight": 0.2222222222222222
+            }
+        ],
+        [
+            {
+                "id": "mäie",
+                "weight": 0.25
+            },
+            {
+                "id": "mäje",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.15384615384615385
+            }
+        ],
+        [
+            {
+                "id": "wered",
+                "weight": 0.3666666666666667
+            },
+            {
+                "id": "wèrdët",
+                "weight": 0.0
+            },
+            {
+                "id": "werded",
+                "weight": 0.20000000000000004
+            }
+        ],
+        [
+            {
+                "id": "t",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dä",
+                "weight": 0.0
+            },
+            {
+                "id": "de",
+                "weight": 0.1
+            }
+        ],
+        [
+            {
+                "id": "?ù",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ùn",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "ggry?tët",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "det",
+                "weight": 0.0
+            },
+            {
+                "id": "des",
+                "weight": 0.3333333333333333
+            }
+        ],
+        [
+            {
+                "id": "morgëd",
+                "weight": 0.0
+            },
+            {
+                "id": "morge",
+                "weight": 0.19999999999999998
+            }
+        ],
+        [
+            {
+                "id": "morgëd",
+                "weight": 0.19999999999999998
+            },
+            {
+                "id": "morge",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "drùfloosmäjä",
+                "weight": 0.26666666666666666
+            }
+        ],
+        [
+            {
+                "id": "se",
+                "weight": 0.0
+            }
+        ],
+        [
+            {
+                "id": "dissemorgete",
+                "weight": 0.39999999999999997
+            }
+        ]
+    ],
+    "directed": false,
+    "graph": [],
+    "multigraph": false,
+    "nodes": [
+        {
+            "id": "d"
+        },
+        {
+            "id": "sägässli"
+        },
+        {
+            "id": "diä"
+        },
+        {
+            "id": "wärdid"
+        },
+        {
+            "id": "am"
+        },
+        {
+            "id": "oobet"
+        },
+        {
+            "id": "voräne"
+        },
+        {
+            "id": "schon"
+        },
+        {
+            "id": "tänglet"
+        },
+        {
+            "id": "ins"
+        },
+        {
+            "id": "grüschtet"
+        },
+        {
+            "id": "dass"
+        },
+        {
+            "id": "me"
+        },
+        {
+            "id": "denn"
+        },
+        {
+            "id": "moore"
+        },
+        {
+            "id": "dess"
+        },
+        {
+            "id": "a"
+        },
+        {
+            "id": "morgete"
+        },
+        {
+            "id": "cho"
+        },
+        {
+            "id": "druflousmääje"
+        },
+        {
+            "id": "zägäsli"
+        },
+        {
+            "id": "obed"
+        },
+        {
+            "id": "scho"
+        },
+        {
+            "id": "dängläd"
+        },
+        {
+            "id": "dasme"
+        },
+        {
+            "id": "more"
+        },
+        {
+            "id": "dess a"
+        },
+        {
+            "id": "desse"
+        },
+        {
+            "id": "druflosmaiä"
+        },
+        {
+            "id": "wered"
+        },
+        {
+            "id": "em"
+        },
+        {
+            "id": "murgete"
+        },
+        {
+            "id": "die"
+        },
+        {
+            "id": "wäred"
+        },
+        {
+            "id": "oobed"
+        },
+        {
+            "id": "vorane"
+        },
+        {
+            "id": "dängälät"
+        },
+        {
+            "id": "dass me"
+        },
+        {
+            "id": "dassme"
+        },
+        {
+            "id": "dänn"
+        },
+        {
+            "id": "disse"
+        },
+        {
+            "id": "cha"
+        },
+        {
+            "id": "sägäslì"
+        },
+        {
+            "id": "de"
+        },
+        {
+            "id": "ëm"
+        },
+        {
+            "id": "forhanä"
+        },
+        {
+            "id": "tängëlët"
+        },
+        {
+            "id": "das"
+        },
+        {
+            "id": "mä"
+        },
+        {
+            "id": "dän"
+        },
+        {
+            "id": "moorä"
+        },
+        {
+            "id": "morgëd dä"
+        },
+        {
+            "id": "drùfloosmäjä"
+        },
+        {
+            "id": "sägesse"
+        },
+        {
+            "id": "voranne"
+        },
+        {
+            "id": "dängelet"
+        },
+        {
+            "id": "mer"
+        },
+        {
+            "id": "des"
+        },
+        {
+            "id": "morge de"
+        },
+        {
+            "id": "druflos"
+        },
+        {
+            "id": "sägessli"
+        },
+        {
+            "id": "wäärded"
+        },
+        {
+            "id": "tängelet"
+        },
+        {
+            "id": "dennè"
+        },
+        {
+            "id": "a morgete"
+        },
+        {
+            "id": "dissemorgete"
+        },
+        {
+            "id": "druflosmäje"
+        },
+        {
+            "id": "***"
+        },
+        {
+            "id": "ds"
+        },
+        {
+            "id": "vor"
+        },
+        {
+            "id": "alle"
+        },
+        {
+            "id": "u"
+        },
+        {
+            "id": "chan"
+        },
+        {
+            "id": "druf los ch"
+        },
+        {
+            "id": "vor alle"
+        },
+        {
+            "id": "aabëd"
+        },
+        {
+            "id": "das mä"
+        },
+        {
+            "id": "das me"
+        },
+        {
+            "id": "desse morgete"
+        },
+        {
+            "id": "sage"
+        },
+        {
+            "id": "und"
+        },
+        {
+            "id": "druf"
+        },
+        {
+            "id": "los"
+        },
+        {
+            "id": "ch"
+        },
+        {
+            "id": "main"
+        },
+        {
+            "id": "druff"
+        },
+        {
+            "id": "wèrdët dä"
+        },
+        {
+            "id": "werded"
+        },
+        {
+            "id": "druf los"
+        },
+        {
+            "id": "desse murgete"
+        },
+        {
+            "id": "mäie"
+        },
+        {
+            "id": "druff los"
+        },
+        {
+            "id": "mäje"
+        },
+        {
+            "id": "disse murgete"
+        },
+        {
+            "id": "wèrdët"
+        },
+        {
+            "id": "t"
+        },
+        {
+            "id": "dä"
+        },
+        {
+            "id": "?ù"
+        },
+        {
+            "id": "ùn"
+        },
+        {
+            "id": "ggry?tët"
+        },
+        {
+            "id": "det"
+        },
+        {
+            "id": "morgëd"
+        },
+        {
+            "id": "morge"
+        },
+        {
+            "id": "druflos mäje"
+        },
+        {
+            "id": "se"
+        },
+        {
+            "id": "des morge de"
+        }
+    ]
+}

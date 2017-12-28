@@ -2,6 +2,8 @@ import string
 import subprocess
 from functools import reduce
 
+import networkx as nx
+
 import bleu_score
 import experimental
 import options
@@ -28,7 +30,7 @@ def prepare(texts, alignment_remove_punctuation, alignment_all_lower_case):
     return list(sentences)
 
 
-def align(sentences, dict_to_use, aligner, alignment_filter_value):
+def align(sentences, graph, aligner, alignment_filter_value):
     for sentence2 in sentences:
         f2 = open('swg2.txt', 'wb')
         f2.write(sentence2.encode("utf8"))
@@ -41,12 +43,12 @@ def align(sentences, dict_to_use, aligner, alignment_filter_value):
             subprocess.Popen(aligner,
                              stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, startupinfo=startupinfo).communicate()[
                 0].decode("utf8").split(
-                "\n"), dict_to_use, alignment_filter_value)
+                "\n"), graph, alignment_filter_value)
 
-    return dict_to_use
+    return graph
 
 
-def create_aligned_word_dict(aligned_sentence, dict_to_use, alignment_filter_value):
+def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
     for sentence in aligned_sentence:
         words = sentence.replace("\r", "").split("\t")
         if len(words) >= 2:
@@ -55,31 +57,40 @@ def create_aligned_word_dict(aligned_sentence, dict_to_use, alignment_filter_val
             if util.normalized_dl_distance(key, value) > alignment_filter_value:
                 continue
 
-            found = False
-            for wordgroup in dict_to_use:
-                if key in wordgroup or value in wordgroup:
-                    if key not in wordgroup:
-                        wordgroup.append(key)
-                    if value not in wordgroup:
-                        wordgroup.append(value)
-                    found = True
-                    break
-            if not found:
-                if key != value:
-                    dict_to_use.append([key, value])
-                else:
-                    dict_to_use.append([key])
-    return dict_to_use
+            if not graph.has_node(key):
+                graph.add_node(key)
+            if not graph.has_node(value):
+                graph.add_node(value)
+            weight = round(util.normalized_dl_distance(key, value), 2)
 
-# def merge(dict_to_use):
+            graph.add_edge(key, value, weight=weight)
+
+            # found = False
+            # for wordgroup in graph:
+            #     if key in wordgroup or value in wordgroup:
+            #         if key not in wordgroup:
+            #             wordgroup.append(key)
+            #         if value not in wordgroup:
+            #             wordgroup.append(value)
+            #         found = True
+            #         break
+            # if not found:
+            #     if key != value:
+            #         graph.append([key, value])
+            #     else:
+            #         graph.append([key])
+    return graph
+
+
+# def merge(graph):
 #     newarr=[]
-#     for wordgroup in dict_to_use:
+#     for wordgroup in graph:
 #         for item in wordgroup:
 #             if item in newarr:
 
 
-def align_one_sentence_to_the_others(texts, dict_to_use, aligner,
-                                     alignment_filter_value=0.5,
+def align_one_sentence_to_the_others(texts, graph, aligner,
+                                     alignment_filter_value=0.333,
                                      alignment_remove_punctuation=True, alignment_all_lower_case=True,
                                      id_of_sentence_to_be_aligned_to=-1):
     if id_of_sentence_to_be_aligned_to == -1:
@@ -89,10 +100,10 @@ def align_one_sentence_to_the_others(texts, dict_to_use, aligner,
     with open('swg1.txt', 'wb') as f1:
         f1.write(sentences[id_of_sentence_to_be_aligned_to].encode("utf8"))
 
-    return align(sentences, dict_to_use, aligner, alignment_filter_value)
+    return align(sentences, graph, aligner, alignment_filter_value)
 
 
-def align_every_sentence_to_the_others(texts, dict_to_use, aligner, alignment_filter_value=0.5,
+def align_every_sentence_to_the_others(texts, graph, aligner, alignment_filter_value=0.333,
                                        alignment_remove_punctuation=True,
                                        alignment_all_lower_case=True):
     sentences = prepare(texts, alignment_remove_punctuation, alignment_all_lower_case)
@@ -101,9 +112,9 @@ def align_every_sentence_to_the_others(texts, dict_to_use, aligner, alignment_fi
         with open('swg1.txt', 'wb') as f1:
             f1.write(sentence1.encode("utf8"))
 
-        align(sentences, dict_to_use, aligner, alignment_filter_value)
+        align(sentences, graph, aligner, alignment_filter_value)
 
-    return dict_to_use
+    return graph
 
 
 def improve(texts, base_sentence_id, aligner):
