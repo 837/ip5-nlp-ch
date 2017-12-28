@@ -1,4 +1,7 @@
 from util import options, util
+import networkx as nx
+
+import alignGraph
 
 
 def print_graph_with_edges(G):
@@ -13,68 +16,93 @@ def print_graph_with_edges(G):
     pylab.show()
 
 
-import alignGraph
+def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", should_print=False):
+    goldstandardList = list(
+        map((lambda group: list(map((lambda node: node), group))), nx.connected_components(gs_graph)))
+    createdAlignmentList = list(
+        map((lambda group: list(map((lambda node: node), group))), nx.connected_components(alignment_graph)))
+
+    goldstandardWordCount = 0
+    missingWords = 0
+    foundWords = 0
+    numberOfAlignedGroupes = len(createdAlignmentList)
+    numberOfGSGroupes = len(goldstandardList)
+    for alignments in createdAlignmentList:
+        missingWords += len(alignments)
+
+    for alignments in goldstandardList:
+        goldstandardWordCount += len(alignments)
+        for word in alignments:
+            if alignment_graph.has_node(word):
+                missingWords -= 1
+                foundWords += 1
+
+    scoreWords = (foundWords / goldstandardWordCount) * 100
+    scoreGroups = (abs(numberOfGSGroupes - numberOfAlignedGroupes) / (
+        numberOfGSGroupes + numberOfAlignedGroupes)) * 100
+    totalScore = scoreWords - scoreGroups
+
+    if should_print:
+        print("goldstandardWordCount: " + str(goldstandardWordCount))
+        print("missingWords: " + str(missingWords))
+        print("foundWords: " + str(foundWords))
+        print("numberOfAlignedGroupes: " + str(numberOfAlignedGroupes))
+        print("numberOfGSGroupes: " + str(numberOfGSGroupes))
+        print("difference(abs(numberOfGSGroupes-numberOfAlignedGroupes)): " + str(
+            abs(numberOfGSGroupes - numberOfAlignedGroupes)))
+        print("scoreWords: " + str(scoreWords))
+        print("scoreGroups: " + str(scoreGroups))
+        print("totalScore(higher is better): " + str(totalScore))
+
+    print(str(additional_Text) + " scored: " + str(totalScore))
+    return totalScore
+
+
+def iterative_testing(total_iterations, current_iteration, current_params, gs_graph):
+    print("####Iteration[" + str(current_iteration) + "]####")
+    graph = ()
+    iterationCount = 1
+    for taskID in options.GOLD_STANDARD_SET:
+        util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
+        group = allTaskByID[taskID][0]
+        graph = alignGraph.align_every_sentence_to_the_others(group, current_params[0], current_params[1],
+                                                              current_params[2])
+
+        iterationCount += 1
+    score = calculate_alignment_score(gs_graph, graph, "With params[" + str(current_params) + "]")
+
+    if current_iteration >= total_iterations:
+        return
+    else:
+        current_params = [current_params[0], current_params[1], round(current_params[2] - 0.05, 2)]
+        iterative_testing(total_iterations, current_iteration + 1, current_params, gs_graph)
+
 
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
+gs_graph = nx.json_graph.node_link_graph(
+    util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 
-import networkx as nx
+params = [nx.Graph(), alignGraph.ALIGNER_HUNALIGN, 0.49]
+iterative_testing(20, 1, params, gs_graph)
 
-G = nx.Graph()
-iterationCount = 1
-for taskID in options.GOLD_STANDARD_SET:
-    util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
-    group = allTaskByID[taskID][0]
 
-    graph = alignGraph.align_every_sentence_to_the_others(group, G, alignGraph.ALIGNER_HUNALIGN,
-                                                          alignment_filter_value=0.49)
-
-    iterationCount += 1
 
 # util.dump_dict_to_json(nx.node_link_data(G), "nodeLinkData.json")
 # util.dump_dict_to_json(nx.adjacency_data(G), "adjacencyData.json")
 # util.dump_dict_to_json(list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(G))),
 #                        "connectedComponents.json")
 
-GS = nx.json_graph.node_link_graph(util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 
-util.dump_dict_to_json(list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(GS))),
-                       "connectedComponentsGS.json")
+
+# util.dump_dict_to_json(list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(GS))),
+#                        "connectedComponentsGS.json")
+
+
 # print_graph_with_edges(G)
 
-goldstandardList = list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(GS)))
-createdAlignmentList = list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(G)))
 
-goldstandardWordCount = 0
-missingWords = 0
-foundWords = 0
-numberOfAlignedGroupes = len(createdAlignmentList)
-numberOfGSGroupes = len(goldstandardList)
-for alignments in createdAlignmentList:
-    missingWords += len(alignments)
 
-for alignments in goldstandardList:
-    goldstandardWordCount += len(alignments)
-    for word in alignments:
-        if G.has_node(word):
-            missingWords -= 1
-            foundWords += 1
 
-print("goldstandardWordCount: " + str(goldstandardWordCount))
-print("missingWords: " + str(missingWords))
-print("foundWords: " + str(foundWords))
-print("numberOfAlignedGroupes: " + str(numberOfAlignedGroupes))
-print("numberOfGSGroupes: " + str(numberOfGSGroupes))
-print("difference(abs(numberOfGSGroupes-numberOfAlignedGroupes)): " + str(
-    abs(numberOfGSGroupes - numberOfAlignedGroupes)))
-
-scoreWords = (foundWords / goldstandardWordCount) * 100
-print("scoreWords: " + str(scoreWords))
-
-scoreGroups = (abs(numberOfGSGroupes - numberOfAlignedGroupes) / (numberOfGSGroupes + numberOfAlignedGroupes)) * 100
-print("scoreGroups: " + str(scoreGroups))
-
-totalScore = scoreWords - scoreGroups
-print("totalScore(higher is better): " + str(totalScore))
 
 
 # CREATE ALIGNMENTS AND DUMP TO JSON FILE
