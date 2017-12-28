@@ -1,12 +1,11 @@
-import string
 import subprocess
 from functools import reduce
 
 import bleu_score
 import experimental
-import options
-import util
 import levenshtein
+import util
+from util import options
 
 ALIGNER_BLEUALIGN = "bleualign/bleu-champ.exe -s swg1.txt -t swg2.txt -q"
 ALIGNER_HUNALIGN = "Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.txt swg2.txt"

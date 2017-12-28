@@ -1,80 +1,27 @@
-import string
-from functools import reduce
-import matplotlib.pyplot as plt
-import numpy as np
+from util import options, util
 
 import alignGraph
-import fizzle
-import options
-import util
-import bleu_score
-import align
-import levenshtein
-import pprint
 
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 
-# test = [[
-#     "de",
-#     "d",
-#     "ds",
-#     "dä",
-#     "da",
-#     "dert"
-# ],
-#     [
-#         "sägessli",
-#         "sägässli",
-#         "zägäsli",
-#         "sägesse"
-#     ],
-#     [
-#         "die",
-#         "diä",
-#         "di"
-#     ],
-#     [
-#         "wäärded",
-#         "wärdid",
-#         "wered"
-#     ],
-#     [
-#         "am",
-#         "em",
-#         "ëm",
-#         "es",
-#         "dem",
-#         "e"
-#     ],
-#     [
-#         "dem",
-#         "de",
-#         "dr",
-#         "der",
-#         "dä",
-#         "da",
-#         "dr'",
-#         "dè",
-#         "do"
-#     ]]
-
 import networkx as nx
 
-G = nx.Graph()
-iterationCount = 1
-for taskID in options.GOLD_STANDARD_SET:
-    util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
-    group = allTaskByID[taskID][0]
-
-    graph = alignGraph.align_every_sentence_to_the_others(group, G, alignGraph.ALIGNER_HUNALIGN,
-                                                          alignment_filter_value=0.49)
-
-    iterationCount += 1
-
-util.dump_dict_to_json(nx.node_link_data(G), "nodeLinkData.json")
-util.dump_dict_to_json(nx.adjacency_data(G), "adjacencyData.json")
-util.dump_dict_to_json(list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(G))),
-                       "connectedComponents.json")
+# G = nx.Graph()
+# iterationCount = 1
+# for taskID in options.GOLD_STANDARD_SET:
+#     util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
+#     group = allTaskByID[taskID][0]
+#
+#     graph = alignGraph.align_every_sentence_to_the_others(group, G, alignGraph.ALIGNER_HUNALIGN,
+#                                                           alignment_filter_value=0.49)
+#
+#     iterationCount += 1
+#
+# # util.dump_dict_to_json(nx.node_link_data(G), "nodeLinkData.json")
+# # util.dump_dict_to_json(nx.adjacency_data(G), "adjacencyData.json")
+# util.dump_dict_to_json(list(map((lambda group: list(map((lambda node: node), group))), nx.connected_components(G))),
+#                        "connectedComponents.json")
+G = nx.json_graph.node_link_graph(util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 
 import pylab
 

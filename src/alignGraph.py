@@ -1,14 +1,10 @@
-import string
 import subprocess
 from functools import reduce
 
-import networkx as nx
-
 import bleu_score
 import experimental
-import options
-import util
 import levenshtein
+from util import options, util
 
 ALIGNER_BLEUALIGN = "bleualign/bleu-champ.exe -s swg1.txt -t swg2.txt -q"
 ALIGNER_HUNALIGN = "Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.txt swg2.txt"
@@ -65,29 +61,7 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
 
             graph.add_edge(key, value, weight=weight)
 
-            # found = False
-            # for wordgroup in graph:
-            #     if key in wordgroup or value in wordgroup:
-            #         if key not in wordgroup:
-            #             wordgroup.append(key)
-            #         if value not in wordgroup:
-            #             wordgroup.append(value)
-            #         found = True
-            #         break
-            # if not found:
-            #     if key != value:
-            #         graph.append([key, value])
-            #     else:
-            #         graph.append([key])
     return graph
-
-
-# def merge(graph):
-#     newarr=[]
-#     for wordgroup in graph:
-#         for item in wordgroup:
-#             if item in newarr:
-
 
 def align_one_sentence_to_the_others(texts, graph, aligner,
                                      alignment_filter_value=0.333,

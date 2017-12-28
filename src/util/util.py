@@ -1,8 +1,10 @@
-import pandas as pd
 import json
 import sys
-from fizzle import *
 from string import ascii_lowercase, ascii_uppercase
+
+import pandas as pd
+
+from util.fizzle import *
 
 
 def loadDataFromCSVFile(filePath):
@@ -25,6 +27,12 @@ def loadDataFromCSVFile(filePath):
 def dump_dict_to_json(data, filename):
     with open(filename, 'w') as fp:
         json.dump(data, fp, sort_keys=True, indent=4, ensure_ascii=False)
+
+
+def load_json(filename):
+    with open(filename, 'r') as fp:
+        data = json.load(fp)
+    return data
 
 
 def load_dict_from_json(filename):
