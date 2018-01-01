@@ -943,21 +943,6 @@
       "weight": 0.0
     },
     {
-      "source": "***",
-      "target": "***",
-      "weight": 0.0
-    },
-    {
-      "source": "***",
-      "target": "****",
-      "weight": 0.25
-    },
-    {
-      "source": "***",
-      "target": "*****",
-      "weight": 0.4
-    },
-    {
       "source": "ds",
       "target": "ds",
       "weight": 0.0
@@ -1088,18 +1073,8 @@
       "weight": 0.33
     },
     {
-      "source": "?ù",
-      "target": "?ù",
-      "weight": 0.0
-    },
-    {
       "source": "ùn",
       "target": "ùn",
-      "weight": 0.0
-    },
-    {
-      "source": "ggry?tët",
-      "target": "ggry?tët",
       "weight": 0.0
     },
     {
@@ -2403,11 +2378,6 @@
       "weight": 0.04
     },
     {
-      "source": "**",
-      "target": "**",
-      "weight": 0.0
-    },
-    {
       "source": "rächt",
       "target": "rächt",
       "weight": 0.0
@@ -2486,11 +2456,6 @@
       "source": "gäissziger",
       "target": "geiss ziger",
       "weight": 0.11
-    },
-    {
-      "source": "gäissziger",
-      "target": "geiss** ziger",
-      "weight": 0.25
     },
     {
       "source": "gäissziger",
@@ -2603,11 +2568,6 @@
       "weight": 0.0
     },
     {
-      "source": "****",
-      "target": "****",
-      "weight": 0.0
-    },
-    {
       "source": "ischt er",
       "target": "ischter",
       "weight": 0.12
@@ -2680,11 +2640,6 @@
     {
       "source": "musslige",
       "target": "musslige",
-      "weight": 0.0
-    },
-    {
-      "source": "*",
-      "target": "*",
       "weight": 0.0
     },
     {
@@ -2764,11 +2719,6 @@
     },
     {
       "source": "geiss",
-      "target": "geiss**",
-      "weight": 0.29
-    },
-    {
-      "source": "geiss",
       "target": "gäis",
       "weight": 0.24
     },
@@ -2831,11 +2781,6 @@
       "source": "gmachet",
       "target": "gmachet",
       "weight": 0.0
-    },
-    {
-      "source": "gmachet",
-      "target": "gmacht***",
-      "weight": 0.44
     },
     {
       "source": "gmachet",
@@ -2978,21 +2923,6 @@
       "weight": 0.0
     },
     {
-      "source": "geiss**",
-      "target": "geiss**",
-      "weight": 0.0
-    },
-    {
-      "source": "geiss**",
-      "target": "gäis",
-      "weight": 0.46
-    },
-    {
-      "source": "geiss**",
-      "target": "gäiss",
-      "weight": 0.31
-    },
-    {
       "source": "nur",
       "target": "nur",
       "weight": 0.0
@@ -3016,11 +2946,6 @@
       "source": "antatt",
       "target": "statt",
       "weight": 0.33
-    },
-    {
-      "source": "gmacht***",
-      "target": "gmacht***",
-      "weight": 0.0
     },
     {
       "source": "uf die",
@@ -3051,11 +2976,6 @@
       "source": "tropmilch",
       "target": "rohmilch",
       "weight": 0.22
-    },
-    {
-      "source": "tropmilch",
-      "target": "***milch",
-      "weight": 0.44
     },
     {
       "source": "ganz",
@@ -3138,11 +3058,6 @@
       "weight": 0.0
     },
     {
-      "source": "*****",
-      "target": "*****",
-      "weight": 0.0
-    },
-    {
       "source": "chunnder",
       "target": "chunt er",
       "weight": 0.25
@@ -3203,11 +3118,6 @@
       "weight": 0.0
     },
     {
-      "source": "rohmilch",
-      "target": "***milch",
-      "weight": 0.38
-    },
-    {
       "source": "gäiss",
       "target": "gäiss",
       "weight": 0.0
@@ -3243,11 +3153,6 @@
       "weight": 0.0
     },
     {
-      "source": "art***",
-      "target": "art***",
-      "weight": 0.0
-    },
-    {
       "source": "giz",
       "target": "giz",
       "weight": 0.0
@@ -3265,11 +3170,6 @@
     {
       "source": "git",
       "target": "git",
-      "weight": 0.0
-    },
-    {
-      "source": "***milch",
-      "target": "***milch",
       "weight": 0.0
     },
     {
@@ -3512,9 +3412,6 @@
       "id": "druflosmäje"
     },
     {
-      "id": "***"
-    },
-    {
       "id": "ds"
     },
     {
@@ -3602,13 +3499,7 @@
       "id": "dä"
     },
     {
-      "id": "?ù"
-    },
-    {
       "id": "ùn"
-    },
-    {
-      "id": "ggry?tët"
     },
     {
       "id": "det"
@@ -4043,9 +3934,6 @@
       "id": "wener"
     },
     {
-      "id": "**"
-    },
-    {
       "id": "rächt"
     },
     {
@@ -4103,9 +3991,6 @@
       "id": "wän"
     },
     {
-      "id": "****"
-    },
-    {
       "id": "ischt er"
     },
     {
@@ -4134,9 +4019,6 @@
     },
     {
       "id": "musslige n"
-    },
-    {
-      "id": "*"
     },
     {
       "id": "wenn är"
@@ -4226,16 +4108,10 @@
       "id": "di"
     },
     {
-      "id": "geiss**"
-    },
-    {
       "id": "nur"
     },
     {
       "id": "antatt"
-    },
-    {
-      "id": "gmacht***"
     },
     {
       "id": "uf die"
@@ -4286,9 +4162,6 @@
       "id": "usde"
     },
     {
-      "id": "*****"
-    },
-    {
       "id": "chunnder"
     },
     {
@@ -4334,12 +4207,6 @@
       "id": "chunt er"
     },
     {
-      "id": "art***"
-    },
-    {
-      "id": "geiss** ziger"
-    },
-    {
       "id": "chund er"
     },
     {
@@ -4350,9 +4217,6 @@
     },
     {
       "id": "git"
-    },
-    {
-      "id": "***milch"
     },
     {
       "id": "oort"
