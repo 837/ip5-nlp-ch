@@ -27,17 +27,18 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
     foundWords = 0
     numberOfAlignedGroupes = len(createdAlignmentList)
     numberOfGSGroupes = len(goldstandardList)
+    alignedWordCount = 0
     for alignments in createdAlignmentList:
-        missingWords += len(alignments)
+        alignedWordCount += len(alignments)
 
     for alignments in goldstandardList:
         goldstandardWordCount += len(alignments)
         for word in alignments:
             if alignment_graph.has_node(word):
-                missingWords -= 1
                 foundWords += 1
             else:
                 print("missing " + word)
+                missingWords += 1
 
     scoreWords = (foundWords / goldstandardWordCount) * 100
     scoreGroups = (abs(numberOfGSGroupes - numberOfAlignedGroupes) / (
@@ -46,6 +47,7 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
 
     if should_print:
         print("goldstandardWordCount: " + str(goldstandardWordCount))
+        print("alignedWordCount: " + str(alignedWordCount))
         print("missingWords: " + str(missingWords))
         print("foundWords: " + str(foundWords))
         print("numberOfAlignedGroupes: " + str(numberOfAlignedGroupes))
@@ -85,7 +87,7 @@ allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 gs_graph = nx.json_graph.node_link_graph(
     util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 
-params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.49]
+params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.9]
 iterative_testing(20, 1, params, gs_graph)
 
 # group = allTaskByID[2048][0]
