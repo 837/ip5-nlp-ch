@@ -15,7 +15,7 @@ def prepare(texts, alignment_remove_punctuation, alignment_all_lower_case):
     sentences = []
     for sentence in texts:
         sentences.append(reduce((lambda x, y: x + " " + y), list(
-            sentence)).replace("   ", "\n"))
+            sentence)).replace("   ", " ~~~\n"))
 
     if alignment_remove_punctuation:
         sentences = util.remove_punctuation(sentences)
@@ -48,8 +48,8 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
     for sentence in aligned_sentence:
         words = sentence.replace("\r", "").split("\t")
         if len(words) >= 2:
-            key = words[0].replace(" ", "").replace("~~~", " ")
-            value = words[1].replace(" ", "").replace("~~~", " ")
+            key = words[0].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
+            value = words[1].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
             if util.normalized_dl_distance(key, value) > alignment_filter_value:
                 continue
 

@@ -18,9 +18,9 @@ def print_graph_with_edges(G):
 
 def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", should_print=False):
     goldstandardList = list(
-        map((lambda group: list(map((lambda node: node), group))), nx.connected_components(gs_graph)))
+        map((lambda group: list(group)), nx.connected_components(gs_graph)))
     createdAlignmentList = list(
-        map((lambda group: list(map((lambda node: node), group))), nx.connected_components(alignment_graph)))
+        map((lambda group: list(group)), nx.connected_components(alignment_graph)))
 
     goldstandardWordCount = 0
     missingWords = 0
@@ -36,6 +36,8 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
             if alignment_graph.has_node(word):
                 missingWords -= 1
                 foundWords += 1
+            else:
+                print("missing " + word)
 
     scoreWords = (foundWords / goldstandardWordCount) * 100
     scoreGroups = (abs(numberOfGSGroupes - numberOfAlignedGroupes) / (
@@ -69,7 +71,7 @@ def iterative_testing(total_iterations, current_iteration, current_params, gs_gr
                                                               current_params[2])
 
         iterationCount += 1
-    score = calculate_alignment_score(gs_graph, graph, "With params[" + str(current_params) + "]")
+    score = calculate_alignment_score(gs_graph, graph, "With params[" + str(current_params) + "]", True)
 
     if current_iteration >= total_iterations:
         return
@@ -79,13 +81,16 @@ def iterative_testing(total_iterations, current_iteration, current_params, gs_gr
 
 
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
+
 gs_graph = nx.json_graph.node_link_graph(
     util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 
-params = [nx.Graph(), alignGraph.ALIGNER_HUNALIGN, 0.49]
+params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.49]
 iterative_testing(20, 1, params, gs_graph)
 
-
+# group = allTaskByID[2048][0]
+# graph = alignGraph.align_every_sentence_to_the_others(group, params[0], params[1], params[2])
+# print_graph_with_edges(graph)
 
 # util.dump_dict_to_json(nx.node_link_data(G), "nodeLinkData.json")
 # util.dump_dict_to_json(nx.adjacency_data(G), "adjacencyData.json")
