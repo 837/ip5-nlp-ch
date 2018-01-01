@@ -2133,26 +2133,6 @@
       "weight": 0.0
     },
     {
-      "source": "laschwagefahrer",
-      "target": "dr laschtwaagefahrer",
-      "weight": 0.25
-    },
-    {
-      "source": "laschwagefahrer",
-      "target": "der lastwagefahrer",
-      "weight": 0.33
-    },
-    {
-      "source": "laschwagefahrer",
-      "target": "dè laschtwaagefaarer",
-      "weight": 0.3
-    },
-    {
-      "source": "laschwagefahrer",
-      "target": "de lastwagefahrer",
-      "weight": 0.29
-    },
-    {
       "source": "vollbremsung",
       "target": "vollbremsung",
       "weight": 0.0
@@ -3913,19 +3893,7 @@
       "id": "um"
     },
     {
-      "id": "dr laschtwaagefahrer"
-    },
-    {
-      "id": "der lastwagefahrer"
-    },
-    {
       "id": "und gseht"
-    },
-    {
-      "id": "dè laschtwaagefaarer"
-    },
-    {
-      "id": "de lastwagefahrer"
     },
     {
       "id": "geissziger"
