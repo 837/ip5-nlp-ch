@@ -110,3 +110,4 @@ src/swg2.txt
 ~$*.docx
 ~$*.xlsx
 src/BadSentenceCorrectionTest.json
+/.idea/inspectionProfiles/profiles_settings.xml
