@@ -2588,11 +2588,6 @@
       "weight": 0.11
     },
     {
-      "source": "mussligen",
-      "target": "musslige n",
-      "weight": 0.1
-    },
-    {
       "source": "är",
       "target": "är",
       "weight": 0.0
@@ -3984,9 +3979,6 @@
     },
     {
       "id": "musslige"
-    },
-    {
-      "id": "musslige n"
     },
     {
       "id": "wenn är"
