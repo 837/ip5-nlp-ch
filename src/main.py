@@ -21,6 +21,10 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
         map((lambda group: list(group)), nx.connected_components(gs_graph)))
     createdAlignmentList = list(
         map((lambda group: list(group)), nx.connected_components(alignment_graph)))
+    print("Gold List")
+    print(goldstandardList)
+    print("Alignment List")
+    print(createdAlignmentList)
 
     goldstandardWordCount = 0
     words_in_gs_not_in_alignment_counter = 0
@@ -71,6 +75,7 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
         print("goldstandardWordCount: " + str(goldstandardWordCount))
         print("alignedWordCount: " + str(alignedWordCount))
         print("foundWords: " + str(foundWords))
+        print("missing: " + str(abs(goldstandardWordCount-alignedWordCount)))
         print("words_in_gs_not_in_alignment_counter: " + str(words_in_gs_not_in_alignment_counter))
         print("words_in_alignment_not_in_gs_counter: " + str(words_in_alignment_not_in_gs_counter))
         print("words_not_in_alignment_percentage: " + str(words_not_in_alignment_percentage))
@@ -110,13 +115,15 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
 
 
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
-
-gs_graph = nx.json_graph.node_link_graph(
-    util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
+#
+# gs_graph = nx.json_graph.node_link_graph(
+#     util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 
 # alignedGraph = nx.json_graph.node_link_graph(
-#     util.load_json("dumpedGraph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
-params = [nx.Graph(), alignGraph.ALIGNER_HUNALIGN, 0.49]
+#     util.load_json("dumpedGraph.json"))
+gs_graph = nx.json_graph.node_link_graph(
+    util.load_json("GoldStandard/gs_graph.json"))
+params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.49]
 
 alignedGraph = ()
 iterationCount = 1
@@ -125,11 +132,11 @@ for taskID in options.GOLD_STANDARD_SET:
     group = allTaskByID[taskID][0]
     alignedGraph = alignGraph.align_every_sentence_to_the_others(group, params[0], params[1], params[2])
     iterationCount += 1
-# util.dump_dict_to_json(nx.node_link_data(alignedGraph), "dumpedGraph.json")
+# # util.dump_dict_to_json(nx.node_link_data(alignedGraph), "dumpedGraph.json")
 
 score = calculate_alignment_score(gs_graph, alignedGraph, "With params[" + str(params) + "]", True)
 
-
+print_graph_with_edges(alignedGraph)
 
 
 
