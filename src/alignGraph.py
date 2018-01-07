@@ -56,8 +56,9 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
             key = words[0].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
             value = words[1].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
             ###TEST###
-            if util.normalized_dl_distance(key, value) > alignment_filter_value and not metaphoneTest.dm(
-                    key) == metaphoneTest.dm(value):
+            lv = util.normalized_dl_distance(key, value) > alignment_filter_value
+            meta = metaphoneTest.dm(key) == metaphoneTest.dm(value)
+            if lv and not meta:
                 omittedWords.append((key, value, util.normalized_dl_distance(key, value),
                                      metaphoneTest.dm(key) == metaphoneTest.dm(value)))
                 print((key, value, util.normalized_dl_distance(key, value),
@@ -71,7 +72,7 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
             weight = round(util.normalized_dl_distance(key, value), 2)
 
             graph.add_edge(key, value, weight=weight)
-    # print(omittedWords)
+
     return graph
 
 

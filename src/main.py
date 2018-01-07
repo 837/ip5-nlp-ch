@@ -123,7 +123,7 @@ allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 #     util.load_json("dumpedGraph.json"))
 gs_graph = nx.json_graph.node_link_graph(
     util.load_json("GoldStandard/gs_graph.json"))
-params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.49]
+params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.25]
 
 alignedGraph = ()
 iterationCount = 1

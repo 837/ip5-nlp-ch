@@ -1,0 +1,179 @@
+{
+    "directed": false,
+    "graph": {},
+    "links": [
+
+        {
+            "source": "sägässli",
+            "target": "sägässli",
+            "weight": 0.0
+        },
+        {
+            "source": "sägässli",
+            "target": "zägäsli",
+            "weight": 0.25
+        },
+        {
+            "source": "sägässli",
+            "target": "sägäslì",
+            "weight": 0.25
+        },
+        {
+            "source": "sägässli",
+            "target": "sägesse",
+            "weight": 0.28
+        },
+        {
+            "source": "sägässli",
+            "target": "sägessli",
+            "weight": 0.03
+        },
+        {
+            "source": "diä",
+            "target": "diä",
+            "weight": 0.0
+        },
+        {
+            "source": "diä",
+            "target": "die",
+            "weight": 0.07
+        },
+        {
+            "source": "diä",
+            "target": "de",
+            "weight": 0.4
+        },
+        {
+            "source": "denn",
+            "target": "denn",
+            "weight": 0.0
+        },
+        {
+            "source": "denn",
+            "target": "dän",
+            "weight": 0.3
+        },
+        {
+            "source": "denn",
+            "target": "dennè",
+            "weight": 0.2
+        },
+        {
+            "source": "denn",
+            "target": "dänn",
+            "weight": 0.05
+        },
+        {
+            "source": "zägäsli",
+            "target": "zägäsli",
+            "weight": 0.0
+        },
+        {
+            "source": "zägäsli",
+            "target": "sägäslì",
+            "weight": 0.29
+        },
+        {
+            "source": "zägäsli",
+            "target": "sägesse",
+            "weight": 0.46
+        },
+        {
+            "source": "zägäsli",
+            "target": "sägessli",
+            "weight": 0.28
+        },
+        {
+            "source": "sägäslì",
+            "target": "sägäslì",
+            "weight": 0.0
+        },
+        {
+            "source": "sägäslì",
+            "target": "sägesse",
+            "weight": 0.31
+        },
+        {
+            "source": "sägäslì",
+            "target": "sägessli",
+            "weight": 0.28
+        },
+        {
+            "source": "de",
+            "target": "de",
+            "weight": 0.0
+        },
+        {
+            "source": "de",
+            "target": "dän",
+            "weight": 0.4
+        },
+        {
+            "source": "de",
+            "target": "dä",
+            "weight": 0.1
+        },
+        {
+            "source": "dän",
+            "target": "dänn",
+            "weight": 0.25
+        },
+        {
+            "source": "dän",
+            "target": "dän",
+            "weight": 0.0
+        },
+        {
+            "source": "sägesse",
+            "target": "sägesse",
+            "weight": 0.0
+        },
+        {
+            "source": "sägesse",
+            "target": "sägessli",
+            "weight": 0.25
+        }
+    ],
+    "multigraph": false,
+    "nodes": [
+        {
+            "id": "sägäslì"
+        },
+        {
+            "id": "zägäsli"
+        },
+        {
+            "id": "sägesse"
+        },
+        {
+            "id": "sägessli"
+        },
+        {
+            "id": "sägässli"
+        },
+        {
+            "id": "dän"
+        },
+        {
+            "id": "dänn"
+        },
+        {
+            "id": "dä"
+        },
+        {
+            "id": "de"
+        },
+        {
+            "id": "denn"
+        },
+        {
+            "id": "dennè"
+        },
+        {
+            "id": "diä"
+        },
+        {
+            "id": "die"
+        }
+    ]
+}
