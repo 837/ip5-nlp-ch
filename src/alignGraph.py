@@ -64,7 +64,6 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
                 print((key, value, util.normalized_dl_distance(key, value),
                        metaphoneTest.dm(key) == metaphoneTest.dm(value)))
                 continue
-
             if not graph.has_node(key):
                 graph.add_node(key)
             if not graph.has_node(value):
