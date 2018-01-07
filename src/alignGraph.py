@@ -58,13 +58,6 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
             ###TEST###
             if util.normalized_dl_distance(key, value) > alignment_filter_value and not metaphoneTest.dm(
                     key) == metaphoneTest.dm(value):
-                if metaphoneTest.dm(key) == metaphoneTest.dm(value):
-                    print(key, value, metaphoneTest.dm(key) == metaphoneTest.dm(value))
-                    continue
-            # if util.normalized_dl_distance(key, value) > 0.333:
-            #     print(key, value, metaphoneTest.dm(key) == metaphoneTest.dm(value))
-            if util.normalized_dl_distance(key, value) > 0.2 and not metaphoneTest.dm(key) == metaphoneTest.dm(value):
-                # print(key, value, metaphoneTest.dm(key) == metaphoneTest.dm(value))
                 omittedWords.append((key, value, util.normalized_dl_distance(key, value),
                                      metaphoneTest.dm(key) == metaphoneTest.dm(value)))
                 print((key, value, util.normalized_dl_distance(key, value),
