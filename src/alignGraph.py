@@ -44,13 +44,31 @@ def align(sentences, graph, aligner, alignment_filter_value):
     return graph
 
 
+import metaphoneTest
+
+omittedWords = []
+
+
 def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
     for sentence in aligned_sentence:
         words = sentence.replace("\r", "").split("\t")
         if len(words) >= 2:
             key = words[0].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
             value = words[1].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
-            if util.normalized_dl_distance(key, value) > alignment_filter_value:
+            ###TEST###
+            if util.normalized_dl_distance(key, value) > alignment_filter_value and not metaphoneTest.dm(
+                    key) == metaphoneTest.dm(value):
+                if metaphoneTest.dm(key) == metaphoneTest.dm(value):
+                    print(key, value, metaphoneTest.dm(key) == metaphoneTest.dm(value))
+                    continue
+            # if util.normalized_dl_distance(key, value) > 0.333:
+            #     print(key, value, metaphoneTest.dm(key) == metaphoneTest.dm(value))
+            if util.normalized_dl_distance(key, value) > 0.2 and not metaphoneTest.dm(key) == metaphoneTest.dm(value):
+                # print(key, value, metaphoneTest.dm(key) == metaphoneTest.dm(value))
+                omittedWords.append((key, value, util.normalized_dl_distance(key, value),
+                                     metaphoneTest.dm(key) == metaphoneTest.dm(value)))
+                print((key, value, util.normalized_dl_distance(key, value),
+                       metaphoneTest.dm(key) == metaphoneTest.dm(value)))
                 continue
 
             if not graph.has_node(key):
@@ -60,8 +78,9 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
             weight = round(util.normalized_dl_distance(key, value), 2)
 
             graph.add_edge(key, value, weight=weight)
-
+    # print(omittedWords)
     return graph
+
 
 def align_one_sentence_to_the_others(texts, graph, aligner,
                                      alignment_filter_value=0.333,
