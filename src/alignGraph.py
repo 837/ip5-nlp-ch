@@ -4,10 +4,12 @@ from functools import reduce
 import bleu_score
 import experimental
 import levenshtein
-from util import options, util
+from util.doublemetaphone import dm as doublemetaphone
+from util.options import EXPERIMENTAL_USE_BAD_WORD_DETECTION, EXPERIMENTAL_ACTIVATE_EXPERIMENTAL
+from util.util import convert_to_lower, remove_punctuation, normalized_dl_distance
 
-ALIGNER_BLEUALIGN = "bleualign/bleu-champ.exe -s swg1.txt -t swg2.txt -q"
-ALIGNER_HUNALIGN = "Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.txt swg2.txt"
+ALIGNER_BLEUALIGN = "bleualign/bleu-champ.exe -s tmp/swg1.txt -t tmp/swg2.txt -q"
+ALIGNER_HUNALIGN = "Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict tmp/swg1.txt tmp/swg2.txt"
 
 
 # Splits texts to characters, removes punctuation and makes everything lower case
@@ -18,17 +20,17 @@ def prepare(texts, alignment_remove_punctuation, alignment_all_lower_case):
             sentence)).replace("   ", " ~~~\n"))
 
     if alignment_remove_punctuation:
-        sentences = util.remove_punctuation(sentences)
+        sentences = remove_punctuation(sentences)
 
     if alignment_all_lower_case:
-        sentences = util.convert_to_lower(sentences)
+        sentences = convert_to_lower(sentences)
 
     return list(sentences)
 
 
 def align(sentences, graph, aligner, alignment_filter_value):
     for sentence2 in sentences:
-        f2 = open('swg2.txt', 'wb')
+        f2 = open('tmp/swg2.txt', 'wb')
         f2.write(sentence2.encode("utf8"))
         f2.flush()
 
@@ -44,8 +46,6 @@ def align(sentences, graph, aligner, alignment_filter_value):
     return graph
 
 
-import metaphoneTest
-
 omittedWords = []
 
 
@@ -56,19 +56,19 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
             key = words[0].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
             value = words[1].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
             ###TEST###
-            lv = util.normalized_dl_distance(key, value) > alignment_filter_value
-            meta = metaphoneTest.dm(key) == metaphoneTest.dm(value)
+            lv = normalized_dl_distance(key, value) > alignment_filter_value
+            meta = doublemetaphone(key) == doublemetaphone(value)
             if lv and not meta:
-                omittedWords.append((key, value, util.normalized_dl_distance(key, value),
-                                     metaphoneTest.dm(key) == metaphoneTest.dm(value)))
-                print((key, value, util.normalized_dl_distance(key, value),
-                       metaphoneTest.dm(key) == metaphoneTest.dm(value)))
+                omittedWords.append((key, value, normalized_dl_distance(key, value),
+                                     doublemetaphone(key) == doublemetaphone(value)))
+                print((key, value, normalized_dl_distance(key, value),
+                       doublemetaphone(key) == doublemetaphone(value)))
                 continue
             if not graph.has_node(key):
                 graph.add_node(key)
             if not graph.has_node(value):
                 graph.add_node(value)
-            weight = round(util.normalized_dl_distance(key, value), 2)
+            weight = round(normalized_dl_distance(key, value), 2)
 
             graph.add_edge(key, value, weight=weight)
 
@@ -83,7 +83,7 @@ def align_one_sentence_to_the_others(texts, graph, aligner,
         id_of_sentence_to_be_aligned_to = bleu_score.max_index(bleu_score.bleu_ratings(texts))
 
     sentences = prepare(texts, alignment_remove_punctuation, alignment_all_lower_case)
-    with open('swg1.txt', 'wb') as f1:
+    with open('tmp/swg1.txt', 'wb') as f1:
         f1.write(sentences[id_of_sentence_to_be_aligned_to].encode("utf8"))
 
     return align(sentences, graph, aligner, alignment_filter_value)
@@ -95,7 +95,7 @@ def align_every_sentence_to_the_others(texts, graph, aligner, alignment_filter_v
     sentences = prepare(texts, alignment_remove_punctuation, alignment_all_lower_case)
 
     for sentence1 in sentences:
-        with open('swg1.txt', 'wb') as f1:
+        with open('tmp/swg1.txt', 'wb') as f1:
             f1.write(sentence1.encode("utf8"))
 
         align(sentences, graph, aligner, alignment_filter_value)
@@ -112,8 +112,8 @@ def improve(texts, base_sentence_id, aligner):
     words = texts[base_sentence_id].split(" ")
     bad_words = ["**", "***", "****", "??", "???"]
 
-    if options.EXPERIMENTAL_ACTIVATE_EXPERIMENTAL:
-        if options.EXPERIMENTAL_USE_BAD_WORD_DETECTION:
+    if EXPERIMENTAL_ACTIVATE_EXPERIMENTAL:
+        if EXPERIMENTAL_USE_BAD_WORD_DETECTION:
             experimental.bad_word_detection(complete_alignment, bad_words)
 
     for i, word in enumerate(words):

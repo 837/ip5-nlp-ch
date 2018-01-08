@@ -1,7 +1,7 @@
-from util import options, util
 import networkx as nx
 
 import alignGraph
+from util import options, util
 
 
 def print_graph_with_edges(G):
@@ -94,26 +94,6 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
     return total_score
 
 
-# def iterative_testing(total_iterations, current_iteration, current_params, gs_graph):
-#     print("####Iteration[" + str(current_iteration) + "]####")
-#     graph = ()
-#     iterationCount = 1
-#     for taskID in options.GOLD_STANDARD_SET:
-#         util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
-#         group = allTaskByID[taskID][0]
-#         graph = alignGraph.align_every_sentence_to_the_others(group, current_params[0], current_params[1],
-#                                                               current_params[2])
-#
-#         iterationCount += 1
-#     score = calculate_alignment_score(gs_graph, graph, "With params[" + str(current_params) + "]", True)
-#
-#     if current_iteration >= total_iterations:
-#         return
-#     else:
-#         current_params = [current_params[0], current_params[1], round(current_params[2] - 0.05, 2)]
-#         iterative_testing(total_iterations, current_iteration + 1, current_params, gs_graph)
-
-
 allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 #
 # gs_graph = nx.json_graph.node_link_graph(
@@ -123,7 +103,7 @@ allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
 #     util.load_json("dumpedGraph.json"))
 gs_graph = nx.json_graph.node_link_graph(
     util.load_json("GoldStandard/gs_graph.json"))
-params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.25]
+params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.3]
 
 alignedGraph = ()
 iterationCount = 1

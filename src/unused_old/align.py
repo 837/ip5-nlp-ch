@@ -4,8 +4,7 @@ from functools import reduce
 import bleu_score
 import experimental
 import levenshtein
-import util
-from util import options
+from util import options, util, doublemetaphone
 
 ALIGNER_BLEUALIGN = "bleualign/bleu-champ.exe -s swg1.txt -t swg2.txt -q"
 ALIGNER_HUNALIGN = "Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict swg1.txt swg2.txt"
@@ -69,6 +68,7 @@ def create_aligned_word_dict(aligned_sentence, dict_to_use, alignment_filter_val
                 else:
                     dict_to_use.append([key])
     return dict_to_use
+
 
 # def merge(dict_to_use):
 #     newarr=[]

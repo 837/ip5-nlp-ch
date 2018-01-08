@@ -1,4 +1,4 @@
-from util import util
+import util
 
 
 def score_words(words):
