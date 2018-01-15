@@ -2,7 +2,20 @@ import json
 import sys
 from string import ascii_lowercase, ascii_uppercase
 
-import pandas as pd
+import subprocess
+
+def install_missing_dependencies(dependency):
+    print("Installing missing dependency ["+str(dependency)+"]")
+    startupinfo = subprocess.STARTUPINFO()
+    startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+    print(subprocess.Popen("python -m pip install " + dependency, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL,
+                     startupinfo=startupinfo).communicate()[0])
+
+try:
+    import pandas as pd
+except ImportError:
+    install_missing_dependencies("pandas")
+    import pandas as pd
 
 from util.fizzle import *
 
@@ -26,10 +39,12 @@ def loadDataFromCSVFile(filePath):
     # print(allTaskByID)  # mit allTaskByID[TASK_ID] bekommt man ein array mit allen INFO Saetzen
     return allTaskByID
 
+
 # Define dump_data_to_json(): With this function you can dump any data to a json file
 def dump_data_to_json(data, filename):
     with open(filename, 'w') as fp:
         json.dump(data, fp, sort_keys=True, indent=4, ensure_ascii=False)
+
 
 # Define load_json(): With this function you can load a json file to data
 def load_json(filename):
@@ -122,3 +137,5 @@ def convert_to_lower(texts):
 def remove_punctuation(texts):
     return map((lambda t: t.replace(",", ' ').replace(".", ' ').replace(":", ' ').replace("!", ' ').replace("-", ' ')),
                texts)
+
+

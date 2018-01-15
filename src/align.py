@@ -1,13 +1,19 @@
 import subprocess
 from functools import reduce
 
-import networkx as nx
+from util.util import convert_to_lower, remove_punctuation, normalized_dl_distance, install_missing_dependencies
+
+try:
+    import networkx as nx
+except ImportError:
+    install_missing_dependencies("networkx")
+    import networkx as nx
+
 
 import bleu_score
 import experimental
 import levenshtein
 from util.doublemetaphone import dm as doublemetaphone
-from util.util import convert_to_lower, remove_punctuation, normalized_dl_distance
 
 ALIGNER_BLEUALIGN = "bleualign/bleu-champ.exe -s tmp/swg1.txt -t tmp/swg2.txt -q"
 ALIGNER_HUNALIGN = "Hunalign/hunalign.exe -text -realign -utf Hunalign/null.dict tmp/swg1.txt tmp/swg2.txt"

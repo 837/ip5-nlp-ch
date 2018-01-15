@@ -1,4 +1,10 @@
-import networkx as nx
+from util import util
+try:
+    import networkx as nx
+except ImportError:
+    util.install_missing_dependencies("networkx")
+    import networkx as nx
+
 
 import levenshtein
 

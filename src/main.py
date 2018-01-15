@@ -1,9 +1,11 @@
-import networkx as nx
-
 import align
 import bleu_score
 from util import options, util
-
+try:
+    import networkx as nx
+except ImportError:
+    util.install_missing_dependencies("networkx")
+    import networkx as nx
 
 def print_graph_with_edges(G):
     import pylab
@@ -127,15 +129,15 @@ def export_as_list(graph, filename):
 def import_as_graph(filename):
     return nx.json_graph.node_link_graph(util.load_json(filename))
 
-
 # Load Data
 allTaskByID = load_data_from_csv('../data/transcribe-2017-07-08.CSV')
 group = allTaskByID[2048][0]
 good_transcriptions = get_good_transcriptions(group)
 aligned_graph = align_every_sentence_to_the_others(group, aligner=align.ALIGNER_BLEUALIGN, filtervalue=0.25)
-export_as_list(aligned_graph, "dumpedGraph.json")
+export_as_list(aligned_graph, "dumpedList.json")
+export_as_graph(aligned_graph, "dumpedGraph.json")
 imported_graph = import_as_graph("dumpedGraph.json")
-
+print_graph_with_edges(imported_graph)
 # #
 # # gs_graph = nx.json_graph.node_link_graph(
 # #     util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON

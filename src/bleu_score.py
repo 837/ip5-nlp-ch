@@ -1,5 +1,16 @@
-import numpy as np
-import nltk
+from util import util
+
+try:
+    import nltk
+except ImportError:
+    util.install_missing_dependencies("nltk")
+    import nltk
+
+try:
+    import numpy as np
+except ImportError:
+    util.install_missing_dependencies("numpy")
+    import numpy as np
 
 
 # Define filter_tasks_lesser_or_equal_than(): Filters out all transcription groups which have less or equal to n transcriptions in it
