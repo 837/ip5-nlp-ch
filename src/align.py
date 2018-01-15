@@ -9,7 +9,6 @@ except ImportError:
     install_missing_dependencies("networkx")
     import networkx as nx
 
-
 import bleu_score
 import experimental
 import levenshtein
@@ -53,21 +52,15 @@ def align(sentences, graph, aligner, alignment_filter_value):
     return graph
 
 
-omittedWords = []
-
-
 def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
     for sentence in aligned_sentence:
         words = sentence.replace("\r", "").split("\t")
         if len(words) >= 2:
             key = words[0].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
             value = words[1].replace(" ", "").replace("~~~", " ").replace("  ", " ").strip()
-            ###TEST###
             lv = normalized_dl_distance(key, value) > alignment_filter_value
             meta = doublemetaphone(key) == doublemetaphone(value)
             if lv and not meta:
-                omittedWords.append((key, value, normalized_dl_distance(key, value),
-                                     doublemetaphone(key) == doublemetaphone(value)))
                 # print((key, value, normalized_dl_distance(key, value),
                 #        doublemetaphone(key) == doublemetaphone(value)))
                 continue
@@ -110,7 +103,7 @@ def align_every_sentence_to_the_others(texts, graph, aligner, alignment_filter_v
     return graph
 
 
-def improve(texts, base_sentence_id, aligner, experimental_improve=False):
+def improve(texts, base_sentence_id, aligner, experimental_improve=True):
     graph = nx.Graph()
     align_one_sentence_to_the_others(texts, graph, aligner, alignment_filter_value=1,
                                      alignment_remove_punctuation=False,
@@ -121,7 +114,7 @@ def improve(texts, base_sentence_id, aligner, experimental_improve=False):
 
     if experimental_improve:
         experimental.bad_word_detection(graph, bad_words)
-
+    print(bad_words)
     for i, word in enumerate(words):
         if word in bad_words:
             for group in list(map((lambda group: list(group)), nx.connected_components(graph))):
