@@ -7,6 +7,9 @@ import pandas as pd
 from util.fizzle import *
 
 
+# Define loadDataFromCSVFile(): With this function we load only the to us necessary data from the provided files.
+# It will return an array where you can look up transcription groups by their task_ID.
+# mit allTaskByID[TASK_ID] bekommt man ein array mit allen INFO Saetzen
 def loadDataFromCSVFile(filePath):
     df = pd.read_csv(filePath, delimiter=';')
     unique_sentences_id = set()
@@ -20,30 +23,19 @@ def loadDataFromCSVFile(filePath):
         allTaskByID[df['TASK_ID'][i]][0].append(df['INFO'][i])
         allTaskByID[df['TASK_ID'][i]][1].append(df['REF'][i])
 
-    # print(allTaskByID)  # mit allTextByTaskID[TASK_ID] bekommt man ein array mit allen INFO Saetzen
+    # print(allTaskByID)  # mit allTaskByID[TASK_ID] bekommt man ein array mit allen INFO Saetzen
     return allTaskByID
 
-
-def dump_dict_to_json(data, filename):
+# Define dump_data_to_json(): With this function you can dump any data to a json file
+def dump_data_to_json(data, filename):
     with open(filename, 'w') as fp:
         json.dump(data, fp, sort_keys=True, indent=4, ensure_ascii=False)
 
-
+# Define load_json(): With this function you can load a json file to data
 def load_json(filename):
     with open(filename, 'r') as fp:
         data = json.load(fp)
     return data
-
-
-def load_dict_from_json(filename):
-    try:
-        with open(filename, 'r') as fp:
-            data = json.load(fp)
-        return data
-    except FileNotFoundError:
-        # create empty dict in file, try again
-        dump_dict_to_json(dict(), filename)
-        return load_dict_from_json(filename)
 
 
 # Print iterations progress
@@ -74,6 +66,7 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
 editCosts = []  # default edit costs are 1
 
 
+# Our custom edit cost for weighted levenshtein. where we define custom substitution costs.
 def cost(a, b, score):
     editCosts.append((a, b, score))
     editCosts.append((b, a, score))
@@ -103,6 +96,10 @@ for (l, u) in zip(ascii_lowercase, ascii_uppercase):
     editCosts.append((u, l, 0.1))
 
 
+# Define normalized_dl_distance() function: We use fizzles (https://github.com/nadvornix/python-fizzle) levenshtein distance implementation.
+#  But to improve it, we added our modified editcosts to it. Further we normalize it to always get a value between 0 and 1.
+# This function will therefore return a value between 0 and 1,
+# where 0 means the words are identical and 1 means the words are completely different.
 def normalized_dl_distance(word1, word2):
     try:
         return dl_distance(word1, word2, substitutions=editCosts, symetric=False) / max(len(word1), len(word2))
@@ -110,14 +107,18 @@ def normalized_dl_distance(word1, word2):
         return 1
 
 
+# Define flatten() function: As the name states, helper function to flatten a [[],[],...].
 def flatten(li):
     return [item for sublist in li for item in sublist]
 
 
+# Define convert_to_lower() function: As the name states, helper function to make text lowercase.
 def convert_to_lower(texts):
     return map(str.lower, texts)
 
 
+# Define remove_punctuation() function: With this function you can strip , . : ! - from text, all the
+# other symbols that appear in the text are used to indicate missing words or letters, so we don't remove
 def remove_punctuation(texts):
     return map((lambda t: t.replace(",", ' ').replace(".", ' ').replace(":", ' ').replace("!", ' ').replace("-", ' ')),
                texts)

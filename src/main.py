@@ -1,6 +1,7 @@
 import networkx as nx
 
-import alignGraph
+import align
+import bleu_score
 from util import options, util
 
 
@@ -55,7 +56,7 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
                 print("missing: " + word)
                 words_in_gs_not_in_alignment_counter += 1
 
-##########################PLEASE REDO :D ###################################
+                ##########################PLEASE REDO :D ###################################
     # print(words_in_alignment_not_in_gs_counter_dict)
     words_in_alignment_not_in_gs_counter = sum(
         arr[0] for arr in words_in_alignment_not_in_gs_counter_dict.values() if len(arr) > 0)
@@ -69,13 +70,13 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
     score_words = (word_count_score - words_not_in_gs_percentage - words_not_in_alignment_percentage)
 
     total_score = score_words - score_groups
-##########################PLEASE REDO :D ###################################
+    ##########################PLEASE REDO :D ###################################
 
     if should_print:
         print("goldstandardWordCount: " + str(goldstandardWordCount))
         print("alignedWordCount: " + str(alignedWordCount))
         print("foundWords: " + str(foundWords))
-        print("missing: " + str(abs(goldstandardWordCount-alignedWordCount)))
+        print("missing: " + str(abs(goldstandardWordCount - alignedWordCount)))
         print("words_in_gs_not_in_alignment_counter: " + str(words_in_gs_not_in_alignment_counter))
         print("words_in_alignment_not_in_gs_counter: " + str(words_in_alignment_not_in_gs_counter))
         print("words_not_in_alignment_percentage: " + str(words_not_in_alignment_percentage))
@@ -94,29 +95,71 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
     return total_score
 
 
-allTaskByID = util.loadDataFromCSVFile('../data/transcribe-2017-07-08.CSV')
+def rate_sentence_group(group):
+    return bleu_score.bleu_ratings(group)
+
+
+def load_data_from_csv(path):
+    return util.loadDataFromCSVFile(path)
+
+
+def get_good_transcriptions(group):
+    return bleu_score.getGoodTranscriptions(group)
+
+
+def align_a_sentence_to_the_others(group, aligner, filtervalue, id_of_sentence_to_be_aligned_to):
+    return align.align_one_sentence_to_the_others(group, nx.Graph(), aligner, filtervalue,
+                                                  id_of_sentence_to_be_aligned_to=id_of_sentence_to_be_aligned_to)
+
+
+def align_every_sentence_to_the_others(group, aligner, filtervalue):
+    return align.align_every_sentence_to_the_others(group, nx.Graph(), aligner, filtervalue)
+
+
+def export_as_graph(graph, filename):
+    util.dump_data_to_json(nx.node_link_data(graph), filename)
+
+
+def export_as_list(graph, filename):
+    util.dump_data_to_json(list(map((lambda group: list(group)), nx.connected_components(graph))), filename)
+
+
+def import_as_graph(filename):
+    return nx.json_graph.node_link_graph(util.load_json(filename))
+
+
+# Load Data
+allTaskByID = load_data_from_csv('../data/transcribe-2017-07-08.CSV')
+group = allTaskByID[2048][0]
+good_transcriptions = get_good_transcriptions(group)
+aligned_graph = align_every_sentence_to_the_others(group, aligner=align.ALIGNER_BLEUALIGN, filtervalue=0.25)
+export_as_list(aligned_graph, "dumpedGraph.json")
+imported_graph = import_as_graph("dumpedGraph.json")
+
+# #
+# # gs_graph = nx.json_graph.node_link_graph(
+# #     util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
 #
+# # alignedGraph = nx.json_graph.node_link_graph(
+# #     util.load_json("dumpedGraph.json"))
 # gs_graph = nx.json_graph.node_link_graph(
-#     util.load_json("GoldStandard/gs_graph.json"))  # LOAD GOLDSTANDARD_GRAPH FROM JSON
-
-# alignedGraph = nx.json_graph.node_link_graph(
-#     util.load_json("dumpedGraph.json"))
-gs_graph = nx.json_graph.node_link_graph(
-    util.load_json("GoldStandard/gs_graph.json"))
-params = [nx.Graph(), alignGraph.ALIGNER_BLEUALIGN, 0.3]
-
-alignedGraph = ()
-iterationCount = 1
-for taskID in options.GOLD_STANDARD_SET:
-    util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
-    group = allTaskByID[taskID][0]
-    alignedGraph = alignGraph.align_every_sentence_to_the_others(group, params[0], params[1], params[2])
-    iterationCount += 1
-# # util.dump_dict_to_json(nx.node_link_data(alignedGraph), "dumpedGraph.json")
-
-score = calculate_alignment_score(gs_graph, alignedGraph, "With params[" + str(params) + "]", True)
-
-print_graph_with_edges(alignedGraph)
+#     util.load_json("GoldStandard/gs_graph.json"))
+# params = [nx.Graph(), align.ALIGNER_BLEUALIGN, 0.25]
+#
+#
+#
+# alignedGraph = ()
+# iterationCount = 1
+# for taskID in options.GOLD_STANDARD_SET:
+#     util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
+#     group = allTaskByID[taskID][0]
+#     alignedGraph = align.align_every_sentence_to_the_others(group, params[0], params[1], params[2])
+#     iterationCount += 1
+# # # util.dump_dict_to_json(nx.node_link_data(alignedGraph), "dumpedGraph.json")
+# #
+# score = calculate_alignment_score(gs_graph, alignedGraph, "With params[" + str(params) + "]", True)
+# #
+# print_graph_with_edges(alignedGraph)
 
 
 
@@ -171,8 +214,8 @@ print_graph_with_edges(alignedGraph)
 
 # alldata = []
 # iterationCount = 1
-# for id in GOLD_STANDARD_SET:
-#     util.print_progress(iterationCount, len(GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
+# for id in options.GOLD_STANDARD_SET:
+#     util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
 #     currentData = []
 #     group = allTaskByID[id][0]
 #     if len(group) < 2:
@@ -196,13 +239,12 @@ print_graph_with_edges(alignedGraph)
 #     currentData.append(("bad sentence:", group[improve_index]))
 #
 #     print("\nimproved sentence:")
-#     improved = align.improve(group, improve_index, align.HUNALIGN)
+#     improved = align.improve(group, improve_index, align.ALIGNER_HUNALIGN, experimental_improve=True)
 #     print(improved)
 #     currentData.append(("improved sentence:", improved))
 #
 #     print("\nimproved sentence(with additional word filter):")
-#     improved = align.improve(group, improve_index, align.HUNALIGN, use_bad_word_detection=True,
-#                              group_score_for_filter_lower=0.6, group_score_for_filter_upper=0.91)
+#     improved = align.improve(group, improve_index, align.ALIGNER_HUNALIGN)
 #     print(improved)
 #     currentData.append(("improved sentence(with additional word filter):", improved))
 #     alldata.append(currentData)

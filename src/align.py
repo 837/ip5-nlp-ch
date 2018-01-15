@@ -1,11 +1,12 @@
 import subprocess
 from functools import reduce
 
+import networkx as nx
+
 import bleu_score
 import experimental
 import levenshtein
 from util.doublemetaphone import dm as doublemetaphone
-from util.options import EXPERIMENTAL_USE_BAD_WORD_DETECTION, EXPERIMENTAL_ACTIVATE_EXPERIMENTAL
 from util.util import convert_to_lower, remove_punctuation, normalized_dl_distance
 
 ALIGNER_BLEUALIGN = "bleualign/bleu-champ.exe -s tmp/swg1.txt -t tmp/swg2.txt -q"
@@ -61,8 +62,8 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
             if lv and not meta:
                 omittedWords.append((key, value, normalized_dl_distance(key, value),
                                      doublemetaphone(key) == doublemetaphone(value)))
-                print((key, value, normalized_dl_distance(key, value),
-                       doublemetaphone(key) == doublemetaphone(value)))
+                # print((key, value, normalized_dl_distance(key, value),
+                #        doublemetaphone(key) == doublemetaphone(value)))
                 continue
             if not graph.has_node(key):
                 graph.add_node(key)
@@ -103,22 +104,21 @@ def align_every_sentence_to_the_others(texts, graph, aligner, alignment_filter_v
     return graph
 
 
-def improve(texts, base_sentence_id, aligner):
-    complete_alignment = []
-    align_one_sentence_to_the_others(texts, complete_alignment, aligner, alignment_filter_value=1,
+def improve(texts, base_sentence_id, aligner, experimental_improve=False):
+    graph = nx.Graph()
+    align_one_sentence_to_the_others(texts, graph, aligner, alignment_filter_value=1,
                                      alignment_remove_punctuation=False,
                                      id_of_sentence_to_be_aligned_to=base_sentence_id)
 
     words = texts[base_sentence_id].split(" ")
     bad_words = ["**", "***", "****", "??", "???"]
 
-    if EXPERIMENTAL_ACTIVATE_EXPERIMENTAL:
-        if EXPERIMENTAL_USE_BAD_WORD_DETECTION:
-            experimental.bad_word_detection(complete_alignment, bad_words)
+    if experimental_improve:
+        experimental.bad_word_detection(graph, bad_words)
 
     for i, word in enumerate(words):
         if word in bad_words:
-            for group in complete_alignment:
+            for group in list(map((lambda group: list(group)), nx.connected_components(graph))):
                 if word in group:
                     words[i] = levenshtein.best_word(group)
                     break
