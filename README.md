@@ -37,3 +37,12 @@ Der Alignierungsprozess generiert aus einer Satzgruppe eine List von Wort/Ausdru
 Gefilterte Daten sind für den Alignierungsprozess streng genommen nicht zwingend. Da dies jedoch das Ergebnis verbessert, wird es empfohlen. Der Alignierungsprozess kann ausser-dem den Satzbewertungsprozess verwenden, um das Ergebnis zu verbessern.
 Der Interpolationsprozess findet Auslassungen in Form von *** in einem Satz und ersetzt sie mithilfe der anderen Transkriptionen derselben Satzgruppe. Dieser Prozess basiert auf dem Alignierungsprozess. Auch hier empfiehlt es sich, mit gefilterten Satzgruppen zu agieren.
 
+# Voraussetzungen
+*Python 3
+*PIP
+*Bleualign.exe
+*Hunalign.exe
+Für Bleu- und Hunalign werden Windows Binaries mitgeliefert. Fur andere Platformen müssen diese erst kompiliert werden.
+Bleu: https://github.com/emjotde/bleu-champ
+Hun: https://github.com/danielvarga/hunalign
+Zusätzlich müssen unter src/algorithms/align.py Zeilen 15 und 16 entsprechend angepasst werden.
