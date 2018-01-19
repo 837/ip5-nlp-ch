@@ -151,11 +151,13 @@ print("Align Goldstandard Group")
 aligned_graph = create_graph_over_list_of_groups(options.GOLD_STANDARD_SET, aligner=align.ALIGNER_BLEUALIGN,
                                                  filtervalue=0.25)
 
+print("Calculate Scores and print them")
+calculate_alignment_score(gs_graph, aligned_graph, True)
+
+
 print("Export as List")
 export_as_list(aligned_graph, "dumpedList.json")
 
 print("Export as Graph")
 export_as_graph(aligned_graph, "dumpedGraph.json")
 
-print("Calculate Scores and print them")
-calculate_alignment_score(gs_graph, aligned_graph, True)
