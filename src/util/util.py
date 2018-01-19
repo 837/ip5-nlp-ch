@@ -4,6 +4,9 @@ from string import ascii_lowercase, ascii_uppercase
 
 import subprocess
 
+import networkx as nx
+
+
 def install_missing_dependencies(dependency):
     print("Installing missing dependency ["+str(dependency)+"]")
     startupinfo = subprocess.STARTUPINFO()
@@ -138,4 +141,14 @@ def remove_punctuation(texts):
     return map((lambda t: t.replace(",", ' ').replace(".", ' ').replace(":", ' ').replace("!", ' ').replace("-", ' ')),
                texts)
 
+def print_graph_with_edges(G):
+    import pylab
+    print("Creating Graph to display, might take a long time.")
+    pos = nx.spring_layout(G)
+    nx.draw(G, with_labels=True, font_weight='bold', pos=pos)
+    edge_labels = dict([((u, v,), d['weight'])
+                        for u, v, d in G.edges(data=True)])
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
+
+    pylab.show()
 

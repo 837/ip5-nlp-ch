@@ -9,9 +9,7 @@ except ImportError:
     install_missing_dependencies("networkx")
     import networkx as nx
 
-import bleu_score
-import experimental
-import levenshtein
+from algorithms import experimental, bleu_score, levenshtein
 from util.doublemetaphone import dm as doublemetaphone
 
 ALIGNER_BLEUALIGN = "bleualign/bleu-champ.exe -s tmp/swg1.txt -t tmp/swg2.txt -q"

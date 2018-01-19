@@ -6,7 +6,7 @@ except ImportError:
     util.install_missing_dependencies("networkx")
     import networkx as nx
 
-import levenshtein
+from algorithms import levenshtein
 
 from util.doublemetaphone import dm as doublemetaphone
 
