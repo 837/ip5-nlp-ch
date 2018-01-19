@@ -71,7 +71,7 @@
 
         <h4> NLP für Schwiitzerdütsch</h4>
         <!-- <img alt="swissgerman_bild" src="img/swissgerman_bild.PNG" style="height: 20rem"/> -->
-		<svg width="960" height="600"></svg>
+		<svg width="600" height="300"></svg>
         <h5>Zusammenfassung</h5>
         <p>In dieser Arbeit werden Übersetzungen und Transkriptionen, die auf der Website www.dindialaekt.ch/ erfasst wurden, mithilfe von NLP-Tools analysiert und verarbeitet.</p>
 
@@ -121,7 +121,7 @@
         <address>
             Simon Clematide</br>
             University of Zurich</br>
-            AInstitute of Computational Linguistics</br>
+            Institute of Computational Linguistics</br>
 			Binzmuehlestr. 14</br>
             8050 Zurich</br>
             Switzerland</br>
@@ -190,11 +190,10 @@ var links_data = gs_graph.links
 var simulation = d3.forceSimulation()
 					.nodes(nodes_data);
                               
-var link_force =  d3.forceLink(links_data)
-                        .id(function(d) { return d.id; });            
-         
+var link_force =  d3.forceLink(links_data).id(function (d) {return d.id;}).distance(150).strength(1);   
+
 var charge_force = d3.forceManyBody()
-    .strength(-0.5); 
+    .strength(-1.5); 
     
 var center_force = d3.forceCenter(width / 2, height / 2);  
                       
@@ -219,7 +218,7 @@ var link = g.append("g")
     .selectAll("line")
     .data(links_data)
     .enter().append("line")
-      .attr("stroke-width", 1)
+      .attr("stroke-width", 2)
       .style("stroke", "red");        
 
 
@@ -236,11 +235,11 @@ var node = svg.selectAll(".node")
 
 		
 		 node.append("text")
-            .attr("dy", -3)
+            .attr("dy", -4)
             .text(function (d) {return d.id;});
 
 	 node.append("circle")
-            .attr("r", 5)
+            .attr("r", 6)
             .style("fill", "red")
 
 <!-- //add drag capabilities   -->
@@ -252,10 +251,10 @@ var node = svg.selectAll(".node")
 
 
 //add zoom capabilities 
-var zoom_handler = d3.zoom()
-    .on("zoom", zoom_actions);
+//var zoom_handler = d3.zoom()
+ //   .on("zoom", zoom_actions);
 
-zoom_handler(svg);     
+//zoom_handler(svg);     
 
 /** Functions **/
 
