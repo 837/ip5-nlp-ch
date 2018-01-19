@@ -4,15 +4,19 @@ from string import ascii_lowercase, ascii_uppercase
 
 import subprocess
 
-import networkx as nx
-
 
 def install_missing_dependencies(dependency):
-    print("Installing missing dependency ["+str(dependency)+"]")
+    print("Installing missing dependency [" + str(dependency) + "]")
     startupinfo = subprocess.STARTUPINFO()
     startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
     print(subprocess.Popen("python -m pip install " + dependency, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL,
-                     startupinfo=startupinfo).communicate()[0])
+                           startupinfo=startupinfo).communicate()[0])
+
+try:
+    import networkx as nx
+except ImportError:
+    install_missing_dependencies("networkx")
+    import networkx as nx
 
 try:
     import pandas as pd
@@ -141,6 +145,7 @@ def remove_punctuation(texts):
     return map((lambda t: t.replace(",", ' ').replace(".", ' ').replace(":", ' ').replace("!", ' ').replace("-", ' ')),
                texts)
 
+
 def print_graph_with_edges(G):
     import pylab
     print("Creating Graph to display, might take a long time.")
@@ -151,4 +156,3 @@ def print_graph_with_edges(G):
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels)
 
     pylab.show()
-
