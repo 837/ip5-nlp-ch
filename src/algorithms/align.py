@@ -74,7 +74,7 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
 
 
 def align_one_sentence_to_the_others(texts, graph, aligner,
-                                     alignment_filter_value=0.333,
+                                     alignment_filter_value=0.25,
                                      alignment_remove_punctuation=True, alignment_all_lower_case=True,
                                      id_of_sentence_to_be_aligned_to=-1):
     if id_of_sentence_to_be_aligned_to == -1:
@@ -87,7 +87,7 @@ def align_one_sentence_to_the_others(texts, graph, aligner,
     return align(sentences, graph, aligner, alignment_filter_value)
 
 
-def align_every_sentence_to_the_others(texts, graph, aligner, alignment_filter_value=0.333,
+def align_every_sentence_to_the_others(texts, graph, aligner, alignment_filter_value=0.25,
                                        alignment_remove_punctuation=True,
                                        alignment_all_lower_case=True):
     sentences = prepare(texts, alignment_remove_punctuation, alignment_all_lower_case)

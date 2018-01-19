@@ -1,9 +1,11 @@
 from util import util
+
 try:
     import networkx as nx
 except ImportError:
     util.install_missing_dependencies("networkx")
     import networkx as nx
+
 
 def calculate_alignment_score(gs_graph, alignment_graph, should_print=False):
     goldstandardList = list(
