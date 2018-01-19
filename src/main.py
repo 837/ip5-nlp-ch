@@ -17,7 +17,6 @@ def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", sho
     createdAlignmentList = list(
         map((lambda group: list(group)), nx.connected_components(alignment_graph)))
 
-
     goldstandardWordCount = 0
     words_in_gs_not_in_alignment_counter = 0
     numberOfAlignedGroupes = len(createdAlignmentList)
@@ -79,7 +78,7 @@ def get_good_transcriptions(group):
     return bleu_score.getGoodTranscriptions(group)
 
 
-def align_a_sentence_to_the_others(group, aligner, filtervalue, id_of_sentence_to_be_aligned_to,
+def align_a_sentence_to_the_others(group, aligner, filtervalue, id_of_sentence_to_be_aligned_to=-1,
                                    graph_to_use=nx.Graph()):
     return align.align_one_sentence_to_the_others(group, graph_to_use, aligner, filtervalue,
                                                   id_of_sentence_to_be_aligned_to=id_of_sentence_to_be_aligned_to)
