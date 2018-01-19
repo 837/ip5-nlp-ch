@@ -59,11 +59,8 @@ def create_aligned_word_dict(aligned_sentence, graph, alignment_filter_value):
             lv = normalized_dl_distance(key, value) > alignment_filter_value
             meta = doublemetaphone(key) == doublemetaphone(value)
             if "" is key or "" is value:
-                # print("key[", key, "] Value[", value, "]  ", sentence)
                 continue
             if lv and not meta:
-                # print((key, value, normalized_dl_distance(key, value),
-                #        doublemetaphone(key) == doublemetaphone(value)))
                 continue
             if not graph.has_node(key):
                 graph.add_node(key)

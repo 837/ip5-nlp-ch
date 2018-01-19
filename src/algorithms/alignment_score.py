@@ -30,7 +30,6 @@ def calculate_alignment_score(gs_graph, alignment_graph, should_print=False):
                 words_in_alignment_not_in_gs_counter_dict[str(alignments)].append(
                     sum(word not in alignments for word in found))
             else:
-                # print("missing: " + word)
                 words_in_gs_not_in_alignment_counter += 1
 
     words_in_alignment_not_in_gs_counter = sum(
