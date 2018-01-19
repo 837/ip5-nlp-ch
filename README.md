@@ -38,10 +38,10 @@ Gefilterte Daten sind für den Alignierungsprozess streng genommen nicht zwingen
 Der Interpolationsprozess findet Auslassungen in Form von *** in einem Satz und ersetzt sie mithilfe der anderen Transkriptionen derselben Satzgruppe. Dieser Prozess basiert auf dem Alignierungsprozess. Auch hier empfiehlt es sich, mit gefilterten Satzgruppen zu agieren.
 
 # Voraussetzungen
-*Python 3
-*PIP
-*Bleualign.exe
-*Hunalign.exe
+* Python 3
+* PIP
+* Bleualign.exe
+* Hunalign.exe
 Für Bleu- und Hunalign werden Windows Binaries mitgeliefert. Fur andere Platformen müssen diese erst kompiliert werden.
 Bleu: https://github.com/emjotde/bleu-champ
 Hun: https://github.com/danielvarga/hunalign
