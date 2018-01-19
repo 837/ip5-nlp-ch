@@ -349,11 +349,6 @@
     },
     {
       "source": "druflousmääje",
-      "target": "druflos",
-      "weight": 0.46
-    },
-    {
-      "source": "druflousmääje",
       "target": "druflosmäje",
       "weight": 0.15
     },
@@ -484,18 +479,8 @@
     },
     {
       "source": "druflosmaiä",
-      "target": "druf los ch",
-      "weight": 0.45
-    },
-    {
-      "source": "druflosmaiä",
       "target": "drùfloosmäjä",
       "weight": 0.33
-    },
-    {
-      "source": "druflosmaiä",
-      "target": "druflos",
-      "weight": 0.36
     },
     {
       "source": "druflosmaiä",
@@ -511,11 +496,6 @@
       "source": "wered",
       "target": "wäred",
       "weight": 0.04
-    },
-    {
-      "source": "wered",
-      "target": "wèrdët dä",
-      "weight": 0.49
     },
     {
       "source": "wered",
@@ -591,11 +571,6 @@
       "source": "oobed",
       "target": "aabëd",
       "weight": 0.44
-    },
-    {
-      "source": "vorane",
-      "target": "vor alle",
-      "weight": 0.38
     },
     {
       "source": "vorane",
@@ -878,11 +853,6 @@
       "weight": 0.0
     },
     {
-      "source": "druflos",
-      "target": "druflosmäje",
-      "weight": 0.36
-    },
-    {
       "source": "sägessli",
       "target": "sägessli",
       "weight": 0.0
@@ -931,11 +901,6 @@
       "source": "dissemorgete",
       "target": "dissemorgete",
       "weight": 0.0
-    },
-    {
-      "source": "druflosmäje",
-      "target": "druf los ch",
-      "weight": 0.45
     },
     {
       "source": "druflosmäje",
@@ -1788,16 +1753,6 @@
       "weight": 0.2
     },
     {
-      "source": "d'stross",
-      "target": "schtrooss",
-      "weight": 0.44
-    },
-    {
-      "source": "d'stross",
-      "target": "strass",
-      "weight": 0.38
-    },
-    {
       "source": "der",
       "target": "der",
       "weight": 0.0
@@ -1966,11 +1921,6 @@
       "source": "d strooss",
       "target": "d'schtross",
       "weight": 0.4
-    },
-    {
-      "source": "d strooss",
-      "target": "schtrooss",
-      "weight": 0.33
     },
     {
       "source": "laschtwagefarer",
@@ -2183,11 +2133,6 @@
       "weight": 0.0
     },
     {
-      "source": "d'schtross",
-      "target": "schtrooss",
-      "weight": 0.3
-    },
-    {
       "source": "lastwagefahrer",
       "target": "lastwagefahrer",
       "weight": 0.0
@@ -2226,11 +2171,6 @@
       "source": "überd",
       "target": "überd",
       "weight": 0.0
-    },
-    {
-      "source": "schtrooss",
-      "target": "d' schtroos",
-      "weight": 0.36
     },
     {
       "source": "schtrooss",
@@ -3016,11 +2956,6 @@
       "source": "anschtatt",
       "target": "anschtatt",
       "weight": 0.0
-    },
-    {
-      "source": "anschtatt",
-      "target": "statt",
-      "weight": 0.44
     },
     {
       "source": "us de",

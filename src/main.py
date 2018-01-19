@@ -1,3 +1,5 @@
+from collections import Counter
+
 import align
 import bleu_score
 from util import options, util
@@ -7,6 +9,50 @@ try:
 except ImportError:
     util.install_missing_dependencies("networkx")
     import networkx as nx
+
+
+def calculate_alignment_score(gs_graph, alignment_graph, additional_Text="", should_print=False):
+    goldstandardList = list(
+        map((lambda group: list(group)), nx.connected_components(gs_graph)))
+    createdAlignmentList = list(
+        map((lambda group: list(group)), nx.connected_components(alignment_graph)))
+
+
+    goldstandardWordCount = 0
+    words_in_gs_not_in_alignment_counter = 0
+    numberOfAlignedGroupes = len(createdAlignmentList)
+    numberOfGSGroupes = len(goldstandardList)
+    alignedWordCount = 0
+
+    for alignments in createdAlignmentList:
+        alignedWordCount += len(alignments)
+
+    words_in_alignment_not_in_gs_counter_dict = {}
+    for alignments in goldstandardList:
+        goldstandardWordCount += len(alignments)
+        words_in_alignment_not_in_gs_counter_dict[str(alignments)] = []
+        for word in alignments:
+            if alignment_graph.has_node(word):
+                found = nx.node_connected_component(alignment_graph, word)
+                words_in_alignment_not_in_gs_counter_dict[str(alignments)].append(
+                    sum(word not in alignments for word in found))
+            else:
+                # print("missing: " + word)
+                words_in_gs_not_in_alignment_counter += 1
+
+    words_in_alignment_not_in_gs_counter = sum(
+        arr[0] for arr in words_in_alignment_not_in_gs_counter_dict.values() if len(arr) > 0)
+
+    if should_print:
+        print("Params used: Aligner:", str.split(str(params[1]))[0], "Filtervalue:", params[2])
+        print("Goldstandard Word Count: " + str(goldstandardWordCount))
+        print("Alignment Word Count: " + str(alignedWordCount))
+        print("Difference Word Count: " + str(abs(goldstandardWordCount - alignedWordCount)))
+        print("Words from Goldstandard not found in Alignment: " + str(words_in_gs_not_in_alignment_counter))
+        print("Words from Alignment not found in Goldstandard: " + str(words_in_alignment_not_in_gs_counter))
+        print("Goldstandard Group Count: " + str(numberOfGSGroupes))
+        print("Alignment Group Count: " + str(numberOfAlignedGroupes))
+        print("Difference Group Count: " + str(abs(numberOfGSGroupes - numberOfAlignedGroupes)))
 
 
 def print_graph_with_edges(G):
@@ -73,32 +119,87 @@ def improve_sentence(group, sentence_to_improve, aligner=align.ALIGNER_HUNALIGN,
 
 # Load Data
 allTaskByID = load_data_from_csv('../data/transcribe-2017-07-08.CSV')
-group = allTaskByID[2048][0]
-good_transcriptions = get_good_transcriptions(group)
-aligned_graph = align_every_sentence_to_the_others(group, aligner=align.ALIGNER_BLEUALIGN, filtervalue=0.25)
-export_as_list(aligned_graph, "dumpedList.json")
-export_as_graph(aligned_graph, "dumpedGraph.json")
-imported_graph = import_as_graph("dumpedGraph.json")
-#
+# group = allTaskByID[2048][0]
+# good_transcriptions = get_good_transcriptions(group)
+# aligned_graph = align_every_sentence_to_the_others(group, aligner=align.ALIGNER_BLEUALIGN, filtervalue=0.25)
+# export_as_list(aligned_graph, "dumpedList.json")
+# export_as_graph(aligned_graph, "dumpedGraph.json")
+# imported_graph = import_as_graph("GoldStandard/gs_graph.json")
+# export_as_list(imported_graph, "dumpedList.json")
 # aligned_graph = create_graph_over_list_of_groups(allTaskByID, aligner=align.ALIGNER_BLEUALIGN, filtervalue=0.25)
 # export_as_list(aligned_graph, "dumpedList.json")
 # export_as_graph(aligned_graph, "dumpedGraph.json")
 
+# groups = []
+# for anzahl in list(range(1, 15)):
+#     starcount = []
+#     sentencecount = []
+#     for id in allTaskByID:
+#         group = allTaskByID[id][0]
+#         sentence_count = 0
+#         sentences_with_stars = 0
+#         sentences_with_really_low_scores = 0
+#         if len(group) != anzahl:
+#             continue
+#         for sentence in group:
+#             sentence_count += 1
+#             if "*" in sentence:
+#                 sentences_with_stars += 1
+#         sentencecount.append(sentence_count)
+#         if sentences_with_stars < sentence_count/2:
+#             starcount.append(sentences_with_stars)
+#     groups.append((anzahl, starcount, sentencecount, sum(sentencecount)))
+#
+#
+# import pylab
+#
+# for group in groups:
+#     c = Counter(group[1])
+#     # print(c)
+#     values = []
+#     sum = 0
+#     for i in c:
+#         sum += c[i]
+#         values.append((i, c[i], round((c[i] / len(group[2])) * 100, 2),
+#                        "Anzahl Sätze mit Sternen in Satzgruppe: " + str(
+#                            i) + ", Anzahl der Satzgruppen mit dieser Anzahl: " + str(
+#                            c[i]) + ", Anzahl der Satzgruppen mit dieser Anzahl in Prozent: " + str(
+#                            round((c[i] / len(group[2])) * 100, 2)) + "%, Prozent der Sätze mit Sternen: " + str(
+#                            round((i / group[0]) * 100, 2))))
+#     print(group[0], sum, group[3]/group[0], round((sum/(group[3]/group[0])) * 100, 2))
+#
+#
+#
+#
+#     from operator import itemgetter
+#
+#     # print(values)
+#     values.sort(key=itemgetter(2), reverse=True)
+#     # print(values)
+#
+#     # for i in values:
+#     #     print(group[0], i[3])
+#
+# # pylab.hist(values)
+# # pylab.hist(percentages, list(range(0, 100)))
+#
+# pylab.show()
 
-aligned_graph = align_a_sentence_to_the_others(group, id_of_sentence_to_be_aligned_to=3,
-                                               aligner=align.ALIGNER_HUNALIGN, filtervalue=1)
-print_graph_with_edges(aligned_graph)
-export_as_list(aligned_graph, "dumpedList.json")
-export_as_graph(aligned_graph, "dumpedGraph.json")
-
-print(group)
-improved = improve_sentence(group, group[3], experimental_improve=False)
-print(group[3])
-print(improved)
-
-improved = improve_sentence(group, group[3], experimental_improve=True)
-print(group[3])
-print(improved)
+# group = allTaskByID[2351][0]
+# aligned_graph = align_a_sentence_to_the_others(group, id_of_sentence_to_be_aligned_to=0,
+#                                                aligner=align.ALIGNER_BLEUALIGN, filtervalue=1)
+# print_graph_with_edges(aligned_graph)
+# # export_as_list(aligned_graph, "dumpedList.json")
+# # export_as_graph(aligned_graph, "dumpedGraph.json")
+#
+# print(group)
+# improved = improve_sentence(group, group[0], aligner=align.ALIGNER_HUNALIGN, experimental_improve=False)
+# print(group[0])
+# print(improved)
+#
+# improved = improve_sentence(group, group[0], aligner=align.ALIGNER_HUNALIGN, experimental_improve=True)
+# print(group[0])
+# print(improved)
 
 # #
 # # gs_graph = nx.json_graph.node_link_graph(
@@ -106,24 +207,21 @@ print(improved)
 #
 # # alignedGraph = nx.json_graph.node_link_graph(
 # #     util.load_json("dumpedGraph.json"))
-# gs_graph = nx.json_graph.node_link_graph(
-#     util.load_json("GoldStandard/gs_graph.json"))
-# params = [nx.Graph(), align.ALIGNER_BLEUALIGN, 0.25]
+gs_graph = nx.json_graph.node_link_graph(
+    util.load_json("GoldStandard/gs_graph.json"))
+params = [nx.Graph(), align.ALIGNER_BLEUALIGN, 0.25]
+alignedGraph = nx.Graph()
+iterationCount = 1
+for taskID in options.GOLD_STANDARD_SET:
+    util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
+    group = allTaskByID[taskID][0]
+    alignedGraph = align.align_every_sentence_to_the_others(group, params[0], params[1], params[2])
+    iterationCount += 1
+# # util.dump_dict_to_json(nx.node_link_data(alignedGraph), "dumpedGraph.json")
 #
+calculate_alignment_score(gs_graph, alignedGraph, "With params[" + str(params) + "]", True)
 #
-#
-# alignedGraph = ()
-# iterationCount = 1
-# for taskID in options.GOLD_STANDARD_SET:
-#     util.print_progress(iterationCount, len(options.GOLD_STANDARD_SET), prefix='Progress:', suffix='Complete')
-#     group = allTaskByID[taskID][0]
-#     alignedGraph = align.align_every_sentence_to_the_others(group, params[0], params[1], params[2])
-#     iterationCount += 1
-# # # util.dump_dict_to_json(nx.node_link_data(alignedGraph), "dumpedGraph.json")
-# #
-# score = calculate_alignment_score(gs_graph, alignedGraph, "With params[" + str(params) + "]", True)
-# #
-# print_graph_with_edges(alignedGraph)
+print_graph_with_edges(alignedGraph)
 
 
 
