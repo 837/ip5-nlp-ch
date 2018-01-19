@@ -1,10 +1,10 @@
 # ip5-nlp-ch
-##1	Einführung
+## 1	Einführung
 
-###1.1	Zusammenfassung
+### 1.1	Zusammenfassung
 In dieser Arbeit werden Transkriptionen, die auf der Website www.dindialaekt.ch/ von Benut-zern erfasst wurden, mithilfe von NLP-Tools analysiert und verarbeitet. 
 
-###1.2	Projektkontext
+### 1.2	Projektkontext
 Im Rahmen des vom Schweizerischen Nationalfods geförderten Agora-Project «Citizen Lingu-istics: Locate that dialect!» ist die Website www.dindialaekt.ch/ entstanden. 
 Auf dieser Website können Benutzer unter Anderem folgenden Task erledigen:
 *	Transkription schweizerdeutschen Audiofiles
@@ -15,7 +15,7 @@ Zu jedem Audiofile gibt es mehrere (etwa 3 bis 7) zusammengehörende Transkripti
 Aus den so gewonnenen Transkriptionen sollen nun über Wortalignierung mögliche unter-schiedliche Schreibweisen für schweizerdeutsche Ausdrücke gefunden werden.
 Die Aufgabe wird dadurch erschwert, dass viele Transkriptionen unvollständig (Mit Platzhal-tern in Form von *** oder ???) oder gar komplett falsch sind. 
 
-###1.3	Problemstellung
+### 1.3	Problemstellung
 *	Unbrauchbare Transkriptionen ausfiltern
 *	Gute Transkriptionen erkennen
 *	*** Auslassungen interpolieren aus guten Transkriptionen
@@ -28,7 +28,7 @@ Natural Language Processing (NLP) ist ein etabliertes Gebiet. Für viele Problem
 Welche und wie viele Daten brauchen wir für gute Resultate?
 Die Tools, die wir als «brauchbar» erkennen, werden jedoch auch Grenzen haben. Für die Betreiber der Website ist wichtig zu wissen, dass für eine Audiodatei ein Minimum and Tran-skriptionen vorhanden sein muss, um sinnvolle Analysen damit anzustellen. Konkret wollen wir also herausfinden, wie viele Transkriptionen zur selben Audiodatei vorhanden sein müssen, damit die von uns angewendeten Techniken funktionieren.
 
-###1.4	Vorgehen
+### 1.4	Vorgehen
 Wir teilen den gesamten Prozess in mehrere Transformationen auf, die teilweise voneinander abhängig sind.
 
 
