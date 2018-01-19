@@ -42,6 +42,8 @@ Der Interpolationsprozess findet Auslassungen in Form von *** in einem Satz und 
 * PIP
 * Bleualign.exe
 * Hunalign.exe
+
+
 Für Bleu- und Hunalign werden Windows Binaries mitgeliefert. Fur andere Platformen müssen diese erst kompiliert werden.
 Bleu: https://github.com/emjotde/bleu-champ
 Hun: https://github.com/danielvarga/hunalign
